@@ -1,4 +1,4 @@
-mediacloud==3.12.4
+mediacloud==3.12.5
 python-dotenv==0.19.1
 pymongo==3.12.0
 redis==3.5.3
@@ -9,3 +9,4 @@ readability-lxml==0.8.1
 beautifulsoup4==4.10.0
 tldextract==3.1.2
 dateparser==1.1.0
+ndjson==0.3.1

@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "index": {
+      "codec": "best_compression",
+      "refresh_interval": "5s",
+      "shard.check_on_startup": "checksum",
+      "mapping.coerce": "false",
+      "max_result_window": 25000,
+      "number_of_shards": 1,
+      "number_of_replicas": 0,
+      "routing_partition_size": 1,
+      "queries": {
+        "cache": {
+          "enabled": "true"
+        }
+      }
+    },
+    "analysis": {
+      "analyzer": {
+        "lowercase": {
+          "tokenizer": "whitespace",
+          "filter": [ "lowercase" ]
+        }
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "publication_date": { "type": "date", "format": "yyyy-MM-dd HH:mm:ss" },
+      "sentence": { "type": "text", "analyzer": "lowercase" },
+      "source_url": { "type": "text", "analyzer": "lowercase" },
+      "source_domain": { "type": "text", "analyzer": "lowercase" },
+      "link_text": { "type": "text", "analyzer": "lowercase" },
+      "target_url": { "type": "text", "analyzer": "lowercase" },
+      "target_domain": { "type": "text", "analyzer": "lowercase" },
+      "source_country": { "type": "text", "analyzer": "lowercase" },
+      "week_number": { "type": "long" },
+      "source_nyt_themes": { "type": "long" }
+    }
+  }
+}

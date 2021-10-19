@@ -48,8 +48,11 @@ class MongoPipeline(Pipeline):
         self._stage_names.append(stage_name)
 
     def _init_stories_with_metadata(self):
+        # add some indexes to make searching faster
         self._collection.create_index(self.METADATA_KEY)
+        self._collection.create_index(self.METADATA_KEY+"."+self.NEXT_STAGE_KEY)
         self._collection.create_index('stories_id')
+        # now intiailize any records that don't have the pipeline metadata we need
         self._collection.update_many(
             {self.METADATA_KEY: {"$exists": False}},
             {'$set': {self.METADATA_KEY: {self.NEXT_STAGE_KEY: 0}}},
