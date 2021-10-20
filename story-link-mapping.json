@@ -26,6 +26,8 @@
   },
   "mappings": {
     "properties": {
+      "stories_id": { "type": "long" },
+      "link_id": { "type": "text", "analyzer": "lowercase" },
       "publication_date": { "type": "date", "format": "yyyy-MM-dd HH:mm:ss" },
       "sentence": { "type": "text", "analyzer": "lowercase" },
       "source_url": { "type": "text", "analyzer": "lowercase" },
@@ -35,7 +37,9 @@
       "target_domain": { "type": "text", "analyzer": "lowercase" },
       "source_country": { "type": "text", "analyzer": "lowercase" },
       "week_number": { "type": "long" },
-      "source_nyt_themes": { "type": "long" }
+      "source_nyt_themes": { "type": "long" },
+      "sentence_number": { "type": "long" },
+      "link_number": { "type": "long" },
     }
   }
 }

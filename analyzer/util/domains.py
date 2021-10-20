@@ -27,5 +27,5 @@ def get_canonical_mediacloud_domain(url):
     if 'cdn.ampproject.org' in canonical_domain:
         canonical_domain = canonical_domain.replace('.cdn.ampproject.org', '').replace('amp-', '').replace('/', '').replace('--', '-')
     last_dash_index = canonical_domain.rfind('-')
-    canonical_domain = canonical_domain[:last_dash_index] + '.' + canonical_domain[last_dash_index+1:]
+    canonical_domain = canonical_domain[last_dash_index+1:]
     return canonical_domain

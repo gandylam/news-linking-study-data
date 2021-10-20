@@ -88,11 +88,15 @@ class SentenceLinkStage(Stage):
     def process(self, story) -> Dict:
         sentences = story['sentences']
         data = []
-        for s in sentences:
+        for sentence_index, s in enumerate(sentences):
             soup = BeautifulSoup(s, features="lxml")
             links = soup.find_all('a', attrs={'href': re.compile("^https?://")})
-            for a in links:
+            for link_index, a in enumerate(links):
                 data.append(dict(
+                    link_id="{}-{}-{}".format(story['stories_id'], sentence_index, link_index),  # so we a unique id for this link
+                    sentence_number=sentence_index,
+                    link_number=link_index,
+                    source_stories_id=story['stories_id'],
                     publication_date=story['publish_date'],
                     sentence=s,
                     source_url=story['url'],
