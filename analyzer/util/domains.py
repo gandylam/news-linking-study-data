@@ -5,7 +5,9 @@ import tldextract
 # by James O'Toole (Media Cloud)
 def get_canonical_mediacloud_domain(url):
     parsed_domain = tldextract.extract(url)
-    is_blogging_subdomain = re.search(r'\.go\.com|\.wordpress\.com|\.blogspot\.|\.livejournal\.com|\.privet\.ru|\.wikia\.com'
+
+    is_blogging_subdomain = re.search(
+        r'\.go\.com|\.wordpress\.com|\.blogspot\.|\.livejournal\.com|\.privet\.ru|\.wikia\.com'
         r'|\.24open\.ru|\.patch\.com|\.tumblr\.com|\.github\.io|\.typepad\.com'
         r'|\.squarespace\.com|\.substack\.com|\.iheart\.com|\.ampproject\.org|\.mail\.ru|\.wixsite\.com'
         r'|\.medium.com|\.free\.fr|\.list-manage\.com|\.over-blog\.com|\.weebly\.com|\.typeform\.com'
@@ -17,15 +19,21 @@ def get_canonical_mediacloud_domain(url):
         r'|\.appspot\.com|\.simplecast\.com|\.fc2\.com|\.podomatic\.com|\.azurewebsites\.|\.sharepoint\.com'
         r'|\.windows\.net|\.wix\.com|\.googleblog\.com|\.hubpages\.com|\.gitlab\.io|\.blogs\.com'
         r'|\.shinyapps\.io', url, re.I)
+
     is_relative_path = re.search(r'bizjournals\.com|stuff\.co\.nz', url, re.I)
+
     if is_blogging_subdomain:
         canonical_domain = parsed_domain.subdomain.lower() + '.' + parsed_domain.registered_domain.lower()
     elif is_relative_path:
         canonical_domain = parsed_domain.registered_domain.lower() + '/' + url + url.split('/')[3]
     else:
         canonical_domain = parsed_domain.registered_domain.lower()
+
     if 'cdn.ampproject.org' in canonical_domain:
-        canonical_domain = canonical_domain.replace('.cdn.ampproject.org', '').replace('amp-', '').replace('/', '').replace('--', '-')
-    last_dash_index = canonical_domain.rfind('-')
-    canonical_domain = canonical_domain[last_dash_index+1:]
+        canonical_domain = canonical_domain.replace('.cdn.ampproject.org', '').replace('amp-', '').replace('/',
+                                                                                                           '').replace(
+            '--', '-')
+        last_dash_index = canonical_domain.rfind('-')
+        canonical_domain = canonical_domain[:last_dash_index] + '.' + canonical_domain[last_dash_index + 1:]
+
     return canonical_domain
