@@ -31,11 +31,34 @@
       "publication_date": { "type": "date", "format": "yyyy-MM-dd HH:mm:ss" },
       "sentence": { "type": "text", "analyzer": "lowercase" },
       "source_url": { "type": "text", "analyzer": "lowercase" },
-      "source_domain": { "type": "text", "analyzer": "lowercase" },
+      "source_domain": {
+        "type": "text",
+        "analyzer": "lowercase",
+        "fields": {
+            "raw": {
+              "type":  "keyword"
+            }
+          }
+      },
       "link_text": { "type": "text", "analyzer": "lowercase" },
       "target_url": { "type": "text", "analyzer": "lowercase" },
-      "target_domain": { "type": "text", "analyzer": "lowercase" },
-      "source_country": { "type": "text", "analyzer": "lowercase" },
+      "target_domain": {
+        "type": "text",
+        "analyzer": "lowercase",
+        "fields": {
+            "raw": {
+              "type":  "keyword"
+            }
+          }
+      },
+      "source_country": {
+        "type": "text",
+        "fields": {
+            "raw": {
+              "type":  "keyword"
+            }
+          }
+      },
       "week_number": { "type": "long" },
       "source_nyt_themes": { "type": "long" },
       "sentence_number": { "type": "long" },
