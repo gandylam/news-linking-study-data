@@ -39,7 +39,7 @@
       "week_number": { "type": "long" },
       "source_nyt_themes": { "type": "long" },
       "sentence_number": { "type": "long" },
-      "link_number": { "type": "long" },
+      "link_number": { "type": "long" }
     }
   }
 }
