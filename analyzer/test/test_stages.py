@@ -54,7 +54,7 @@ class TestSentenceLinkStage(unittest.TestCase):
         results = stage.process(story)
         assert 'links' in results
         assert len(results['links']) == 1
-        assert results['links'][0]['target_domain'] == "kenya.today.com"
+        assert results['links'][0]['target_domain'] == "kenya-today.com"
 
 
 class TestNationalCountryCollectionStage(unittest.TestCase):
