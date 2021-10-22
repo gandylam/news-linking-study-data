@@ -52,7 +52,7 @@ class MongoPipeline(Pipeline):
         self._collection.create_index(self.METADATA_KEY)
         self._collection.create_index(self.METADATA_KEY+"."+self.NEXT_STAGE_KEY)
         self._collection.create_index('stories_id')
-        # now intiailize any records that don't have the pipeline metadata we need
+        # now intilize any records that don't have the pipeline metadata we need
         self._collection.update_many(
             {self.METADATA_KEY: {"$exists": False}},
             {'$set': {self.METADATA_KEY: {self.NEXT_STAGE_KEY: 0}}},

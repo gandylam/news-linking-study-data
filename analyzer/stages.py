@@ -9,6 +9,7 @@ import dateparser
 from analyzer.util.domains import get_canonical_mediacloud_domain
 import analyzer.util.collections as collections
 
+#nlp = None
 nlp = spacy.load('en_core_web_sm')
 
 

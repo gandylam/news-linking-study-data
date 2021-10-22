@@ -8,5 +8,5 @@ logger = logging.getLogger(__name__)
 
 app = Celery('story-analyzer',
              broker=BROKER_URL,
-             backend="db+sqlite:///celery-backend.db",
+             # backend="db+sqlite:///celery-backend.db",
              include=['analyzer.tasks'])

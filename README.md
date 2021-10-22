@@ -17,7 +17,7 @@ stored on the stories themselves in a `_pipeline` property that is added.
 
 1. Download all the stories into a Mongo database.
 2. Set those connection parameters in a `.env` file.
-3. Run celery to handle jobs: `celery -A analyzer worker -l debug --concurrency=16`
+3. Run celery to handle jobs: `celery -A analyzer worker -l info --concurrency=16`
 4. Then run `run-pipeline.py` over and over until all the data is moved through the pipeline.
 5. Then run `export-data.py` to create an ndjson for import into Kibana.
 
