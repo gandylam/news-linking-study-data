@@ -61,8 +61,11 @@
       },
       "week_number": { "type": "long" },
       "source_nyt_themes": { "type": "long" },
-      "sentence_number": { "type": "long" },
-      "link_number": { "type": "long" }
+      "source_story_is_politics": { "type": "boolean" },
+      "source_story_is_health": { "type": "boolean" },
+      "source_story_is_economics": { "type": "boolean" },
+      "source_story_sentence_count": { "type": "long" },
+      "is_self_link": { "type": "boolean" }
     }
   }
 }

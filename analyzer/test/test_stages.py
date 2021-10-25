@@ -85,7 +85,9 @@ class TestNytThemeTagsStage(unittest.TestCase):
         results = stage.process(story)
         assert 'nyt_theme_tag_ids' in results
         assert len(results['nyt_theme_tag_ids']) == 1
-
+        assert results['is_politics'] is True
+        assert results['is_health'] is False
+        assert results['is_economics'] is False
 
 
 if __name__ == "__main__":

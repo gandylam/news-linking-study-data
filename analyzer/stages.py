@@ -1,7 +1,7 @@
 import re
 from readability import Document
 from bs4 import BeautifulSoup
-from typing import Dict
+from typing import Dict, List
 import spacy
 import datetime as dt
 import dateparser
@@ -78,10 +78,26 @@ class NytThemeTagsStage(Stage):
 
     NYT_THEME_TAG_SET = 1963
 
+    # created from qualitative review of most frequently occurring tags
+    POLITICS = [9360836]
+    HEALTH = [9360852, 9360942]
+    ECONOMICS = [9360840, 9360859, 9360989]
+
+    def _has_one_of_tags(self, story_tags_ids: List[int], tag_ids_to_match: List[int]):
+        for search_tag in tag_ids_to_match:
+            if search_tag in story_tags_ids:
+                return True
+        return False
+
     def process(self, story) -> Dict:
         tags = story['story_tags']
-        nyt_tags = [t for t in tags if t['tag_sets_id'] == NytThemeTagsStage.NYT_THEME_TAG_SET]
-        return dict(nyt_theme_tag_ids=[t['tags_id'] for t in nyt_tags])
+        nyt_tag_ids = [t['tags_id'] for t in tags if t['tag_sets_id'] == NytThemeTagsStage.NYT_THEME_TAG_SET]
+        return dict(
+            nyt_theme_tag_ids=nyt_tag_ids,
+            is_politics=self._has_one_of_tags(nyt_tag_ids, self.POLITICS),
+            is_health=self._has_one_of_tags(nyt_tag_ids, self.HEALTH),
+            is_economics=self._has_one_of_tags(nyt_tag_ids, self.ECONOMICS),
+        )
 
 
 class SentenceLinkStage(Stage):
@@ -93,20 +109,27 @@ class SentenceLinkStage(Stage):
             soup = BeautifulSoup(s, features="lxml")
             links = soup.find_all('a', attrs={'href': re.compile("^https?://")})
             for link_index, a in enumerate(links):
+                source_domain=get_canonical_mediacloud_domain(story['url']),
+                target_domain = get_canonical_mediacloud_domain(a['href']),
                 data.append(dict(
                     link_id="{}-{}-{}".format(story['stories_id'], sentence_index, link_index),  # so we a unique id for this link
-                    sentence_number=sentence_index,
-                    link_number=link_index,
+                    #sentence_number=sentence_index,
+                    #link_number=link_index,
                     source_stories_id=story['stories_id'],
                     publication_date=story['publish_date'],
                     sentence=s,
                     source_url=story['url'],
-                    source_domain=get_canonical_mediacloud_domain(story['url']),
+                    source_domain=source_domain,
                     link_text=a.text,
                     target_url=a['href'],
-                    target_domain=get_canonical_mediacloud_domain(a['href']),
+                    target_domain=target_domain,
                     source_country=story['country'],
                     week_number=story['week_number'],
-                    source_nyt_themes=story['nyt_theme_tag_ids']
+                    source_nyt_themes=story['nyt_theme_tag_ids'],
+                    source_story_is_politics=story['is_politics'],
+                    source_story_is_health=story['is_health'],
+                    source_story_is_economics=story['is_economics'],
+                    source_story_sentence_count=len(sentences),
+                    is_self_link=(source_domain == target_domain),
                 ))
         return dict(links=data)
