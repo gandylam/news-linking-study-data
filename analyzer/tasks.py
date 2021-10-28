@@ -1,16 +1,16 @@
 import logging
 
 from analyzer.database import get_mongo_collection
-import analyzer.stages
 import analyzer.pipeline as pipeline
 from analyzer.celery import app
+import analyzer.stages
 
 logger = logging.getLogger(__name__)  # get_task_logger(__name__)
 
 
 @app.task(serializer='json', bind=True)
 def run_stage(self, index, stage_name, story):
-    StageClass = _get_stage_by_name(stage_name)
+    StageClass = getattr(analyzer.stages, stage_name)
     stage = StageClass()
     results = stage.process(story)
     # and save results to db
@@ -24,6 +24,3 @@ def run_stage(self, index, stage_name, story):
     # and tell the user
     logging.debug("Story {}: {} -> {}".format(story['stories_id'], index, index+1))
 
-
-def _get_stage_by_name(stage_name: str) -> object:
-    return getattr(analyzer.stages, stage_name)

@@ -1,7 +1,7 @@
-from analyzer.pipeline import MongoPipeline
-from analyzer import DB_URI, DB_NAME, DB_COLLECTION_NAME
+from analyzer.pipeline import FilePipeline
+# from analyzer import DB_URI, DB_NAME, DB_COLLECTION_NAME
 
-my_pipeline = MongoPipeline(DB_URI, DB_NAME, DB_COLLECTION_NAME)
+my_pipeline = FilePipeline()
 
 my_pipeline.add_stage('ReadabilityStage')
 my_pipeline.add_stage('RemoveTagsExceptLinksStage')

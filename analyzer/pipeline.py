@@ -1,13 +1,18 @@
 import logging
 from analyzer.database import get_mongo_collection
 import copy
+from typing import Dict
+import json
 
 import analyzer.tasks as tasks
+import analyzer.stages as stages
 
 logger = logging.getLogger(__name__)
 
 
 class Pipeline(object):
+    METADATA_KEY = "_pipeline"
+    NEXT_STAGE_KEY = "next_stage"
 
     def __init__(self):
         self._logger = logging.getLogger(__name__)
@@ -35,10 +40,38 @@ class Pipeline(object):
         raise NotImplementedError("Subclasses should implement this!")
 
 
-class MongoPipeline(Pipeline):
+class FilePipeline(Pipeline):
 
-    METADATA_KEY = "_pipeline"
-    NEXT_STAGE_KEY = "next_stage"
+    def _run_stage_on_story(self, stage_name: str, story: Dict) -> Dict:
+        StageClass = getattr(stages, stage_name)
+        stage = StageClass()
+        results = stage.process(story)
+        return results
+
+    def process_file(self, path):
+        with open(path) as f:
+            story = json.load(f)
+        # if it is done already just bail
+        if (self.METADATA_KEY in story) and ('status' in  story[self.METADATA_KEY]) and \
+                (story[self.METADATA_KEY]['status'] == 'done'):
+            return True
+        # process it through all the stages at once
+        for stage_name in self._stage_names:
+            new_data = self._run_stage_on_story(stage_name, story)
+            story.update(new_data)
+        story[self.METADATA_KEY] = {'status': 'done'}
+        # and save it
+        with open(path, 'w') as f:
+            json.dump(story, f)
+
+    def _stories_for_stage(self, idx: int, limit: int = None):
+        return False
+
+    def _queue_story_for_stage(self, story, idx: int):
+        return False
+
+
+class MongoPipeline(Pipeline):
 
     def __init__(self, uri: str, db_name: str, collection: str = 'stories'):
         super(MongoPipeline, self).__init__()

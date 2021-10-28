@@ -109,8 +109,8 @@ class SentenceLinkStage(Stage):
             soup = BeautifulSoup(s, features="lxml")
             links = soup.find_all('a', attrs={'href': re.compile("^https?://")})
             for link_index, a in enumerate(links):
-                source_domain=get_canonical_mediacloud_domain(story['url']),
-                target_domain = get_canonical_mediacloud_domain(a['href']),
+                source_domain = get_canonical_mediacloud_domain(story['url'])
+                target_domain = get_canonical_mediacloud_domain(a['href'])
                 data.append(dict(
                     link_id="{}-{}-{}".format(story['stories_id'], sentence_index, link_index),  # so we a unique id for this link
                     #sentence_number=sentence_index,
