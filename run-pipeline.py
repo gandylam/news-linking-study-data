@@ -6,6 +6,9 @@ from urlstudy.pipeline import my_pipeline
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s | %(levelname)s | %(name)s | %(message)s')
 logger = logging.getLogger(__name__)
+# silence the "ruthless removal did not work" INFO logs
+readability_logger = logging.getLogger('readability.readability')
+readability_logger.propagate = False
 
 INPUT_DIR = "input"
 RUN_PARALLEL = True
@@ -32,7 +35,7 @@ if __name__ == '__main__':
     logging.info("Found {} media dirs to process".format(len(media_dirs)))
     if RUN_PARALLEL:
         with ProcessPoolExecutor(max_workers=12) as executor:
-            _ = executor.map(media_dir_worker, media_dirs[:24])
+            _ = executor.map(media_dir_worker, media_dirs)
     else:
         for media_dir in media_dirs:
             media_dir_worker(media_dir)

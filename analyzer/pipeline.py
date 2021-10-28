@@ -52,7 +52,7 @@ class FilePipeline(Pipeline):
         with open(path) as f:
             story = json.load(f)
         # if it is done already just bail
-        if (self.METADATA_KEY in story) and ('status' in  story[self.METADATA_KEY]) and \
+        if (self.METADATA_KEY in story) and ('status' in story[self.METADATA_KEY]) and \
                 (story[self.METADATA_KEY]['status'] == 'done'):
             return True
         # process it through all the stages at once
