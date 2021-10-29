@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 INPUT_DIR = "input"
 OUTPUT_DIR = os.path.join("export", "by_media")
-RUN_PARALLEL = False
+RUN_PARALLEL = True
 
 
 def media_dir_export_worker(dir: str) -> None:
@@ -43,6 +43,6 @@ if __name__ == '__main__':
         with ProcessPoolExecutor(max_workers=12) as executor:
             _ = executor.map(media_dir_export_worker, media_dirs)
     else:
-        for media_dir in media_dirs[:3]:
+        for media_dir in media_dirs:
             media_dir_export_worker(media_dir)
 
