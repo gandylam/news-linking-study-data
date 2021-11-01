@@ -8,7 +8,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s | %(levelname)s | %(
 logger = logging.getLogger(__name__)
 
 INPUT_DIR = "input"
-OUTPUT_DIR = os.path.join("export", "by_media")
+OUTPUT_DIR = os.path.join("export", "links-by-media")
 RUN_PARALLEL = True
 
 
