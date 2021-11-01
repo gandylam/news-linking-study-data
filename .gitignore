@@ -10,3 +10,4 @@ tmp/*.txt
 tmp/*.json
 tmp/*.ndjson
 export/*.txt
+export/tmp/*.txt

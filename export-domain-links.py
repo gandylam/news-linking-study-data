@@ -30,7 +30,7 @@ def media_dir_export_worker(dir: str) -> None:
                 story = json.load(f2)
             link_count += len(story['links'])
             for link in story['links']:
-                output_file.write(" ".join(link['source_domain'], link['target_domain']) + "\n")
+                output_file.write(" ".join([link['source_domain'], link['target_domain']]) + "\n")
     logging.info("  Finished {} stories from {} - {} links".format(len(files), dir, link_count))
 
 
