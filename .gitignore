@@ -9,3 +9,4 @@ input
 tmp/*.txt
 tmp/*.json
 tmp/*.ndjson
+export/*.txt
