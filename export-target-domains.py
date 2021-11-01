@@ -9,6 +9,7 @@ logger = logging.getLogger(__name__)
 
 INPUT_DIR = "input"
 OUTPUT_DIR = os.path.join("export", "tmp")
+
 RUN_PARALLEL = True
 
 
@@ -22,7 +23,7 @@ def media_dir_export_worker(dir: str) -> None:
         return
     logging.info("  Found {} story files".format(len(files)))
     # find data
-    all_target_domains = {}
+    all_target_domains = set([])
     for story_file in files:
         with open(story_file) as f2:
             story = json.load(f2)
