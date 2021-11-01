@@ -6,3 +6,6 @@
 *.ndjson
 input
 *.tgz
+tmp/*.txt
+tmp/*.json
+tmp/*.ndjson
