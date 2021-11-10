@@ -11,3 +11,4 @@ tmp/*.json
 tmp/*.ndjson
 export/*.txt
 export/tmp/*.txt
+export/domain-links-by-media/*.txt

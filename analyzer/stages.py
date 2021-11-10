@@ -82,6 +82,7 @@ class NytThemeTagsStage(Stage):
     POLITICS = [9360836]
     HEALTH = [9360852, 9360942]
     ECONOMICS = [9360840, 9360859, 9360989]
+    SPORTS = [9361137]
 
     def _has_one_of_tags(self, story_tags_ids: List[int], tag_ids_to_match: List[int]):
         for search_tag in tag_ids_to_match:
@@ -97,6 +98,7 @@ class NytThemeTagsStage(Stage):
             is_politics=self._has_one_of_tags(nyt_tag_ids, self.POLITICS),
             is_health=self._has_one_of_tags(nyt_tag_ids, self.HEALTH),
             is_economics=self._has_one_of_tags(nyt_tag_ids, self.ECONOMICS),
+            is_sports=self._has_one_of_tags(nyt_tag_ids, self.SPORTS),
         )
 
 
@@ -129,6 +131,7 @@ class SentenceLinkStage(Stage):
                     source_story_is_politics=story['is_politics'],
                     source_story_is_health=story['is_health'],
                     source_story_is_economics=story['is_economics'],
+                    source_story_is_sports=story['is_sports'],
                     source_story_sentence_count=len(sentences),
                     is_self_link=(source_domain == target_domain),
                 ))

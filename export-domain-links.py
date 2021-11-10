@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 INPUT_DIR = "input"
 OUTPUT_DIR = os.path.join("export", "tmp")
 RUN_PARALLEL = True
+IGNORE_SELF_LINKS = True
 
 
 def media_dir_export_worker(dir: str) -> None:
@@ -30,7 +31,8 @@ def media_dir_export_worker(dir: str) -> None:
                 story = json.load(f2)
             link_count += len(story['links'])
             for link in story['links']:
-                output_file.write(" ".join([link['source_domain'], link['target_domain']]) + "\n")
+                if IGNORE_SELF_LINKS and (link['source_domain'] != link['target_domain']):
+                    output_file.write(" ".join([link['source_domain'], link['target_domain']]) + "\n")
     logging.info("  Finished {} stories from {} - {} links".format(len(files), dir, link_count))
 
 
@@ -44,4 +46,7 @@ if __name__ == '__main__':
     else:
         for media_dir in media_dirs:
             media_dir_export_worker(media_dir)
+    # now group by country
+    collection_files = [os.path.join("analyzer/data", f) for f in os.listdir("analyzer/data") if f.startswith("media-in")]
+    for c in collection_files:
 
