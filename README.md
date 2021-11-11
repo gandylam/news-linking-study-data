@@ -15,13 +15,22 @@ stored on the stories themselves in a `_pipeline` property that is added.
 
 ## Process
 
-1. Download all the stories into a Mongo database.
+### Files
+
+1. Download all the stories with HTML into the `input` folder - there should be one folder per media source in there
+2. Run `run-pipeline.sh` to run the analysis on all the stories (this adds metadata to each existing file)
+3. Run `run-export-links.sh` to export the metadata added by the pipe to ndjson/csv (in `export/links-by-media`) 
+4. Combine the CSV files into one: `csvstack export/links-by-media/csv/*.csv > export/links-by-media/all.csv`
+
+### Database (previous/slower)
+
+1. Download all the stories into a Mongo Database
 2. Set those connection parameters in a `.env` file.
 3. Run celery to handle jobs: `celery -A analyzer worker -l info --concurrency=16`
 4. Then run `run-pipeline.py` over and over until all the data is moved through the pipeline.
-5. Then run `export-data.py` to create an ndjson for import into Kibana.
+5. Then run `export-links.py` to create an ndjson/csv for import into Kibana or Tableau. 
 
-## Exporting
+## Imoporting to Kibana
 
 To export to our Media Cloud Kibana:
  * setup tunnel to Kibana `ssh -6 -L 9200:$(ssh -6 bly.srv.mediacloud.org dokku elasticsearch:info kibana-elasticsearch --internal-ip):9200 bly.srv.mediacloud.org`
