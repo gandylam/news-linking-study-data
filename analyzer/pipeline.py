@@ -48,11 +48,11 @@ class FilePipeline(Pipeline):
         results = stage.process(story)
         return results
 
-    def process_file(self, path):
+    def process_file(self, path, force=False):
         with open(path) as f:
             story = json.load(f)
         # if it is done already just bail
-        if (self.METADATA_KEY in story) and ('status' in story[self.METADATA_KEY]) and \
+        if (not force) and (self.METADATA_KEY in story) and ('status' in story[self.METADATA_KEY]) and \
                 (story[self.METADATA_KEY]['status'] == 'done'):
             return True
         # process it through all the stages at once
