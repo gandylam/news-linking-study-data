@@ -20,7 +20,8 @@ stored on the stories themselves in a `_pipeline` property that is added.
 1. Download all the stories with HTML into the `input` folder - there should be one folder per media source in there
 2. Run `run-pipeline.sh` to run the analysis on all the stories (this adds metadata to each existing file)
 3. Run `run-export-links.sh` to export the metadata added by the pipe to ndjson/csv (in `export/links-by-media`) 
-4. Combine the CSV files into one: `csvstack export/links-by-media/csv/*.csv > export/links-by-media/all.csv`
+4. Combine the CSV files into one: `csvstack export/links-by-media/csv/*.csv > export/links-by-media/all.csv` for use
+with Tableau or R Studio
 
 ### Database (previous/slower)
 
