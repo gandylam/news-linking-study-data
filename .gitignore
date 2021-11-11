@@ -1,4 +1,4 @@
-.log
+*.log
 *.db
 .env
 .idea
@@ -12,3 +12,6 @@ tmp/*.ndjson
 export/*.txt
 export/tmp/*.txt
 export/domain-links-by-media/*.txt
+export/links-by-media/csv/*.csv
+export/links-by-media/*.csv
+

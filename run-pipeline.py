@@ -24,7 +24,7 @@ def media_dir_worker(dir: str) -> None:
         return
     logging.info("  Found {} story files".format(len(files)))
     for story_file in files:
-        my_pipeline.process_file(story_file)
+        my_pipeline.process_file(story_file, force=True)
         logging.debug("  done with {}".format(story_file))
     logging.info("  Finished {} stories from {}".format(len(files), dir))
 

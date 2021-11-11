@@ -11,3 +11,5 @@ tldextract==3.1.2
 dateparser==1.1.0
 ndjson==0.3.1
 elasticsearch-loader==0.6.0
+csvkit==1.0.6
+
