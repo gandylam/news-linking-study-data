@@ -34,22 +34,25 @@ if __name__ == '__main__':
         nx.set_node_attributes(G, 'Unknown', 'category')
         nx.set_node_attributes(G, 'Unknown', 'media_type')
         # add in media source metadata
-        media = collections.media_for_country(c)
-        media_attributes = {}
-        for m in media:
-            media_attributes[m['domain']] = dict(
-                category='National Media Source',
-                domain=m['domain'],
-                media_type=m['metadata']['media_type']['label'] if m['metadata']['media_type'] else 'Uknown',
-                url=m['url'],
-                media_id=m['media_id'],
-                name=m['name'],
-                stories_per_day=m['num_stories_90']/90,
-                country=c,
-                pub_state=m['metadata']['pub_state']['label'] if m['metadata']['pub_state'] else 'Unknown',
-                language=m['metadata']['language']['label'] if m['metadata']['language'] else 'Unknown',
-            )
-        nx.set_node_attributes(G, media_attributes)
+        try:
+            media = collections.media_for_country(c)
+            media_attributes = {}
+            for m in media:
+                media_attributes[m['domain']] = dict(
+                    category='National Media Source',
+                    domain=m['domain'],
+                    media_type=m['metadata']['media_type']['label'] if m['metadata']['media_type'] else 'Uknown',
+                    url=m['url'],
+                    media_id=m['media_id'],
+                    name=m['name'],
+                    stories_per_day=m['num_stories_90']/90,
+                    country=c,
+                    pub_state=m['metadata']['pub_state']['label'] if m['metadata']['pub_state'] else 'Unknown',
+                    language=m['metadata']['language']['label'] if m['metadata']['language'] else 'Unknown',
+                )
+            nx.set_node_attributes(G, media_attributes)
+        except FileNotFoundError:
+            logger.error("Can't find list of media sources for {} - metadata will be missing on nodes".format(c))
         # and mark social media platforms
         platform_attributes = {}
         for d in domains.PLATFORM_DOMAINS:
