@@ -1,6 +1,13 @@
 import re
 import tldextract
 
+SEARCH_ENGINE_DOMAINS = ['google.com', 'bing.com', 'duckduckgo.com', 'baidu.com']
+
+# domain names of most linked to platforms
+PLATFORM_DOMAINS = [
+    'facebook.com', 'fb.me', 'messenger.com', 'youtube.com', 'instagram.com', 'linkedin.com', 'pinterest.com',
+    'twitter.com', 'whatsapp.com', 'wechat.com', 'tiktok.com', 'qq.com', 'weibo.com', 'reddit.com', 'snapchat.com'
+]
 
 # by James O'Toole (Media Cloud)
 def get_canonical_mediacloud_domain(url):
