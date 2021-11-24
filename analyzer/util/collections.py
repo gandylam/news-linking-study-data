@@ -26,7 +26,7 @@ for f in files:
 
 
 # map from country alpha3 to list of media
-def country_for_media(media_id:int ) -> str:
+def country_for_media(media_id: int) -> str:
     global national_collection_2_name_map, media_2_collections
     collections = media_2_collections[media_id]
     for tags_id in collections:
@@ -39,11 +39,11 @@ def country_national_collection_id(alpha3: str) -> int:
     return national_name_2_collection_map[alpha3]
 
 
-def media_for_country(alpha3:str) -> List[Dict]:
+def media_for_country(alpha3: str) -> List[Dict]:
     # list of media in national collection for country, add in a 'domain' property
     collection_id = national_name_2_collection_map[alpha3]
-    with open(os.path.join(data_dir, "media-in-{}.json".format(collection_id))) as f:
-        data = json.load(f)
+    with open(os.path.join(data_dir, "media-in-{}.json".format(collection_id))) as input_file:
+        data = json.load(input_file)
         for media in data:
             media['domain'] = domains.get_canonical_mediacloud_domain(media['url'])
         return data

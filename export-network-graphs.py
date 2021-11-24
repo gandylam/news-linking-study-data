@@ -22,7 +22,7 @@ if __name__ == '__main__':
     # remove invalid links
     df = df.dropna()
 
-    countries = ['IND', 'GBR', 'KEN', 'ZAF', 'AUS', 'PHL']
+    countries = ['IND', 'GBR', 'KEN', 'ZAF', 'AUS', 'PHL', 'USA', 'KOR']
 
     for c in countries:
         logging.info("Working on {}".format(c))

@@ -9,6 +9,7 @@ PLATFORM_DOMAINS = [
     'twitter.com', 'whatsapp.com', 'wechat.com', 'tiktok.com', 'qq.com', 'weibo.com', 'reddit.com', 'snapchat.com'
 ]
 
+
 # by James O'Toole (Media Cloud)
 def get_canonical_mediacloud_domain(url):
     parsed_domain = tldextract.extract(url)
