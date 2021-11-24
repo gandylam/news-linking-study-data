@@ -36,7 +36,7 @@ def get_link_data_from_story(file_path: str) -> List[Dict]:
     data = [dict(
         link_id="{}-{}".format(story['stories_id'], link['link_id']),  # so we a unique id for this link
         link_text=link['link_text'],
-        sentence=link['sentence'],
+        sentence=link['sentence'].replace("\n", " ").replace("\t", " "),  # remove EOL and tab so it is more readable
         target_url=link['target_url'],
         source_stories_id=story['stories_id'],
         publication_date=story['publish_date'][0:19],  # strip off milliseconds
@@ -57,14 +57,12 @@ def get_link_data_from_story(file_path: str) -> List[Dict]:
 
 
 @task
-def write_json_link_file(output_dir: str, links_per_story: List[List[Dict]]) -> None:
+def write_json_link_file(csv_file_path: str, ndjson_file_path: str, links_per_story: List[List[Dict]]) -> None:
     logger = prefect.context.get("logger")
-    ndjson_file_path = output_dir + ".ndjson"
-    csv_file_path = output_dir + ".csv"
-    ndjson_file = io.open(ndjson_file_path, 'w', encoding='utf8')
     field_names = ["link_id", "source_stories_id", "publication_date", "sentence", "source_url", "source_domain", "link_text", "target_url", "target_domain", "source_country", "week_number", "source_nyt_themes", "source_story_is_politics", "source_story_is_health", "source_story_is_economics", "source_story_sentence_count", "source_story_is_sports", "is_self_link"]
     csv_writer = csv.DictWriter(io.open(csv_file_path, 'w', encoding='utf8'), field_names, extrasaction='ignore')
     csv_writer.writeheader()
+    ndjson_file = io.open(ndjson_file_path, 'w', encoding='utf8')
     # flatten list of list of dicts
     links = []
     for story_links in links_per_story:

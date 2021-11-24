@@ -5,20 +5,12 @@ Code to generate data for a study into cross-national linking norms in online ne
 
 ## Process
 
-### Files
-
 1. Download all the stories with HTML into the `input` folder - there should be one folder per media source in there
 2. Run `run-pipeline.sh` to run the analysis on all the stories (this adds metadata to each existing file)
 3. Run `run-export-links.sh` to export the metadata added by the pipe to ndjson/csv (in `export/links-by-media`) 
 4. Combine the CSV files into one: `csvstack export/links-by-media/csv/*.csv > export/links-by-media/all.csv` for use
 with Tableau or R Studio
-
-### Database (previous/slower)
-
-1. Download all the stories into the file system (use our `story-text-downloader` so you fill `input` with one folder 
-   per media source, each full of `.json` files with stories)
-3. Then run `run-pipeline.py` over and over until all the data is moved through the pipeline.
-4. Then run `export-links.py` to create an ndjson/csv for import into Kibana or Tableau. 
+5. Combine the NDJSON files into one: `cat export/links-by-media/ndjson/*.ndjson > export/links-by-media/all.ndjson`
 
 ## Imoporting to Kibana
 
