@@ -20,7 +20,7 @@ if __name__ == '__main__':
         tasks.write_json_link_file(csv_output_file, ndjson_output_file, link_per_story)
 
     # run our pipeline for each media directory
-    media_dirs = [os.path.join(INPUT_DIR, f) for f in os.listdir("input") if os.path.isdir(os.path.join(INPUT_DIR, f))]
+    media_dirs = [os.path.join(INPUT_DIR, f) for f in os.listdir(INPUT_DIR) if os.path.isdir(os.path.join(INPUT_DIR, f))]
     for media_dir in media_dirs:
         media_id = media_dir.split("/")[-1]
         flow.run(parameters={
