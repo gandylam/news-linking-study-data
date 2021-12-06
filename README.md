@@ -3,6 +3,32 @@ Linking in the News Study Data Processor
 
 Code to generate data for a study into cross-national linking norms in online news.
 
+## Queries
+
+The original query that created our corpus of stories:
+
+```python
+FETCH_TEXT = False
+FETCH_RAW_HTML = True
+COLLECTIONS = [
+    34412476,  # uk national
+    34412282,  # Australia national
+    34412126,  # Kenya national
+    34412238,  # S Africa national
+    34412313,  # Philippines national
+    34412118,  # India national
+    34412234,  # US national
+]
+QUERY = '* language:en'
+FQ = " OR ".join([
+    mediacloud.api.MediaCloud.dates_as_query_clause(dt.date(2020, 2, 2), dt.date(2020, 2, 8)),  # inclusive
+    mediacloud.api.MediaCloud.dates_as_query_clause(dt.date(2020, 5, 10), dt.date(2020, 5, 16)),  # inclusive
+    mediacloud.api.MediaCloud.dates_as_query_clause(dt.date(2020, 8, 16), dt.date(2020, 8, 22)),  # inclusive
+    mediacloud.api.MediaCloud.dates_as_query_clause(dt.date(2020, 10, 25), dt.date(2020, 10, 31))  # inclusive
+])
+LIMIT = None
+```
+
 ## Process
 
 1. Download all the stories with HTML into the `input` folder - there should be one folder per media source in there
@@ -11,6 +37,9 @@ Code to generate data for a study into cross-national linking norms in online ne
 4. Combine the CSV files into one: `csvstack export/links-by-media/csv/*.csv > export/links-by-media/all.csv` for use
 with Tableau or R Studio
 5. Combine the NDJSON files into one: `cat export/links-by-media/ndjson/*.ndjson > export/links-by-media/all.ndjson`
+6. Run `python export-target-domains.py` to write a file for each media source with all the domains it links to
+7. Combine those into one file of all unique domains: `cat export/domain-links-by-media/*.csv | sort | uniq > export/all-target-domains.txt`
+8. Run `python export-network-graphs.py` to generate network graphs for each country
 
 ## Imoporting to Kibana
 

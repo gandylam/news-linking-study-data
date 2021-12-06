@@ -45,5 +45,9 @@ def media_for_country(alpha3: str) -> List[Dict]:
     with open(os.path.join(data_dir, "media-in-{}.json".format(collection_id))) as input_file:
         data = json.load(input_file)
         for media in data:
-            media['domain'] = domains.get_canonical_mediacloud_domain(media['url'])
+            try:
+                media['domain'] = domains.get_canonical_mediacloud_domain(media['url'])
+            except IndexError:
+                # it is malformed in some way, so just pass through for a person to deal with later
+                media['domain'] = media['url']
         return data

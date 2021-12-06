@@ -14,4 +14,4 @@ export/tmp/*.txt
 export/domain-links-by-media/*.txt
 export/links-by-media/csv/*.csv
 export/links-by-media/*.csv
-
+export/domain-links-by-media/*.csv

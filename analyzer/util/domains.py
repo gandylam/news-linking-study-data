@@ -1,17 +1,66 @@
 import re
 import tldextract
+from typing import List
 
 SEARCH_ENGINE_DOMAINS = ['google.com', 'bing.com', 'duckduckgo.com', 'baidu.com']
 
 # domain names of most linked to platforms
 PLATFORM_DOMAINS = [
-    'facebook.com', 'fb.me', 'messenger.com', 'youtube.com', 'instagram.com', 'linkedin.com', 'pinterest.com',
-    'twitter.com', 'whatsapp.com', 'wechat.com', 'tiktok.com', 'qq.com', 'weibo.com', 'reddit.com', 'snapchat.com'
+    'facebook.com', 'fb.me', 'fb.com', 'messenger.com', 'youtube.com', 'instagram.com', 'linkedin.com', 'pinterest.com',
+    'twitter.com', 'whatsapp.com', 'wechat.com', 'tiktok.com', 'qq.com', 'weibo.com', 'reddit.com', 'snapchat.com',
+    'bit.ly', 'youtu.be'
 ]
+
+# official websites run by government entities
+GOV_DOMAIN_SUFFIXES = [
+    '.gov.ph', '.gov', '.int'
+]
+GOV_DOMAINS = ['un.org', 'cdc.gov', 'worldbank.org']
+
+# universities and such
+EDUCATIONAL_DOMAINS_SUFFIXES = [
+    '.edu', '.edu.ph'
+]
+
+countries = ['IND', 'GBR', 'KEN', 'ZAF', 'AUS', 'PHL', 'USA']
+
+
+def has_country_suffix(domain: str, country_alpha3: str) -> bool:
+    # https://en.wikipedia.org/wiki/Country_code_top-level_domain
+    if country_alpha3 == 'IN':
+        return _domain_ends_with(domain, ['.in'])
+    elif country_alpha3 == 'GBR':
+        return _domain_ends_with(domain, ['.uk', '.ac', '.bm', '.fk', '.gi', '.gs', '.ky', '.ms', '.pn', '.sh', '.tc', '.vg'])
+    elif country_alpha3 == 'KEN':
+        return _domain_ends_with(domain, ['.ke'])
+    elif country_alpha3 == 'ZAF':
+        return _domain_ends_with(domain, ['.za'])
+    elif country_alpha3 == 'AUS':
+        return _domain_ends_with(domain, ['.au', '.oz.au', '.oz'])
+    elif country_alpha3 == 'PHL':
+        return _domain_ends_with(domain, ['.ph'])
+    elif country_alpha3 == 'USA':
+        return _domain_ends_with(domain, ['.us', '.as', '.gu', '.mp', '.pr', '.vi'])
+    return False
+
+
+def _domain_ends_with(domain: str, suffixes: List) -> bool:
+    for suffix in suffixes:
+        if domain.endswith(suffix):
+            return True
+    return False
+
+
+def is_government_domain(domain: str) -> bool:
+    return _domain_ends_with(domain, GOV_DOMAIN_SUFFIXES) or (domain in GOV_DOMAINS)
+
+
+def is_educational_domain(domain: str) -> bool:
+    return _domain_ends_with(domain, EDUCATIONAL_DOMAINS_SUFFIXES)
 
 
 # by James O'Toole (Media Cloud)
-def get_canonical_mediacloud_domain(url):
+def get_canonical_mediacloud_domain(url:str) -> str:
     parsed_domain = tldextract.extract(url)
 
     is_blogging_subdomain = re.search(
