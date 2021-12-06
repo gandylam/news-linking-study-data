@@ -1,9 +1,8 @@
 import logging
 import os
-import io
-import json
 import pandas as pd
 from concurrent.futures import ProcessPoolExecutor
+import validators
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s | %(levelname)s | %(name)s | %(message)s')
 logger = logging.getLogger(__name__)
@@ -17,12 +16,15 @@ RUN_PARALLEL = True
 def media_dir_export_worker(file: str) -> None:
     logging.info("Working on {}".format(file))
     df = pd.read_csv(file)
-    target_domains = df['target_domain'].unique()
+    target_domains = set(df['target_domain'].unique())
+    source_domains = set(df['source_domain'].unique())
+    domains = set.union(target_domains, source_domains)
     # write it out
     output = os.path.join(OUTPUT_DIR, file.split("/")[-1])
     with open(output, "w") as f:
-        for d in target_domains:
-            f.write(d + "\n")
+        for d in domains:
+            if validators.domain(d):
+                f.write("{}\n".format(d))
     logging.info("  Finished {} domains to {}".format(len(target_domains), output))
 
 

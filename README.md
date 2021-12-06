@@ -3,9 +3,28 @@ Linking in the News Study Data Processor
 
 Code to generate data for a study into cross-national linking norms in online news.
 
+## Process
+
+1. Download all the stories with HTML into the `input` folder - there should be one folder per media source in there (see below for full query)
+2. Run `run-pipeline.sh` to run the analysis on all the stories (this adds metadata to each existing file)
+3. Run `run-export-links.sh` to export the metadata added by the pipe to ndjson/csv (in `export/links-by-media`) 
+4. Combine the CSV files into one: `csvstack export/links-by-media/csv/*.csv > export/links-by-media/all.csv` for use
+with Tableau or R Studio
+5. Combine the NDJSON files into one: `cat export/links-by-media/ndjson/*.ndjson > export/links-by-media/all.ndjson`
+6. Combine those into one file of all unique domains: `cat export/domain-links-by-media/*.csv | sort | uniq > export/all-domains.txt`
+7. Run `python export-domains.py` to write a file for each media source with all the domains link to/from
+8. Run `python fetch-domain-info.py` to check for Media Cloud metadata for each media source 
+9. Run `python export-network-graphs.py` to generate network graphs for each country, with full source metadata embedded
+
+## Imoporting to Kibana (optional)
+
+To export to our Media Cloud Kibana:
+ * setup tunnel to Kibana `ssh -6 -L 9200:$(ssh -6 bly.srv.mediacloud.org dokku elasticsearch:info kibana-elasticsearch --internal-ip):9200 bly.srv.mediacloud.org`
+ * run import: `elasticsearch_loader --es-host http://[::1]:9200/ --index linkstudy-1 --index-settings-file export/story-link-mapping.json json export/story-links-sample1.ndjson --json-lines`
+ 
 ## Queries
 
-The original query that created our corpus of stories:
+The original query that created our corpus of stories (matches around 800k stories):
 
 ```python
 FETCH_TEXT = False
@@ -28,22 +47,3 @@ FQ = " OR ".join([
 ])
 LIMIT = None
 ```
-
-## Process
-
-1. Download all the stories with HTML into the `input` folder - there should be one folder per media source in there
-2. Run `run-pipeline.sh` to run the analysis on all the stories (this adds metadata to each existing file)
-3. Run `run-export-links.sh` to export the metadata added by the pipe to ndjson/csv (in `export/links-by-media`) 
-4. Combine the CSV files into one: `csvstack export/links-by-media/csv/*.csv > export/links-by-media/all.csv` for use
-with Tableau or R Studio
-5. Combine the NDJSON files into one: `cat export/links-by-media/ndjson/*.ndjson > export/links-by-media/all.ndjson`
-6. Run `python export-target-domains.py` to write a file for each media source with all the domains it links to
-7. Combine those into one file of all unique domains: `cat export/domain-links-by-media/*.csv | sort | uniq > export/all-target-domains.txt`
-8. Run `python export-network-graphs.py` to generate network graphs for each country
-
-## Imoporting to Kibana
-
-To export to our Media Cloud Kibana:
- * setup tunnel to Kibana `ssh -6 -L 9200:$(ssh -6 bly.srv.mediacloud.org dokku elasticsearch:info kibana-elasticsearch --internal-ip):9200 bly.srv.mediacloud.org`
- * run import: `elasticsearch_loader --es-host http://[::1]:9200/ --index linkstudy-1 --index-settings-file export/story-link-mapping.json json export/story-links-sample1.ndjson --json-lines`
- 
