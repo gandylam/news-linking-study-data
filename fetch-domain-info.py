@@ -20,7 +20,7 @@ OUTPUT_FILE = "export/all-domains.json"
 RUN_PARALLEL = True
 
 
-@task
+@task(name='load_domains')
 def load_domains_task(input_file_path: str) -> List:
     # load up the domains we need to check out
     logging.info("Reading input from {}".format(input_file_path))
@@ -36,20 +36,24 @@ def load_domains_task(input_file_path: str) -> List:
     return jobs
 
 
-@task
+@task(name='list_media')
 def list_media_task(domain: str) -> Dict:
-    mc = mediacloud.api.MediaCloud(os.environ.get('MC_API_KEY', None))
-    matching_sources = mc.mediaList(name_like=domain)
-    if len(matching_sources) == 0:
+    try:
+        mc = mediacloud.api.MediaCloud(os.environ.get('MC_API_KEY', None))
+        matching_sources = mc.mediaList(name_like=domain)
+        if len(matching_sources) == 0:
+            return None
+        matching_sources[0]['domain'] = domain
+        return matching_sources[0]
+    except:
+        # this will trigger downstream success so the next workflow step continues despite this web request failing
         return None
-    matching_sources[0]['domain'] = domain
-    return matching_sources[0]
 
 
-@task
+@task(name='write_results')
 def write_results_task(output_file: str, media_list: List[Dict]) -> None:
     with open(output_file, 'w') as f:
-        json.dump(media_list, f)
+        json.dump([m for m in media_list if m is not None], f)
 
 
 if __name__ == '__main__':

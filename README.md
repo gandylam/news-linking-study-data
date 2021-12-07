@@ -16,7 +16,7 @@ with Tableau or R Studio
 8. Run `python fetch-domain-info.py` to check for Media Cloud metadata for each media source 
 9. Run `python export-network-graphs.py` to generate network graphs for each country, with full source metadata embedded
 
-## Imoporting to Kibana (optional)
+## Importing to Kibana (optional)
 
 To export to our Media Cloud Kibana:
  * setup tunnel to Kibana `ssh -6 -L 9200:$(ssh -6 bly.srv.mediacloud.org dokku elasticsearch:info kibana-elasticsearch --internal-ip):9200 bly.srv.mediacloud.org`
