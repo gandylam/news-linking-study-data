@@ -1,12 +1,24 @@
 Static Data Files
 =================
 
+## Platform Domains
+
+We manually created a list of the domains associated with social media and other platforms. These are stored in 
+`platform-domains.txt` and used to annotate websites with metadata.
+
+## Country Domain Suffixes
+
+We manually created a list of the suffixs we wanted to categorize as "governmental" or "educational". These are stored 
+in `country-domain-suffixes.csv` and used to annotate websites with metadata.
+
+## Country-Level Media Collections
+
 These were generated from the media cloud database. The `media-in-X.json` ones list an array of all the media sources
 within the collection specified (see code below).
 
 The `country-collections.json` was copied from the media cloud `front-end` repo, which has a script to generate it. 
 
-## Generating Collection Media Files
+### Generating Collection Media Files
 
 ```python
 import mediacloud.api

@@ -3,10 +3,9 @@ import json
 import glob
 from typing import List, Dict
 
+from analyzer import data_dir, base_dir
 import analyzer.util.domains as domains
 
-base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-data_dir = os.path.join(base_dir, "analyzer", "data")
 
 # map from national collection id to country alpha3
 with open(os.path.join(data_dir, "country-collections.json")) as f:

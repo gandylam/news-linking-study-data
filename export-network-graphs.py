@@ -12,16 +12,16 @@ import json
 
 import analyzer.util.collections as collections
 import analyzer.util.domains as domains
+from analyzer import COUNTRIES
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s | %(levelname)s | %(name)s | %(message)s')
 logger = logging.getLogger(__name__)
 
-COUNTRIES = ['IND', 'GBR', 'KEN', 'ZAF', 'AUS', 'PHL', 'USA']
 
 if __name__ == '__main__':
 
     # pre-load the list of domain info from Media Cloud
-    media2info = {d['domain']:d for d in json.load(open(os.path.join('export', 'all-domains.json')))}
+    media2info = {d['domain']: d for d in json.load(open(os.path.join('export', 'all-domains.json')))}
 
     # load the list of all links, to turn into a graph
     df = pd.read_csv("export/links-by-media/all.csv")
@@ -64,16 +64,16 @@ if __name__ == '__main__':
                     pub_state=m['metadata']['pub_state']['label'] if m['metadata']['pub_state'] else 'Unknown',
                     language=m['metadata']['language']['label'] if m['metadata']['language'] else 'Unknown',
                 )
-            elif n in domains.PLATFORM_DOMAINS:
+            elif domains.is_platform_domain(n):
                 # the domain is a platform like YouTube or Facebook
                 details = dict(category="Platform", domain=n)
             elif n in domains.SEARCH_ENGINE_DOMAINS:
                 # the domain is a search engine like Google
                 details = dict(category="Search Engine", domain=n)
-            elif domains.is_government_domain(n):
+            elif domains.is_government_domain(n, country_alpha3):
                 # the domain is an official source, like un.int, worldbank.org, or stats.gov.ph
                 details = dict(category="Government", domain=n)
-            elif domains.is_educational_domain(n):
+            elif domains.is_educational_domain(n, country_alpha3):
                 # the domain is a university (ie. *.edu)
                 details = dict(category="Educational", domain=n)
             elif n in media2info:

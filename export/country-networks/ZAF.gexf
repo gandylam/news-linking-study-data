@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2021-12-06">
+  <meta lastmodifieddate="2021-12-10">
     <creator>NetworkX 2.6.3</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -231,24 +231,16 @@
       </node>
       <node id="dwa.gov.za" label="dwa.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dwa.gov.za" />
-          <attvalue for="4" value="http://dwa.gov.za/" />
-          <attvalue for="5" value="880202" />
-          <attvalue for="6" value="dwa.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dws.gov.za" label="dws.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dws.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="eatout.co.za" label="eatout.co.za">
@@ -466,9 +458,16 @@
       </node>
       <node id="nih.gov" label="nih.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nih.gov" />
+          <attvalue for="4" value="http://nih.gov./" />
+          <attvalue for="5" value="152090" />
+          <attvalue for="6" value="nih.gov." />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="orderin.co.za" label="orderin.co.za">
@@ -544,9 +543,16 @@
       </node>
       <node id="who.int" label="who.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="who.int" />
+          <attvalue for="4" value="http://who.int%3e/" />
+          <attvalue for="5" value="250901" />
+          <attvalue for="6" value="who.int%3e" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="yourdiamonds.co.za" label="yourdiamonds.co.za">
@@ -691,16 +697,9 @@
       </node>
       <node id="ekurhuleni.gov.za" label="ekurhuleni.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ekurhuleni.gov.za" />
-          <attvalue for="4" value="http://ekurhuleni.gov.za/" />
-          <attvalue for="5" value="1735855" />
-          <attvalue for="6" value="ekurhuleni.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="forex-trading.co.za" label="forex-trading.co.za">
@@ -1216,9 +1215,16 @@
       </node>
       <node id="cdc.gov" label="cdc.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cdc.gov" />
+          <attvalue for="4" value="http://cdc.gov,/" />
+          <attvalue for="5" value="169793" />
+          <attvalue for="6" value="cdc.gov," />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="cdc.gov.tw" label="cdc.gov.tw">
@@ -1314,9 +1320,16 @@
       </node>
       <node id="dol.gov" label="dol.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dol.gov" />
+          <attvalue for="4" value="http://www.dol.gov" />
+          <attvalue for="5" value="24705" />
+          <attvalue for="6" value="dol.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dominicantoday.com" label="dominicantoday.com">
@@ -1328,9 +1341,16 @@
       </node>
       <node id="eeoc.gov" label="eeoc.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="eeoc.gov" />
+          <attvalue for="4" value="http://www.eeoc.gov#spider" />
+          <attvalue for="5" value="30144" />
+          <attvalue for="6" value="eeoc.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="eff.org" label="eff.org">
@@ -1398,9 +1418,16 @@
       </node>
       <node id="fws.gov" label="fws.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="fws.gov" />
+          <attvalue for="4" value="http://www.fws.gov" />
+          <attvalue for="5" value="25568" />
+          <attvalue for="6" value="fws.gov" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="gallup.com" label="gallup.com">
@@ -1433,9 +1460,16 @@
       </node>
       <node id="govinfo.gov" label="govinfo.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="govinfo.gov" />
+          <attvalue for="4" value="http://govinfo.gov/" />
+          <attvalue for="5" value="386116" />
+          <attvalue for="6" value="govinfo.gov" />
+          <attvalue for="7" value="0.00022222222222222223" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="govtrack.us" label="govtrack.us">
@@ -1454,9 +1488,16 @@
       </node>
       <node id="gwu.edu" label="gwu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="gwu.edu" />
+          <attvalue for="4" value="http://www.gwu.edu" />
+          <attvalue for="5" value="25217" />
+          <attvalue for="6" value="gwu.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="haaretz.com" label="haaretz.com">
@@ -1468,9 +1509,16 @@
       </node>
       <node id="house.gov" label="house.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="house.gov" />
+          <attvalue for="4" value="http://www.house.gov" />
+          <attvalue for="5" value="18730" />
+          <attvalue for="6" value="house.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="hrw.org" label="hrw.org">
@@ -1832,9 +1880,16 @@
       </node>
       <node id="ssa.gov" label="ssa.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ssa.gov" />
+          <attvalue for="4" value="http://www.ssa.gov/#spider" />
+          <attvalue for="5" value="69965" />
+          <attvalue for="6" value="ssa.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ssrn.com" label="ssrn.com">
@@ -1860,9 +1915,16 @@
       </node>
       <node id="supremecourt.gov" label="supremecourt.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="supremecourt.gov" />
+          <attvalue for="4" value="http://www.supremecourt.gov" />
+          <attvalue for="5" value="18807" />
+          <attvalue for="6" value="supremecourt.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="tandfonline.com" label="tandfonline.com">
@@ -1930,9 +1992,16 @@
       </node>
       <node id="treasury.gov" label="treasury.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="treasury.gov" />
+          <attvalue for="4" value="http://www.treasury.gov" />
+          <attvalue for="5" value="19228" />
+          <attvalue for="6" value="treasury.gov" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="tyt.com" label="tyt.com">
@@ -2042,9 +2111,16 @@
       </node>
       <node id="whitehouse.gov" label="whitehouse.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="whitehouse.gov" />
+          <attvalue for="4" value="http://www.whitehouse.gov%20:%20the%20administration/#spider" />
+          <attvalue for="5" value="90594" />
+          <attvalue for="6" value="whitehouse.gov%20:%20the%20administration" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="winred.com" label="winred.com">
@@ -2315,9 +2391,16 @@
       </node>
       <node id="au.int" label="au.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="au.int" />
+          <attvalue for="4" value="http://au.int/" />
+          <attvalue for="5" value="106832" />
+          <attvalue for="6" value="au.int" />
+          <attvalue for="7" value="0.00022222222222222223" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="audaciousproject.org" label="audaciousproject.org">
@@ -2336,9 +2419,16 @@
       </node>
       <node id="bard.edu" label="bard.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bard.edu" />
+          <attvalue for="4" value="http://www.bard.edu/#spider" />
+          <attvalue for="5" value="90621" />
+          <attvalue for="6" value="bard.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="biomedcentral.com" label="biomedcentral.com">
@@ -2385,7 +2475,7 @@
       </node>
       <node id="brookings.edu" label="brookings.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="brookings.edu" />
         </attvalues>
@@ -2602,9 +2692,16 @@
       </node>
       <node id="dukeupress.edu" label="dukeupress.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dukeupress.edu" />
+          <attvalue for="4" value="http://www.dukeupress.edu#spider" />
+          <attvalue for="5" value="33292" />
+          <attvalue for="6" value="dukeupress.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dw.com" label="dw.com">
@@ -2785,16 +2882,9 @@
       </node>
       <node id="hsrc.ac.za" label="hsrc.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="hsrc.ac.za" />
-          <attvalue for="4" value="http://hsrc.ac.za/" />
-          <attvalue for="5" value="120359" />
-          <attvalue for="6" value="hsrc.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="icipe.org" label="icipe.org">
@@ -2939,9 +3029,16 @@
       </node>
       <node id="jhu.edu" label="jhu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="jhu.edu" />
+          <attvalue for="4" value="http://www.jhu.edu#spider" />
+          <attvalue for="5" value="34956" />
+          <attvalue for="6" value="jhu.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="jivemedia.co.za" label="jivemedia.co.za">
@@ -3396,9 +3493,16 @@
       </node>
       <node id="reliefweb.int" label="reliefweb.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="reliefweb.int" />
+          <attvalue for="4" value="#spider249" />
+          <attvalue for="5" value="107847" />
+          <attvalue for="6" value="reliefweb.int" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="reportminds.com" label="reportminds.com">
@@ -3480,16 +3584,9 @@
       </node>
       <node id="sanap.ac.za" label="sanap.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sanap.ac.za" />
-          <attvalue for="4" value="http://sanap.ac.za/" />
-          <attvalue for="5" value="725310" />
-          <attvalue for="6" value="sanap.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="scidev.net" label="scidev.net">
@@ -3543,9 +3640,16 @@
       </node>
       <node id="senate.gov" label="senate.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="senate.gov" />
+          <attvalue for="4" value="http://www.senate.gov" />
+          <attvalue for="5" value="18374" />
+          <attvalue for="6" value="Senate.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sipri.org" label="sipri.org">
@@ -3697,16 +3801,9 @@
       </node>
       <node id="treasury.gov.za" label="treasury.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="treasury.gov.za" />
-          <attvalue for="4" value="http://treasury.gov.za/" />
-          <attvalue for="5" value="224474" />
-          <attvalue for="6" value="treasury.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="u-tena.org" label="u-tena.org">
@@ -3718,30 +3815,37 @@
       </node>
       <node id="uchicago.edu" label="uchicago.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="uchicago.edu" />
+          <attvalue for="4" value="http://www.uchicago.edu/#spider" />
+          <attvalue for="5" value="78068" />
+          <attvalue for="6" value="uchicago.edu" />
+          <attvalue for="7" value="0.0003333333333333333" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="uct.ac.za" label="uct.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="uct.ac.za" />
-          <attvalue for="4" value="http://uct.ac.za/" />
-          <attvalue for="5" value="55483" />
-          <attvalue for="6" value="uct.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="umd.edu" label="umd.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="umd.edu" />
+          <attvalue for="4" value="http://www.umd.edu/#spider" />
+          <attvalue for="5" value="86292" />
+          <attvalue for="6" value="umd.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="unctad.org" label="unctad.org">
@@ -3851,9 +3955,16 @@
       </node>
       <node id="unu.edu" label="unu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="unu.edu" />
+          <attvalue for="4" value="http://unu.edu/" />
+          <attvalue for="5" value="151762" />
+          <attvalue for="6" value="unu.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="unwomen.org" label="unwomen.org">
@@ -4201,9 +4312,16 @@
       </node>
       <node id="bls.gov" label="bls.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bls.gov" />
+          <attvalue for="4" value="http://www.bls.gov" />
+          <attvalue for="5" value="19849" />
+          <attvalue for="6" value="bls.gov" />
+          <attvalue for="7" value="0.00022222222222222223" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="businessinsider.com" label="businessinsider.com">
@@ -5062,9 +5180,16 @@
       </node>
       <node id="justice.gov" label="justice.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="justice.gov" />
+          <attvalue for="4" value="http://www.justice.gov" />
+          <attvalue for="5" value="18498" />
+          <attvalue for="6" value="justice.gov" />
+          <attvalue for="7" value="0.012111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="labori.ru" label="labori.ru">
@@ -5076,9 +5201,16 @@
       </node>
       <node id="lacounty.gov" label="lacounty.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="lacounty.gov" />
+          <attvalue for="4" value="http://www.lacounty.gov/#spider" />
+          <attvalue for="5" value="101053" />
+          <attvalue for="6" value="lacounty.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="lavanguardia.com" label="lavanguardia.com">
@@ -5916,9 +6048,16 @@
       </node>
       <node id="sd.gov" label="sd.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sd.gov" />
+          <attvalue for="4" value="http://sd.gov/" />
+          <attvalue for="5" value="197076" />
+          <attvalue for="6" value="sd.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sepsistrust.org" label="sepsistrust.org">
@@ -6070,9 +6209,16 @@
       </node>
       <node id="state.gov" label="state.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="state.gov" />
+          <attvalue for="4" value="http://www.state.gov/" />
+          <attvalue for="5" value="41108" />
+          <attvalue for="6" value="State.gov" />
+          <attvalue for="7" value="0.0011111111111111111" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="strangedays2020.com" label="strangedays2020.com">
@@ -6385,9 +6531,16 @@
       </node>
       <node id="uspto.gov" label="uspto.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="uspto.gov" />
+          <attvalue for="4" value="http://www.uspto.gov" />
+          <attvalue for="5" value="20621" />
+          <attvalue for="6" value="uspto.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="venturebeat.com" label="venturebeat.com">
@@ -6525,10 +6678,9 @@
       </node>
       <node id="www.gov.za" label="www.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="www.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="www.nhs.uk" label="www.nhs.uk">
@@ -7055,16 +7207,9 @@
       </node>
       <node id="nicd.ac.za" label="nicd.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nicd.ac.za" />
-          <attvalue for="4" value="http://nicd.ac.za/" />
-          <attvalue for="5" value="144236" />
-          <attvalue for="6" value="nicd.ac.za" />
-          <attvalue for="7" value="0.0003333333333333333" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="pinkdrive.co.za" label="pinkdrive.co.za">
@@ -7370,16 +7515,9 @@
       </node>
       <node id="energy.gov.za" label="energy.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="energy.gov.za" />
-          <attvalue for="4" value="http://energy.gov.za/" />
-          <attvalue for="5" value="241115" />
-          <attvalue for="6" value="energy.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="engineeringnews.co.za" label="engineeringnews.co.za">
@@ -7547,16 +7685,9 @@
       </node>
       <node id="labour.gov.za" label="labour.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="labour.gov.za" />
-          <attvalue for="4" value="http://labour.gov.za/" />
-          <attvalue for="5" value="792394" />
-          <attvalue for="6" value="labour.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="lexisnexis.co.za" label="lexisnexis.co.za">
@@ -7634,16 +7765,9 @@
       </node>
       <node id="parliament.gov.za" label="parliament.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="parliament.gov.za" />
-          <attvalue for="4" value="http://parliament.gov.za/" />
-          <attvalue for="5" value="510931" />
-          <attvalue for="6" value="parliament.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="power987.co.za" label="power987.co.za">
@@ -7684,10 +7808,9 @@
       </node>
       <node id="samrc.ac.za" label="samrc.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="samrc.ac.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="sanlam.co.za" label="sanlam.co.za">
@@ -7748,16 +7871,9 @@
       </node>
       <node id="statssa.gov.za" label="statssa.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="statssa.gov.za" />
-          <attvalue for="4" value="http://statssa.gov.za/" />
-          <attvalue for="5" value="237405" />
-          <attvalue for="6" value="statssa.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sunlife.co.uk" label="sunlife.co.uk">
@@ -7884,24 +8000,16 @@
       </node>
       <node id="westerncape.gov.za" label="westerncape.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="westerncape.gov.za" />
-          <attvalue for="4" value="https://westerncape.gov.za/" />
-          <attvalue for="5" value="234715" />
-          <attvalue for="6" value="westerncape.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="wits.ac.za" label="wits.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="wits.ac.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="capenature.co.za" label="capenature.co.za">
@@ -7977,16 +8085,9 @@
       </node>
       <node id="capetown.gov.za" label="capetown.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="capetown.gov.za" />
-          <attvalue for="4" value="http://capetown.gov.za/" />
-          <attvalue for="5" value="261015" />
-          <attvalue for="6" value="capetown.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="comrades.com" label="comrades.com">
@@ -8125,16 +8226,9 @@
       </node>
       <node id="justice.gov.za" label="justice.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="justice.gov.za" />
-          <attvalue for="4" value="http://www.justice.gov.za/#spider" />
-          <attvalue for="5" value="100580" />
-          <attvalue for="6" value="justice.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="kwanele-foundation.org.za" label="kwanele-foundation.org.za">
@@ -10299,9 +10393,16 @@
       </node>
       <node id="ucpress.edu" label="ucpress.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ucpress.edu" />
+          <attvalue for="4" value="http://www.ucpress.edu#spider" />
+          <attvalue for="5" value="33516" />
+          <attvalue for="6" value="ucpress.edu" />
+          <attvalue for="7" value="0.002" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ukuzibuza.com" label="ukuzibuza.com">
@@ -10544,16 +10645,9 @@
       </node>
       <node id="thedtic.gov.za" label="thedtic.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="thedtic.gov.za" />
-          <attvalue for="4" value="http://thedtic.gov.za/" />
-          <attvalue for="5" value="1724374" />
-          <attvalue for="6" value="thedtic.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="wwd.com" label="wwd.com">
@@ -11706,9 +11800,16 @@
       </node>
       <node id="usembassy.gov" label="usembassy.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="usembassy.gov" />
+          <attvalue for="4" value="http://www.usembassy.gov/#spider" />
+          <attvalue for="5" value="86513" />
+          <attvalue for="6" value="usembassy.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="vimeo.com" label="vimeo.com">
@@ -11888,9 +11989,16 @@
       </node>
       <node id="academia.edu" label="academia.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="academia.edu" />
+          <attvalue for="4" value="http://www.academia.edu/#spider" />
+          <attvalue for="5" value="86636" />
+          <attvalue for="6" value="academia.edu" />
+          <attvalue for="7" value="0.0015555555555555557" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="achpr.org" label="achpr.org">
@@ -12189,10 +12297,9 @@
       </node>
       <node id="amathole.gov.za" label="amathole.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="amathole.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="amazon.com" label="amazon.com">
@@ -12632,10 +12739,9 @@
       </node>
       <node id="bnlm.gov.za" label="bnlm.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bnlm.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="bookdealers.co.za" label="bookdealers.co.za">
@@ -12859,7 +12965,7 @@
       </node>
       <node id="cbd.int" label="cbd.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cbd.int" />
         </attvalues>
@@ -12952,9 +13058,16 @@
       </node>
       <node id="chapman.edu" label="chapman.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="chapman.edu" />
+          <attvalue for="4" value="http://www.chapman.edu#spider" />
+          <attvalue for="5" value="32888" />
+          <attvalue for="6" value="chapman.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="chapteronezambia.com" label="chapteronezambia.com">
@@ -13008,10 +13121,9 @@
       </node>
       <node id="chrishanidm.gov.za" label="chrishanidm.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="chrishanidm.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="christinas.co.za" label="christinas.co.za">
@@ -13227,21 +13339,14 @@
       </node>
       <node id="cogta.gov.za" label="cogta.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cogta.gov.za" />
-          <attvalue for="4" value="http://cogta.gov.za/" />
-          <attvalue for="5" value="929015" />
-          <attvalue for="6" value="cogta.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="columbia.edu" label="columbia.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="columbia.edu" />
         </attvalues>
@@ -13318,9 +13423,16 @@
       </node>
       <node id="congress.gov" label="congress.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="congress.gov" />
+          <attvalue for="4" value="http://www.congress.gov/#spider" />
+          <attvalue for="5" value="71985" />
+          <attvalue for="6" value="Congress.gov" />
+          <attvalue for="7" value="0.004555555555555555" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="connectionivoirienne.net" label="connectionivoirienne.net">
@@ -13508,16 +13620,9 @@
       </node>
       <node id="daff.gov.za" label="daff.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="daff.gov.za" />
-          <attvalue for="4" value="http://daff.gov.za/" />
-          <attvalue for="5" value="491961" />
-          <attvalue for="6" value="daff.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dailynews.co.tz" label="dailynews.co.tz">
@@ -13564,9 +13669,16 @@
       </node>
       <node id="dartmouth.edu" label="dartmouth.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dartmouth.edu" />
+          <attvalue for="4" value="http://www.dartmouth.edu" />
+          <attvalue for="5" value="26846" />
+          <attvalue for="6" value="dartmouth.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="deacademic.com" label="deacademic.com">
@@ -13859,16 +13971,9 @@
       </node>
       <node id="dpme.gov.za" label="dpme.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dpme.gov.za" />
-          <attvalue for="4" value="http://dpme.gov.za/" />
-          <attvalue for="5" value="594824" />
-          <attvalue for="6" value="dpme.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dreve.co.za" label="dreve.co.za">
@@ -13887,23 +13992,23 @@
       </node>
       <node id="dsd.gov.za" label="dsd.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dsd.gov.za" />
-          <attvalue for="4" value="http://dsd.gov.za/" />
-          <attvalue for="5" value="1546579" />
-          <attvalue for="6" value="dsd.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="du.edu" label="du.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="du.edu" />
+          <attvalue for="4" value="http://www.du.edu#spider" />
+          <attvalue for="5" value="34781" />
+          <attvalue for="6" value="du.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dullahomarinstitute.org.za" label="dullahomarinstitute.org.za">
@@ -13922,16 +14027,9 @@
       </node>
       <node id="durban.gov.za" label="durban.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="durban.gov.za" />
-          <attvalue for="4" value="http://durban.gov.za/" />
-          <attvalue for="5" value="1008473" />
-          <attvalue for="6" value="durban.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="eastheadcafe.co.za" label="eastheadcafe.co.za">
@@ -13958,30 +14056,37 @@
       </node>
       <node id="ecowas.int" label="ecowas.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ecowas.int" />
+          <attvalue for="4" value="http://ecowas.int/" />
+          <attvalue for="5" value="145812" />
+          <attvalue for="6" value="ecowas.int" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ed.gov" label="ed.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ed.gov" />
+          <attvalue for="4" value="http://www.ed.gov#spider" />
+          <attvalue for="5" value="35000" />
+          <attvalue for="6" value="ed.gov" />
+          <attvalue for="7" value="0.003333333333333333" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="education.gov.za" label="education.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="education.gov.za" />
-          <attvalue for="4" value="http://education.gov.za/" />
-          <attvalue for="5" value="270982" />
-          <attvalue for="6" value="education.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="eebi.co.za" label="eebi.co.za">
@@ -14170,9 +14275,16 @@
       </node>
       <node id="export.gov" label="export.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="export.gov" />
+          <attvalue for="4" value="http://export.gov/#spider" />
+          <attvalue for="5" value="52779" />
+          <attvalue for="6" value="export.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="factcheck.org" label="factcheck.org">
@@ -14240,16 +14352,30 @@
       </node>
       <node id="fda.gov" label="fda.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="fda.gov" />
+          <attvalue for="4" value="http://www.fda.gov" />
+          <attvalue for="5" value="24744" />
+          <attvalue for="6" value="fda.gov" />
+          <attvalue for="7" value="0.0024444444444444444" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="federalreserve.gov" label="federalreserve.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="federalreserve.gov" />
+          <attvalue for="4" value="http://www.federalreserve.gov" />
+          <attvalue for="5" value="24765" />
+          <attvalue for="6" value="federalreserve.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ffc.co.za" label="ffc.co.za">
@@ -14478,16 +14604,9 @@
       </node>
       <node id="gauteng.gov.za" label="gauteng.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="gauteng.gov.za" />
-          <attvalue for="4" value="http://gauteng.gov.za/" />
-          <attvalue for="5" value="1589630" />
-          <attvalue for="6" value="gauteng.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="gcn.ie" label="gcn.ie">
@@ -14796,10 +14915,9 @@
       </node>
       <node id="gtac.gov.za" label="gtac.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="gtac.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="guardian.ng" label="guardian.ng">
@@ -14867,9 +14985,16 @@
       </node>
       <node id="harvard.edu" label="harvard.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="harvard.edu" />
+          <attvalue for="4" value="http://www.harvard.edu/#spider" />
+          <attvalue for="5" value="88383" />
+          <attvalue for="6" value="harvard.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="hbr.org" label="hbr.org">
@@ -15064,16 +15189,9 @@
       </node>
       <node id="hsrcpress.ac.za" label="hsrcpress.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="hsrcpress.ac.za" />
-          <attvalue for="4" value="http://hsrcpress.ac.za/" />
-          <attvalue for="5" value="501123" />
-          <attvalue for="6" value="hsrcpress.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="hss.de" label="hss.de">
@@ -15148,9 +15266,16 @@
       </node>
       <node id="icc-cpi.int" label="icc-cpi.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="icc-cpi.int" />
+          <attvalue for="4" value="http://www.icc-cpi.int/#spider" />
+          <attvalue for="5" value="95192" />
+          <attvalue for="6" value="icc-cpi.int" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="icer-review.org" label="icer-review.org">
@@ -15394,9 +15519,16 @@
       </node>
       <node id="interpol.int" label="interpol.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="interpol.int" />
+          <attvalue for="4" value="http://www.interpol.int" />
+          <attvalue for="5" value="20593" />
+          <attvalue for="6" value="interpol.int" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="invest200plus.co.za" label="invest200plus.co.za">
@@ -15542,9 +15674,16 @@
       </node>
       <node id="itu.int" label="itu.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="itu.int" />
+          <attvalue for="4" value="http://www.itu.int" />
+          <attvalue for="5" value="18524" />
+          <attvalue for="6" value="itu.int" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="itv.com" label="itv.com">
@@ -15584,9 +15723,16 @@
       </node>
       <node id="iwu.edu" label="iwu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="iwu.edu" />
+          <attvalue for="4" value="https://iwu.edu/" />
+          <attvalue for="5" value="229536" />
+          <attvalue for="6" value="iwu.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="iyfnet.org" label="iyfnet.org">
@@ -16056,16 +16202,9 @@
       </node>
       <node id="makana.gov.za" label="makana.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="makana.gov.za" />
-          <attvalue for="4" value="http://makana.gov.za/" />
-          <attvalue for="5" value="62223" />
-          <attvalue for="6" value="makana.gov.za" />
-          <attvalue for="7" value="0.0017777777777777779" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="mamopanel.org" label="mamopanel.org">
@@ -16331,9 +16470,16 @@
       </node>
       <node id="miami.edu" label="miami.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="miami.edu" />
+          <attvalue for="4" value="http://www.miami.edu/#spider" />
+          <attvalue for="5" value="85700" />
+          <attvalue for="6" value="miami.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="miaminewtimes.com" label="miaminewtimes.com">
@@ -16345,9 +16491,16 @@
       </node>
       <node id="michigan.gov" label="michigan.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="michigan.gov" />
+          <attvalue for="4" value="http://www.michigan.gov#spider" />
+          <attvalue for="5" value="29221" />
+          <attvalue for="6" value="michigan.gov" />
+          <attvalue for="7" value="0.0013333333333333333" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="michiganradio.org" label="michiganradio.org">
@@ -16507,9 +16660,16 @@
       </node>
       <node id="msu.edu" label="msu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="msu.edu" />
+          <attvalue for="4" value="https://msu.edu/" />
+          <attvalue for="5" value="125694" />
+          <attvalue for="6" value="msu.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="muserestaurant.co.za" label="muserestaurant.co.za">
@@ -16550,7 +16710,7 @@
       </node>
       <node id="nasa.gov" label="nasa.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nasa.gov" />
         </attvalues>
@@ -16593,16 +16753,30 @@
       </node>
       <node id="ncjrs.gov" label="ncjrs.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ncjrs.gov" />
+          <attvalue for="4" value="https://www.ncjrs.gov" />
+          <attvalue for="5" value="24700" />
+          <attvalue for="6" value="ncjrs.gov" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ncsu.edu" label="ncsu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ncsu.edu" />
+          <attvalue for="4" value="http://www.ncsu.edu/#spider" />
+          <attvalue for="5" value="89046" />
+          <attvalue for="6" value="ncsu.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nda.agric.za" label="nda.agric.za">
@@ -16754,24 +16928,16 @@
       </node>
       <node id="npa.gov.za" label="npa.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="npa.gov.za" />
-          <attvalue for="4" value="http://npa.gov.za/" />
-          <attvalue for="5" value="686609" />
-          <attvalue for="6" value="npa.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nrf.ac.za" label="nrf.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nrf.ac.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="nswp.org" label="nswp.org">
@@ -17653,16 +17819,9 @@
       </node>
       <node id="ru.ac.za" label="ru.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ru.ac.za" />
-          <attvalue for="4" value="http://ru.ac.za/" />
-          <attvalue for="5" value="61141" />
-          <attvalue for="6" value="ru.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="runrepeat.com" label="runrepeat.com">
@@ -17730,9 +17889,16 @@
       </node>
       <node id="sadc.int" label="sadc.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sadc.int" />
+          <attvalue for="4" value="http://sadc.int/" />
+          <attvalue for="5" value="405084" />
+          <attvalue for="6" value="sadc.int" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sadrugpolicyweek.com" label="sadrugpolicyweek.com">
@@ -17886,16 +18052,9 @@
       </node>
       <node id="sanews.gov.za" label="sanews.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sanews.gov.za" />
-          <attvalue for="4" value="http://sanews.gov.za/" />
-          <attvalue for="5" value="146085" />
-          <attvalue for="6" value="sanews.gov.za" />
-          <attvalue for="7" value="0.00011111111111111112" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sapo.pt" label="sapo.pt">
@@ -17914,30 +18073,16 @@
       </node>
       <node id="saps.gov.za" label="saps.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="saps.gov.za" />
-          <attvalue for="4" value="http://saps.gov.za/" />
-          <attvalue for="5" value="543261" />
-          <attvalue for="6" value="saps.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sars.gov.za" label="sars.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sars.gov.za" />
-          <attvalue for="4" value="http://sars.gov.za/" />
-          <attvalue for="5" value="705603" />
-          <attvalue for="6" value="sars.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sayouthatwork.com" label="sayouthatwork.com">
@@ -18155,16 +18300,9 @@
       </node>
       <node id="smu.ac.za" label="smu.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="smu.ac.za" />
-          <attvalue for="4" value="http://smu.ac.za/" />
-          <attvalue for="5" value="466084" />
-          <attvalue for="6" value="smu.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="solidarityfund.co.za" label="solidarityfund.co.za">
@@ -18332,9 +18470,16 @@
       </node>
       <node id="stanford.edu" label="stanford.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="stanford.edu" />
+          <attvalue for="4" value="http://www.stanford.edu" />
+          <attvalue for="5" value="19041" />
+          <attvalue for="6" value="stanford.edu" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="static1.squarespace.com" label="static1.squarespace.com">
@@ -18438,16 +18583,9 @@
       </node>
       <node id="sun.ac.za" label="sun.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sun.ac.za" />
-          <attvalue for="4" value="http://sun.ac.za/" />
-          <attvalue for="5" value="61963" />
-          <attvalue for="6" value="sun.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Dutch" />
         </attvalues>
       </node>
       <node id="superlinear.co.za" label="superlinear.co.za">
@@ -18873,16 +19011,9 @@
       </node>
       <node id="thepresidency.gov.za" label="thepresidency.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="thepresidency.gov.za" />
-          <attvalue for="4" value="http://thepresidency.gov.za/" />
-          <attvalue for="5" value="63174" />
-          <attvalue for="6" value="thepresidency.gov.za" />
-          <attvalue for="7" value="0.00011111111111111112" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="thewire.in" label="thewire.in">
@@ -18971,16 +19102,9 @@
       </node>
       <node id="tourism.gov.za" label="tourism.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="tourism.gov.za" />
-          <attvalue for="4" value="http://tourism.gov.za/" />
-          <attvalue for="5" value="1507290" />
-          <attvalue for="6" value="tourism.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="trademap.org" label="trademap.org">
@@ -19107,23 +19231,23 @@
       </node>
       <node id="tut.ac.za" label="tut.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="tut.ac.za" />
-          <attvalue for="4" value="http://tut.ac.za/" />
-          <attvalue for="5" value="875027" />
-          <attvalue for="6" value="tut.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ucsb.edu" label="ucsb.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ucsb.edu" />
+          <attvalue for="4" value="http://www.ucsb.edu#spider" />
+          <attvalue for="5" value="35594" />
+          <attvalue for="6" value="ucsb.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="udiscovermusic.com" label="udiscovermusic.com">
@@ -19156,30 +19280,16 @@
       </node>
       <node id="ufs.ac.za" label="ufs.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ufs.ac.za" />
-          <attvalue for="4" value="http://ufs.ac.za/" />
-          <attvalue for="5" value="912821" />
-          <attvalue for="6" value="ufs.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="uj.ac.za" label="uj.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="uj.ac.za" />
-          <attvalue for="4" value="http://uj.ac.za/" />
-          <attvalue for="5" value="454070" />
-          <attvalue for="6" value="uj.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ukdefencejournal.org.uk" label="ukdefencejournal.org.uk">
@@ -19212,9 +19322,16 @@
       </node>
       <node id="unc.edu" label="unc.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="unc.edu" />
+          <attvalue for="4" value="http://www.unc.edu/#spider" />
+          <attvalue for="5" value="71282" />
+          <attvalue for="6" value="unc.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="uneca.org" label="uneca.org">
@@ -19233,9 +19350,16 @@
       </node>
       <node id="unfccc.int" label="unfccc.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="unfccc.int" />
+          <attvalue for="4" value="http://unfccc.int/#spider" />
+          <attvalue for="5" value="68372" />
+          <attvalue for="6" value="unfccc.int" />
+          <attvalue for="7" value="0.0003333333333333333" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="unicnetwork.org" label="unicnetwork.org">
@@ -19261,16 +19385,9 @@
       </node>
       <node id="up.ac.za" label="up.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="up.ac.za" />
-          <attvalue for="4" value="http://up.ac.za/" />
-          <attvalue for="5" value="179644" />
-          <attvalue for="6" value="up.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="urldefense.com" label="urldefense.com">
@@ -19303,23 +19420,44 @@
       </node>
       <node id="usaid.gov" label="usaid.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="usaid.gov" />
+          <attvalue for="4" value="http://usaid.gov/" />
+          <attvalue for="5" value="56464" />
+          <attvalue for="6" value="usaid.gov" />
+          <attvalue for="7" value="0.00022222222222222223" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="ustr.gov" label="ustr.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ustr.gov" />
+          <attvalue for="4" value="http://www.ustr.gov" />
+          <attvalue for="5" value="18386" />
+          <attvalue for="6" value="ustr.gov" />
+          <attvalue for="7" value="0.0003333333333333333" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="uwi.edu" label="uwi.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="uwi.edu" />
+          <attvalue for="4" value="http://uwi.edu/" />
+          <attvalue for="5" value="63983" />
+          <attvalue for="6" value="uwi.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="vam.ac.uk" label="vam.ac.uk">
@@ -19438,16 +19576,9 @@
       </node>
       <node id="vulekamali.gov.za" label="vulekamali.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="vulekamali.gov.za" />
-          <attvalue for="4" value="http://vulekamali.gov.za/" />
-          <attvalue for="5" value="1660576" />
-          <attvalue for="6" value="vulekamali.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="wacommissionondrugs.org" label="wacommissionondrugs.org">
@@ -19686,9 +19817,16 @@
       </node>
       <node id="wmo.int" label="wmo.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="wmo.int" />
+          <attvalue for="4" value="http://www.wmo.int/#spider" />
+          <attvalue for="5" value="87591" />
+          <attvalue for="6" value="wmo.int" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="wnycstudios.org" label="wnycstudios.org">
@@ -19960,16 +20098,9 @@
       </node>
       <node id="deeds.gov.za" label="deeds.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="deeds.gov.za" />
-          <attvalue for="4" value="http://deeds.gov.za/" />
-          <attvalue for="5" value="1313884" />
-          <attvalue for="6" value="deeds.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dispatch.co.za" label="dispatch.co.za">
@@ -20030,16 +20161,9 @@
       </node>
       <node id="nhls.ac.za" label="nhls.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nhls.ac.za" />
-          <attvalue for="4" value="http://nhls.ac.za/" />
-          <attvalue for="5" value="513140" />
-          <attvalue for="6" value="nhls.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nperf.com" label="nperf.com">
@@ -20543,10 +20667,9 @@
       </node>
       <node id="nationalarchives.gov.za" label="nationalarchives.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nationalarchives.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="nfvf.co.za" label="nfvf.co.za">
@@ -20678,16 +20801,9 @@
       </node>
       <node id="ruraldevelopment.gov.za" label="ruraldevelopment.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ruraldevelopment.gov.za" />
-          <attvalue for="4" value="http://ruraldevelopment.gov.za/" />
-          <attvalue for="5" value="880616" />
-          <attvalue for="6" value="ruraldevelopment.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sanef.org.za" label="sanef.org.za">
@@ -20763,9 +20879,16 @@
       </node>
       <node id="ucsf.edu" label="ucsf.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ucsf.edu" />
+          <attvalue for="4" value="http://www.ucsf.edu#spider" />
+          <attvalue for="5" value="31925" />
+          <attvalue for="6" value="ucsf.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="vibe.com" label="vibe.com">
@@ -20906,16 +21029,9 @@
       </node>
       <node id="dpe.gov.za" label="dpe.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dpe.gov.za" />
-          <attvalue for="4" value="http://dpe.gov.za/" />
-          <attvalue for="5" value="144433" />
-          <attvalue for="6" value="dpe.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="drift.com" label="drift.com">
@@ -20990,9 +21106,16 @@
       </node>
       <node id="insead.edu" label="insead.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="insead.edu" />
+          <attvalue for="4" value="http://insead.edu/" />
+          <attvalue for="5" value="187131" />
+          <attvalue for="6" value="insead.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="kulula.com" label="kulula.com">
@@ -21173,16 +21296,9 @@
       </node>
       <node id="thedti.gov.za" label="thedti.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="thedti.gov.za" />
-          <attvalue for="4" value="http://thedti.gov.za/" />
-          <attvalue for="5" value="698664" />
-          <attvalue for="6" value="thedti.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="thezimbabwean.co" label="thezimbabwean.co">
@@ -21236,9 +21352,16 @@
       </node>
       <node id="upenn.edu" label="upenn.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="upenn.edu" />
+          <attvalue for="4" value="http://www.upenn.edu/#spider" />
+          <attvalue for="5" value="76716" />
+          <attvalue for="6" value="upenn.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="virtualcoachingpartners.com" label="virtualcoachingpartners.com">
@@ -21398,30 +21521,16 @@
       </node>
       <node id="dac.gov.za" label="dac.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dac.gov.za" />
-          <attvalue for="4" value="http://dac.gov.za/" />
-          <attvalue for="5" value="1034674" />
-          <attvalue for="6" value="dac.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="environment.gov.za" label="environment.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="environment.gov.za" />
-          <attvalue for="4" value="http://environment.gov.za/" />
-          <attvalue for="5" value="256701" />
-          <attvalue for="6" value="environment.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="farmersweekly.co.za" label="farmersweekly.co.za">
@@ -21461,16 +21570,9 @@
       </node>
       <node id="george.gov.za" label="george.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="george.gov.za" />
-          <attvalue for="4" value="http://george.gov.za/" />
-          <attvalue for="5" value="1591817" />
-          <attvalue for="6" value="george.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="georgemusicsociety.co.za" label="georgemusicsociety.co.za">
@@ -21547,16 +21649,9 @@
       </node>
       <node id="mandela.ac.za" label="mandela.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="mandela.ac.za" />
-          <attvalue for="4" value="http://mandela.ac.za/" />
-          <attvalue for="5" value="535910" />
-          <attvalue for="6" value="mandela.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="metrorail.co.za" label="metrorail.co.za">
@@ -21734,16 +21829,9 @@
       </node>
       <node id="srsa.gov.za" label="srsa.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="srsa.gov.za" />
-          <attvalue for="4" value="http://srsa.gov.za/" />
-          <attvalue for="5" value="1489786" />
-          <attvalue for="6" value="srsa.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="suidkaapforum.com" label="suidkaapforum.com">
@@ -21818,16 +21906,9 @@
       </node>
       <node id="tshwane.gov.za" label="tshwane.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="tshwane.gov.za" />
-          <attvalue for="4" value="http://tshwane.gov.za/" />
-          <attvalue for="5" value="968993" />
-          <attvalue for="6" value="tshwane.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sunflowerfund.org" label="sunflowerfund.org">
@@ -21881,16 +21962,9 @@
       </node>
       <node id="health.gov.za" label="health.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="health.gov.za" />
-          <attvalue for="4" value="http://health.gov.za/" />
-          <attvalue for="5" value="1367509" />
-          <attvalue for="6" value="health.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="rhodesmusicradio.co.za" label="rhodesmusicradio.co.za">
@@ -22050,9 +22124,16 @@
       </node>
       <node id="health.gov" label="health.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="health.gov" />
+          <attvalue for="4" value="http://health.gov/" />
+          <attvalue for="5" value="136338" />
+          <attvalue for="6" value="health.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="heart.org" label="heart.org">
@@ -22275,9 +22356,16 @@
       </node>
       <node id="umass.edu" label="umass.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="umass.edu" />
+          <attvalue for="4" value="http://www.umass.edu#spider" />
+          <attvalue for="5" value="32850" />
+          <attvalue for="6" value="umass.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="usada.org" label="usada.org">
@@ -22539,16 +22627,9 @@
       </node>
       <node id="vukuzenzele.gov.za" label="vukuzenzele.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="vukuzenzele.gov.za" />
-          <attvalue for="4" value="http://vukuzenzele.gov.za/" />
-          <attvalue for="5" value="1306130" />
-          <attvalue for="6" value="vukuzenzele.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="kloofconservancy.org.za" label="kloofconservancy.org.za">
@@ -23474,16 +23555,9 @@
       </node>
       <node id="sacap.edu.za" label="sacap.edu.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sacap.edu.za" />
-          <attvalue for="4" value="http://sacap.edu.za/" />
-          <attvalue for="5" value="1570313" />
-          <attvalue for="6" value="sacap.edu.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="safmh.org" label="safmh.org">
@@ -23617,10 +23691,9 @@
       </node>
       <node id="aarto.gov.za" label="aarto.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="aarto.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="aha.co.za" label="aha.co.za">
@@ -23842,10 +23915,9 @@
       </node>
       <node id="cornerstone.ac.za" label="cornerstone.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cornerstone.ac.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="coronavirusmonitor.co.za" label="coronavirusmonitor.co.za">
@@ -23914,10 +23986,9 @@
       </node>
       <node id="dcc.edu.za" label="dcc.edu.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dcc.edu.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="dertour.de" label="dertour.de">
@@ -24468,10 +24539,9 @@
       </node>
       <node id="natis.gov.za" label="natis.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="natis.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="nestle.com" label="nestle.com">
@@ -25068,16 +25138,9 @@
       </node>
       <node id="ukzn.ac.za" label="ukzn.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ukzn.ac.za" />
-          <attvalue for="4" value="http://ukzn.ac.za/" />
-          <attvalue for="5" value="58207" />
-          <attvalue for="6" value="ukzn.ac.za" />
-          <attvalue for="7" value="0.00044444444444444447" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="umdonipark.com" label="umdonipark.com">
@@ -25412,16 +25475,9 @@
       </node>
       <node id="che.ac.za" label="che.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="che.ac.za" />
-          <attvalue for="4" value="http://che.ac.za/" />
-          <attvalue for="5" value="1086437" />
-          <attvalue for="6" value="che.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="cisco.com" label="cisco.com">
@@ -25506,10 +25562,9 @@
       </node>
       <node id="ctutraining.ac.za" label="ctutraining.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ctutraining.ac.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="cyberark.com" label="cyberark.com">
@@ -25564,24 +25619,16 @@
       </node>
       <node id="dmr.gov.za" label="dmr.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dmr.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="dod.mil.za" label="dod.mil.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dod.mil.za" />
-          <attvalue for="4" value="http://dod.mil.za/" />
-          <attvalue for="5" value="494364" />
-          <attvalue for="6" value="dod.mil.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="duxbury.co.za" label="duxbury.co.za">
@@ -25652,10 +25699,9 @@
       </node>
       <node id="etenders.gov.za" label="etenders.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="etenders.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="euphoria.co.za" label="euphoria.co.za">
@@ -26008,18 +26054,16 @@
       </node>
       <node id="kzndard.gov.za" label="kzndard.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="kzndard.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="kznworks.gov.za" label="kznworks.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="kznworks.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="liferay.com" label="liferay.com">
@@ -26138,10 +26182,9 @@
       </node>
       <node id="ncpt.gov.za" label="ncpt.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ncpt.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="nda.org.za" label="nda.org.za">
@@ -26417,16 +26460,9 @@
       </node>
       <node id="sassa.gov.za" label="sassa.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sassa.gov.za" />
-          <attvalue for="4" value="http://sassa.gov.za/" />
-          <attvalue for="5" value="732958" />
-          <attvalue for="6" value="sassa.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sasseta.org.za" label="sasseta.org.za">
@@ -26830,9 +26866,16 @@
       </node>
       <node id="fcc.gov" label="fcc.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="fcc.gov" />
+          <attvalue for="4" value="http://fcc.gov/" />
+          <attvalue for="5" value="214761" />
+          <attvalue for="6" value="fcc.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="francaisonlinecasinos.net" label="francaisonlinecasinos.net">
@@ -27215,16 +27258,9 @@
       </node>
       <node id="dalrrd.gov.za" label="dalrrd.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dalrrd.gov.za" />
-          <attvalue for="4" value="http://dalrrd.gov.za/" />
-          <attvalue for="5" value="1802030" />
-          <attvalue for="6" value="dalrrd.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="elephantsalive.org" label="elephantsalive.org">
@@ -27271,10 +27307,9 @@
       </node>
       <node id="ldard.gov.za" label="ldard.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ldard.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="tripadvisor.co.za" label="tripadvisor.co.za">
@@ -27767,9 +27802,16 @@
       </node>
       <node id="coe.int" label="coe.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="coe.int" />
+          <attvalue for="4" value="http://www.coe.int" />
+          <attvalue for="5" value="21185" />
+          <attvalue for="6" value="coe.int" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="conflictantiquities.files.wordpress.com" label="conflictantiquities.files.wordpress.com">
@@ -27802,10 +27844,9 @@
       </node>
       <node id="dhs.gov.za" label="dhs.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dhs.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="dreamstime.com" label="dreamstime.com">
@@ -27838,16 +27879,9 @@
       </node>
       <node id="dst.gov.za" label="dst.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dst.gov.za" />
-          <attvalue for="4" value="http://dst.gov.za/" />
-          <attvalue for="5" value="255498" />
-          <attvalue for="6" value="dst.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="etu.org.za" label="etu.org.za">
@@ -28941,31 +28975,30 @@
       </node>
       <node id="unisa.ac.za" label="unisa.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="unisa.ac.za" />
-          <attvalue for="4" value="http://unisa.ac.za/" />
-          <attvalue for="5" value="683041" />
-          <attvalue for="6" value="unisa.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="usaf.ac.za" label="usaf.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="usaf.ac.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="usda.gov" label="usda.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="usda.gov" />
+          <attvalue for="4" value="http://www.usda.gov" />
+          <attvalue for="5" value="25070" />
+          <attvalue for="6" value="usda.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="veldskoen.shoes" label="veldskoen.shoes">
@@ -29035,9 +29068,16 @@
       </node>
       <node id="yale.edu" label="yale.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="yale.edu" />
+          <attvalue for="4" value="http://www.yale.edu" />
+          <attvalue for="5" value="25780" />
+          <attvalue for="6" value="yale.edu" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="mh.co.za" label="mh.co.za">
@@ -29070,9 +29110,16 @@
       </node>
       <node id="muhlenberg.edu" label="muhlenberg.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="muhlenberg.edu" />
+          <attvalue for="4" value="http://www.muhlenberg.edu/#spider" />
+          <attvalue for="5" value="85553" />
+          <attvalue for="6" value="muhlenberg.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="buyidaweti.co.za" label="buyidaweti.co.za">
@@ -29262,9 +29309,16 @@
       </node>
       <node id="epa.gov" label="epa.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="epa.gov" />
+          <attvalue for="4" value="http://www.epa.gov" />
+          <attvalue for="5" value="27125" />
+          <attvalue for="6" value="epa.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="euronews.com" label="euronews.com">
@@ -29381,9 +29435,16 @@
       </node>
       <node id="noaa.gov" label="noaa.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="noaa.gov" />
+          <attvalue for="4" value="http://www.noaa.gov/#spider" />
+          <attvalue for="5" value="70043" />
+          <attvalue for="6" value="noaa.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="odi.org" label="odi.org">
@@ -30249,7 +30310,7 @@
       </node>
       <node id="sec.gov" label="sec.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sec.gov" />
         </attvalues>
@@ -30299,9 +30360,16 @@
       </node>
       <node id="texas.gov" label="texas.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="texas.gov" />
+          <attvalue for="4" value="http://texas.gov/" />
+          <attvalue for="5" value="263281" />
+          <attvalue for="6" value="texas.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="thefoa.org" label="thefoa.org">
@@ -30670,16 +30738,9 @@
       </node>
       <node id="dut.ac.za" label="dut.ac.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dut.ac.za" />
-          <attvalue for="4" value="http://dut.ac.za/" />
-          <attvalue for="5" value="481571" />
-          <attvalue for="6" value="dut.ac.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ee.co.za" label="ee.co.za">
@@ -30860,10 +30921,9 @@
       </node>
       <node id="info.gov.za" label="info.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="info.gov.za" />
-          <attvalue for="3" value="ZAF" />
         </attvalues>
       </node>
       <node id="kpmed.co.za" label="kpmed.co.za">
@@ -30911,9 +30971,16 @@
       </node>
       <node id="loc.gov" label="loc.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="loc.gov" />
+          <attvalue for="4" value="http://www.loc.gov" />
+          <attvalue for="5" value="20488" />
+          <attvalue for="6" value="loc.gov" />
+          <attvalue for="7" value="0.061000000000000006" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="magazinefeatures.co.za" label="magazinefeatures.co.za">
@@ -31364,9 +31431,16 @@
       </node>
       <node id="tufts.edu" label="tufts.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="tufts.edu" />
+          <attvalue for="4" value="http://tufts.edu/" />
+          <attvalue for="5" value="117692" />
+          <attvalue for="6" value="tufts.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="turkisharchaeonews.net" label="turkisharchaeonews.net">
@@ -31631,9 +31705,16 @@
       </node>
       <node id="asu.edu" label="asu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="asu.edu" />
+          <attvalue for="4" value="http://www.asu.edu/#spider" />
+          <attvalue for="5" value="87935" />
+          <attvalue for="6" value="asu.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="auckland.ac.nz" label="auckland.ac.nz">
@@ -31764,9 +31845,16 @@
       </node>
       <node id="bts.gov" label="bts.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bts.gov" />
+          <attvalue for="4" value="http://www.bts.gov/#spider" />
+          <attvalue for="5" value="74435" />
+          <attvalue for="6" value="bts.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="bundesfinanzministerium.de" label="bundesfinanzministerium.de">
@@ -31869,9 +31957,16 @@
       </node>
       <node id="cia.gov" label="cia.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cia.gov" />
+          <attvalue for="4" value="https://www.cia.gov" />
+          <attvalue for="5" value="21019" />
+          <attvalue for="6" value="cia.gov" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="covid19.govt.nz" label="covid19.govt.nz">
@@ -31939,23 +32034,44 @@
       </node>
       <node id="defense.gov" label="defense.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="defense.gov" />
+          <attvalue for="4" value="http://www.defense.gov" />
+          <attvalue for="5" value="18675" />
+          <attvalue for="6" value="defense.gov" />
+          <attvalue for="7" value="0.0015555555555555557" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dni.gov" label="dni.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dni.gov" />
+          <attvalue for="4" value="http://www.dni.gov/#spider" />
+          <attvalue for="5" value="52444" />
+          <attvalue for="6" value="dni.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="dost.gov.ph" label="dost.gov.ph">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dost.gov.ph" />
+          <attvalue for="4" value="http://dost.gov.ph/" />
+          <attvalue for="5" value="496422" />
+          <attvalue for="6" value="dost.gov.ph" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="drawdown.org" label="drawdown.org">
@@ -32345,9 +32461,16 @@
       </node>
       <node id="mit.edu" label="mit.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="mit.edu" />
+          <attvalue for="4" value="http://www.mit.edu" />
+          <attvalue for="5" value="25186" />
+          <attvalue for="6" value="mit.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="mitpressjournals.org" label="mitpressjournals.org">
@@ -32527,9 +32650,16 @@
       </node>
       <node id="nsf.gov" label="nsf.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nsf.gov" />
+          <attvalue for="4" value="http://www.nsf.gov#spider" />
+          <attvalue for="5" value="33799" />
+          <attvalue for="6" value="nsf.gov" />
+          <attvalue for="7" value="0.016" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nzherald.co.nz" label="nzherald.co.nz">
@@ -32548,9 +32678,16 @@
       </node>
       <node id="odni.gov" label="odni.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="odni.gov" />
+          <attvalue for="4" value="http://www.odni.gov/#spider" />
+          <attvalue for="5" value="71217" />
+          <attvalue for="6" value="odni.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="operadonfolci.com" label="operadonfolci.com">
@@ -32709,9 +32846,16 @@
       </node>
       <node id="speaker.gov" label="speaker.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="speaker.gov" />
+          <attvalue for="4" value="http://www.speaker.gov" />
+          <attvalue for="5" value="22193" />
+          <attvalue for="6" value="speaker.gov" />
+          <attvalue for="7" value="0.005555555555555556" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="spiegel.de" label="spiegel.de">
@@ -32737,9 +32881,16 @@
       </node>
       <node id="stateoig.gov" label="stateoig.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="stateoig.gov" />
+          <attvalue for="4" value="http://stateoig.gov/" />
+          <attvalue for="5" value="858317" />
+          <attvalue for="6" value="stateoig.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="straitstimes.com" label="straitstimes.com">
@@ -32828,9 +32979,16 @@
       </node>
       <node id="ucsd.edu" label="ucsd.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ucsd.edu" />
+          <attvalue for="4" value="http://ucsd.edu/" />
+          <attvalue for="5" value="146699" />
+          <attvalue for="6" value="ucsd.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ucsusa.org" label="ucsusa.org">
@@ -32898,23 +33056,44 @@
       </node>
       <node id="up.edu" label="up.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="up.edu" />
+          <attvalue for="4" value="http://up.edu/" />
+          <attvalue for="5" value="443154" />
+          <attvalue for="6" value="up.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="usap.gov" label="usap.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="usap.gov" />
+          <attvalue for="4" value="http://usap.gov/" />
+          <attvalue for="5" value="444077" />
+          <attvalue for="6" value="usap.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="usgs.gov" label="usgs.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="usgs.gov" />
+          <attvalue for="4" value="http://www.usgs.gov/#spider" />
+          <attvalue for="5" value="87378" />
+          <attvalue for="6" value="usgs.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="valtioneuvosto.fi" label="valtioneuvosto.fi">
@@ -33101,9 +33280,16 @@
       </node>
       <node id="acenet.edu" label="acenet.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="acenet.edu" />
+          <attvalue for="4" value="http://www.acenet.edu/#spider" />
+          <attvalue for="5" value="95601" />
+          <attvalue for="6" value="acenet.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="aclutx.org" label="aclutx.org">
@@ -33262,9 +33448,16 @@
       </node>
       <node id="auburn.edu" label="auburn.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="auburn.edu" />
+          <attvalue for="4" value="http://www.auburn.edu/#spider" />
+          <attvalue for="5" value="71963" />
+          <attvalue for="6" value="auburn.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="babynyar.org" label="babynyar.org">
@@ -33388,7 +33581,7 @@
       </node>
       <node id="ca.gov" label="ca.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ca.gov" />
         </attvalues>
@@ -33633,9 +33826,16 @@
       </node>
       <node id="clinicaltrials.gov" label="clinicaltrials.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="clinicaltrials.gov" />
+          <attvalue for="4" value="http://clinicaltrials.gov" />
+          <attvalue for="5" value="20039" />
+          <attvalue for="6" value="clinicaltrials.gov" />
+          <attvalue for="7" value="0.0021111111111111113" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="cnhubei.com" label="cnhubei.com">
@@ -33661,9 +33861,16 @@
       </node>
       <node id="cornell.edu" label="cornell.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cornell.edu" />
+          <attvalue for="4" value="http://www.cornell.edu/#spider" />
+          <attvalue for="5" value="87763" />
+          <attvalue for="6" value="cornell.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="crucial.com" label="crucial.com">
@@ -33717,9 +33924,16 @@
       </node>
       <node id="dc.gov" label="dc.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dc.gov" />
+          <attvalue for="4" value="http://dc.gov/#spider" />
+          <attvalue for="5" value="95626" />
+          <attvalue for="6" value="dc.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="deloitte.com" label="deloitte.com">
@@ -33913,9 +34127,16 @@
       </node>
       <node id="gao.gov" label="gao.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="gao.gov" />
+          <attvalue for="4" value="http://www.gao.gov" />
+          <attvalue for="5" value="18975" />
+          <attvalue for="6" value="gao.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="gothamist.com" label="gothamist.com">
@@ -34032,9 +34253,16 @@
       </node>
       <node id="hhs.gov" label="hhs.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="hhs.gov" />
+          <attvalue for="4" value="http://www.hhs.gov" />
+          <attvalue for="5" value="19644" />
+          <attvalue for="6" value="hhs.gov" />
+          <attvalue for="7" value="0.00022222222222222223" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="hindustantimes.com" label="hindustantimes.com">
@@ -34186,9 +34414,16 @@
       </node>
       <node id="ithaca.edu" label="ithaca.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ithaca.edu" />
+          <attvalue for="4" value="http://www.ithaca.edu/#spider" />
+          <attvalue for="5" value="67358" />
+          <attvalue for="6" value="ithaca.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="jamesbeard.org" label="jamesbeard.org">
@@ -34249,9 +34484,16 @@
       </node>
       <node id="k-state.edu" label="k-state.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="k-state.edu" />
+          <attvalue for="4" value="http://k-state.edu/" />
+          <attvalue for="5" value="147607" />
+          <attvalue for="6" value="k-state.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="kappanonline.org" label="kappanonline.org">
@@ -34312,9 +34554,16 @@
       </node>
       <node id="ku.edu" label="ku.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ku.edu" />
+          <attvalue for="4" value="http://www.ku.edu#spider" />
+          <attvalue for="5" value="35316" />
+          <attvalue for="6" value="ku.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="kunlunce.com" label="kunlunce.com">
@@ -34669,9 +34918,16 @@
       </node>
       <node id="nap.edu" label="nap.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nap.edu" />
+          <attvalue for="4" value="http://www.nap.edu" />
+          <attvalue for="5" value="22069" />
+          <attvalue for="6" value="nap.edu" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nationalastro.org" label="nationalastro.org">
@@ -34732,9 +34988,16 @@
       </node>
       <node id="nd.edu" label="nd.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nd.edu" />
+          <attvalue for="4" value="http://nd.edu/" />
+          <attvalue for="5" value="110645" />
+          <attvalue for="6" value="nd.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nenasanchez.com" label="nenasanchez.com">
@@ -34865,9 +35128,16 @@
       </node>
       <node id="nps.gov" label="nps.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nps.gov" />
+          <attvalue for="4" value="http://www.nps.gov" />
+          <attvalue for="5" value="25995" />
+          <attvalue for="6" value="nps.gov" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nsw.gov.au" label="nsw.gov.au">
@@ -34907,16 +35177,30 @@
       </node>
       <node id="ny.gov" label="ny.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ny.gov" />
+          <attvalue for="4" value="http://ny.gov/" />
+          <attvalue for="5" value="193296" />
+          <attvalue for="6" value="ny.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nyc.gov" label="nyc.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nyc.gov" />
+          <attvalue for="4" value="http://www.nyc.gov" />
+          <attvalue for="5" value="24936" />
+          <attvalue for="6" value="nyc.gov" />
+          <attvalue for="7" value="0.0006666666666666666" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nyt.com" label="nyt.com">
@@ -34998,9 +35282,16 @@
       </node>
       <node id="pa.gov" label="pa.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="pa.gov" />
+          <attvalue for="4" value="http://pa.gov/" />
+          <attvalue for="5" value="169151" />
+          <attvalue for="6" value="pa.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="passblue.com" label="passblue.com">
@@ -35019,16 +35310,30 @@
       </node>
       <node id="patreasury.gov" label="patreasury.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="patreasury.gov" />
+          <attvalue for="4" value="http://patreasury.gov/" />
+          <attvalue for="5" value="746976" />
+          <attvalue for="6" value="patreasury.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="pdx.edu" label="pdx.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="pdx.edu" />
+          <attvalue for="4" value="http://pdx.edu/" />
+          <attvalue for="5" value="140353" />
+          <attvalue for="6" value="pdx.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="pearvideo.com" label="pearvideo.com">
@@ -35299,9 +35604,16 @@
       </node>
       <node id="regulations.gov" label="regulations.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="regulations.gov" />
+          <attvalue for="4" value="http://www.regulations.gov" />
+          <attvalue for="5" value="23221" />
+          <attvalue for="6" value="regulations.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="resy.com" label="resy.com">
@@ -35397,9 +35709,16 @@
       </node>
       <node id="sbctc.edu" label="sbctc.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="sbctc.edu" />
+          <attvalue for="4" value="http://sbctc.edu/" />
+          <attvalue for="5" value="1485792" />
+          <attvalue for="6" value="sbctc.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sccgov.org" label="sccgov.org">
@@ -35656,9 +35975,16 @@
       </node>
       <node id="texasattorneygeneral.gov" label="texasattorneygeneral.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="texasattorneygeneral.gov" />
+          <attvalue for="4" value="https://texasattorneygeneral.gov/" />
+          <attvalue for="5" value="113980" />
+          <attvalue for="6" value="texasattorneygeneral.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="texastribune.org" label="texastribune.org">
@@ -35803,9 +36129,16 @@
       </node>
       <node id="tn.gov" label="tn.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="tn.gov" />
+          <attvalue for="4" value="http://www.tn.gov/#spider" />
+          <attvalue for="5" value="84994" />
+          <attvalue for="6" value="tn.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="truthinadvertising.org" label="truthinadvertising.org">
@@ -35838,9 +36171,16 @@
       </node>
       <node id="tulane.edu" label="tulane.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="tulane.edu" />
+          <attvalue for="4" value="http://tulane.edu/" />
+          <attvalue for="5" value="131271" />
+          <attvalue for="6" value="tulane.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ualberta.ca" label="ualberta.ca">
@@ -35859,9 +36199,16 @@
       </node>
       <node id="umaryland.edu" label="umaryland.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="umaryland.edu" />
+          <attvalue for="4" value="http://umaryland.edu/" />
+          <attvalue for="5" value="191847" />
+          <attvalue for="6" value="umaryland.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="uncf.org" label="uncf.org">
@@ -35950,16 +36297,30 @@
       </node>
       <node id="utah.edu" label="utah.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="utah.edu" />
+          <attvalue for="4" value="http://utah.edu/" />
+          <attvalue for="5" value="182235" />
+          <attvalue for="6" value="utah.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="vt.edu" label="vt.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="vt.edu" />
+          <attvalue for="4" value="http://www.vt.edu/#spider" />
+          <attvalue for="5" value="91270" />
+          <attvalue for="6" value="vt.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="wdtv.com" label="wdtv.com">
@@ -36006,9 +36367,16 @@
       </node>
       <node id="wisconsin.gov" label="wisconsin.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="wisconsin.gov" />
+          <attvalue for="4" value="http://wisconsin.gov/" />
+          <attvalue for="5" value="534178" />
+          <attvalue for="6" value="wisconsin.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="wjactv.com" label="wjactv.com">
@@ -36645,9 +37013,16 @@
       </node>
       <node id="nrc.gov" label="nrc.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nrc.gov" />
+          <attvalue for="4" value="http://www.nrc.gov/#spider" />
+          <attvalue for="5" value="75167" />
+          <attvalue for="6" value="nrc.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="popularmechanics.com" label="popularmechanics.com">
@@ -36842,16 +37217,9 @@
       </node>
       <node id="dcs.gov.za" label="dcs.gov.za">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dcs.gov.za" />
-          <attvalue for="4" value="http://dcs.gov.za/" />
-          <attvalue for="5" value="569108" />
-          <attvalue for="6" value="dcs.gov.za" />
-          <attvalue for="7" value="0.0" />
-          <attvalue for="3" value="ZAF" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="deref-mail.com" label="deref-mail.com">
@@ -37322,23 +37690,44 @@
       </node>
       <node id="antioch.edu" label="antioch.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="antioch.edu" />
+          <attvalue for="4" value="http://antioch.edu/" />
+          <attvalue for="5" value="439294" />
+          <attvalue for="6" value="antioch.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="bu.edu" label="bu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bu.edu" />
+          <attvalue for="4" value="http://www.bu.edu" />
+          <attvalue for="5" value="23431" />
+          <attvalue for="6" value="bu.edu" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="capital.edu" label="capital.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="capital.edu" />
+          <attvalue for="4" value="http://capital.edu/" />
+          <attvalue for="5" value="489497" />
+          <attvalue for="6" value="capital.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="capstoneproject.net" label="capstoneproject.net">
@@ -37350,9 +37739,16 @@
       </node>
       <node id="colostate.edu" label="colostate.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="colostate.edu" />
+          <attvalue for="4" value="http://www.colostate.edu/#spider" />
+          <attvalue for="5" value="92806" />
+          <attvalue for="6" value="colostate.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="digitalstreetsa.com" label="digitalstreetsa.com">
@@ -37378,9 +37774,16 @@
       </node>
       <node id="erau.edu" label="erau.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="erau.edu" />
+          <attvalue for="4" value="http://www.erau.edu/#spider" />
+          <attvalue for="5" value="86853" />
+          <attvalue for="6" value="erau.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="expert-writers.net" label="expert-writers.net">
@@ -37420,9 +37823,16 @@
       </node>
       <node id="northwestern.edu" label="northwestern.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="northwestern.edu" />
+          <attvalue for="4" value="http://www.northwestern.edu/#spider" />
+          <attvalue for="5" value="73949" />
+          <attvalue for="6" value="northwestern.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="outdoorclassroomday.co.za" label="outdoorclassroomday.co.za">
@@ -37435,9 +37845,16 @@
       </node>
       <node id="pace.edu" label="pace.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="pace.edu" />
+          <attvalue for="4" value="http://pace.edu/#spider" />
+          <attvalue for="5" value="93437" />
+          <attvalue for="6" value="pace.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="paraphraseexample.com" label="paraphraseexample.com">
@@ -37519,9 +37936,16 @@
       </node>
       <node id="scu.edu" label="scu.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="scu.edu" />
+          <attvalue for="4" value="http://www.scu.edu#spider" />
+          <attvalue for="5" value="30281" />
+          <attvalue for="6" value="scu.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="summarizing.biz" label="summarizing.biz">
@@ -37533,30 +37957,58 @@
       </node>
       <node id="syr.edu" label="syr.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="syr.edu" />
+          <attvalue for="4" value="http://syr.edu/" />
+          <attvalue for="5" value="116007" />
+          <attvalue for="6" value="syr.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="usc.edu" label="usc.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="usc.edu" />
+          <attvalue for="4" value="http://www.usc.edu#spider" />
+          <attvalue for="5" value="29570" />
+          <attvalue for="6" value="usc.edu" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="virginia.edu" label="virginia.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="virginia.edu" />
+          <attvalue for="4" value="http://virginia.edu" />
+          <attvalue for="5" value="21322" />
+          <attvalue for="6" value="virginia.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="wm.edu" label="wm.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="wm.edu" />
+          <attvalue for="4" value="http://www.wm.edu/#spider" />
+          <attvalue for="5" value="88255" />
+          <attvalue for="6" value="wm.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="writing-online.net" label="writing-online.net">
@@ -37643,9 +38095,16 @@
       </node>
       <node id="getty.edu" label="getty.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="getty.edu" />
+          <attvalue for="4" value="http://www.getty.edu/#spider" />
+          <attvalue for="5" value="80387" />
+          <attvalue for="6" value="getty.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="joburg.org.za" label="joburg.org.za">
@@ -38098,9 +38557,16 @@
       </node>
       <node id="caltech.edu" label="caltech.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="caltech.edu" />
+          <attvalue for="4" value="http://caltech.edu/" />
+          <attvalue for="5" value="159507" />
+          <attvalue for="6" value="caltech.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="cbsistatic.com" label="cbsistatic.com">
@@ -38161,9 +38627,16 @@
       </node>
       <node id="colorado.edu" label="colorado.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="colorado.edu" />
+          <attvalue for="4" value="http://www.colorado.edu/#spider" />
+          <attvalue for="5" value="78251" />
+          <attvalue for="6" value="colorado.edu" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="computerhistory.org" label="computerhistory.org">
@@ -38273,9 +38746,16 @@
       </node>
       <node id="eia.gov" label="eia.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="eia.gov" />
+          <attvalue for="4" value="http://www.eia.gov/#spider" />
+          <attvalue for="5" value="67016" />
+          <attvalue for="6" value="eia.gov" />
+          <attvalue for="7" value="0.00022222222222222223" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="eweek.com" label="eweek.com">
@@ -38385,9 +38865,16 @@
       </node>
       <node id="ftc.gov" label="ftc.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ftc.gov" />
+          <attvalue for="4" value="http://www.ftc.gov" />
+          <attvalue for="5" value="19216" />
+          <attvalue for="6" value="ftc.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="g-youoweus.co.uk" label="g-youoweus.co.uk">
@@ -38448,9 +38935,16 @@
       </node>
       <node id="globalchange.gov" label="globalchange.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="globalchange.gov" />
+          <attvalue for="4" value="http://www.globalchange.gov/#spider" />
+          <attvalue for="5" value="92819" />
+          <attvalue for="6" value="globalchange.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="googleapis.com" label="googleapis.com">
@@ -39232,9 +39726,16 @@
       </node>
       <node id="secretservice.gov" label="secretservice.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="secretservice.gov" />
+          <attvalue for="4" value="http://www.secretservice.gov" />
+          <attvalue for="5" value="25311" />
+          <attvalue for="6" value="secretservice.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="sfconservancy.org" label="sfconservancy.org">
@@ -39673,9 +40174,16 @@
       </node>
       <node id="utexas.edu" label="utexas.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="utexas.edu" />
+          <attvalue for="4" value="http://www.utexas.edu" />
+          <attvalue for="5" value="19669" />
+          <attvalue for="6" value="utexas.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="vox-cdn.com" label="vox-cdn.com">
@@ -39708,9 +40216,16 @@
       </node>
       <node id="wa.gov" label="wa.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="wa.gov" />
+          <attvalue for="4" value="http://wa.gov/" />
+          <attvalue for="5" value="154442" />
+          <attvalue for="6" value="wa.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="wap.org" label="wap.org">
@@ -40200,9 +40715,16 @@
       </node>
       <node id="bridgew.edu" label="bridgew.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bridgew.edu" />
+          <attvalue for="4" value="http://bridgew.edu/" />
+          <attvalue for="5" value="172912" />
+          <attvalue for="6" value="bridgew.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="bushheritage.org.au" label="bushheritage.org.au">
@@ -41471,7 +41993,7 @@
       </node>
       <node id="iom.int" label="iom.int">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="iom.int" />
         </attvalues>
@@ -41822,9 +42344,16 @@
       </node>
       <node id="llnl.gov" label="llnl.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="llnl.gov" />
+          <attvalue for="4" value="https://www.llnl.gov/#spider" />
+          <attvalue for="5" value="96546" />
+          <attvalue for="6" value="llnl.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="maaproject.org" label="maaproject.org">
@@ -43339,16 +43868,30 @@
       </node>
       <node id="uaf.edu" label="uaf.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="uaf.edu" />
+          <attvalue for="4" value="http://uaf.edu/" />
+          <attvalue for="5" value="142416" />
+          <attvalue for="6" value="uaf.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ucar.edu" label="ucar.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ucar.edu" />
+          <attvalue for="4" value="https://ucar.edu/" />
+          <attvalue for="5" value="135804" />
+          <attvalue for="6" value="ucar.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="unep.org" label="unep.org">
@@ -44274,9 +44817,16 @@
       </node>
       <node id="energy.gov" label="energy.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="energy.gov" />
+          <attvalue for="4" value="http://energy.gov/#spider" />
+          <attvalue for="5" value="82679" />
+          <attvalue for="6" value="energy.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="evotel.co.za" label="evotel.co.za">
@@ -44684,9 +45234,16 @@
       </node>
       <node id="bc.edu" label="bc.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bc.edu" />
+          <attvalue for="4" value="http://www.bc.edu/#spider" />
+          <attvalue for="5" value="67822" />
+          <attvalue for="6" value="bc.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="becomecharity.org.uk" label="becomecharity.org.uk">
@@ -44712,7 +45269,7 @@
       </node>
       <node id="berkeley.edu" label="berkeley.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="berkeley.edu" />
         </attvalues>
@@ -45027,9 +45584,16 @@
       </node>
       <node id="columbusstate.edu" label="columbusstate.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="columbusstate.edu" />
+          <attvalue for="4" value="http://columbusstate.edu/" />
+          <attvalue for="5" value="802749" />
+          <attvalue for="6" value="columbusstate.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="connexionfrance.com" label="connexionfrance.com">
@@ -45629,9 +46193,16 @@
       </node>
       <node id="ias.edu" label="ias.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ias.edu" />
+          <attvalue for="4" value="http://ias.edu/" />
+          <attvalue for="5" value="119308" />
+          <attvalue for="6" value="ias.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ijidonline.com" label="ijidonline.com">
@@ -48462,9 +49033,16 @@
       </node>
       <node id="cisa.gov" label="cisa.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cisa.gov" />
+          <attvalue for="4" value="http://cisa.gov/" />
+          <attvalue for="5" value="1326448" />
+          <attvalue for="6" value="cisa.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="city-journal.org" label="city-journal.org">
@@ -48546,9 +49124,16 @@
       </node>
       <node id="columbus.gov" label="columbus.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="columbus.gov" />
+          <attvalue for="4" value="http://columbus.gov/" />
+          <attvalue for="5" value="156259" />
+          <attvalue for="6" value="columbus.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="container-news.com" label="container-news.com">
@@ -48903,9 +49488,16 @@
       </node>
       <node id="gatech.edu" label="gatech.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="gatech.edu" />
+          <attvalue for="4" value="http://gatech.edu/" />
+          <attvalue for="5" value="128558" />
+          <attvalue for="6" value="gatech.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="gazelle.com" label="gazelle.com">
@@ -49043,9 +49635,16 @@
       </node>
       <node id="humboldt.edu" label="humboldt.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="humboldt.edu" />
+          <attvalue for="4" value="http://humboldt.edu/" />
+          <attvalue for="5" value="430499" />
+          <attvalue for="6" value="humboldt.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="hypeauditor.com" label="hypeauditor.com">
@@ -49092,9 +49691,16 @@
       </node>
       <node id="iit.edu" label="iit.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="iit.edu" />
+          <attvalue for="4" value="http://iit.edu/" />
+          <attvalue for="5" value="133014" />
+          <attvalue for="6" value="iit.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="indiewire.com" label="indiewire.com">
@@ -49134,9 +49740,16 @@
       </node>
       <node id="iowa.gov" label="iowa.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="iowa.gov" />
+          <attvalue for="4" value="http://iowa.gov/" />
+          <attvalue for="5" value="264552" />
+          <attvalue for="6" value="iowa.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="irena.org" label="irena.org">
@@ -49421,9 +50034,16 @@
       </node>
       <node id="monmouth.edu" label="monmouth.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="monmouth.edu" />
+          <attvalue for="4" value="http://www.monmouth.edu/#spider" />
+          <attvalue for="5" value="72473" />
+          <attvalue for="6" value="monmouth.edu" />
+          <attvalue for="7" value="0.00011111111111111112" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="English" />
         </attvalues>
       </node>
       <node id="motherjones.com" label="motherjones.com">
@@ -49435,9 +50055,16 @@
       </node>
       <node id="ms.gov" label="ms.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ms.gov" />
+          <attvalue for="4" value="http://www.ms.gov/#spider" />
+          <attvalue for="5" value="95782" />
+          <attvalue for="6" value="ms.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="msnbc.com" label="msnbc.com">
@@ -49456,9 +50083,16 @@
       </node>
       <node id="mt.gov" label="mt.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="mt.gov" />
+          <attvalue for="4" value="http://mt.gov/" />
+          <attvalue for="5" value="245464" />
+          <attvalue for="6" value="mt.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="mycentraljersey.com" label="mycentraljersey.com">
@@ -49540,9 +50174,16 @@
       </node>
       <node id="northeastern.edu" label="northeastern.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="northeastern.edu" />
+          <attvalue for="4" value="http://www.northeastern.edu" />
+          <attvalue for="5" value="22407" />
+          <attvalue for="6" value="northeastern.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="nydailynews.com" label="nydailynews.com">
@@ -49568,9 +50209,16 @@
       </node>
       <node id="ornl.gov" label="ornl.gov">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="ornl.gov" />
+          <attvalue for="4" value="http://www.ornl.gov#spider" />
+          <attvalue for="5" value="32531" />
+          <attvalue for="6" value="ornl.gov" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="ovic.vic.gov.au" label="ovic.vic.gov.au">
@@ -50205,9 +50853,16 @@
       </node>
       <node id="umassmed.edu" label="umassmed.edu">
         <attvalues>
-          <attvalue for="0" value="Educational" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="umassmed.edu" />
+          <attvalue for="4" value="http://umassmed.edu/" />
+          <attvalue for="5" value="181978" />
+          <attvalue for="6" value="umassmed.edu" />
+          <attvalue for="7" value="0.0" />
+          <attvalue for="3" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="underarmour.com" label="underarmour.com">

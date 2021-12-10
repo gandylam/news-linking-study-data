@@ -1,33 +1,37 @@
 import re
 import tldextract
 from typing import List
+import os
+import pandas as pd
+
+from analyzer import data_dir
 
 SEARCH_ENGINE_DOMAINS = ['google.com', 'bing.com', 'duckduckgo.com', 'baidu.com']
 
-# domain names of most linked to platforms
-PLATFORM_DOMAINS = [
-    'facebook.com', 'fb.me', 'fb.com', 'messenger.com', 'youtube.com', 'instagram.com', 'linkedin.com', 'pinterest.com',
-    'twitter.com', 'whatsapp.com', 'wechat.com', 'tiktok.com', 'qq.com', 'weibo.com', 'reddit.com', 'snapchat.com',
-    'bit.ly', 'youtu.be'
-]
-
 # official websites run by government entities
-GOV_DOMAIN_SUFFIXES = [
-    '.gov.ph', '.gov', '.int'
-]
-GOV_DOMAINS = ['un.org', 'cdc.gov', 'worldbank.org']
+GOV_DOMAINS = ['un.org', 'worldbank.org']
 
 # universities and such
-EDUCATIONAL_DOMAINS_SUFFIXES = [
-    '.edu', '.edu.ph'
-]
+EDUCATIONAL_DOMAINS_SUFFIXES = {
+    'global': '.edu',
+    'PHL': '.edu.ph',
+}
 
-countries = ['IND', 'GBR', 'KEN', 'ZAF', 'AUS', 'PHL', 'USA']
+suffixes_df = pd.read_csv(os.path.join(data_dir, 'country-domain-suffixes.csv'))
+gov_suffixes = suffixes_df[suffixes_df['category'] == 'GOV'].groupby('country_alpha3')
+edu_suffixes = suffixes_df[suffixes_df['category'] == 'EDU'].groupby('country_alpha3')
+tld_suffixes = suffixes_df[suffixes_df['category'] == 'TLD'].groupby('country_alpha3')
+
+platform_domains = [l.strip().lower() for l in open(os.path.join(data_dir, 'platform-domains.txt')).readlines()]
+
+
+def is_platform_domain(domain:str) -> bool:
+    return domain.lower() in platform_domains
 
 
 def has_country_suffix(domain: str, country_alpha3: str) -> bool:
     # https://en.wikipedia.org/wiki/Country_code_top-level_domain
-    if country_alpha3 == 'IN':
+    if country_alpha3 == 'IND':
         return _domain_ends_with(domain, ['.in'])
     elif country_alpha3 == 'GBR':
         return _domain_ends_with(domain, ['.uk', '.ac', '.bm', '.fk', '.gi', '.gs', '.ky', '.ms', '.pn', '.sh', '.tc', '.vg'])
@@ -45,18 +49,21 @@ def has_country_suffix(domain: str, country_alpha3: str) -> bool:
 
 
 def _domain_ends_with(domain: str, suffixes: List) -> bool:
-    for suffix in suffixes:
+    # here we sort from longest to shortest in order to make sure subdomains get caught first
+    for suffix in sorted(suffixes, key=len, reverse=True):
         if domain.endswith(suffix):
             return True
     return False
 
 
-def is_government_domain(domain: str) -> bool:
-    return _domain_ends_with(domain, GOV_DOMAIN_SUFFIXES) or (domain in GOV_DOMAINS)
+def is_government_domain(domain: str, country: str) -> bool:
+    country_gov_suffixes = list(gov_suffixes.get_group(country)['suffix'])
+    return _domain_ends_with(domain, country_gov_suffixes) or (domain in GOV_DOMAINS)
 
 
-def is_educational_domain(domain: str) -> bool:
-    return _domain_ends_with(domain, EDUCATIONAL_DOMAINS_SUFFIXES)
+def is_educational_domain(domain: str, country: str) -> bool:
+    country_edu_suffixes = list(edu_suffixes.get_group(country)['suffix'])
+    return _domain_ends_with(domain, country_edu_suffixes)
 
 
 # by James O'Toole (Media Cloud)
