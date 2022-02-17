@@ -3,15 +3,20 @@ Linking in the News Study Data Processor
 
 Code to generate data for a study into cross-national linking norms in online news.
 
+## Install
+
+1. `conda install --file requirement.txt`, or `pip install -r requirements.txt`
+2. `pip install click==7.1.2` - had to manually downgrade ([issue](https://github.com/explosion/spaCy/issues/7160#issuecomment-865453069))
+3. `python -m spacy download en_core_web_sm`
+
 ## Process
 
 1. Download all the stories with HTML into the `input` folder - there should be one folder per media source in there (see below for full query)
-2. Run `run-pipeline.sh` to run the analysis on all the stories (this adds metadata to each existing file)
-3. Run `run-export-links.sh` to export the metadata added by the pipe to ndjson/csv (in `export/links-by-media`) 
-4. Combine the CSV files into one: `csvstack export/links-by-media/csv/*.csv > export/links-by-media/all.csv` for use
-with Tableau or R Studio
+2. Run `run-pipeline.sh` to export the metadata ndjson/csv (in `export/links-by-media`) - this takes a while! 
+3. Combine the CSV files into one: `combine-link-csvs.sh` for use with Tableau or R Studio
+4. Run `python remove-duplicates.py` to remove duplicates in the `all.csv` file, creating an `all-no-dupes.csv`
 5. Combine the NDJSON files into one: `cat export/links-by-media/ndjson/*.ndjson > export/links-by-media/all.ndjson`
-6. Combine those into one file of all unique domains: `cat export/domain-links-by-media/*.csv | sort | uniq > export/all-domains.txt`
+6. Combine those into one file of all unique domains linked to: `cat export/domain-links-by-media/*.csv | sort | uniq > export/all-domains.txt`
 7. Run `python export-domains.py` to write a file for each media source with all the domains link to/from
 8. Run `python fetch-domain-info.py` to check for Media Cloud metadata for each media source 
 9. Run `python export-network-graphs.py` to generate network graphs for each country, with full source metadata embedded
