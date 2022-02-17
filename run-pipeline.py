@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
     # run our pipeline **for each media directory**
     media_dirs = [os.path.join(INPUT_DIR, f) for f in os.listdir(INPUT_DIR) if os.path.isdir(os.path.join(INPUT_DIR, f))]
-    for media_dir in media_dirs[:3]:
+    for media_dir in media_dirs:
         media_id = media_dir.split("/")[-1]
         story_csv_file = os.path.join("export", "stories-by-media", "{}-stories.csv".format(media_id))
         link_csv_file = os.path.join("export", "links-by-media", "csv", "{}-links.csv".format(media_id))
