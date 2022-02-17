@@ -38,3 +38,8 @@ class TestDomains(unittest.TestCase):
     def test_has_country_suffix(self):
         domain = 'awesome-stuff.in'
         assert domains.has_country_suffix(domain, 'IND') is True
+
+    def test_get_manual_category(self):
+        assert domains.get_manual_category('USA', 'cdc.gov') == 'Government'
+        assert domains.get_manual_category('ZAF', 'cdc.gov') == 'Foreign Government'
+        assert domains.get_manual_category('IND', 'mediacloud.org') is None

@@ -4,7 +4,7 @@ from typing import List
 import os
 import pandas as pd
 
-from analyzer import data_dir
+from analyzer import data_dir, COUNTRIES
 
 SEARCH_ENGINE_DOMAINS = ['google.com', 'bing.com', 'duckduckgo.com', 'baidu.com']
 
@@ -24,8 +24,21 @@ tld_suffixes = suffixes_df[suffixes_df['category'] == 'TLD'].groupby('country_al
 
 platform_domains = [l.strip().lower() for l in open(os.path.join(data_dir, 'platform-domains.txt')).readlines()]
 
+# load up manually coded domain categories
+manual_domain_category_lookups = {}  # Dict[country, Dict[domain,category]]
+for c in COUNTRIES:
+    lookup = {}
+    df = pd.read_csv(os.path.join(data_dir, "domain-categories-{}.csv".format(c)))
+    for idx, row in df.iterrows():
+        lookup[row['Id']] = row['Category']
+    manual_domain_category_lookups[c] = lookup
 
-def is_platform_domain(domain:str) -> bool:
+
+def get_manual_category(country: str, domain: str) -> str:
+    return manual_domain_category_lookups[country].get(domain, None)
+
+
+def is_platform_domain(domain: str) -> bool:
     return domain.lower() in platform_domains
 
 

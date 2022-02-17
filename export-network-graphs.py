@@ -96,6 +96,10 @@ if __name__ == '__main__':
                 details = dict(category='National Media Source', domain=n, country=country_alpha3)
             else:
                 details = dict(domain=n)
+            # overide this heuristic with the manually coded categories, because those are FAR better
+            manual_category = domains.get_manual_category(country_alpha3, n)
+            if manual_category is not None:
+                details['category'] = manual_category
             if details is not None:
                 node_attributes[n] = details
         nx.set_node_attributes(G, node_attributes)

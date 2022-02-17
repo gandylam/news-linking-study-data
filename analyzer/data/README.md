@@ -1,6 +1,10 @@
 Static Data Files
 =================
 
+## Domain Categories
+
+We manually coded the top linked domains to define what `category` they are in.
+
 ## Platform Domains
 
 We manually created a list of the domains associated with social media and other platforms. These are stored in 
