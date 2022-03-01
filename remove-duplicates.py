@@ -1,12 +1,19 @@
 import pandas as pd
 import os.path
+import sys
 
 COUNTRIES = ['USA', 'IND', 'GBR', 'KEN', 'ZAF', 'AUS', 'PHL']
 
-# Remove duplicate URLs within each media source
+# Remove duplicate story urls
+ALL_STORIES_DATA_FILE = os.path.join('export', 'stories-all.csv')
+df = pd.read_csv(ALL_STORIES_DATA_FILE)
+df = df.drop_duplicates(subset='url', keep="last")
+df.to_csv(os.path.join('export', 'stories-all-no-dupes.csv'))
+#sys.exit()
 
-ALL_DATA_FILE = os.path.join('export', 'links-by-media', 'all.csv')
-df = pd.read_csv(ALL_DATA_FILE)
+# Remove duplicate links
+ALL_LINKS_DATA_FILE = os.path.join('export', 'links-by-media', 'links-all.csv')
+df = pd.read_csv(ALL_LINKS_DATA_FILE)
 
 # some safety cleaning
 df = df.dropna()
@@ -27,6 +34,6 @@ for index, row in df.iterrows():
 print("{} duplicate rows".format(len(duplicate_link_ids)))
 
 clean_df = df[~df.link_id.isin(duplicate_link_ids)]
-clean_df.to_csv(os.path.join('export', 'links-by-media', 'all-no-dupes.csv'))
+clean_df.to_csv(os.path.join('export', 'links-by-media', 'links-all-no-dupes.csv'))
 
 print("{} non-duplicate rows".format(len(clean_df)))

@@ -1,0 +1,47 @@
+﻿Id,Label,timeset,Category,Foreign - US?,1,2,3,4,5,6,7,8,9,indegree,outdegree,Degree
+nih.gov,nih.gov,,Foreign Government,1,Unknown,nih.gov,http://nih.gov./,152090,nih.gov.,0,,Unknown,Unknown,6,0,6
+cdc.gov,cdc.gov,,Foreign Government,1,Unknown,cdc.gov,"http://cdc.gov,/",169793,"cdc.gov,",0,,Unknown,Unknown,5,0,5
+washingtonpost.com,washingtonpost.com,,Foreign News,1,Unknown,washingtonpost.com,http://washingtonpost.com?nid=top_pb_wplogo/,141627,washingtonpost.com?nid=top_pb_wplogo,0,,Unknown,Unknown,7,0,7
+cnn.com,cnn.com,,Foreign News,1,Unknown,cnn.com,http://www.cnn.com?_s=pm:allpolitics/#spider,85626,cnn.com?_s=pm:allpolitics,0,,Unknown,Unknown,6,0,6
+reuters.com,reuters.com,,Foreign News,1,Unknown,reuters.com,http://reuters.com;/,138657,reuters.com;,0,,Unknown,Unknown,5,2,7
+theguardian.com,theguardian.com,,Foreign News,1,Unknown,theguardian.com,,,,,,,,5,0,5
+nytimes.com,nytimes.com,,Foreign News,1,Unknown,nytimes.com,http://nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&ei=euhlt4rfmoapiaeq27rz&usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4eq&sig2=uiuf4teeaccn2t5ld8o-9w/,118332,nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&ei=euhlt4rfmoapiaeq27rz&usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4e,0,,Unknown,Unknown,5,0,5
+theconversation.com,theconversation.com,,Foreign News,1,Unknown,theconversation.com,,,,,,,,5,0,5
+forbes.com,forbes.com,,Foreign News,1,Unknown,forbes.com,,,,,,,,4,0,4
+pbs.org,pbs.org,,Foreign News,1,Unknown,pbs.org,,,,,,,,4,0,4
+espn.com,espn.com,,Foreign News,1,Unknown,espn.com,http://espn.com/,366306,espn.com,0.011556,,Unknown,Unknown,3,0,3
+dost.gov.ph,dost.gov.ph,,Government,,Unknown,dost.gov.ph,,,,,,,,8,0,8
+officialgazette.gov.ph,officialgazette.gov.ph,,Government,,Unknown,officialgazette.gov.ph,,,,,,,,6,0,6
+dfa.gov.ph,dfa.gov.ph,,Government,,Unknown,dfa.gov.ph,,,,,,,,5,0,5
+doh.gov.ph,doh.gov.ph,,Government,,Unknown,doh.gov.ph,,,,,,,,4,0,4
+inquirer.net,inquirer.net,,Domestic News,,Print Native,inquirer.net,http://bandera.inquirer.net/,338575,bandera.inquirer.net,0.179778,PHL,"National Capital Region, Philippines",Tagalog,7,87,94
+abs-cbn.com,abs-cbn.com,,Domestic News,,Unknown,abs-cbn.com,http://abs-cbn.com/,269644,abs-cbn.com,0.000222,,Unknown,Unknown,6,60,66
+globe.com.ph,globe.com.ph,,Domestic News,,Unknown,globe.com.ph,http://globe.com.ph/,827803,globe.com.ph,0,PHL,Unknown,Unknown,6,0,6
+philstar.com,philstar.com,,Domestic News,,Print Native,philstar.com,http://www.philstar.com/ngayon,657289,Pilipino Star Ngayon,1.427667,PHL,"National Capital Region, Philippines",English,5,278,283
+cnnphilippines.com,cnnphilippines.com,,Domestic News,,Video Broadcast,cnnphilippines.com,http://cnnphilippines.com/,265269,cnnphilippines.com,0.001444,PHL,Unknown,English,4,22,26
+cnn.ph,cnn.ph,,Domestic News,,Unknown,cnn.ph,http://cnn.ph/,1342884,cnn.ph,0,PHL,Unknown,Unknown,4,0,4
+rappler.com,rappler.com,,Domestic News,,Digital Native,rappler.com,http://www.rappler.com/#spider,73047,rappler.com,0.610111,PHL,Unknown,Unknown,4,0,4
+who.int,who.int,,Other,,Unknown,who.int,http://who.int%3e/,250901,who.int%3e,0,,Unknown,Unknown,8,0,8
+un.org,un.org,,Other,,Unknown,un.org,,,,,,,,6,0,6
+up.edu.ph,up.edu.ph,,Other,,Unknown,up.edu.ph,,,,,,,,5,0,5
+wikipedia.org,wikipedia.org,,Other,,Unknown,wikipedia.org,http://www.wikipedia.org,19905,wikipedia.org,0,,Unknown,Unknown,4,0,4
+change.org,change.org,,Other,,Unknown,change.org,http://criminaljustice.change.org/,6858,Criminal Justice | Change.org,0.011111,,Unknown,English,4,0,4
+airasia.com,airasia.com,,Other,,Unknown,airasia.com,http://airasia.com/,374351,airasia.com,0,,Unknown,Unknown,4,0,4
+pldthome.com,pldthome.com,,Other,,Unknown,pldthome.com,http://pldthome.com/,787258,pldthome.com,0,,Unknown,Unknown,4,0,4
+spotify.com,spotify.com,,Other,,Unknown,spotify.com,http://www.spotify.com,20958,spotify.com,0.002556,,Unknown,Unknown,4,0,4
+worldbank.org,worldbank.org,,Other,,Unknown,worldbank.org,,,,,,,,4,0,4
+tandfonline.com,tandfonline.com,,Other,,Unknown,tandfonline.com,http://www.tandfonline.com#spider,32472,tandfonline.com,0.016444,,Unknown,Unknown,4,0,4
+sciencedirect.com,sciencedirect.com,,Other,,Unknown,sciencedirect.com,http://www.sciencedirect.com,20936,sciencedirect.com,0.082333,,Unknown,Unknown,4,0,4
+paymaya.com,paymaya.com,,Other,,Unknown,paymaya.com,http://paymaya.com/,1400393,paymaya.com,0,,Unknown,Unknown,4,0,4
+reliefweb.int,reliefweb.int,,Other,,Unknown,reliefweb.int,#spider249,107847,reliefweb.int,0,,Unknown,Unknown,4,0,4
+amazon.com,amazon.com,,Other,,Unknown,amazon.com,"http://amazon.com,/",167180,"amazon.com,",0,,Unknown,Unknown,4,0,4
+researchgate.net,researchgate.net,,OTher,,Unknown,researchgate.net,,,,,,,,4,0,4
+lazada.com.ph,lazada.com.ph,,Other,,Unknown,lazada.com.ph,http://lazada.com.ph/,565189,lazada.com.ph,0,PHL,Unknown,Unknown,4,0,4
+philippines.travel,philippines.travel,,Other,,Unknown,philippines.travel,,,,,,,,4,0,4
+cebupacificair.com,cebupacificair.com,,Other,,Unknown,cebupacificair.com,http://cebupacificair.com/,382361,cebupacificair.com,0,,Unknown,Unknown,3,0,3
+facebook.com,facebook.com,,Platform,,Unknown,facebook.com,,,,,,,,29,0,29
+twitter.com,twitter.com,,Platform,,Unknown,twitter.com,,,,,,,,25,0,25
+bit.ly,bit.ly,,Platform,,Unknown,bit.ly,,,,,,,,17,0,17
+youtube.com,youtube.com,,Platform,,Unknown,youtube.com,,,,,,,,14,0,14
+instagram.com,instagram.com,,Platform,,Unknown,instagram.com,,,,,,,,13,0,13
+google.com,google.com,,Search Engine,,Unknown,google.com,,,,,,,,12,64,76

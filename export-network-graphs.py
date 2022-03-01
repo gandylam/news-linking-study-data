@@ -24,7 +24,7 @@ if __name__ == '__main__':
     media2info = {d['domain']: d for d in json.load(open(os.path.join('export', 'all-domains.json')))}
 
     # load the list of all links, to turn into a graph
-    df = pd.read_csv("export/links-by-media/all.csv")
+    df = pd.read_csv("export/links-by-media/links-all-no-dupes.csv")
     df = df[['source_stories_id', 'source_country', 'source_domain', 'target_domain']]  # grab only the columns we need
     df = df[df['source_domain'] != df['target_domain']]  # remove self_links
     df = df.dropna()  # remove invalid links

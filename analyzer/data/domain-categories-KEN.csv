@@ -1,0 +1,36 @@
+﻿Id,Label,timeset,Category,"For Foreign, US?",1,2,3,4,5,6,7,8,9,indegree,outdegree,Degree
+nih.gov,nih.gov,,Foreign Government,1,Unknown,nih.gov,http://nih.gov./,152090,nih.gov.,0,,Unknown,Unknown,4,0,4
+bbc.co.uk,bbc.co.uk,,Foreign News,0,Unknown,bbc.co.uk,,,,,,,,6,0,6
+nytimes.com,nytimes.com,,Foreign News,1,Unknown,nytimes.com,http://nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&ei=euhlt4rfmoapiaeq27rz&usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4eq&sig2=uiuf4teeaccn2t5ld8o-9w/,118332,nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&ei=euhlt4rfmoapiaeq27rz&usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4e,0,,Unknown,Unknown,6,0,6
+theconversation.com,theconversation.com,,Foreign News,1,Unknown,theconversation.com,,,,,,,,6,0,6
+theguardian.com,theguardian.com,,Foreign News,1,Unknown,theguardian.com,,,,,,,,6,0,6
+bbc.com,bbc.com,,Foreign News,0,Unknown,bbc.com,,,,,,,,5,0,5
+cnn.com,cnn.com,,Foreign News,1,Unknown,cnn.com,https://www.cnn.com/africa,299827,CNN Africa,0.017,KEN,Unknown,English,5,47,52
+news24.com,news24.com,,Foreign News,0,Unknown,news24.com,,,,,,,,5,185,190
+forbes.com,forbes.com,,Foreign News,1,Unknown,forbes.com,,,,,,,,5,0,5
+bloomberg.com,bloomberg.com,,Foreign News,1,Unknown,bloomberg.com,"http://bloomberg.com,/",192835,"bloomberg.com,",0,,Unknown,Unknown,4,0,4
+reuters.com,reuters.com,,Foreign News,1,Unknown,reuters.com,http://reuters.com;/,138657,reuters.com;,0,,Unknown,Unknown,4,0,4
+voanews.com,voanews.com,,Foreign News,1,Unknown,voanews.com,,,,,,,,3,0,3
+netwerk24.com,netwerk24.com,,Foreign News,0,Digital Native,netwerk24.com,http://netwerk24.com/,343200,netwerk24.com,0,,Unknown,Afrikaans,3,0,3
+usatoday.com,usatoday.com,,Foreign News,1,Unknown,usatoday.com,,,,,,,,3,0,3
+nation.co.ke,nation.co.ke,,Domestic News,,Video Broadcast,nation.co.ke,http://ntv.nation.co.ke/,106919,NTV | Turning on your world,0.000444,KEN,Unknown,English,4,6,10
+standardmedia.co.ke,standardmedia.co.ke,,Domestic News,,Unknown,standardmedia.co.ke,http://www.standardmedia.co.ke/ktn/,106914,"Standard Digital News : : KTN - Kenya News, Nairobi News, World News, KTN Videos",1.066556,KEN,Unknown,English,4,50,54
+who.int,who.int,,Other,,Unknown,who.int,http://who.int%3e/,250901,who.int%3e,0,,Unknown,Unknown,6,0,6
+worldbank.org,worldbank.org,,Other,,Unknown,worldbank.org,,,,,,,,5,0,5
+chathamhouse.org,chathamhouse.org,,Other,,Unknown,chathamhouse.org,http://www.chathamhouse.org#spider,29794,chathamhouse.org,0.000111,,Unknown,Unknown,4,0,4
+reliefweb.int,reliefweb.int,,Other,,Unknown,reliefweb.int,#spider249,107847,reliefweb.int,0,,Unknown,Unknown,4,0,4
+un.org,un.org,,Other,,Unknown,un.org,,,,,,,,4,0,4
+fao.org,fao.org,,Other,,Unknown,fao.org,,,,,,,,4,0,4
+doi.org,doi.org,,Other,,Unknown,doi.org,http://doi.org/,232045,doi.org,0,,Unknown,Unknown,3,0,3
+dukeupress.edu,dukeupress.edu,,Other,,Unknown,dukeupress.edu,http://www.dukeupress.edu#spider,33292,dukeupress.edu,0,,Unknown,Unknown,3,0,3
+oup.com,oup.com,,Other,,Unknown,oup.com,,,,,,,,3,0,3
+springer.com,springer.com,,Other,,Unknown,springer.com,http://www.springer.com,20678,springer.com,0.060444,,Unknown,Unknown,3,0,3
+tandfonline.com,tandfonline.com,,Other,,Unknown,tandfonline.com,http://www.tandfonline.com#spider,32472,tandfonline.com,0.016444,,Unknown,Unknown,3,0,3
+imf.org,imf.org,,Other,,Unknown,imf.org,http://www.imf.org/#spider,46362,imf.org,0.000333,,Unknown,Unknown,3,0,3
+oecd.org,oecd.org,,Other,,Unknown,oecd.org,http://www.oecd.org,18990,oecd.org,0,,Unknown,Unknown,3,0,3
+twitter.com,twitter.com,,Platform,,Unknown,twitter.com,,,,,,,,15,0,15
+instagram.com,instagram.com,,Platform,,Unknown,instagram.com,,,,,,,,13,0,13
+youtube.com,youtube.com,,Platform,,Unknown,youtube.com,http://www.youtube.com/user/K24TV,106923,K24TV - YouTube,0.139111,KEN,Unknown,English,11,1,12
+facebook.com,facebook.com,,Platform,,Unknown,facebook.com,,,,,,,,10,0,10
+bit.ly,bit.ly,,Platform,,Unknown,bit.ly,,,,,,,,6,0,6
+google.com,google.com,,Search Engine,,Unknown,google.com,,,,,,,,7,0,7

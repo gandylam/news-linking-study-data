@@ -15,7 +15,7 @@ def list_json_files_in_dir(input_dir: str) -> List:
     logger = prefect.context.get("logger")
     files = [os.path.join(input_dir, f) for f in os.listdir(input_dir)
              if os.path.isfile(os.path.join(input_dir, f)) and f.endswith('.json')]
-    logger.info("    found {} files".format(len(files)))
+    logger.info("    found {} files in {}".format(len(files), input_dir))
     return files
 
 

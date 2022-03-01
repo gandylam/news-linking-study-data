@@ -1,0 +1,260 @@
+﻿Id,Label,interval,Category,Foreign - US?,media_type,domain,url,media_id,name,stories_per_day,country,pub_state,language,indegree,outdegree,Degree
+cdc.gov,cdc.gov,,Foreign Government,1,Unknown,cdc.gov,"http://cdc.gov,/",169793,"cdc.gov,",0,,Unknown,Unknown,15,0,15
+nih.gov,nih.gov,,Foreign Government,1,Unknown,nih.gov,http://nih.gov./,152090,nih.gov.,0,,Unknown,Unknown,13,0,13
+nasa.gov,nasa.gov,,Foreign Government,1,Unknown,nasa.gov,,,,,,,,10,0,10
+www.gov.uk,www.gov.uk,,Foreign Government,0,Unknown,www.gov.uk,http://www.gov.uk/,211340,www.gov.uk,0,,Unknown,Unknown,8,0,8
+whitehouse.gov,whitehouse.gov,,Foreign Government,1,Unknown,whitehouse.gov,http://www.whitehouse.gov%20:%20the%20administration/#spider,90594,whitehouse.gov%20:%20the%20administration,0,,Unknown,Unknown,8,0,8
+justice.gov,justice.gov,,Foreign Government,1,Unknown,justice.gov,http://www.justice.gov,18498,justice.gov,0.012111,,Unknown,Unknown,7,0,7
+europa.eu,europa.eu,,Foreign Government,0,Unknown,europa.eu,http://ert-.europa.eu/,282783,ert-.europa.eu,0,,Unknown,Unknown,6,0,6
+house.gov,house.gov,,Foreign Government,1,Unknown,house.gov,http://www.house.gov,18730,house.gov,0,,Unknown,Unknown,6,0,6
+senate.gov,senate.gov,,Foreign Government,1,Unknown,senate.gov,http://www.senate.gov,18374,Senate.gov,0,,Unknown,Unknown,6,0,6
+health.govt.nz,health.govt.nz,,Foreign Government,0,Unknown,health.govt.nz,http://health.govt.nz/,235237,health.govt.nz,0.000111,,Unknown,Unknown,5,0,5
+census.gov,census.gov,,Foreign Government,1,Unknown,census.gov,http://www.census.gov,22341,census.gov,0.001111,,Unknown,Unknown,5,0,5
+theguardian.com,theguardian.com,,Foreign News,1,Print Native,theguardian.com,https://www.theguardian.com/au,384979,The Guardian AU,1.105667,AUS,Unknown,English,24,1792,1816
+nytimes.com,nytimes.com,,Foreign News,1,Unknown,nytimes.com,http://nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&ei=euhlt4rfmoapiaeq27rz&usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4eq&sig2=uiuf4teeaccn2t5ld8o-9w/,118332,nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&ei=euhlt4rfmoapiaeq27rz&usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4e,0,,Unknown,Unknown,24,0,24
+theconversation.com,theconversation.com,,Foreign News,1,Digital Native,theconversation.com,https://theconversation.com/au,384980,The Conversation Australia,0.036333,AUS,Unknown,English,23,580,603
+washingtonpost.com,washingtonpost.com,,Foreign News,1,Unknown,washingtonpost.com,http://washingtonpost.com?nid=top_pb_wplogo/,141627,washingtonpost.com?nid=top_pb_wplogo,0,,Unknown,Unknown,22,0,22
+reuters.com,reuters.com,,Foreign News,1,Unknown,reuters.com,http://reuters.com;/,138657,reuters.com;,0,,Unknown,Unknown,20,0,20
+cnn.com,cnn.com,,Foreign News,1,Unknown,cnn.com,http://www.cnn.com?_s=pm:allpolitics/#spider,85626,cnn.com?_s=pm:allpolitics,0,,Unknown,Unknown,20,0,20
+bbc.com,bbc.com,,Foreign News,0,Unknown,bbc.com,,,,,,,,18,0,18
+wsj.com,wsj.com,,Foreign News,1,Unknown,wsj.com,http://wsj.com?mg=cmy-wsj/,244069,wsj.com?mg=cmy-wsj,0,,Unknown,Unknown,16,0,16
+bloomberg.com,bloomberg.com,,Foreign News,1,Unknown,bloomberg.com,"http://bloomberg.com,/",192835,"bloomberg.com,",0,,Unknown,Unknown,16,0,16
+dailymail.co.uk,dailymail.co.uk,,Foreign News,0,Unknown,dailymail.co.uk,http://www.dailymail.co.uk/auhome/index.html,765520,Daily Mail Australia,2.011889,AUS,Unknown,English,15,879,894
+npr.org,npr.org,,Foreign News,1,Unknown,npr.org,http://www.npr.org%20:%20...%20:%20election%202012%20:%20presidential%20race%20:%20mitt%20romneywww.npr.org%20:%20...%20:%20election%202012%20:%20presidential%20race%20:%20mitt%20romney/#spider,89131,npr.org%20:%20...%20:%20election%202012%20:%20presidential%20race%20:%20mitt%20romneywww.npr.org%20:%20...%20:%20election%202012,0,,Unknown,Unknown,14,0,14
+forbes.com,forbes.com,,Foreign News,1,Unknown,forbes.com,,,,,,,,14,0,14
+nature.com,nature.com,,Foreign News,1,Unknown,nature.com,http://nature.com%20doi%2010.1038/,240570,nature.com%20doi%2010.1038,0,,Unknown,Unknown,13,0,13
+apnews.com,apnews.com,,Foreign News,1,Unknown,apnews.com,,,,,,,,13,0,13
+usatoday.com,usatoday.com,,Foreign News,1,Unknown,usatoday.com,,,,,,,,13,0,13
+nbcnews.com,nbcnews.com,,Foreign News,1,Unknown,nbcnews.com,,,,,,,,13,0,13
+latimes.com,latimes.com,,Foreign News,1,Unknown,latimes.com,http://latimes.com?sid=294&nid=25216132&cid=16686&scid=-1&ith=1&title=nation/,114540,latimes.com?sid=294&nid=25216132&cid=16686&scid=-1&ith=1&title=nation,0,,Unknown,Unknown,12,0,12
+cnbc.com,cnbc.com,,Foreign News,1,Unknown,cnbc.com,,,,,,,,12,0,12
+ft.com,ft.com,,Foreign News,0,Unknown,ft.com,,,,,,,,12,0,12
+sciencemag.org,sciencemag.org,,Foreign News,1,Unknown,sciencemag.org,http://sciencemag.org?rss=1%3b/,258983,sciencemag.org?rss=1%3b,0,,Unknown,Unknown,11,0,11
+abcnews.go.com,abcnews.go.com,,Foreign News,1,Unknown,abcnews.go.com,http://abcnews.go.com?id=7461729&page=1/,240272,abcnews.go.com?id=7461729&page=1,0,,Unknown,Unknown,11,0,11
+nypost.com,nypost.com,,Foreign News,1,Unknown,nypost.com,http://www.nypost.com?url=http:/#spider,74486,nypost.com?url=http:,0,,Unknown,Unknown,11,0,11
+aljazeera.com,aljazeera.com,,Foreign News,0,Unknown,aljazeera.com,,,,,,,,11,0,11
+vox.com,vox.com,,Foreign News,1,Unknown,vox.com,,,,,,,,11,0,11
+time.com,time.com,,Foreign News,1,Unknown,time.com,http://time.com%20http/,226413,time.com%20http,0,,Unknown,Unknown,10,0,10
+sciencedirect.com,sciencedirect.com,,Foreign News,1,Unknown,sciencedirect.com,http://www.sciencedirect.com,20936,sciencedirect.com,0.082333,,Unknown,Unknown,10,0,10
+cbsnews.com,cbsnews.com,,Foreign News,1,Unknown,cbsnews.com,,,,,,,,10,0,10
+vice.com,vice.com,,Foreign News,1,Unknown,vice.com,,,,,,,,10,0,10
+independent.co.uk,independent.co.uk,,Foreign News,0,Unknown,independent.co.uk,,,,,,,,10,0,10
+telegraph.co.uk,telegraph.co.uk,,Foreign News,0,Unknown,telegraph.co.uk,http://telegraph.co.uk?altcast_code=c98047623f/,109162,telegraph.co.uk?altcast_code=c98047623f,0,,Unknown,Unknown,9,0,9
+nzherald.co.nz,nzherald.co.nz,,Foreign News,0,Print Native,nzherald.co.nz,http://www.nzherald.co.nz,19139,nzherald.co.nz,0.310444,,"Auckland, New Zealand",English,9,1,10
+bbc.co.uk,bbc.co.uk,,Foreign News,0,Unknown,bbc.co.uk,,,,,,,,9,0,9
+newyorker.com,newyorker.com,,Foreign News,1,Unknown,newyorker.com,,,,,,,,9,0,9
+politico.com,politico.com,,Foreign News,1,Unknown,politico.com,,,,,,,,9,0,9
+businessinsider.com,businessinsider.com,,Foreign News,1,Unknown,businessinsider.com,,,,,,,,9,4,13
+thesun.co.uk,thesun.co.uk,,Foreign News,0,Unknown,thesun.co.uk,,,,,,,,9,0,9
+the-sun.com,the-sun.com,,Foreign News,1,Unknown,the-sun.com,http://the-sun.com/,1357898,the-sun.com,0.005111,,Unknown,Unknown,8,0,8
+newsweek.com,newsweek.com,,Foreign News,1,Unknown,newsweek.com,http://newsweek.com./,175484,newsweek.com.,0,,Unknown,Unknown,8,0,8
+foxnews.com,foxnews.com,,Foreign News,1,Unknown,foxnews.com,http://foxnews.com?playerid=videolandingpage&streamingformat=flash&referralobject=4740999&referralplaylistid=df5603c3d11ca9a023b0070cfc5f297e279fd3a7/,150918,foxnews.com?playerid=videolandingpage&streamingformat=flash&referralobject=4740999&referralplaylistid=df5603c3d11ca9a023b007,0,,Unknown,Unknown,8,0,8
+variety.com,variety.com,,Foreign News,1,Print Native,variety.com,http://www.variety.com,19076,variety.com,0.155444,,Unknown,English,8,0,8
+buzzfeednews.com,buzzfeednews.com,,Foreign News,1,Unknown,buzzfeednews.com,,,,,,,,8,0,8
+scmp.com,scmp.com,,Foreign News,0,Unknown,scmp.com,,,,,,,,8,0,8
+theatlantic.com,theatlantic.com,,Foreign News,1,Unknown,theatlantic.com,,,,,,,,8,0,8
+thenation.com,thenation.com,,Foreign News,1,Unknown,thenation.com,,,,,,,,8,0,8
+rnz.co.nz,rnz.co.nz,,Foreign News,0,Unknown,rnz.co.nz,http://rnz.co.nz/,1268462,rnz.co.nz,0.001778,,Unknown,Unknown,7,0,7
+chicagotribune.com,chicagotribune.com,,Foreign News,1,Unknown,chicagotribune.com,http://chicagotribune.com%20chicagotribune.com/,152431,chicagotribune.com%20chicagotribune.com,0,,Unknown,Unknown,7,0,7
+people.com,people.com,,Foreign News,1,Unknown,people.com,http://people.com%20/,130416,people.com%20,0,,Unknown,Unknown,7,0,7
+skysports.com,skysports.com,,Foreign News,0,Video Broadcast,skysports.com,http://skysports.com/,66030,skysports.com,0.002444,,Unknown,English,7,0,7
+thetimes.co.uk,thetimes.co.uk,,Foreign News,0,Print Native,thetimes.co.uk,http://www.thetimes.co.uk/#spider,42689,thetimes.co.uk,0.035222,,Unknown,Unknown,7,0,7
+hbr.org,hbr.org,,Foreign News,1,Unknown,hbr.org,http://blogs.hbr.org/,5893,HBR.org,0.010222,,Unknown,English,7,0,7
+inquirer.com,inquirer.com,,Foreign News,1,Unknown,inquirer.com,,,,,,,,7,0,7
+nydailynews.com,nydailynews.com,,Foreign News,1,Unknown,nydailynews.com,,,,,,,,7,0,7
+axios.com,axios.com,,Foreign News,1,Unknown,axios.com,,,,,,,,7,0,7
+cbc.ca,cbc.ca,,Foreign News,0,Unknown,cbc.ca,,,,,,,,7,0,7
+fivethirtyeight.com,fivethirtyeight.com,,Foreign News,1,Unknown,fivethirtyeight.com,,,,,,,,7,0,7
+thehill.com,thehill.com,,Foreign News,1,Unknown,thehill.com,,,,,,,,7,0,7
+vanityfair.com,vanityfair.com,,Foreign News,1,Unknown,vanityfair.com,,,,,,,,7,0,7
+propublica.org,propublica.org,,Foreign News,1,Unknown,propublica.org,http://propublica.org/,366874,propublica.org,0.005556,,Unknown,Unknown,6,0,6
+deadline.com,deadline.com,,Foreign News,1,Unknown,deadline.com,http://deadline.com/,366781,deadline.com,0.000778,,Unknown,Unknown,6,0,6
+vogue.com,vogue.com,,Foreign News,1,Unknown,vogue.com,http://vogue.com/,366305,vogue.com,0.071778,,Unknown,Unknown,6,0,6
+hollywoodreporter.com,hollywoodreporter.com,,Foreign News,1,Unknown,hollywoodreporter.com,http://hollywoodreporter.com/,366180,hollywoodreporter.com,0.009,,Unknown,Unknown,6,0,6
+thedailybeast.com,thedailybeast.com,,Foreign News,1,Unknown,thedailybeast.com,http://thedailybeast.com./,296135,thedailybeast.com.,0,,Unknown,Unknown,6,0,6
+cnet.com,cnet.com,,Foreign News,1,Unknown,cnet.com,,,,,,,,6,0,6
+nymag.com,nymag.com,,Foreign News,1,Unknown,nymag.com,,,,,,,,6,0,6
+pbs.org,pbs.org,,Foreign News,1,Unknown,pbs.org,,,,,,,,6,0,6
+realclearpolitics.com,realclearpolitics.com,,Foreign News,1,Unknown,realclearpolitics.com,,,,,,,,6,0,6
+rollingstone.com,rollingstone.com,,Foreign News,1,Unknown,rollingstone.com,,,,,,,,6,0,6
+thecut.com,thecut.com,,Foreign News,1,Unknown,thecut.com,,,,,,,,6,0,6
+theintercept.com,theintercept.com,,Foreign News,1,Unknown,theintercept.com,,,,,,,,6,0,6
+buzzfeed.com,buzzfeed.com,,Foreign News,1,Unknown,buzzfeed.com,,,,,,,,6,0,6
+sky.com,sky.com,,Foreign News,0,Unknown,sky.com,,,,,,,,6,0,6
+theverge.com,theverge.com,,Foreign News,1,Unknown,theverge.com,,,,,,,,6,0,6
+scientificamerican.com,scientificamerican.com,,Foreign News,1,Unknown,scientificamerican.com,,,,,,,,6,0,6
+theathletic.com,theathletic.com,,Foreign News,0,Unknown,theathletic.com,http://theathletic.com/,442447,theathletic.com,0.003222,,Unknown,Unknown,5,0,5
+pagesix.com,pagesix.com,,Foreign News,1,Unknown,pagesix.com,http://pagesix.com/,367598,pagesix.com,0.000111,,Unknown,Unknown,5,0,5
+inews.co.uk,inews.co.uk,,Foreign News,0,Unknown,inews.co.uk,http://inews.co.uk/,298073,inews.co.uk,0.007778,,Unknown,Unknown,5,0,5
+sciencedaily.com,sciencedaily.com,,Foreign News,1,Unknown,sciencedaily.com,http://sciencedaily.com-/,133056,sciencedaily.com-,0,,Unknown,Unknown,5,0,5
+espncricinfo.com,espncricinfo.com,,Foreign News,0,Digital Native,espncricinfo.com,http://www.espncricinfo.com/#spider,92713,espncricinfo.com,0.329889,,Unknown,English,5,1,6
+marketwatch.com,marketwatch.com,,Foreign News,1,Unknown,marketwatch.com,http://www.marketwatch.com?showsmscrim=true/#spider,81825,marketwatch.com?showsmscrim=true,0,,Unknown,Unknown,5,0,5
+indianexpress.com,indianexpress.com,,Foreign News,0,Print Native,indianexpress.com,http://indianexpress.com/,56899,indianexpress.com,1.268556,,"Maharashtra, India",English,5,0,5
+ctvnews.ca,ctvnews.ca,,Foreign News,0,Video Broadcast,ctvnews.ca,http://www.ctvnews.ca#spider,32434,ctvnews.ca,0.275111,,Unknown,English,5,0,5
+express.co.uk,express.co.uk,,Foreign News,0,Print Native,express.co.uk,http://www.express.co.uk,26799,express.co.uk,1.146444,,Unknown,Unknown,5,0,5
+elsevier.com,elsevier.com,,Foreign News,0,Unknown,elsevier.com,http://www.elsevier.com,20989,elsevier.com,0.011556,,Unknown,Unknown,5,0,5
+vulture.com,vulture.com,,Foreign News,1,Unknown,vulture.com,http://www.vulture.com,20595,vulture.com,0.055889,,Unknown,English,5,0,5
+nsw.gov.au,nsw.gov.au,,Government,,Unknown,nsw.gov.au,,,,,,,,17,0,17
+abs.gov.au,abs.gov.au,,Government,,Unknown,abs.gov.au,,,,,,,,16,0,16
+health.gov.au,health.gov.au,,Government,,Unknown,health.gov.au,,,,,,,,13,0,13
+aph.gov.au,aph.gov.au,,Government,,Unknown,aph.gov.au,,,,,,,,11,0,11
+pm.gov.au,pm.gov.au,,Government,,Unknown,pm.gov.au,,,,,,,,11,0,11
+dhhs.vic.gov.au,dhhs.vic.gov.au,,Government,,Unknown,dhhs.vic.gov.au,,,,,,,,10,0,10
+nt.gov.au,nt.gov.au,,Government,,Unknown,nt.gov.au,,,,,,,,9,0,9
+industry.gov.au,industry.gov.au,,Government,,Unknown,industry.gov.au,,,,,,,,9,0,9
+treasury.gov.au,treasury.gov.au,,Government,,Unknown,treasury.gov.au,,,,,,,,9,0,9
+worldbank.org,worldbank.org,,Government,,Unknown,worldbank.org,,,,,,,,9,0,9
+www.qld.gov.au,www.qld.gov.au,,Government,,Unknown,www.qld.gov.au,,,,,,,,9,0,9
+accc.gov.au,accc.gov.au,,Government,,Unknown,accc.gov.au,,,,,,,,8,0,8
+csiro.au,csiro.au,,Government,,Unknown,csiro.au,http://csiro.au/,131473,csiro.au,0.002,AUS,Unknown,Unknown,7,0,7
+bom.gov.au,bom.gov.au,,Government,,Unknown,bom.gov.au,,,,,,,,7,0,7
+budget.gov.au,budget.gov.au,,Government,,Unknown,budget.gov.au,,,,,,,,7,0,7
+dfat.gov.au,dfat.gov.au,,Government,,Unknown,dfat.gov.au,,,,,,,,7,0,7
+servicesaustralia.gov.au,servicesaustralia.gov.au,,Government,,Unknown,servicesaustralia.gov.au,,,,,,,,7,0,7
+rba.gov.au,rba.gov.au,,Government,,Unknown,rba.gov.au,,,,,,,,7,0,7
+royalcommission.gov.au,royalcommission.gov.au,,Government,,Unknown,royalcommission.gov.au,,,,,,,,7,0,7
+act.gov.au,act.gov.au,,Government,,Unknown,act.gov.au,,,,,,,,6,0,6
+ato.gov.au,ato.gov.au,,Government,,Unknown,ato.gov.au,,,,,,,,6,0,6
+aec.gov.au,aec.gov.au,,Government,,Unknown,aec.gov.au,,,,,,,,6,0,6
+abc.net.au,abc.net.au,,Domestic News,,Video Broadcast,abc.net.au,http://www.abc.net.au/news/rural/,623562,ABC Rural,0.867111,AUS,Unknown,English,31,484,515
+smh.com.au,smh.com.au,,Domestic News,,Print Native,smh.com.au,http://www.smh.com.au,19320,Sydney Morning Herald,1.494,AUS,"New South Wales, Australia",English,26,2,28
+news.com.au,news.com.au,,Domestic News,,Digital Native,news.com.au,http://www.news.com.au/,41991,News.com.au,2.468556,AUS,Unknown,English,22,358,380
+7news.com.au,7news.com.au,,Domestic News,,Unknown,7news.com.au,http://7news.com.au/,1261244,7news.com.au,0.001333,AUS,Unknown,Unknown,20,1,21
+theaustralian.com.au,theaustralian.com.au,,Domestic News,,Print Native,theaustralian.com.au,http://www.theaustralian.com.au,26782,The Australian,0.215111,AUS,"New South Wales, Australia",English,19,27,46
+afr.com,afr.com,,Domestic News,,Print Native,afr.com,http://www.afr.com/asset,623567,Asset,0,AUS,Unknown,English,18,45,63
+theage.com.au,theage.com.au,,Domestic News,,Print Native,theage.com.au,http://www.theage.com.au,19197,The Age,1.578222,AUS,"Victoria, Australia",Unknown,17,383,400
+heraldsun.com.au,heraldsun.com.au,,Domestic News,,Print Native,heraldsun.com.au,http://www.heraldsun.com.au,25154,heraldsun.com.au,0.780778,AUS,"Victoria, Australia",English,16,4,20
+nine.com.au,nine.com.au,,Domestic News,,Unknown,nine.com.au,http://nine.com.au/,302611,nine.com.au,0.000111,AUS,Unknown,Unknown,14,0,14
+dailytelegraph.com.au,dailytelegraph.com.au,,Domestic News,,Print Native,dailytelegraph.com.au,http://www.dailytelegraph.com.au/#spider,68778,Daily Telegraph Australia,2.695889,AUS,"New South Wales, Australia",English,14,106,120
+couriermail.com.au,couriermail.com.au,,Domestic News,,Print Native,couriermail.com.au,http://www.couriermail.com.au,25856,couriermail.com.au,0.359556,AUS,"Queensland, Australia",English,13,0,13
+thenewdaily.com.au,thenewdaily.com.au,,Domestic News,,Digital Native,thenewdaily.com.au,http://thenewdaily.com.au/,254168,The New Daily,0.412222,AUS,Unknown,English,12,285,297
+sbs.com.au,sbs.com.au,,Domestic News,,Video Broadcast,sbs.com.au,http://www.sbs.com.au/#spider,69856,SBS ,0,AUS,Unknown,Unknown,11,2,13
+9news.com.au,9news.com.au,,Domestic News,,Video Broadcast,9news.com.au,https://www.9news.com.au/,68328,9 News,0.332111,AUS,Unknown,English,11,101,112
+skynews.com.au,skynews.com.au,,Domestic News,,Video Broadcast,skynews.com.au,http://www.skynews.com.au/#spider,68066,Sky News Australia,0.006667,AUS,Unknown,English,11,0,11
+thewest.com.au,thewest.com.au,,Domestic News,,Unknown,thewest.com.au,http://thewest.com.au/,361753,thewest.com.au,0.733222,AUS,Unknown,English,10,0,10
+brisbanetimes.com.au,brisbanetimes.com.au,,Domestic News,,Digital Native,brisbanetimes.com.au,http://brisbanetimes.com.au/,62693,brisbanetimes.com.au,0.424,AUS,"Queensland, Australia",English,10,6,16
+reneweconomy.com.au,reneweconomy.com.au,,Domestic News,,Unknown,reneweconomy.com.au,http://reneweconomy.com.au/,147197,reneweconomy.com.au,0.000222,AUS,Unknown,Unknown,8,0,8
+canberratimes.com.au,canberratimes.com.au,,Domestic News,,Print Native,canberratimes.com.au,http://www.canberratimes.com.au#spider,33015,canberratimes.com.au,0.052111,AUS,Unknown,English,8,0,8
+kayosports.com.au,kayosports.com.au,,Domestic News,,Unknown,kayosports.com.au,http://kayosports.com.au/,1156085,kayosports.com.au,0,AUS,Unknown,Unknown,7,0,7
+adelaidenow.com.au,adelaidenow.com.au,,Domestic News,,Print Native,adelaidenow.com.au,http://www.adelaidenow.com.au/#spider,99956,adelaidenow.com.au,0.001778,AUS,"South Australia, Australia",English,7,8,15
+businessinsider.com.au,businessinsider.com.au,,Domestic News,,Unknown,businessinsider.com.au,http://www.businessinsider.com.au/#spider,70899,Business Insider Australia,2.187444,AUS,Unknown,English,7,0,7
+crikey.com.au,crikey.com.au,,Domestic News,,Digital Native,crikey.com.au,https://www.crikey.com.au/,66094,Crickey,0.072444,AUS,Unknown,English,7,114,121
+thesaturdaypaper.com.au,thesaturdaypaper.com.au,,Domestic News,,Print Native,thesaturdaypaper.com.au,http://thesaturdaypaper.com.au/,144615,The Saturday Paper,0.009111,AUS,Unknown,English,6,7,13
+goldcoastbulletin.com.au,goldcoastbulletin.com.au,,Domestic News,,Print Native,goldcoastbulletin.com.au,http://goldcoastbulletin.com.au/,144021,goldcoastbulletin.com.au,0.228667,AUS,"Queensland, Australia",English,6,0,6
+themonthly.com.au,themonthly.com.au,,Domestic News,,Print Native,themonthly.com.au,http://www.themonthly.com.au/#spider,70879,The Monthly,0.010222,AUS,Unknown,English,6,24,30
+spectator.com.au,spectator.com.au,,Domestic News,,Unknown,spectator.com.au,http://spectator.com.au/,390083,spectator.com.au,0,AUS,Unknown,Unknown,5,0,5
+huffingtonpost.com.au,huffingtonpost.com.au,,Domestic News,,Unknown,huffingtonpost.com.au,http://huffingtonpost.com.au/,269650,Huffington Post AU,0,AUS,Unknown,Unknown,5,362,367
+cairnspost.com.au,cairnspost.com.au,,Domestic News,,Print Native,cairnspost.com.au,http://cairnspost.com.au/,179015,cairnspost.com.au,0.141,AUS,"Queensland, Australia",English,5,1,6
+insidestory.org.au,insidestory.org.au,,Domestic News,,Unknown,insidestory.org.au,http://insidestory.org.au/,144251,insidestory.org.au,0,AUS,Unknown,Unknown,5,0,5
+adnews.com.au,adnews.com.au,,Domestic News,,Unknown,adnews.com.au,http://adnews.com.au/,120632,adnews.com.au,0,AUS,Unknown,Unknown,5,0,5
+mumbrella.com.au,mumbrella.com.au,,Domestic News,,Unknown,mumbrella.com.au,http://mumbrella.com.au,25692,mumbrella.com.au,0.000111,AUS,Unknown,Unknown,5,0,5
+ntnews.com.au,ntnews.com.au,,Domestic News,,Print Native,ntnews.com.au,http://www.ntnews.com.au,23310,ntnews.com.au,0.503778,AUS,Unknown,English,5,0,5
+wikipedia.org,wikipedia.org,,Other,,Unknown,wikipedia.org,http://www.wikipedia.org,19905,wikipedia.org,0,,Unknown,Unknown,16,0,16
+who.int,who.int,,Other,,Unknown,who.int,http://who.int%3e/,250901,who.int%3e,0,,Unknown,Unknown,15,0,15
+jhu.edu,jhu.edu,,Other,,Unknown,jhu.edu,http://www.jhu.edu#spider,34956,jhu.edu,0,,Unknown,Unknown,15,0,15
+gofundme.com,gofundme.com,,Other,,Unknown,gofundme.com,,,,,,,,15,0,15
+beyondblue.org.au,beyondblue.org.au,,Other,,Unknown,beyondblue.org.au,http://beyondblue.org.au/,191032,beyondblue.org.au,0,AUS,Unknown,Unknown,14,0,14
+apple.com,apple.com,,Other,,Unknown,apple.com,,,,,,,,14,0,14
+wiley.com,wiley.com,,Other,,Unknown,wiley.com,http://www.wiley.com/#spider,68760,wiley.com,0.119333,,Unknown,Unknown,13,0,13
+tai.org.au,tai.org.au,,Other,,Unknown,tai.org.au,http://tai.org.au/,221306,tai.org.au,0,AUS,Unknown,Unknown,11,0,11
+lifeline.org.au,lifeline.org.au,,Other,,Unknown,lifeline.org.au,https://lifeline.org.au/,205934,lifeline.org.au,0,AUS,Unknown,Unknown,11,0,11
+change.org,change.org,,Other,,Unknown,change.org,http://criminaljustice.change.org/,6858,Criminal Justice | Change.org,0.011111,,Unknown,English,11,0,11
+brookings.edu,brookings.edu,,Other,,Unknown,brookings.edu,,,,,,,,11,0,11
+thelancet.com,thelancet.com,,Other,,Unknown,thelancet.com,,,,,,,,10,0,10
+medrxiv.org,medrxiv.org,,Other,,Unknown,medrxiv.org,http://medrxiv.org/,1357902,medrxiv.org,0.003444,,Unknown,Unknown,9,0,9
+doi.org,doi.org,,Other,,Unknown,doi.org,http://doi.org/,232045,doi.org,0,,Unknown,Unknown,9,0,9
+worldometers.info,worldometers.info,,Other,,Unknown,worldometers.info,http://worldometers.info/,224129,worldometers.info,0,,Unknown,Unknown,9,0,9
+jamanetwork.com,jamanetwork.com,,Other,,Unknown,jamanetwork.com,http://jamanetwork.com/,129414,jamanetwork.com,0,,Unknown,Unknown,9,0,9
+apa.org,apa.org,,Other,,Unknown,apa.org,http://www.apa.org/#spider,67911,apa.org,0,,Unknown,Unknown,9,0,9
+goodreads.com,goodreads.com,,Other,,Unknown,goodreads.com,http://www.goodreads.com,20875,goodreads.com,0.003333,,Unknown,English,9,0,9
+springer.com,springer.com,,Other,,Unknown,springer.com,http://www.springer.com,20678,springer.com,0.060444,,Unknown,Unknown,9,0,9
+archive.org,archive.org,,Other,,Unknown,archive.org,http://www.archive.org,19233,archive.org,4.701333,,Unknown,English,9,0,9
+unimelb.edu.au,unimelb.edu.au,,Other,,Unknown,unimelb.edu.au,,,,,,,,9,1,10
+plos.org,plos.org,,Other,,Unknown,plos.org,,,,,,,,9,0,9
+researchgate.net,researchgate.net,,Other,,Unknown,researchgate.net,,,,,,,,9,0,9
+pewresearch.org,pewresearch.org,,Other,,Unknown,pewresearch.org,,,,,,,,9,0,9
+oup.com,oup.com,,Other,,Unknown,oup.com,,,,,,,,9,0,9
+mimecast.com,mimecast.com,,Other,,Unknown,mimecast.com,http://mimecast.com/,674485,mimecast.com,0,,Unknown,Unknown,8,0,8
+imdb.com,imdb.com,,Other,,Unknown,imdb.com,http://imdb.com/,367248,imdb.com,0.008556,,Unknown,Unknown,8,0,8
+booktopia.com.au,booktopia.com.au,,Other,,Unknown,booktopia.com.au,http://booktopia.com.au/,241803,booktopia.com.au,0,AUS,Unknown,Unknown,8,0,8
+harvard.edu,harvard.edu,,Other,,Unknown,harvard.edu,http://www.harvard.edu/#spider,88383,harvard.edu,0,,Unknown,Unknown,8,0,8
+tandfonline.com,tandfonline.com,,Other,,Unknown,tandfonline.com,http://www.tandfonline.com#spider,32472,tandfonline.com,0.016444,,Unknown,Unknown,8,0,8
+weforum.org,weforum.org,,Other,,Unknown,weforum.org,http://www.weforum.org,22479,weforum.org,0.000889,,Unknown,Unknown,8,0,8
+unsw.edu.au,unsw.edu.au,,Other,,Unknown,unsw.edu.au,,,,,,,,8,0,8
+austlii.edu.au,austlii.edu.au,,Other,,Unknown,austlii.edu.au,,,,,,,,8,0,8
+britannica.com,britannica.com,,Other,,Unknown,britannica.com,,,,,,,,8,0,8
+nejm.org,nejm.org,,Other,,Unknown,nejm.org,,,,,,,,8,0,8
+nationalgeographic.com,nationalgeographic.com,,Other,,Unknown,nationalgeographic.com,,,,,,,,8,0,8
+amazon.com,amazon.com,,Other,,Unknown,amazon.com,"http://amazon.com,/",167180,"amazon.com,",0,,Unknown,Unknown,7,0,7
+liberal.org.au,liberal.org.au,,Other,,Unknown,liberal.org.au,http://www.liberal.org.au/#spider,91967,liberal.org.au,0,AUS,Unknown,Unknown,7,0,7
+lowyinstitute.org,lowyinstitute.org,,Other,,Unknown,lowyinstitute.org,http://www.lowyinstitute.org/#spider,82516,lowyinstitute.org,0.000333,,Unknown,Unknown,7,0,7
+anu.edu.au,anu.edu.au,,Other,,Unknown,anu.edu.au,,,,,,,,7,0,7
+sydney.edu.au,sydney.edu.au,,Other,,Unknown,sydney.edu.au,,,,,,,,7,0,7
+un.org,un.org,,Other,,Unknown,un.org,,,,,,,,7,0,7
+politifact.com,politifact.com,,Other,,Unknown,politifact.com,,,,,,,,7,0,7
+amazonaws.com,amazonaws.com,,Other,,Unknown,amazonaws.com,,,,,,,,7,0,7
+hrw.org,hrw.org,,Other,,Unknown,hrw.org,,,,,,,,7,0,7
+electproject.github.io,electproject.github.io,,Other,,Unknown,electproject.github.io,http://electproject.github.io/,1697859,electproject.github.io,0,,Unknown,Unknown,6,0,6
+kevinbonham.blogspot.com,kevinbonham.blogspot.com,,Other,,Unknown,kevinbonham.blogspot.com,http://kevinbonham.blogspot.com/,913111,kevinbonham.blogspot.com,0,,Unknown,Unknown,6,0,6
+unenvironment.org,unenvironment.org,,Other,,Unknown,unenvironment.org,http://unenvironment.org/,649080,unenvironment.org,0,,Unknown,Unknown,6,0,6
+realestate.com.au,realestate.com.au,,Other,,Unknown,realestate.com.au,http://realestate.com.au/,485657,realestate.com.au,0.003,AUS,Unknown,Unknown,6,6,12
+proofpoint.com,proofpoint.com,,Other,,Unknown,proofpoint.com,http://proofpoint.com/,321799,proofpoint.com,0,,Unknown,Unknown,6,0,6
+domain.com.au,domain.com.au,,Other,,Unknown,domain.com.au,http://domain.com.au/,228602,domain.com.au,0.000222,AUS,Unknown,Unknown,6,0,6
+nrl.com,nrl.com,,Other,,Unknown,nrl.com,http://nrl.com/,224435,nrl.com,0,,Unknown,Unknown,6,0,6
+mckellinstitute.org.au,mckellinstitute.org.au,,Other,,Unknown,mckellinstitute.org.au,http://mckellinstitute.org.au/,204527,mckellinstitute.org.au,0,AUS,Unknown,Unknown,6,0,6
+joebiden.com,joebiden.com,,Other,,Unknown,joebiden.com,http://joebiden.com/,162517,joebiden.com,0,,Unknown,Unknown,6,0,6
+imperial.ac.uk,imperial.ac.uk,,Other,,Unknown,imperial.ac.uk,http://imperial.ac.uk/,127545,imperial.ac.uk,0.000333,,Unknown,Unknown,6,0,6
+ox.ac.uk,ox.ac.uk,,Other,,Unknown,ox.ac.uk,http://ox.ac.uk/,117252,ox.ac.uk,0,,Unknown,Unknown,6,0,6
+cambridge.org,cambridge.org,,Other,,Unknown,cambridge.org,http://www.cambridge.org/#spider,86608,cambridge.org,0.004667,,Unknown,Unknown,6,0,6
+ipsos.com,ipsos.com,,Other,,Unknown,ipsos.com,http://www.ipsos.com/#spider,85465,ipsos.com,0,,Unknown,Unknown,6,0,6
+ipcc.ch,ipcc.ch,,Other,,Unknown,ipcc.ch,http://www.ipcc.ch/#spider,67148,ipcc.ch,0,,Unknown,Unknown,6,0,6
+bmj.com,bmj.com,,Other,,Unknown,bmj.com,http://www.bmj.com#spider,33154,bmj.com,0.000111,,Unknown,Unknown,6,0,6
+pnas.org,pnas.org,,Other,,Unknown,pnas.org,http://www.pnas.org,27168,pnas.org,0.003556,,Unknown,Unknown,6,0,6
+poetryfoundation.org,poetryfoundation.org,,Other,,Unknown,poetryfoundation.org,http://www.poetryfoundation.org,25730,poetryfoundation.org,0.000111,,Unknown,English,6,0,6
+jstor.org,jstor.org,,Other,,Unknown,jstor.org,http://www.jstor.org,19311,jstor.org,0.000444,,Unknown,Unknown,6,0,6
+qut.edu.au,qut.edu.au,,Other,,Unknown,qut.edu.au,,,,,,,,6,0,6
+factcheck.org,factcheck.org,,Other,,Unknown,factcheck.org,,,,,,,,6,0,6
+foreignpolicy.com,foreignpolicy.com,,Other,,Unknown,foreignpolicy.com,,,,,,,,6,16,22
+livescience.com,livescience.com,,Other,,Unknown,livescience.com,,,,,,,,6,0,6
+about.google,about.google,,Other,,Unknown,about.google,http://about.google/,1190692,about.google,0,,Unknown,Unknown,5,0,5
+johnmenadue.com,johnmenadue.com,,Other,,Unknown,johnmenadue.com,http://johnmenadue.com/,496380,johnmenadue.com,0,,Unknown,Unknown,5,0,5
+xinhuanet.com,xinhuanet.com,,Other,,Unknown,xinhuanet.com,http://xinhuanet.com/,495589,xinhuanet.com,0,,Unknown,Unknown,5,0,5
+mensline.org.au,mensline.org.au,,Other,,Unknown,mensline.org.au,http://mensline.org.au/,434123,mensline.org.au,0,AUS,Unknown,Unknown,5,0,5
+roymorgan.com,roymorgan.com,,Other,,Unknown,roymorgan.com,http://roymorgan.com/,417006,roymorgan.com,0,,Unknown,Unknown,5,0,5
+wiktionary.org,wiktionary.org,,Other,,Unknown,wiktionary.org,http://wiktionary.org/,375384,wiktionary.org,0,,Unknown,Unknown,5,0,5
+journals.sagepub.com,journals.sagepub.com,,Other,,Unknown,journals.sagepub.com,http://journals.sagepub.com/,361729,journals.sagepub.com,0.031556,,Unknown,Unknown,5,0,5
+msn.com,msn.com,,Other,,Digital Native,msn.com,http://www.msn.com.mx/,267550,"MSN.com - Hotmail, Outlook, Skype, Bing, Latest News, Photos & Videos",0,,Unknown,English,5,3,8
+stockandland.com.au,stockandland.com.au,,Other,,Print Native,stockandland.com.au,http://stockandland.com.au/,223834,stockandland.com.au,0.034556,AUS,"Victoria, Australia",English,5,0,5
+nff.org.au,nff.org.au,,Other,,Unknown,nff.org.au,http://nff.org.au/,222940,nff.org.au,0,AUS,Unknown,Unknown,5,0,5
+scribepublications.com.au,scribepublications.com.au,,Other,,Unknown,scribepublications.com.au,http://scribepublications.com.au/,221246,scribepublications.com.au,0,AUS,Unknown,Unknown,5,0,5
+ourworldindata.org,ourworldindata.org,,Other,,Unknown,ourworldindata.org,http://ourworldindata.org/,210130,ourworldindata.org,0,,Unknown,Unknown,5,0,5
+monash.edu,monash.edu,,Other,,Unknown,monash.edu,http://monash.edu/,200649,monash.edu,0,,Unknown,Unknown,5,0,5
+healthdata.org,healthdata.org,,Other,,Unknown,healthdata.org,http://healthdata.org/,144325,healthdata.org,0,,Unknown,Unknown,5,0,5
+mayoclinic.org,mayoclinic.org,,Other,,Unknown,mayoclinic.org,http://www.mayoclinic.org/#spider,90667,mayoclinic.org,0.000222,,Unknown,Unknown,5,0,5
+uchicago.edu,uchicago.edu,,Other,,Unknown,uchicago.edu,http://www.uchicago.edu/#spider,78068,uchicago.edu,0.000333,,Unknown,Unknown,5,0,5
+arcgis.com,arcgis.com,,Other,,Unknown,arcgis.com,http://www.arcgis.com/#spider,73063,arcgis.com,0,,Unknown,Unknown,5,0,5
+ucl.ac.uk,ucl.ac.uk,,Other,,Unknown,ucl.ac.uk,http://www.ucl.ac.uk/#spider,68609,ucl.ac.uk,0,,Unknown,Unknown,5,0,5
+healthline.com,healthline.com,,Other,,Unknown,healthline.com,http://www.healthline.com/#spider,67408,healthline.com,0.000222,,Unknown,Unknown,5,0,5
+greens.org.au,greens.org.au,,Other,,Unknown,greens.org.au,http://greens.org.au/,64436,greens.org.au,0,AUS,Unknown,English,5,0,5
+lse.ac.uk,lse.ac.uk,,Other,,Unknown,lse.ac.uk,http://lse.ac.uk/,60298,lse.ac.uk,0.003333,,Unknown,English,5,0,5
+csis.org,csis.org,,Other,,Unknown,csis.org,http://csis.org/#spider,52478,csis.org,0.000333,,Unknown,Unknown,5,0,5
+iea.org,iea.org,,Other,,Unknown,iea.org,http://www.iea.org/#spider,51675,iea.org,0,,Unknown,Unknown,5,0,5
+imf.org,imf.org,,Other,,Unknown,imf.org,http://www.imf.org/#spider,46362,imf.org,0.000333,,Unknown,Unknown,5,0,5
+surveymonkey.com,surveymonkey.com,,Other,,Unknown,surveymonkey.com,https://www.surveymonkey.com#spider,33937,surveymonkey.com,0.000111,,Unknown,Unknown,5,0,5
+mdpi.com,mdpi.com,,Other,,Unknown,mdpi.com,http://www.mdpi.com#spider,33456,mdpi.com,0.000778,,Unknown,Unknown,5,0,5
+gatesfoundation.org,gatesfoundation.org,,Other,,Unknown,gatesfoundation.org,http://www.gatesfoundation.org,26796,gatesfoundation.org,0,,Unknown,English,5,0,5
+oecd.org,oecd.org,,Other,,Unknown,oecd.org,http://www.oecd.org,18990,oecd.org,0,,Unknown,Unknown,5,0,5
+youtube.com,youtube.com,,Platform,,Unknown,youtube.com,,,,,,,,36,0,36
+twitter.com,twitter.com,,Platform,,Unknown,twitter.com,,,,,,,,35,0,35
+facebook.com,facebook.com,,Platform,,Unknown,facebook.com,,,,,,,,32,0,32
+instagram.com,instagram.com,,Platform,,Unknown,instagram.com,,,,,,,,24,0,24
+linkedin.com,linkedin.com,,Platform,,Unknown,linkedin.com,,,,,,,,12,0,12
+medium.com,medium.com,,Platform,,Unknown,medium.com,http://medium.com%2f@medium.com/,1477110,medium.com%2f@medium.com,0,,Unknown,Unknown,11,0,11
+spotify.com,spotify.com,,Platform,,Unknown,spotify.com,http://www.spotify.com,20958,spotify.com,0.002556,,Unknown,Unknown,9,0,9
+tiktok.com,tiktok.com,,Platform,,Unknown,tiktok.com,,,,,,,,9,0,9
+bit.ly,bit.ly,,Platform,,Unknown,bit.ly,,,,,,,,7,0,7
+reddit.com,reddit.com,,Platform,,Unknown,reddit.com,,,,,,,,7,0,7
+omny.fm,omny.fm,,Platform,,Unknown,omny.fm,http://omny.fm/,340495,omny.fm,0.000444,,Unknown,Unknown,6,0,6
+google.com,google.com,,Search Engine,,Unknown,google.com,,,,,,,,24,562,586
+yahoo.com,yahoo.com,,Search Engine,,Unknown,yahoo.com,,,,,,,,12,9,21
+google.com.au,google.com.au,,Search Engine,,Unknown,google.com.au,http://www.google.com.au,19156,google.com.au,0.000333,AUS,Unknown,English,5,0,5

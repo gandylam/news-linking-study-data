@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2021-12-10">
+  <meta lastmodifieddate="2022-02-18">
     <creator>NetworkX 2.6.3</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -131,14 +131,14 @@
       </node>
       <node id="bbc.co.uk" label="bbc.co.uk">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bbc.co.uk" />
         </attvalues>
       </node>
       <node id="bbc.com" label="bbc.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bbc.com" />
         </attvalues>
@@ -243,7 +243,7 @@
       </node>
       <node id="chathamhouse.org" label="chathamhouse.org">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="chathamhouse.org" />
           <attvalue for="3" value="http://www.chathamhouse.org#spider" />
@@ -320,7 +320,7 @@
       </node>
       <node id="doi.org" label="doi.org">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="doi.org" />
           <attvalue for="3" value="http://doi.org/" />
@@ -334,7 +334,7 @@
       </node>
       <node id="dukeupress.edu" label="dukeupress.edu">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="dukeupress.edu" />
           <attvalue for="3" value="http://www.dukeupress.edu#spider" />
@@ -368,20 +368,6 @@
           <attvalue for="3" value="http://fsdkenya.org/" />
           <attvalue for="4" value="1452526" />
           <attvalue for="5" value="fsdkenya.org" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
-      <node id="google.at" label="google.at">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="google.at" />
-          <attvalue for="3" value="https://google.at/" />
-          <attvalue for="4" value="222908" />
-          <attvalue for="5" value="google.at" />
           <attvalue for="6" value="0.0" />
           <attvalue for="7" value="" />
           <attvalue for="8" value="Unknown" />
@@ -607,7 +593,7 @@
       </node>
       <node id="nation.co.ke" label="nation.co.ke">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Video Broadcast" />
           <attvalue for="2" value="nation.co.ke" />
           <attvalue for="3" value="http://ntv.nation.co.ke/" />
@@ -649,7 +635,7 @@
       </node>
       <node id="nih.gov" label="nih.gov">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Foreign Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nih.gov" />
           <attvalue for="3" value="http://nih.gov./" />
@@ -663,7 +649,7 @@
       </node>
       <node id="nytimes.com" label="nytimes.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nytimes.com" />
           <attvalue for="3" value="http://nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&amp;ei=euhlt4rfmoapiaeq27rz&amp;usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4eq&amp;sig2=uiuf4teeaccn2t5ld8o-9w/" />
@@ -719,7 +705,7 @@
       </node>
       <node id="oup.com" label="oup.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="oup.com" />
         </attvalues>
@@ -754,7 +740,7 @@
       </node>
       <node id="reliefweb.int" label="reliefweb.int">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="reliefweb.int" />
           <attvalue for="3" value="#spider249" />
@@ -852,7 +838,7 @@
       </node>
       <node id="springer.com" label="springer.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="springer.com" />
           <attvalue for="3" value="http://www.springer.com" />
@@ -866,7 +852,7 @@
       </node>
       <node id="standardmedia.co.ke" label="standardmedia.co.ke">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="standardmedia.co.ke" />
           <attvalue for="3" value="http://www.standardmedia.co.ke/ktn/" />
@@ -908,7 +894,7 @@
       </node>
       <node id="tandfonline.com" label="tandfonline.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="tandfonline.com" />
           <attvalue for="3" value="http://www.tandfonline.com#spider" />
@@ -936,7 +922,7 @@
       </node>
       <node id="theconversation.com" label="theconversation.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="theconversation.com" />
         </attvalues>
@@ -1027,7 +1013,7 @@
       </node>
       <node id="un.org" label="un.org">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="un.org" />
         </attvalues>
@@ -1081,13 +1067,6 @@
           <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
-      <node id="voanews.com" label="voanews.com">
-        <attvalues>
-          <attvalue for="0" value="Unknown" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="voanews.com" />
-        </attvalues>
-      </node>
       <node id="warforpeace.co.ke" label="warforpeace.co.ke">
         <attvalues>
           <attvalue for="0" value="National Media Source" />
@@ -1112,7 +1091,7 @@
       </node>
       <node id="who.int" label="who.int">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="who.int" />
           <attvalue for="3" value="http://who.int%3e/" />
@@ -1154,14 +1133,14 @@
       </node>
       <node id="worldbank.org" label="worldbank.org">
         <attvalues>
-          <attvalue for="0" value="Government" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="worldbank.org" />
         </attvalues>
       </node>
       <node id="youtube.com" label="youtube.com">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Platform" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="youtube.com" />
           <attvalue for="3" value="http://www.youtube.com/user/K24TV" />
@@ -1203,7 +1182,7 @@
       </node>
       <node id="cnn.com" label="cnn.com">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cnn.com" />
           <attvalue for="3" value="https://www.cnn.com/africa" />
@@ -1245,7 +1224,7 @@
       </node>
       <node id="news24.com" label="news24.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="news24.com" />
         </attvalues>
@@ -1276,13 +1255,6 @@
           <attvalue for="7" value="" />
           <attvalue for="8" value="Unknown" />
           <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
-      <node id="shabiki.com" label="shabiki.com">
-        <attvalues>
-          <attvalue for="0" value="Unknown" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="shabiki.com" />
         </attvalues>
       </node>
       <node id="ahram.org.eg" label="ahram.org.eg">
@@ -1384,20 +1356,6 @@
           <attvalue for="3" value="http://cdc.gov,/" />
           <attvalue for="4" value="169793" />
           <attvalue for="5" value="cdc.gov," />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
-      <node id="cdlib.org" label="cdlib.org">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="cdlib.org" />
-          <attvalue for="3" value="http://cdlib.org/" />
-          <attvalue for="4" value="173918" />
-          <attvalue for="5" value="cdlib.org" />
           <attvalue for="6" value="0.0" />
           <attvalue for="7" value="" />
           <attvalue for="8" value="Unknown" />
@@ -1539,7 +1497,7 @@
       </node>
       <node id="imf.org" label="imf.org">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="imf.org" />
           <attvalue for="3" value="http://www.imf.org/#spider" />
@@ -1791,7 +1749,7 @@
       </node>
       <node id="bloomberg.com" label="bloomberg.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bloomberg.com" />
           <attvalue for="3" value="http://bloomberg.com,/" />
@@ -1831,13 +1789,6 @@
           <attvalue for="2" value="debtbusters.co.za" />
         </attvalues>
       </node>
-      <node id="doubleclick.net" label="doubleclick.net">
-        <attvalues>
-          <attvalue for="0" value="Unknown" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="doubleclick.net" />
-        </attvalues>
-      </node>
       <node id="drift.com" label="drift.com">
         <attvalues>
           <attvalue for="0" value="Media Source" />
@@ -1868,7 +1819,7 @@
       </node>
       <node id="forbes.com" label="forbes.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="forbes.com" />
         </attvalues>
@@ -1882,20 +1833,6 @@
           <attvalue for="4" value="367244" />
           <attvalue for="5" value="gallup.com" />
           <attvalue for="6" value="0.011333333333333334" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
-      <node id="google.fr" label="google.fr">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="google.fr" />
-          <attvalue for="3" value="http://www.google.fr" />
-          <attvalue for="4" value="22893" />
-          <attvalue for="5" value="google.fr" />
-          <attvalue for="6" value="0.0003333333333333333" />
           <attvalue for="7" value="" />
           <attvalue for="8" value="Unknown" />
           <attvalue for="9" value="Unknown" />
@@ -1945,7 +1882,7 @@
       </node>
       <node id="netwerk24.com" label="netwerk24.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Digital Native" />
           <attvalue for="2" value="netwerk24.com" />
           <attvalue for="3" value="http://netwerk24.com/" />
@@ -1959,7 +1896,7 @@
       </node>
       <node id="oecd.org" label="oecd.org">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="oecd.org" />
           <attvalue for="3" value="http://www.oecd.org" />
@@ -2127,7 +2064,7 @@
       </node>
       <node id="theguardian.com" label="theguardian.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="theguardian.com" />
         </attvalues>
@@ -2244,6 +2181,70 @@
           <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
+      <node id="ghafla.com" label="ghafla.com">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="ghafla.com" />
+        </attvalues>
+      </node>
+      <node id="bit.ly" label="bit.ly">
+        <attvalues>
+          <attvalue for="0" value="Platform" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="bit.ly" />
+          <attvalue for="3" value="http://bit.ly" />
+          <attvalue for="4" value="21036" />
+          <attvalue for="5" value="bit.ly" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
+        </attvalues>
+      </node>
+      <node id="co-opbank.co.ke" label="co-opbank.co.ke">
+        <attvalues>
+          <attvalue for="0" value="National Media Source" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="co-opbank.co.ke" />
+          <attvalue for="7" value="KEN" />
+        </attvalues>
+      </node>
+      <node id="facebook.com" label="facebook.com">
+        <attvalues>
+          <attvalue for="0" value="Platform" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="facebook.com" />
+        </attvalues>
+      </node>
+      <node id="mozzartbet.co.ke" label="mozzartbet.co.ke">
+        <attvalues>
+          <attvalue for="0" value="National Media Source" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="mozzartbet.co.ke" />
+          <attvalue for="3" value="http://mozzartbet.co.ke/" />
+          <attvalue for="4" value="1656249" />
+          <attvalue for="5" value="mozzartbet.co.ke" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="KEN" />
+          <attvalue for="8" value="Unknown" />
+          <attvalue for="9" value="Unknown" />
+        </attvalues>
+      </node>
+      <node id="muzaymanentertainment.com" label="muzaymanentertainment.com">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="muzaymanentertainment.com" />
+        </attvalues>
+      </node>
+      <node id="youtu.be" label="youtu.be">
+        <attvalues>
+          <attvalue for="0" value="Platform" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="youtu.be" />
+        </attvalues>
+      </node>
       <node id="ghettoradio.co.ke" label="ghettoradio.co.ke">
         <attvalues>
           <attvalue for="0" value="National Media Source" />
@@ -2264,13 +2265,6 @@
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="afatrading.co.ke" />
           <attvalue for="7" value="KEN" />
-        </attvalues>
-      </node>
-      <node id="facebook.com" label="facebook.com">
-        <attvalues>
-          <attvalue for="0" value="Platform" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="facebook.com" />
         </attvalues>
       </node>
       <node id="startimestv.com" label="startimestv.com">
@@ -2631,13 +2625,6 @@
           <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
-      <node id="brand.africa" label="brand.africa">
-        <attvalues>
-          <attvalue for="0" value="Unknown" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="brand.africa" />
-        </attvalues>
-      </node>
       <node id="brandafrica.net" label="brandafrica.net">
         <attvalues>
           <attvalue for="0" value="Unknown" />
@@ -2757,25 +2744,11 @@
           <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
-      <node id="bit.ly" label="bit.ly">
+      <node id="patreon.com" label="patreon.com">
         <attvalues>
           <attvalue for="0" value="Platform" />
           <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="bit.ly" />
-        </attvalues>
-      </node>
-      <node id="patreon.com" label="patreon.com">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="patreon.com" />
-          <attvalue for="3" value="http://patreon.com/#spider" />
-          <attvalue for="4" value="104961" />
-          <attvalue for="5" value="patreon.com" />
-          <attvalue for="6" value="0.0024444444444444444" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="kenya-today.com" label="kenya-today.com">
@@ -2881,20 +2854,6 @@
           <attvalue for="7" value="KEN" />
           <attvalue for="8" value="Unknown" />
           <attvalue for="9" value="English" />
-        </attvalues>
-      </node>
-      <node id="1.bp.blogspot.com" label="1.bp.blogspot.com">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="1.bp.blogspot.com" />
-          <attvalue for="3" value="http://1.bp.blogspot.com" />
-          <attvalue for="4" value="18623" />
-          <attvalue for="5" value="1.bp.blogspot.com" />
-          <attvalue for="6" value="0.0006666666666666666" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="254news.co.ke" label="254news.co.ke">
@@ -3046,7 +3005,7 @@
       </node>
       <node id="fao.org" label="fao.org">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="fao.org" />
         </attvalues>
@@ -3249,9 +3208,16 @@
       </node>
       <node id="usatoday.com" label="usatoday.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="usatoday.com" />
+        </attvalues>
+      </node>
+      <node id="voanews.com" label="voanews.com">
+        <attvalues>
+          <attvalue for="0" value="Foreign News" />
+          <attvalue for="1" value="Unknown" />
+          <attvalue for="2" value="voanews.com" />
         </attvalues>
       </node>
       <node id="wmo.int" label="wmo.int">
@@ -3368,20 +3334,6 @@
           <attvalue for="3" value="http://cosmopolitan.com/" />
           <attvalue for="4" value="366280" />
           <attvalue for="5" value="cosmopolitan.com" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
-      <node id="flourish.studio" label="flourish.studio">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="flourish.studio" />
-          <attvalue for="3" value="http://flourish.studio/" />
-          <attvalue for="4" value="1157666" />
-          <attvalue for="5" value="flourish.studio" />
           <attvalue for="6" value="0.0" />
           <attvalue for="7" value="" />
           <attvalue for="8" value="Unknown" />
@@ -3666,20 +3618,6 @@
           <attvalue for="9" value="English" />
         </attvalues>
       </node>
-      <node id="mozzartbet.co.ke" label="mozzartbet.co.ke">
-        <attvalues>
-          <attvalue for="0" value="National Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="mozzartbet.co.ke" />
-          <attvalue for="3" value="http://mozzartbet.co.ke/" />
-          <attvalue for="4" value="1656249" />
-          <attvalue for="5" value="mozzartbet.co.ke" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="KEN" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
       <node id="10x.co.za" label="10x.co.za">
         <attvalues>
           <attvalue for="0" value="Unknown" />
@@ -3804,20 +3742,6 @@
           <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="apple.com" />
-        </attvalues>
-      </node>
-      <node id="arrivealive.co.za" label="arrivealive.co.za">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="arrivealive.co.za" />
-          <attvalue for="3" value="http://arrivealive.co.za/" />
-          <attvalue for="4" value="761448" />
-          <attvalue for="5" value="arrivealive.co.za" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
       <node id="atptour.com" label="atptour.com">
@@ -4385,13 +4309,6 @@
           <attvalue for="7" value="" />
           <attvalue for="8" value="Unknown" />
           <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
-      <node id="gpwonline.co.za" label="gpwonline.co.za">
-        <attvalues>
-          <attvalue for="0" value="Unknown" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="gpwonline.co.za" />
         </attvalues>
       </node>
       <node id="groundup.org.za" label="groundup.org.za">
@@ -5033,7 +4950,7 @@
       </node>
       <node id="soundcloud.com" label="soundcloud.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Platform" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="soundcloud.com" />
         </attvalues>
@@ -5549,23 +5466,9 @@
           <attvalue for="2" value="news.com.au" />
         </attvalues>
       </node>
-      <node id="people.com" label="people.com">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="people.com" />
-          <attvalue for="3" value="http://people.com%20/" />
-          <attvalue for="4" value="130416" />
-          <attvalue for="5" value="people.com%20" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
       <node id="reuters.com" label="reuters.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="reuters.com" />
           <attvalue for="3" value="http://reuters.com;/" />
@@ -6544,20 +6447,6 @@
           <attvalue for="9" value="Unknown" />
         </attvalues>
       </node>
-      <node id="coiab.org.br" label="coiab.org.br">
-        <attvalues>
-          <attvalue for="0" value="Media Source" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="coiab.org.br" />
-          <attvalue for="3" value="http://coiab.org.br/" />
-          <attvalue for="4" value="1546440" />
-          <attvalue for="5" value="coiab.org.br" />
-          <attvalue for="6" value="0.0" />
-          <attvalue for="7" value="" />
-          <attvalue for="8" value="Unknown" />
-          <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
       <node id="coica.org.ec" label="coica.org.ec">
         <attvalues>
           <attvalue for="0" value="Media Source" />
@@ -6920,13 +6809,6 @@
           <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="globaldeliveryinitiative.org" />
-        </attvalues>
-      </node>
-      <node id="googleusercontent.com" label="googleusercontent.com">
-        <attvalues>
-          <attvalue for="0" value="Unknown" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="googleusercontent.com" />
         </attvalues>
       </node>
       <node id="gov.bi" label="gov.bi">
@@ -8366,7 +8248,7 @@
       </node>
       <node id="yahoo.com" label="yahoo.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Platform" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="yahoo.com" />
         </attvalues>
@@ -8397,13 +8279,6 @@
           <attvalue for="7" value="" />
           <attvalue for="8" value="Unknown" />
           <attvalue for="9" value="Unknown" />
-        </attvalues>
-      </node>
-      <node id="en-blog.files.wordpress.com" label="en-blog.files.wordpress.com">
-        <attvalues>
-          <attvalue for="0" value="Unknown" />
-          <attvalue for="1" value="Unknown" />
-          <attvalue for="2" value="en-blog.files.wordpress.com" />
         </attvalues>
       </node>
       <node id="freshbooks.com" label="freshbooks.com">
@@ -8472,925 +8347,915 @@
     </nodes>
     <edges>
       <edge source="allafrica.com" target="africauncensored.online" id="0" weight="2" />
-      <edge source="allafrica.com" target="agoa.info" id="1" weight="4" />
+      <edge source="allafrica.com" target="agoa.info" id="1" weight="2" />
       <edge source="allafrica.com" target="ajol.info" id="2" weight="2" />
-      <edge source="allafrica.com" target="amazon.com" id="3" weight="7" />
-      <edge source="allafrica.com" target="amisom-au.org" id="4" weight="2" />
+      <edge source="allafrica.com" target="amazon.com" id="3" weight="5" />
+      <edge source="allafrica.com" target="amisom-au.org" id="4" weight="1" />
       <edge source="allafrica.com" target="aphrc.org" id="5" weight="10" />
       <edge source="allafrica.com" target="bard.edu" id="6" weight="1" />
       <edge source="allafrica.com" target="bbc.co.uk" id="7" weight="1" />
       <edge source="allafrica.com" target="bbc.com" id="8" weight="1" />
-      <edge source="allafrica.com" target="berghahnjournals.com" id="9" weight="4" />
+      <edge source="allafrica.com" target="berghahnjournals.com" id="9" weight="2" />
       <edge source="allafrica.com" target="bmj.com" id="10" weight="1" />
-      <edge source="allafrica.com" target="brill.com" id="11" weight="3" />
+      <edge source="allafrica.com" target="brill.com" id="11" weight="2" />
       <edge source="allafrica.com" target="businesstoday.co.ke" id="12" weight="1" />
-      <edge source="allafrica.com" target="cairn.info" id="13" weight="2" />
-      <edge source="allafrica.com" target="cambridge.org" id="14" weight="3" />
+      <edge source="allafrica.com" target="cairn.info" id="13" weight="1" />
+      <edge source="allafrica.com" target="cambridge.org" id="14" weight="2" />
       <edge source="allafrica.com" target="capitalfm.co.ke" id="15" weight="2" />
-      <edge source="allafrica.com" target="chathamhouse.org" id="16" weight="2" />
+      <edge source="allafrica.com" target="chathamhouse.org" id="16" weight="1" />
       <edge source="allafrica.com" target="citizentv.co.ke" id="17" weight="3" />
-      <edge source="allafrica.com" target="csis.org" id="18" weight="2" />
-      <edge source="allafrica.com" target="d-addicts.com" id="19" weight="2" />
-      <edge source="allafrica.com" target="democracyinafrica.org" id="20" weight="2" />
+      <edge source="allafrica.com" target="csis.org" id="18" weight="1" />
+      <edge source="allafrica.com" target="d-addicts.com" id="19" weight="1" />
+      <edge source="allafrica.com" target="democracyinafrica.org" id="20" weight="1" />
       <edge source="allafrica.com" target="diva-portal.org" id="21" weight="1" />
       <edge source="allafrica.com" target="doi.org" id="22" weight="5" />
-      <edge source="allafrica.com" target="dukeupress.edu" id="23" weight="2" />
+      <edge source="allafrica.com" target="dukeupress.edu" id="23" weight="1" />
       <edge source="allafrica.com" target="frontiersin.org" id="24" weight="1" />
-      <edge source="allafrica.com" target="fsdkenya.org" id="25" weight="2" />
-      <edge source="allafrica.com" target="google.at" id="26" weight="2" />
-      <edge source="allafrica.com" target="health.go.ke" id="27" weight="3" />
-      <edge source="allafrica.com" target="hrw.org" id="28" weight="10" />
-      <edge source="allafrica.com" target="idgconnect.com" id="29" weight="2" />
-      <edge source="allafrica.com" target="imdb.com" id="30" weight="2" />
-      <edge source="allafrica.com" target="instagram.com" id="31" weight="1" />
-      <edge source="allafrica.com" target="iol.co.za" id="32" weight="1" />
-      <edge source="allafrica.com" target="ipcrc.net" id="33" weight="1" />
-      <edge source="allafrica.com" target="ipinst.org" id="34" weight="6" />
-      <edge source="allafrica.com" target="journalofdemocracy.org" id="35" weight="2" />
-      <edge source="allafrica.com" target="journals.sagepub.com" id="36" weight="3" />
-      <edge source="allafrica.com" target="jstor.org" id="37" weight="2" />
-      <edge source="allafrica.com" target="knchr.org" id="38" weight="1" />
-      <edge source="allafrica.com" target="la-bas.org" id="39" weight="2" />
-      <edge source="allafrica.com" target="mckinsey.com" id="40" weight="3" />
-      <edge source="allafrica.com" target="mediafocusonafrica.org" id="41" weight="1" />
-      <edge source="allafrica.com" target="microsoft.com" id="42" weight="1" />
-      <edge source="allafrica.com" target="misskoch.org" id="43" weight="1" />
-      <edge source="allafrica.com" target="mod.go.ke" id="44" weight="4" />
-      <edge source="allafrica.com" target="mpala.org" id="45" weight="1" />
-      <edge source="allafrica.com" target="nation.co.ke" id="46" weight="14" />
-      <edge source="allafrica.com" target="nature.com" id="47" weight="1" />
-      <edge source="allafrica.com" target="newsweek.com" id="48" weight="1" />
-      <edge source="allafrica.com" target="nih.gov" id="49" weight="7" />
-      <edge source="allafrica.com" target="nytimes.com" id="50" weight="1" />
-      <edge source="allafrica.com" target="oec.world" id="51" weight="4" />
-      <edge source="allafrica.com" target="ohioswallow.com" id="52" weight="2" />
-      <edge source="allafrica.com" target="oie.int" id="53" weight="1" />
-      <edge source="allafrica.com" target="oup.com" id="54" weight="3" />
-      <edge source="allafrica.com" target="pactworld.org" id="55" weight="2" />
-      <edge source="allafrica.com" target="plos.org" id="56" weight="1" />
-      <edge source="allafrica.com" target="qz.com" id="57" weight="2" />
-      <edge source="allafrica.com" target="reliefweb.int" id="58" weight="2" />
-      <edge source="allafrica.com" target="researchgate.net" id="59" weight="1" />
-      <edge source="allafrica.com" target="saiia.org.za" id="60" weight="1" />
-      <edge source="allafrica.com" target="scidev.net" id="61" weight="1" />
-      <edge source="allafrica.com" target="sciencedirect.com" id="62" weight="3" />
-      <edge source="allafrica.com" target="seattleu.edu" id="63" weight="2" />
-      <edge source="allafrica.com" target="sheldrickwildlifetrust.org" id="64" weight="1" />
-      <edge source="allafrica.com" target="slideshare.net" id="65" weight="1" />
-      <edge source="allafrica.com" target="springer.com" id="66" weight="3" />
-      <edge source="allafrica.com" target="standardmedia.co.ke" id="67" weight="2" />
-      <edge source="allafrica.com" target="state.gov" id="68" weight="2" />
-      <edge source="allafrica.com" target="t.co" id="69" weight="4" />
-      <edge source="allafrica.com" target="tandfonline.com" id="70" weight="7" />
-      <edge source="allafrica.com" target="the-star.co.ke" id="71" weight="4" />
-      <edge source="allafrica.com" target="theconversation.com" id="72" weight="44" />
-      <edge source="allafrica.com" target="theelephant.info" id="73" weight="14" />
-      <edge source="allafrica.com" target="tralac.org" id="74" weight="2" />
-      <edge source="allafrica.com" target="twitter.com" id="75" weight="10" />
-      <edge source="allafrica.com" target="u-tena.org" id="76" weight="1" />
-      <edge source="allafrica.com" target="ufl.edu" id="77" weight="1" />
-      <edge source="allafrica.com" target="uicc.org" id="78" weight="1" />
-      <edge source="allafrica.com" target="umn.edu" id="79" weight="1" />
-      <edge source="allafrica.com" target="un.org" id="80" weight="4" />
-      <edge source="allafrica.com" target="unctad.org" id="81" weight="1" />
-      <edge source="allafrica.com" target="unesco.org" id="82" weight="4" />
-      <edge source="allafrica.com" target="usembassy.gov" id="83" weight="4" />
-      <edge source="allafrica.com" target="ustr.gov" id="84" weight="4" />
-      <edge source="allafrica.com" target="voanews.com" id="85" weight="2" />
-      <edge source="allafrica.com" target="warforpeace.co.ke" id="86" weight="2" />
-      <edge source="allafrica.com" target="warontherocks.com" id="87" weight="2" />
-      <edge source="allafrica.com" target="washingtontimes.com" id="88" weight="2" />
-      <edge source="allafrica.com" target="who.int" id="89" weight="10" />
-      <edge source="allafrica.com" target="wiley.com" id="90" weight="9" />
-      <edge source="allafrica.com" target="world-heart-federation.org" id="91" weight="2" />
-      <edge source="allafrica.com" target="worldbank.org" id="92" weight="2" />
-      <edge source="allafrica.com" target="youtube.com" id="93" weight="2" />
-      <edge source="capitalfm.co.ke" target="cnn.com" id="94" weight="1" />
-      <edge source="citizentv.co.ke" target="kcbgroup.com" id="95" weight="1" />
-      <edge source="citizentv.co.ke" target="shabiki.com" id="96" weight="287" />
-      <edge source="citizentv.co.ke" target="twitter.com" id="97" weight="2" />
-      <edge source="citizentv.co.ke" target="youtube.com" id="98" weight="1" />
-      <edge source="health.go.ke" target="govmail.ke" id="99" weight="1" />
-      <edge source="nation.co.ke" target="bit.ly" id="100" weight="1" />
-      <edge source="nation.co.ke" target="change.org" id="101" weight="1" />
-      <edge source="nation.co.ke" target="hudumakenya.go.ke" id="102" weight="1" />
-      <edge source="nation.co.ke" target="instagram.com" id="103" weight="5" />
-      <edge source="nation.co.ke" target="mozzartbet.co.ke" id="104" weight="2" />
-      <edge source="nation.co.ke" target="twitter.com" id="105" weight="4" />
-      <edge source="standardmedia.co.ke" target="ab-tc.com" id="106" weight="2" />
-      <edge source="standardmedia.co.ke" target="bbc.co.uk" id="107" weight="2" />
-      <edge source="standardmedia.co.ke" target="bit.ly" id="108" weight="3" />
-      <edge source="standardmedia.co.ke" target="bloomberg.com" id="109" weight="1" />
-      <edge source="standardmedia.co.ke" target="cnn.com" id="110" weight="2" />
-      <edge source="standardmedia.co.ke" target="court.gov.cn" id="111" weight="4" />
-      <edge source="standardmedia.co.ke" target="dailymail.co.uk" id="112" weight="1" />
-      <edge source="standardmedia.co.ke" target="diepresse.com" id="113" weight="2" />
-      <edge source="standardmedia.co.ke" target="disqus.com" id="114" weight="18" />
-      <edge source="standardmedia.co.ke" target="erc.ie" id="115" weight="1" />
-      <edge source="standardmedia.co.ke" target="facebook.com" id="116" weight="5" />
-      <edge source="standardmedia.co.ke" target="fao.org" id="117" weight="3" />
-      <edge source="standardmedia.co.ke" target="fifa.com" id="118" weight="1" />
-      <edge source="standardmedia.co.ke" target="football.london" id="119" weight="2" />
-      <edge source="standardmedia.co.ke" target="forbes.com" id="120" weight="4" />
-      <edge source="standardmedia.co.ke" target="getreading.co.uk" id="121" weight="1" />
-      <edge source="standardmedia.co.ke" target="globalpublishers.co.tz" id="122" weight="3" />
-      <edge source="standardmedia.co.ke" target="google.com" id="123" weight="383" />
-      <edge source="standardmedia.co.ke" target="healthline.com" id="124" weight="5" />
-      <edge source="standardmedia.co.ke" target="hudumakenya.go.ke" id="125" weight="6" />
-      <edge source="standardmedia.co.ke" target="instagram.com" id="126" weight="8" />
-      <edge source="standardmedia.co.ke" target="jokajok.com" id="127" weight="2" />
-      <edge source="standardmedia.co.ke" target="lequipe.fr" id="128" weight="1" />
-      <edge source="standardmedia.co.ke" target="manutd.com" id="129" weight="1" />
-      <edge source="standardmedia.co.ke" target="mirror.co.uk" id="130" weight="6" />
-      <edge source="standardmedia.co.ke" target="mozzartbet.co.ke" id="131" weight="37" />
-      <edge source="standardmedia.co.ke" target="nih.gov" id="132" weight="4" />
-      <edge source="standardmedia.co.ke" target="nytimes.com" id="133" weight="3" />
-      <edge source="standardmedia.co.ke" target="poll.fm" id="134" weight="342" />
-      <edge source="standardmedia.co.ke" target="premierleague.com" id="135" weight="6" />
-      <edge source="standardmedia.co.ke" target="pressfire.net" id="136" weight="1" />
-      <edge source="standardmedia.co.ke" target="refpasrasw.world" id="137" weight="1" />
-      <edge source="standardmedia.co.ke" target="reuters.com" id="138" weight="27" />
-      <edge source="standardmedia.co.ke" target="riddle.com" id="139" weight="27" />
-      <edge source="standardmedia.co.ke" target="sde.co.ke" id="140" weight="26" />
-      <edge source="standardmedia.co.ke" target="self.com" id="141" weight="2" />
-      <edge source="standardmedia.co.ke" target="snopes.com" id="142" weight="2" />
-      <edge source="standardmedia.co.ke" target="soccerbible.com" id="143" weight="3" />
-      <edge source="standardmedia.co.ke" target="standard.co.uk" id="144" weight="1" />
-      <edge source="standardmedia.co.ke" target="t.me" id="145" weight="956" />
-      <edge source="standardmedia.co.ke" target="thesun.ie" id="146" weight="2" />
-      <edge source="standardmedia.co.ke" target="twitter.com" id="147" weight="5" />
-      <edge source="standardmedia.co.ke" target="univ-grenoble-alpes.fr" id="148" weight="2" />
-      <edge source="standardmedia.co.ke" target="usda.gov" id="149" weight="1" />
-      <edge source="standardmedia.co.ke" target="verywellhealth.com" id="150" weight="2" />
-      <edge source="standardmedia.co.ke" target="vindobona.org" id="151" weight="2" />
-      <edge source="standardmedia.co.ke" target="whitehouse.gov" id="152" weight="1" />
-      <edge source="standardmedia.co.ke" target="wmo.int" id="153" weight="3" />
-      <edge source="standardmedia.co.ke" target="www.gov.sg" id="154" weight="2" />
-      <edge source="standardmedia.co.ke" target="youtube.com" id="155" weight="5" />
-      <edge source="the-star.co.ke" target="atozservices.co.ke" id="156" weight="1" />
-      <edge source="the-star.co.ke" target="bbc.co.uk" id="157" weight="16" />
-      <edge source="the-star.co.ke" target="bbc.com" id="158" weight="3" />
-      <edge source="the-star.co.ke" target="berkeley.edu" id="159" weight="1" />
-      <edge source="the-star.co.ke" target="betway.co.ke" id="160" weight="1" />
-      <edge source="the-star.co.ke" target="bit.ly" id="161" weight="15" />
-      <edge source="the-star.co.ke" target="independent.co.uk" id="162" weight="1" />
-      <edge source="the-star.co.ke" target="ipsnews.net" id="163" weight="1" />
-      <edge source="the-star.co.ke" target="jackdaniels.com" id="164" weight="1" />
-      <edge source="the-star.co.ke" target="oecd.org" id="165" weight="1" />
-      <edge source="the-star.co.ke" target="pesacheck.org" id="166" weight="2" />
-      <edge source="the-star.co.ke" target="project-syndicate.org" id="167" weight="1" />
-      <edge source="the-star.co.ke" target="pscp.tv" id="168" weight="1" />
-      <edge source="the-star.co.ke" target="reuters.com" id="169" weight="3" />
-      <edge source="the-star.co.ke" target="stanfordaande.com" id="170" weight="1" />
-      <edge source="the-star.co.ke" target="theconversation.com" id="171" weight="1" />
-      <edge source="the-star.co.ke" target="theguardian.com" id="172" weight="1" />
-      <edge source="the-star.co.ke" target="tiktok.com" id="173" weight="2" />
-      <edge source="the-star.co.ke" target="twitter.com" id="174" weight="3" />
-      <edge source="the-star.co.ke" target="worldbank.org" id="175" weight="1" />
-      <edge source="the-star.co.ke" target="wsj.com" id="176" weight="1" />
-      <edge source="youtube.com" target="google.com" id="177" weight="84" />
-      <edge source="businessinsider.co.za" target="insider.com" id="178" weight="1" />
-      <edge source="cnn.com" target="ahram.org.eg" id="179" weight="1" />
-      <edge source="cnn.com" target="akiddie.com.ng" id="180" weight="1" />
-      <edge source="cnn.com" target="ap.org" id="181" weight="1" />
-      <edge source="cnn.com" target="apnews.com" id="182" weight="1" />
-      <edge source="cnn.com" target="au.int" id="183" weight="1" />
-      <edge source="cnn.com" target="bellingcat.com" id="184" weight="1" />
-      <edge source="cnn.com" target="britannica.com" id="185" weight="3" />
-      <edge source="cnn.com" target="businessday.ng" id="186" weight="1" />
-      <edge source="cnn.com" target="cdc.gov" id="187" weight="1" />
-      <edge source="cnn.com" target="cdlib.org" id="188" weight="1" />
-      <edge source="cnn.com" target="chathamhouse.org" id="189" weight="1" />
-      <edge source="cnn.com" target="covidzw.info" id="190" weight="1" />
-      <edge source="cnn.com" target="cpgnigeria.medium.com" id="191" weight="2" />
-      <edge source="cnn.com" target="diarrablu.com" id="192" weight="1" />
-      <edge source="cnn.com" target="eac.int" id="193" weight="1" />
-      <edge source="cnn.com" target="fivethirtyeight.com" id="194" weight="7" />
-      <edge source="cnn.com" target="flutterwave.com" id="195" weight="1" />
-      <edge source="cnn.com" target="gambiaparticipate.org" id="196" weight="2" />
-      <edge source="cnn.com" target="gokada.ng" id="197" weight="1" />
-      <edge source="cnn.com" target="google.com" id="198" weight="1" />
-      <edge source="cnn.com" target="guardian.ng" id="199" weight="1" />
-      <edge source="cnn.com" target="icglobalpartners.com" id="200" weight="1" />
-      <edge source="cnn.com" target="imf.org" id="201" weight="1" />
-      <edge source="cnn.com" target="instagram.com" id="202" weight="2" />
-      <edge source="cnn.com" target="lsetf.ng" id="203" weight="1" />
-      <edge source="cnn.com" target="magambanetwork.com" id="204" weight="1" />
-      <edge source="cnn.com" target="max.ng" id="205" weight="1" />
-      <edge source="cnn.com" target="nddc.gov.ng" id="206" weight="1" />
-      <edge source="cnn.com" target="news24.com" id="207" weight="1" />
-      <edge source="cnn.com" target="nytimes.com" id="208" weight="1" />
-      <edge source="cnn.com" target="operapay.com" id="209" weight="1" />
-      <edge source="cnn.com" target="punchng.com" id="210" weight="3" />
-      <edge source="cnn.com" target="reliefweb.int" id="211" weight="1" />
-      <edge source="cnn.com" target="statista.com" id="212" weight="1" />
-      <edge source="cnn.com" target="straitstimes.com" id="213" weight="1" />
-      <edge source="cnn.com" target="techcrunch.com" id="214" weight="2" />
-      <edge source="cnn.com" target="telegraph.co.uk" id="215" weight="2" />
-      <edge source="cnn.com" target="thecable.ng" id="216" weight="1" />
-      <edge source="cnn.com" target="thecitizen.co.tz" id="217" weight="1" />
-      <edge source="cnn.com" target="theconversation.com" id="218" weight="1" />
-      <edge source="cnn.com" target="tut.ac.za" id="219" weight="1" />
-      <edge source="cnn.com" target="twitter.com" id="220" weight="30" />
-      <edge source="cnn.com" target="who.int" id="221" weight="4" />
-      <edge source="cnn.com" target="worldbank.org" id="222" weight="1" />
-      <edge source="cnn.com" target="youtube.com" id="223" weight="3" />
-      <edge source="cnn.com" target="zimcodd.org" id="224" weight="1" />
-      <edge source="cnn.com" target="zipjet.co.uk" id="225" weight="1" />
-      <edge source="channel24.co.za" target="instagram.com" id="226" weight="1" />
-      <edge source="channel24.co.za" target="match-in-africa.com" id="227" weight="1" />
-      <edge source="channel24.co.za" target="news24.com" id="228" weight="2" />
-      <edge source="channel24.co.za" target="sport24.co.za" id="229" weight="2" />
-      <edge source="news24.com" target="10x.co.za" id="230" weight="1" />
-      <edge source="news24.com" target="acumenmagazine.co.za" id="231" weight="1" />
-      <edge source="news24.com" target="afp.com" id="232" weight="2" />
-      <edge source="news24.com" target="africacheck.org" id="233" weight="8" />
-      <edge source="news24.com" target="africaportal.org" id="234" weight="1" />
-      <edge source="news24.com" target="agrilinks.org" id="235" weight="1" />
-      <edge source="news24.com" target="aljazeera.com" id="236" weight="11" />
-      <edge source="news24.com" target="alsudaninews.com" id="237" weight="1" />
-      <edge source="news24.com" target="amabhungane.org" id="238" weight="5" />
-      <edge source="news24.com" target="amazonaws.com" id="239" weight="1" />
-      <edge source="news24.com" target="ancient.eu" id="240" weight="1" />
-      <edge source="news24.com" target="apple.com" id="241" weight="6" />
-      <edge source="news24.com" target="arrivealive.co.za" id="242" weight="1" />
-      <edge source="news24.com" target="atptour.com" id="243" weight="1" />
-      <edge source="news24.com" target="aymennjawad.org" id="244" weight="1" />
-      <edge source="news24.com" target="bbc.com" id="245" weight="2" />
-      <edge source="news24.com" target="bhekisisa.org" id="246" weight="2" />
-      <edge source="news24.com" target="bit.ly" id="247" weight="1" />
-      <edge source="news24.com" target="biznews.com" id="248" weight="1" />
-      <edge source="news24.com" target="blacksash.org.za" id="249" weight="1" />
-      <edge source="news24.com" target="bloomberg.com" id="250" weight="4" />
-      <edge source="news24.com" target="bridgiot.co.za" id="251" weight="1" />
-      <edge source="news24.com" target="britannica.com" id="252" weight="1" />
-      <edge source="news24.com" target="brookings.edu" id="253" weight="1" />
-      <edge source="news24.com" target="bulldogs.com.au" id="254" weight="1" />
-      <edge source="news24.com" target="businessdailyafrica.com" id="255" weight="2" />
-      <edge source="news24.com" target="businessinsider.co.za" id="256" weight="37" />
-      <edge source="news24.com" target="businesslive.co.za" id="257" weight="3" />
-      <edge source="news24.com" target="businesstech.co.za" id="258" weight="1" />
-      <edge source="news24.com" target="cfr.org" id="259" weight="1" />
-      <edge source="news24.com" target="cgdev.org" id="260" weight="1" />
-      <edge source="news24.com" target="cgiar.org" id="261" weight="1" />
-      <edge source="news24.com" target="change.org" id="262" weight="1" />
-      <edge source="news24.com" target="childlinesa.org.za" id="263" weight="1" />
-      <edge source="news24.com" target="citizen.co.za" id="264" weight="1" />
-      <edge source="news24.com" target="cnbc.com" id="265" weight="1" />
-      <edge source="news24.com" target="cnn.com" id="266" weight="3" />
-      <edge source="news24.com" target="core.ac.uk" id="267" weight="1" />
-      <edge source="news24.com" target="cramsurvey.org" id="268" weight="1" />
-      <edge source="news24.com" target="crisisgroup.org" id="269" weight="1" />
-      <edge source="news24.com" target="da.org.za" id="270" weight="1" />
-      <edge source="news24.com" target="dailyfriend.co.za" id="271" weight="1" />
-      <edge source="news24.com" target="dailymail.co.uk" id="272" weight="2" />
-      <edge source="news24.com" target="dailymaverick.co.za" id="273" weight="1" />
-      <edge source="news24.com" target="dailyvoice.co.za" id="274" weight="2" />
-      <edge source="news24.com" target="devex.com" id="275" weight="1" />
-      <edge source="news24.com" target="dispatchlive.co.za" id="276" weight="1" />
-      <edge source="news24.com" target="dohanews.co" id="277" weight="1" />
-      <edge source="news24.com" target="doi.org" id="278" weight="4" />
-      <edge source="news24.com" target="dst.gov.za" id="279" weight="1" />
-      <edge source="news24.com" target="elections.org.za" id="280" weight="2" />
-      <edge source="news24.com" target="enca.com" id="281" weight="5" />
-      <edge source="news24.com" target="engrxiv.org" id="282" weight="7" />
-      <edge source="news24.com" target="eskom.co.za" id="283" weight="1" />
-      <edge source="news24.com" target="espncricinfo.com" id="284" weight="3" />
-      <edge source="news24.com" target="europeantour.com" id="285" weight="4" />
-      <edge source="news24.com" target="everlytic.net" id="286" weight="31" />
-      <edge source="news24.com" target="ewn.co.za" id="287" weight="4" />
-      <edge source="news24.com" target="express.co.uk" id="288" weight="2" />
-      <edge source="news24.com" target="facebook.com" id="289" weight="3" />
-      <edge source="news24.com" target="fao.org" id="290" weight="2" />
-      <edge source="news24.com" target="fda.gov" id="291" weight="2" />
-      <edge source="news24.com" target="fin24.com" id="292" weight="14" />
-      <edge source="news24.com" target="fm104.ie" id="293" weight="2" />
-      <edge source="news24.com" target="forbes.com" id="294" weight="3" />
-      <edge source="news24.com" target="fscheetahs.co.za" id="295" weight="1" />
-      <edge source="news24.com" target="gettyimages.com" id="296" weight="1" />
-      <edge source="news24.com" target="geyserpleaser.co.za" id="297" weight="1" />
-      <edge source="news24.com" target="gibs.co.za" id="298" weight="2" />
-      <edge source="news24.com" target="giftofthegivers.org" id="299" weight="1" />
-      <edge source="news24.com" target="goodreads.com" id="300" weight="1" />
-      <edge source="news24.com" target="google.com" id="301" weight="7" />
-      <edge source="news24.com" target="gov.scot" id="302" weight="3" />
-      <edge source="news24.com" target="gpwonline.co.za" id="303" weight="2" />
-      <edge source="news24.com" target="groundup.org.za" id="304" weight="16" />
-      <edge source="news24.com" target="guinnessworldrecords.com" id="305" weight="2" />
-      <edge source="news24.com" target="health24.com" id="306" weight="7" />
-      <edge source="news24.com" target="henleyglobal.com" id="307" weight="1" />
-      <edge source="news24.com" target="iea.org" id="308" weight="1" />
-      <edge source="news24.com" target="iol.co.za" id="309" weight="7" />
-      <edge source="news24.com" target="iono.fm" id="310" weight="1" />
-      <edge source="news24.com" target="irishtimes.com" id="311" weight="1" />
-      <edge source="news24.com" target="irr.org.za" id="312" weight="1" />
-      <edge source="news24.com" target="kaizerchiefs.com" id="313" weight="1" />
-      <edge source="news24.com" target="kickoff.com" id="314" weight="2" />
-      <edge source="news24.com" target="kubota-spears.com" id="315" weight="1" />
-      <edge source="news24.com" target="lifelinesa.co.za" id="316" weight="1" />
-      <edge source="news24.com" target="lionstour2021.co.za" id="317" weight="9" />
-      <edge source="news24.com" target="lnr.fr" id="318" weight="2" />
-      <edge source="news24.com" target="loc.gov" id="319" weight="1" />
-      <edge source="news24.com" target="lowvelder.co.za" id="320" weight="1" />
-      <edge source="news24.com" target="massinc.org" id="321" weight="1" />
-      <edge source="news24.com" target="mckinsey.com" id="322" weight="1" />
-      <edge source="news24.com" target="medpagetoday.com" id="323" weight="1" />
-      <edge source="news24.com" target="melanieverwoerd.co.za" id="324" weight="1" />
-      <edge source="news24.com" target="mellowvans.com" id="325" weight="1" />
-      <edge source="news24.com" target="moneyweb.co.za" id="326" weight="1" />
-      <edge source="news24.com" target="msfaccess.org" id="327" weight="1" />
-      <edge source="news24.com" target="mwnation.com" id="328" weight="1" />
-      <edge source="news24.com" target="nation.co.ke" id="329" weight="1" />
-      <edge source="news24.com" target="nationaldebtadvisors.co.za" id="330" weight="1" />
-      <edge source="news24.com" target="nationalgeographic.com" id="331" weight="1" />
-      <edge source="news24.com" target="nationallottery.co.za" id="332" weight="12" />
-      <edge source="news24.com" target="nbcnews.com" id="333" weight="1" />
-      <edge source="news24.com" target="ncr.org.za" id="334" weight="1" />
-      <edge source="news24.com" target="netwerk24.com" id="335" weight="19" />
-      <edge source="news24.com" target="norscotkoppies.co.za" id="336" weight="1" />
-      <edge source="news24.com" target="nytimes.com" id="337" weight="4" />
-      <edge source="news24.com" target="odi.org" id="338" weight="1" />
-      <edge source="news24.com" target="oecd-ilibrary.org" id="339" weight="1" />
-      <edge source="news24.com" target="ofm.co.za" id="340" weight="2" />
-      <edge source="news24.com" target="ourworldindata.org" id="341" weight="1" />
-      <edge source="news24.com" target="ox.ac.uk" id="342" weight="1" />
-      <edge source="news24.com" target="panda.org" id="343" weight="1" />
-      <edge source="news24.com" target="pathcare.co.za" id="344" weight="1" />
-      <edge source="news24.com" target="pbs.org" id="345" weight="1" />
-      <edge source="news24.com" target="philosophyexperiments.com" id="346" weight="1" />
-      <edge source="news24.com" target="plaas.org.za" id="347" weight="3" />
-      <edge source="news24.com" target="politicsweb.co.za" id="348" weight="1" />
-      <edge source="news24.com" target="power987.co.za" id="349" weight="1" />
-      <edge source="news24.com" target="rekordeast.co.za" id="350" weight="1" />
-      <edge source="news24.com" target="researchgate.net" id="351" weight="1" />
-      <edge source="news24.com" target="reviewonline.co.za" id="352" weight="3" />
-      <edge source="news24.com" target="rugbyrocks.com" id="353" weight="1" />
-      <edge source="news24.com" target="ruraldevelopment.gov.za" id="354" weight="1" />
-      <edge source="news24.com" target="sacoronavirus.co.za" id="355" weight="1" />
-      <edge source="news24.com" target="sacsowach.org" id="356" weight="2" />
-      <edge source="news24.com" target="sadag.org" id="357" weight="1" />
-      <edge source="news24.com" target="sahistory.org.za" id="358" weight="1" />
-      <edge source="news24.com" target="sahpra.org.za" id="359" weight="2" />
-      <edge source="news24.com" target="samrc.ac.za" id="360" weight="1" />
-      <edge source="news24.com" target="sarugbymag.co.za" id="361" weight="1" />
-      <edge source="news24.com" target="scmp.com" id="362" weight="1" />
-      <edge source="news24.com" target="sedibengster.com" id="363" weight="1" />
-      <edge source="news24.com" target="skysports.com" id="364" weight="1" />
-      <edge source="news24.com" target="solidariteit.co.za" id="365" weight="1" />
-      <edge source="news24.com" target="soundcloud.com" id="366" weight="1" />
-      <edge source="news24.com" target="sowetanlive.co.za" id="367" weight="2" />
-      <edge source="news24.com" target="sport24.co.za" id="368" weight="24" />
-      <edge source="news24.com" target="sportingpost.co.za" id="369" weight="1" />
-      <edge source="news24.com" target="spotlightnsp.co.za" id="370" weight="3" />
-      <edge source="news24.com" target="springer.com" id="371" weight="1" />
-      <edge source="news24.com" target="standardmedia.co.ke" id="372" weight="1" />
-      <edge source="news24.com" target="statssa.gov.za" id="373" weight="2" />
-      <edge source="news24.com" target="studyinmauritania.wordpress.com" id="374" weight="1" />
-      <edge source="news24.com" target="summitafrica.ru" id="375" weight="1" />
-      <edge source="news24.com" target="sundayworld.co.za" id="376" weight="1" />
-      <edge source="news24.com" target="supersport.com" id="377" weight="1" />
-      <edge source="news24.com" target="tandfonline.com" id="378" weight="1" />
-      <edge source="news24.com" target="teachingamericanhistory.org" id="379" weight="1" />
-      <edge source="news24.com" target="tei.org.za" id="380" weight="1" />
-      <edge source="news24.com" target="thebe.co.za" id="381" weight="1" />
-      <edge source="news24.com" target="theconversation.com" id="382" weight="47" />
-      <edge source="news24.com" target="theeastafrican.co.ke" id="383" weight="1" />
-      <edge source="news24.com" target="theguardian.com" id="384" weight="2" />
-      <edge source="news24.com" target="thehill.com" id="385" weight="1" />
-      <edge source="news24.com" target="thepresidency.gov.za" id="386" weight="1" />
-      <edge source="news24.com" target="thesouthafrican.com" id="387" weight="3" />
-      <edge source="news24.com" target="thestormers.com" id="388" weight="1" />
-      <edge source="news24.com" target="timeslive.co.za" id="389" weight="12" />
-      <edge source="news24.com" target="traveller24.com" id="390" weight="2" />
-      <edge source="news24.com" target="treasury.gov.za" id="391" weight="1" />
-      <edge source="news24.com" target="tufts.edu" id="392" weight="2" />
-      <edge source="news24.com" target="turkisharchaeonews.net" id="393" weight="1" />
-      <edge source="news24.com" target="twitter.com" id="394" weight="8" />
-      <edge source="news24.com" target="un.org" id="395" weight="7" />
-      <edge source="news24.com" target="unaids.org" id="396" weight="1" />
-      <edge source="news24.com" target="undrr.org" id="397" weight="1" />
-      <edge source="news24.com" target="unfccc.int" id="398" weight="1" />
-      <edge source="news24.com" target="unsouthsouth.org" id="399" weight="1" />
-      <edge source="news24.com" target="unu.edu" id="400" weight="1" />
-      <edge source="news24.com" target="us12.list-manage.com" id="401" weight="2" />
-      <edge source="news24.com" target="usatoday.com" id="402" weight="1" />
-      <edge source="news24.com" target="w24.co.za" id="403" weight="1" />
-      <edge source="news24.com" target="washingtonpost.com" id="404" weight="1" />
-      <edge source="news24.com" target="weathersa.co.za" id="405" weight="18" />
-      <edge source="news24.com" target="weld2020.org" id="406" weight="1" />
-      <edge source="news24.com" target="westerncape.gov.za" id="407" weight="3" />
-      <edge source="news24.com" target="wheels24.co.za" id="408" weight="1" />
-      <edge source="news24.com" target="whistleblowers.org" id="409" weight="1" />
-      <edge source="news24.com" target="who.int" id="410" weight="3" />
-      <edge source="news24.com" target="www.gov.cn" id="411" weight="1" />
-      <edge source="news24.com" target="www.gov.uk" id="412" weight="4" />
-      <edge source="news24.com" target="www.gov.za" id="413" weight="10" />
-      <edge source="news24.com" target="youtube.com" id="414" weight="11" />
-      <edge source="sport24.co.za" target="apple.com" id="415" weight="1" />
-      <edge source="sport24.co.za" target="bbc.com" id="416" weight="7" />
-      <edge source="sport24.co.za" target="dailymail.co.uk" id="417" weight="2" />
-      <edge source="sport24.co.za" target="dailymaverick.co.za" id="418" weight="1" />
-      <edge source="sport24.co.za" target="doubleclick.net" id="419" weight="2" />
-      <edge source="sport24.co.za" target="espn.com" id="420" weight="1" />
-      <edge source="sport24.co.za" target="espncricinfo.com" id="421" weight="3" />
-      <edge source="sport24.co.za" target="everlytic.net" id="422" weight="2" />
-      <edge source="sport24.co.za" target="facebook.com" id="423" weight="1" />
-      <edge source="sport24.co.za" target="gloucesterrugby.co.uk" id="424" weight="1" />
-      <edge source="sport24.co.za" target="goal.com" id="425" weight="1" />
-      <edge source="sport24.co.za" target="google.com" id="426" weight="1" />
-      <edge source="sport24.co.za" target="instagram.com" id="427" weight="4" />
-      <edge source="sport24.co.za" target="kaizerchiefs.com" id="428" weight="1" />
-      <edge source="sport24.co.za" target="kickoff.com" id="429" weight="2" />
-      <edge source="sport24.co.za" target="lionstour2021.co.za" id="430" weight="66" />
-      <edge source="sport24.co.za" target="midi-olympique.fr" id="431" weight="1" />
-      <edge source="sport24.co.za" target="mytwocents.co.za" id="432" weight="3" />
-      <edge source="sport24.co.za" target="netwerk24.com" id="433" weight="2" />
-      <edge source="sport24.co.za" target="news.com.au" id="434" weight="1" />
-      <edge source="sport24.co.za" target="news24.com" id="435" weight="2" />
-      <edge source="sport24.co.za" target="people.com" id="436" weight="1" />
-      <edge source="sport24.co.za" target="reuters.com" id="437" weight="1" />
-      <edge source="sport24.co.za" target="skysports.com" id="438" weight="1" />
-      <edge source="sport24.co.za" target="smh.com.au" id="439" weight="1" />
-      <edge source="sport24.co.za" target="sowetanlive.co.za" id="440" weight="2" />
-      <edge source="sport24.co.za" target="stuff.co.nz/https://www.stuff.co.nz/sport/rugby/all-blacks/121491588/all-blacks-prop-ofa-tuungafasi-shows-brute-strength-in-scrum-practice-with-carsport" id="441" weight="1" />
-      <edge source="sport24.co.za" target="stuff.co.nz/https://www.stuff.co.nz/sport/rugby/international/121046507/all-blacks-dominate-rugbys-greatest-triessport" id="442" weight="1" />
-      <edge source="sport24.co.za" target="stuff.co.nz/https://www.stuff.co.nz/sport/rugby/super-rugby/121488663/sam-whitelock-cleared-to-play-for-the-crusaders-in-super-rugby-restartsport" id="443" weight="1" />
-      <edge source="sport24.co.za" target="sundownsfc.co.za" id="444" weight="1" />
-      <edge source="sport24.co.za" target="supersport.com" id="445" weight="4" />
-      <edge source="sport24.co.za" target="tampabay.com" id="446" weight="1" />
-      <edge source="sport24.co.za" target="theguardian.com" id="447" weight="2" />
-      <edge source="sport24.co.za" target="thestormers.com" id="448" weight="1" />
-      <edge source="sport24.co.za" target="tvnz.co.nz" id="449" weight="1" />
-      <edge source="sport24.co.za" target="twitter.com" id="450" weight="13" />
-      <edge source="sport24.co.za" target="usatoday.com" id="451" weight="1" />
-      <edge source="sport24.co.za" target="vodacomdurbanjuly.co.za" id="452" weight="1" />
-      <edge source="sport24.co.za" target="youtube.com" id="453" weight="2" />
-      <edge source="deepcogitation.com" target="nation.co.ke" id="454" weight="1" />
-      <edge source="fin24.com" target="3m3w.co.za" id="455" weight="1" />
-      <edge source="fin24.com" target="aeaweb.org" id="456" weight="1" />
-      <edge source="fin24.com" target="bloomberg.com" id="457" weight="9" />
-      <edge source="fin24.com" target="businessinsider.co.za" id="458" weight="6" />
-      <edge source="fin24.com" target="cfr.org" id="459" weight="1" />
-      <edge source="fin24.com" target="creditclear.web.za" id="460" weight="1" />
-      <edge source="fin24.com" target="debtbusters.co.za" id="461" weight="1" />
-      <edge source="fin24.com" target="doubleclick.net" id="462" weight="8" />
-      <edge source="fin24.com" target="drift.com" id="463" weight="1" />
-      <edge source="fin24.com" target="fas.org" id="464" weight="1" />
-      <edge source="fin24.com" target="forbes.com" id="465" weight="2" />
-      <edge source="fin24.com" target="gallup.com" id="466" weight="1" />
-      <edge source="fin24.com" target="google.fr" id="467" weight="1" />
-      <edge source="fin24.com" target="hbr.org" id="468" weight="2" />
-      <edge source="fin24.com" target="imf.org" id="469" weight="1" />
-      <edge source="fin24.com" target="insead.edu" id="470" weight="1" />
-      <edge source="fin24.com" target="journals.sagepub.com" id="471" weight="3" />
-      <edge source="fin24.com" target="kulula.com" id="472" weight="1" />
-      <edge source="fin24.com" target="netwerk24.com" id="473" weight="1" />
-      <edge source="fin24.com" target="news24.com" id="474" weight="4" />
-      <edge source="fin24.com" target="oecd.org" id="475" weight="1" />
-      <edge source="fin24.com" target="oxfordclinicalpsych.com" id="476" weight="1" />
-      <edge source="fin24.com" target="penguinrandomhouse.com" id="477" weight="1" />
-      <edge source="fin24.com" target="piie.com" id="478" weight="2" />
-      <edge source="fin24.com" target="politico.com" id="479" weight="1" />
-      <edge source="fin24.com" target="positivepsychology.com" id="480" weight="1" />
-      <edge source="fin24.com" target="profilebooks.com" id="481" weight="1" />
-      <edge source="fin24.com" target="profiledata.co.za" id="482" weight="2" />
-      <edge source="fin24.com" target="psychologytoday.com" id="483" weight="1" />
-      <edge source="fin24.com" target="repubblica.it" id="484" weight="1" />
-      <edge source="fin24.com" target="sharenet.co.za" id="485" weight="1" />
-      <edge source="fin24.com" target="statssa.gov.za" id="486" weight="1" />
-      <edge source="fin24.com" target="thedecisionlab.com" id="487" weight="1" />
-      <edge source="fin24.com" target="theguardian.com" id="488" weight="1" />
-      <edge source="fin24.com" target="timeslive.co.za" id="489" weight="1" />
-      <edge source="fin24.com" target="timetothink.com" id="490" weight="1" />
-      <edge source="fin24.com" target="track-stats.com" id="491" weight="1" />
-      <edge source="fin24.com" target="twitter.com" id="492" weight="1" />
-      <edge source="fin24.com" target="un.org.za" id="493" weight="1" />
-      <edge source="fin24.com" target="unctad.org" id="494" weight="1" />
-      <edge source="fin24.com" target="undp.org" id="495" weight="1" />
-      <edge source="fin24.com" target="upenn.edu" id="496" weight="1" />
-      <edge source="fin24.com" target="virtualcoachingpartners.com" id="497" weight="1" />
-      <edge source="fin24.com" target="wework.com" id="498" weight="1" />
-      <edge source="fin24.com" target="who.int" id="499" weight="1" />
-      <edge source="fin24.com" target="wpmucdn.com" id="500" weight="1" />
-      <edge source="fin24.com" target="wsj.com" id="501" weight="1" />
-      <edge source="ghettoradio.co.ke" target="afatrading.co.ke" id="502" weight="1" />
-      <edge source="ghettoradio.co.ke" target="facebook.com" id="503" weight="2" />
-      <edge source="ghettoradio.co.ke" target="instagram.com" id="504" weight="15" />
-      <edge source="ghettoradio.co.ke" target="startimestv.com" id="505" weight="1" />
-      <edge source="ghettoradio.co.ke" target="t.co" id="506" weight="1" />
-      <edge source="ghettoradio.co.ke" target="twitter.com" id="507" weight="1" />
-      <edge source="ghettoradio.co.ke" target="wp.com" id="508" weight="4" />
-      <edge source="hot96.co.ke" target="edaily.co.ke" id="509" weight="10" />
-      <edge source="ijmonitor.org" target="cejil.org" id="510" weight="2" />
-      <edge source="ijmonitor.org" target="corteidh.or.cr" id="511" weight="1" />
-      <edge source="ijmonitor.org" target="gmu.edu" id="512" weight="2" />
-      <edge source="ijmonitor.org" target="icc-cpi.int" id="513" weight="3" />
-      <edge source="ijmonitor.org" target="no-ficcion.com" id="514" weight="1" />
-      <edge source="ijmonitor.org" target="nomada.gt" id="515" weight="1" />
-      <edge source="ijmonitor.org" target="ohchr.org" id="516" weight="1" />
-      <edge source="ijmonitor.org" target="ox.ac.uk" id="517" weight="1" />
-      <edge source="ijmonitor.org" target="prensacomunitaria.org" id="518" weight="1" />
-      <edge source="kahawatungu.com" target="africaintelligence.com" id="519" weight="1" />
-      <edge source="kahawatungu.com" target="huawei.com" id="520" weight="1" />
-      <edge source="kahawatungu.com" target="iebc.or.ke" id="521" weight="1" />
-      <edge source="kahawatungu.com" target="instagram.com" id="522" weight="3" />
-      <edge source="kahawatungu.com" target="milkor.com" id="523" weight="1" />
-      <edge source="kahawatungu.com" target="mzalendo.com" id="524" weight="2" />
-      <edge source="kahawatungu.com" target="nis.go.ke" id="525" weight="1" />
-      <edge source="kahawatungu.com" target="planefinder.net" id="526" weight="1" />
-      <edge source="kahawatungu.com" target="t.me" id="527" weight="342" />
-      <edge source="kahawatungu.com" target="webconfs.com" id="528" weight="1" />
-      <edge source="kbc.co.ke" target="apple.co" id="529" weight="1" />
-      <edge source="kbc.co.ke" target="bbc.co.uk" id="530" weight="5" />
-      <edge source="kbc.co.ke" target="bonifacemwangi.com" id="531" weight="1" />
-      <edge source="kbc.co.ke" target="brand.africa" id="532" weight="1" />
-      <edge source="kbc.co.ke" target="brandafrica.net" id="533" weight="1" />
-      <edge source="kbc.co.ke" target="castyleawards.com" id="534" weight="1" />
-      <edge source="kbc.co.ke" target="filmafrica.org" id="535" weight="1" />
-      <edge source="kbc.co.ke" target="gavi.org" id="536" weight="1" />
-      <edge source="kbc.co.ke" target="gettyimages.com" id="537" weight="2" />
-      <edge source="kbc.co.ke" target="instagram.com" id="538" weight="4" />
-      <edge source="kbc.co.ke" target="lnk.to" id="539" weight="1" />
-      <edge source="kbc.co.ke" target="moet.com" id="540" weight="1" />
-      <edge source="kbc.co.ke" target="softiethefilm.com" id="541" weight="1" />
-      <edge source="kbc.co.ke" target="twitter.com" id="542" weight="6" />
-      <edge source="kbc.co.ke" target="wikipedia.org" id="543" weight="4" />
-      <edge source="kbc.co.ke" target="youtube.com" id="544" weight="5" />
-      <edge source="kdrtv.co.ke" target="bit.ly" id="545" weight="10" />
-      <edge source="kdrtv.co.ke" target="facebook.com" id="546" weight="2" />
-      <edge source="kdrtv.co.ke" target="patreon.com" id="547" weight="5" />
-      <edge source="kenya-today.com" target="capitolnews.co.ke" id="548" weight="2" />
-      <edge source="kenya-today.com" target="mpasho.co.ke" id="549" weight="2" />
-      <edge source="kenya-today.com" target="odibets.com" id="550" weight="1" />
-      <edge source="kenya-today.com" target="slimover55review.weebly.com" id="551" weight="1" />
-      <edge source="kenya-today.com" target="t.co" id="552" weight="23" />
-      <edge source="kenya-today.com" target="twitter.com" id="553" weight="54" />
-      <edge source="mpasho.co.ke" target="bit.ly" id="554" weight="3" />
-      <edge source="mpasho.co.ke" target="brutallyhonest.home.blog" id="555" weight="2" />
-      <edge source="mpasho.co.ke" target="cosmopolitan.com" id="556" weight="1" />
-      <edge source="mpasho.co.ke" target="facebook.com" id="557" weight="6" />
-      <edge source="mpasho.co.ke" target="flourish.studio" id="558" weight="1" />
-      <edge source="mpasho.co.ke" target="gofundme.com" id="559" weight="1" />
-      <edge source="mpasho.co.ke" target="instagram.com" id="560" weight="20" />
-      <edge source="mpasho.co.ke" target="usernameproperties.com" id="561" weight="9" />
-      <edge source="mpasho.co.ke" target="yourtango.com" id="562" weight="1" />
-      <edge source="kenyaforum.net" target="kenyalaw.org" id="563" weight="1" />
-      <edge source="kenyan-post.com" target="1.bp.blogspot.com" id="564" weight="11" />
-      <edge source="kenyan-post.com" target="254news.co.ke" id="565" weight="1" />
-      <edge source="kenyan-post.com" target="enewskenya.blogspot.com" id="566" weight="31" />
-      <edge source="kenyan-post.com" target="instagram.com" id="567" weight="2" />
-      <edge source="kenyan-post.com" target="mugwenudoctors.com" id="568" weight="4" />
-      <edge source="kenyan-post.com" target="odibets.com" id="569" weight="121" />
-      <edge source="kenyan-post.com" target="pricit.ke" id="570" weight="41" />
-      <edge source="kenyastar.com" target="abcnews.go.com" id="571" weight="1" />
-      <edge source="kenyastar.com" target="amazon.com" id="572" weight="4" />
-      <edge source="kenyastar.com" target="amisom-au.org" id="573" weight="1" />
-      <edge source="kenyastar.com" target="bbc.co.uk" id="574" weight="1" />
-      <edge source="kenyastar.com" target="bmj.com" id="575" weight="2" />
-      <edge source="kenyastar.com" target="brill.com" id="576" weight="1" />
-      <edge source="kenyastar.com" target="businesslive.co.za" id="577" weight="1" />
-      <edge source="kenyastar.com" target="cambridge.org" id="578" weight="1" />
-      <edge source="kenyastar.com" target="cansa.org.za" id="579" weight="1" />
-      <edge source="kenyastar.com" target="cdc.gov" id="580" weight="2" />
-      <edge source="kenyastar.com" target="cell.com" id="581" weight="1" />
-      <edge source="kenyastar.com" target="chathamhouse.org" id="582" weight="1" />
-      <edge source="kenyastar.com" target="cnla.mr" id="583" weight="1" />
-      <edge source="kenyastar.com" target="cnn.com" id="584" weight="1" />
-      <edge source="kenyastar.com" target="desertlocust-crc.org" id="585" weight="1" />
-      <edge source="kenyastar.com" target="doi.org" id="586" weight="4" />
-      <edge source="kenyastar.com" target="dukeupress.edu" id="587" weight="2" />
-      <edge source="kenyastar.com" target="europa.eu" id="588" weight="1" />
-      <edge source="kenyastar.com" target="fao.org" id="589" weight="9" />
-      <edge source="kenyastar.com" target="forbes.com" id="590" weight="1" />
-      <edge source="kenyastar.com" target="frontiersin.org" id="591" weight="1" />
-      <edge source="kenyastar.com" target="globaltobaccocontrol.org" id="592" weight="1" />
-      <edge source="kenyastar.com" target="goandproclaim.co.za" id="593" weight="1" />
-      <edge source="kenyastar.com" target="google.com" id="594" weight="1" />
-      <edge source="kenyastar.com" target="health.go.ke" id="595" weight="1" />
-      <edge source="kenyastar.com" target="history.com" id="596" weight="1" />
-      <edge source="kenyastar.com" target="ingentaconnect.com" id="597" weight="1" />
-      <edge source="kenyastar.com" target="ipinst.org" id="598" weight="3" />
-      <edge source="kenyastar.com" target="jhu.edu" id="599" weight="2" />
-      <edge source="kenyastar.com" target="jstor.org" id="600" weight="3" />
-      <edge source="kenyastar.com" target="knchr.org" id="601" weight="1" />
-      <edge source="kenyastar.com" target="mod.go.ke" id="602" weight="2" />
-      <edge source="kenyastar.com" target="mpala.org" id="603" weight="1" />
-      <edge source="kenyastar.com" target="nap.edu" id="604" weight="1" />
-      <edge source="kenyastar.com" target="nejm.org" id="605" weight="2" />
-      <edge source="kenyastar.com" target="news24.com" id="606" weight="2" />
-      <edge source="kenyastar.com" target="nih.gov" id="607" weight="18" />
-      <edge source="kenyastar.com" target="nytimes.com" id="608" weight="1" />
-      <edge source="kenyastar.com" target="observer.ug" id="609" weight="1" />
-      <edge source="kenyastar.com" target="oie.int" id="610" weight="1" />
-      <edge source="kenyastar.com" target="openedition.org" id="611" weight="2" />
-      <edge source="kenyastar.com" target="oup.com" id="612" weight="2" />
-      <edge source="kenyastar.com" target="pactworld.org" id="613" weight="1" />
-      <edge source="kenyastar.com" target="plos.org" id="614" weight="2" />
-      <edge source="kenyastar.com" target="reliefweb.int" id="615" weight="1" />
-      <edge source="kenyastar.com" target="sahistory.org.za" id="616" weight="1" />
-      <edge source="kenyastar.com" target="sahpra.org.za" id="617" weight="2" />
-      <edge source="kenyastar.com" target="samrc.ac.za" id="618" weight="1" />
-      <edge source="kenyastar.com" target="sciencedirect.com" id="619" weight="2" />
-      <edge source="kenyastar.com" target="sciencemag.org" id="620" weight="2" />
-      <edge source="kenyastar.com" target="sheldrickwildlifetrust.org" id="621" weight="1" />
-      <edge source="kenyastar.com" target="tandfonline.com" id="622" weight="1" />
-      <edge source="kenyastar.com" target="td-sa.net" id="623" weight="1" />
-      <edge source="kenyastar.com" target="theconversation.com" id="624" weight="8" />
-      <edge source="kenyastar.com" target="theguardian.com" id="625" weight="1" />
-      <edge source="kenyastar.com" target="treasury.gov.za" id="626" weight="2" />
-      <edge source="kenyastar.com" target="uct.ac.za" id="627" weight="1" />
-      <edge source="kenyastar.com" target="ufl.edu" id="628" weight="1" />
-      <edge source="kenyastar.com" target="un.org" id="629" weight="2" />
-      <edge source="kenyastar.com" target="usatoday.com" id="630" weight="1" />
-      <edge source="kenyastar.com" target="voanews.com" id="631" weight="1" />
-      <edge source="kenyastar.com" target="warforpeace.co.ke" id="632" weight="1" />
-      <edge source="kenyastar.com" target="warontherocks.com" id="633" weight="1" />
-      <edge source="kenyastar.com" target="who.int" id="634" weight="6" />
-      <edge source="kenyastar.com" target="wiley.com" id="635" weight="2" />
-      <edge source="kenyastar.com" target="wmo.int" id="636" weight="1" />
-      <edge source="kenyastar.com" target="worldbank.org" id="637" weight="1" />
-      <edge source="kenyastar.com" target="worldcat.org" id="638" weight="1" />
-      <edge source="kenyastar.com" target="www.gov.za" id="639" weight="1" />
-      <edge source="kenyastar.com" target="youtube.com" id="640" weight="1" />
-      <edge source="ksnmedia.com" target="appstecamerica.com" id="641" weight="1" />
-      <edge source="ksnmedia.com" target="facebook.com" id="642" weight="2" />
-      <edge source="ksnmedia.com" target="forevermissed.com" id="643" weight="1" />
-      <edge source="ksnmedia.com" target="nation.africa" id="644" weight="3" />
-      <edge source="ksnmedia.com" target="optiven.co.ke" id="645" weight="2" />
-      <edge source="ksnmedia.com" target="standardmedia.co.ke" id="646" weight="7" />
-      <edge source="ksnmedia.com" target="successwithbobmwiti.com" id="647" weight="1" />
-      <edge source="mummytales.com" target="facebook.com" id="648" weight="3" />
-      <edge source="mummytales.com" target="instagram.com" id="649" weight="4" />
-      <edge source="mummytales.com" target="pixabay.com" id="650" weight="2" />
-      <edge source="mummytales.com" target="twitter.com" id="651" weight="3" />
-      <edge source="mummytales.com" target="youtube.com" id="652" weight="3" />
-      <edge source="mumsvillage.com" target="chupachap.co.ke" id="653" weight="1" />
-      <edge source="mumsvillage.com" target="dialadrinkkenya.com" id="654" weight="1" />
-      <edge source="mumsvillage.com" target="facebook.com" id="655" weight="1" />
-      <edge source="mumsvillage.com" target="glovoapp.com" id="656" weight="2" />
-      <edge source="mumsvillage.com" target="herdy.co" id="657" weight="1" />
-      <edge source="mumsvillage.com" target="heri.online" id="658" weight="1" />
-      <edge source="mumsvillage.com" target="javahouseafrica.com" id="659" weight="1" />
-      <edge source="mumsvillage.com" target="johnsonsbaby.co.za" id="660" weight="7" />
-      <edge source="mumsvillage.com" target="jumia.co.ke" id="661" weight="2" />
-      <edge source="mumsvillage.com" target="mygyno.co.ke" id="662" weight="1" />
-      <edge source="mumsvillage.com" target="nairobeans.com" id="663" weight="1" />
-      <edge source="mumsvillage.com" target="oaksncorks.com" id="664" weight="1" />
-      <edge source="mumsvillage.com" target="provisions.co.ke" id="665" weight="1" />
-      <edge source="mumsvillage.com" target="rafubooks.com" id="666" weight="1" />
-      <edge source="mumsvillage.com" target="royalkart.co.ke" id="667" weight="1" />
-      <edge source="mumsvillage.com" target="shopzetu.com" id="668" weight="1" />
-      <edge source="mumsvillage.com" target="textbookcentre.com" id="669" weight="1" />
-      <edge source="mumsvillage.com" target="tuskys.com" id="670" weight="1" />
-      <edge source="mumsvillage.com" target="zucchini.co.ke" id="671" weight="1" />
-      <edge source="mumsvillage.com" target="zydii.com" id="672" weight="1" />
-      <edge source="nairobiwire.com" target="hudumakenya.go.ke" id="673" weight="1" />
-      <edge source="nairobiwire.com" target="instagram.com" id="674" weight="7" />
-      <edge source="nairobiwire.com" target="nation.co.ke" id="675" weight="1" />
-      <edge source="nairobiwire.com" target="skygirlske.com" id="676" weight="1" />
-      <edge source="thenewhumanitarian.org" target="aa.com.tr" id="677" weight="1" />
-      <edge source="thenewhumanitarian.org" target="academia.edu" id="678" weight="1" />
-      <edge source="thenewhumanitarian.org" target="acaps.org" id="679" weight="2" />
-      <edge source="thenewhumanitarian.org" target="adb.org" id="680" weight="1" />
-      <edge source="thenewhumanitarian.org" target="afp.com" id="681" weight="1" />
-      <edge source="thenewhumanitarian.org" target="africa-confidential.com" id="682" weight="1" />
-      <edge source="thenewhumanitarian.org" target="africacdc.org" id="683" weight="1" />
-      <edge source="thenewhumanitarian.org" target="africanarguments.org" id="684" weight="1" />
-      <edge source="thenewhumanitarian.org" target="africanews.com" id="685" weight="3" />
-      <edge source="thenewhumanitarian.org" target="agendaforhumanity.org" id="686" weight="1" />
-      <edge source="thenewhumanitarian.org" target="agu.org" id="687" weight="1" />
-      <edge source="thenewhumanitarian.org" target="aidesep.org.pe" id="688" weight="1" />
-      <edge source="thenewhumanitarian.org" target="alarabiya.net" id="689" weight="1" />
-      <edge source="thenewhumanitarian.org" target="alarmphone.org" id="690" weight="1" />
-      <edge source="thenewhumanitarian.org" target="aljazeera.com" id="691" weight="17" />
-      <edge source="thenewhumanitarian.org" target="amazoniareal.com.br" id="692" weight="1" />
-      <edge source="thenewhumanitarian.org" target="amnesty.org" id="693" weight="11" />
-      <edge source="thenewhumanitarian.org" target="amnesty.org.in" id="694" weight="2" />
-      <edge source="thenewhumanitarian.org" target="apib.info" id="695" weight="5" />
-      <edge source="thenewhumanitarian.org" target="apnews.com" id="696" weight="6" />
-      <edge source="thenewhumanitarian.org" target="azpbs.org" id="697" weight="1" />
-      <edge source="thenewhumanitarian.org" target="bangkokpost.com" id="698" weight="1" />
-      <edge source="thenewhumanitarian.org" target="barrons.com" id="699" weight="1" />
-      <edge source="thenewhumanitarian.org" target="bbc.co.uk" id="700" weight="6" />
-      <edge source="thenewhumanitarian.org" target="bbc.com" id="701" weight="11" />
-      <edge source="thenewhumanitarian.org" target="bloomberg.com" id="702" weight="6" />
-      <edge source="thenewhumanitarian.org" target="brookings.edu" id="703" weight="1" />
-      <edge source="thenewhumanitarian.org" target="burundihri.org" id="704" weight="2" />
-      <edge source="thenewhumanitarian.org" target="catholicphilly.com" id="705" weight="1" />
-      <edge source="thenewhumanitarian.org" target="cbc.ca" id="706" weight="1" />
-      <edge source="thenewhumanitarian.org" target="cchubnigeria.com" id="707" weight="1" />
-      <edge source="thenewhumanitarian.org" target="cepal.org" id="708" weight="1" />
-      <edge source="thenewhumanitarian.org" target="chaberlin.org" id="709" weight="1" />
-      <edge source="thenewhumanitarian.org" target="chathamhouse.org" id="710" weight="2" />
-      <edge source="thenewhumanitarian.org" target="christianpost.com" id="711" weight="1" />
-      <edge source="thenewhumanitarian.org" target="clovekvtisni.cz" id="712" weight="1" />
-      <edge source="thenewhumanitarian.org" target="cnda.fr" id="713" weight="1" />
-      <edge source="thenewhumanitarian.org" target="cnn.com" id="714" weight="4" />
-      <edge source="thenewhumanitarian.org" target="coar-global.org" id="715" weight="1" />
-      <edge source="thenewhumanitarian.org" target="coiab.org.br" id="716" weight="1" />
-      <edge source="thenewhumanitarian.org" target="coica.org.ec" id="717" weight="2" />
-      <edge source="thenewhumanitarian.org" target="cpj.org" id="718" weight="1" />
-      <edge source="thenewhumanitarian.org" target="crisisgroup.org" id="719" weight="6" />
-      <edge source="thenewhumanitarian.org" target="crs.org" id="720" weight="1" />
-      <edge source="thenewhumanitarian.org" target="csis.org" id="721" weight="1" />
-      <edge source="thenewhumanitarian.org" target="csw.org.uk" id="722" weight="1" />
-      <edge source="thenewhumanitarian.org" target="cultureiq.com" id="723" weight="1" />
-      <edge source="thenewhumanitarian.org" target="dailypost.ng" id="724" weight="2" />
-      <edge source="thenewhumanitarian.org" target="dailysabah.com" id="725" weight="1" />
-      <edge source="thenewhumanitarian.org" target="devex.com" id="726" weight="2" />
-      <edge source="thenewhumanitarian.org" target="dhs.gov" id="727" weight="1" />
-      <edge source="thenewhumanitarian.org" target="diplomatie.gouv.fr" id="728" weight="1" />
-      <edge source="thenewhumanitarian.org" target="disasterprotection.org" id="729" weight="1" />
-      <edge source="thenewhumanitarian.org" target="doctorswithoutborders.org" id="730" weight="1" />
-      <edge source="thenewhumanitarian.org" target="dswd.gov.ph" id="731" weight="1" />
-      <edge source="thenewhumanitarian.org" target="duke.edu" id="732" weight="1" />
-      <edge source="thenewhumanitarian.org" target="dukeupress.edu" id="733" weight="1" />
-      <edge source="thenewhumanitarian.org" target="dw.com" id="734" weight="2" />
-      <edge source="thenewhumanitarian.org" target="eac.int" id="735" weight="1" />
-      <edge source="thenewhumanitarian.org" target="eastwestcenter.org" id="736" weight="1" />
-      <edge source="thenewhumanitarian.org" target="ecfr.eu" id="737" weight="1" />
-      <edge source="thenewhumanitarian.org" target="eplo.org" id="738" weight="1" />
-      <edge source="thenewhumanitarian.org" target="epw.in" id="739" weight="1" />
-      <edge source="thenewhumanitarian.org" target="europa.eu" id="740" weight="4" />
-      <edge source="thenewhumanitarian.org" target="eventbrite.com" id="741" weight="1" />
-      <edge source="thenewhumanitarian.org" target="executive-magazine.com" id="742" weight="1" />
-      <edge source="thenewhumanitarian.org" target="exposure.co" id="743" weight="1" />
-      <edge source="thenewhumanitarian.org" target="facebook.com" id="744" weight="1" />
-      <edge source="thenewhumanitarian.org" target="fao.org" id="745" weight="1" />
-      <edge source="thenewhumanitarian.org" target="fews.net" id="746" weight="3" />
-      <edge source="thenewhumanitarian.org" target="forbes.com" id="747" weight="1" />
-      <edge source="thenewhumanitarian.org" target="foreignpolicy.com" id="748" weight="3" />
-      <edge source="thenewhumanitarian.org" target="fragilestatesindex.org" id="749" weight="4" />
-      <edge source="thenewhumanitarian.org" target="france24.com" id="750" weight="10" />
-      <edge source="thenewhumanitarian.org" target="freedomhouse.org" id="751" weight="1" />
-      <edge source="thenewhumanitarian.org" target="ft.com" id="752" weight="1" />
-      <edge source="thenewhumanitarian.org" target="gisti.org" id="753" weight="1" />
-      <edge source="thenewhumanitarian.org" target="globaldeliveryinitiative.org" id="754" weight="1" />
-      <edge source="thenewhumanitarian.org" target="google.com" id="755" weight="1" />
-      <edge source="thenewhumanitarian.org" target="googleusercontent.com" id="756" weight="1" />
-      <edge source="thenewhumanitarian.org" target="gov.bi" id="757" weight="2" />
-      <edge source="thenewhumanitarian.org" target="gunjuronline.com" id="758" weight="1" />
-      <edge source="thenewhumanitarian.org" target="harvard.edu" id="759" weight="1" />
-      <edge source="thenewhumanitarian.org" target="healthdata.org" id="760" weight="1" />
-      <edge source="thenewhumanitarian.org" target="heindehaas.blogspot.com" id="761" weight="1" />
-      <edge source="thenewhumanitarian.org" target="heritageinstitute.org" id="762" weight="1" />
-      <edge source="thenewhumanitarian.org" target="hopkinshumanitarianhealth.org" id="763" weight="1" />
-      <edge source="thenewhumanitarian.org" target="hrw.org" id="764" weight="17" />
-      <edge source="thenewhumanitarian.org" target="humangle.ng" id="765" weight="4" />
-      <edge source="thenewhumanitarian.org" target="humanitarianresponse.info" id="766" weight="2" />
-      <edge source="thenewhumanitarian.org" target="humanrightsfirst.org" id="767" weight="1" />
-      <edge source="thenewhumanitarian.org" target="icct.nl" id="768" weight="1" />
-      <edge source="thenewhumanitarian.org" target="icj.org" id="769" weight="1" />
-      <edge source="thenewhumanitarian.org" target="icrc.org" id="770" weight="1" />
-      <edge source="thenewhumanitarian.org" target="ilo.org" id="771" weight="1" />
-      <edge source="thenewhumanitarian.org" target="imf.org" id="772" weight="1" />
-      <edge source="thenewhumanitarian.org" target="independent.co.uk" id="773" weight="1" />
-      <edge source="thenewhumanitarian.org" target="indigenousdrr.com" id="774" weight="1" />
-      <edge source="thenewhumanitarian.org" target="infomigrants.net" id="775" weight="5" />
-      <edge source="thenewhumanitarian.org" target="internal-displacement.org" id="776" weight="1" />
-      <edge source="thenewhumanitarian.org" target="interpeace.org" id="777" weight="1" />
-      <edge source="thenewhumanitarian.org" target="iom.int" id="778" weight="4" />
-      <edge source="thenewhumanitarian.org" target="ippf.org" id="779" weight="2" />
-      <edge source="thenewhumanitarian.org" target="irinnews.org" id="780" weight="5" />
-      <edge source="thenewhumanitarian.org" target="irrawaddy.com" id="781" weight="1" />
-      <edge source="thenewhumanitarian.org" target="issues.org" id="782" weight="1" />
-      <edge source="thenewhumanitarian.org" target="iwacu-burundi.org" id="783" weight="4" />
-      <edge source="thenewhumanitarian.org" target="jamestown.org" id="784" weight="1" />
-      <edge source="thenewhumanitarian.org" target="jhu.edu" id="785" weight="4" />
-      <edge source="thenewhumanitarian.org" target="journaldunet.fr" id="786" weight="1" />
-      <edge source="thenewhumanitarian.org" target="kcnawatch.org" id="787" weight="1" />
-      <edge source="thenewhumanitarian.org" target="keionline.org" id="788" weight="2" />
-      <edge source="thenewhumanitarian.org" target="kenyans.co.ke" id="789" weight="1" />
-      <edge source="thenewhumanitarian.org" target="kff.org" id="790" weight="1" />
-      <edge source="thenewhumanitarian.org" target="kpbs.org" id="791" weight="1" />
-      <edge source="thenewhumanitarian.org" target="lavanguardia.com" id="792" weight="1" />
-      <edge source="thenewhumanitarian.org" target="lawfareblog.com" id="793" weight="1" />
-      <edge source="thenewhumanitarian.org" target="lawg.org" id="794" weight="1" />
-      <edge source="thenewhumanitarian.org" target="longcrisis.org" id="795" weight="1" />
-      <edge source="thenewhumanitarian.org" target="longwarjournal.org" id="796" weight="1" />
-      <edge source="thenewhumanitarian.org" target="lshtm.ac.uk" id="797" weight="2" />
-      <edge source="thenewhumanitarian.org" target="mare-liberum.org" id="798" weight="1" />
-      <edge source="thenewhumanitarian.org" target="mhlw.go.jp" id="799" weight="1" />
-      <edge source="thenewhumanitarian.org" target="migrationpolicy.org" id="800" weight="1" />
-      <edge source="thenewhumanitarian.org" target="mit.edu" id="801" weight="1" />
-      <edge source="thenewhumanitarian.org" target="mologic.co.uk" id="802" weight="1" />
-      <edge source="thenewhumanitarian.org" target="msf-me.org" id="803" weight="1" />
-      <edge source="thenewhumanitarian.org" target="msf.org" id="804" weight="1" />
-      <edge source="thenewhumanitarian.org" target="nature.com" id="805" weight="1" />
-      <edge source="thenewhumanitarian.org" target="ndrrmc.gov.ph" id="806" weight="1" />
-      <edge source="thenewhumanitarian.org" target="newsday.co.zw" id="807" weight="1" />
-      <edge source="thenewhumanitarian.org" target="newsweek.com" id="808" weight="2" />
-      <edge source="thenewhumanitarian.org" target="nih.gov" id="809" weight="1" />
-      <edge source="thenewhumanitarian.org" target="npr.org" id="810" weight="3" />
-      <edge source="thenewhumanitarian.org" target="nrc.no" id="811" weight="4" />
-      <edge source="thenewhumanitarian.org" target="nytimes.com" id="812" weight="9" />
-      <edge source="thenewhumanitarian.org" target="odi.org" id="813" weight="2" />
-      <edge source="thenewhumanitarian.org" target="oecd-ilibrary.org" id="814" weight="2" />
-      <edge source="thenewhumanitarian.org" target="oecd.org" id="815" weight="7" />
-      <edge source="thenewhumanitarian.org" target="ofpra.gouv.fr" id="816" weight="1" />
-      <edge source="thenewhumanitarian.org" target="ohchr.org" id="817" weight="2" />
-      <edge source="thenewhumanitarian.org" target="oneworldmedia.org.uk" id="818" weight="2" />
-      <edge source="thenewhumanitarian.org" target="ons.gov.uk" id="819" weight="1" />
-      <edge source="thenewhumanitarian.org" target="oup.com" id="820" weight="1" />
-      <edge source="thenewhumanitarian.org" target="oxfam.org" id="821" weight="1" />
-      <edge source="thenewhumanitarian.org" target="paho.org" id="822" weight="1" />
-      <edge source="thenewhumanitarian.org" target="plan-international.org" id="823" weight="1" />
-      <edge source="thenewhumanitarian.org" target="pmindia.gov.in" id="824" weight="1" />
-      <edge source="thenewhumanitarian.org" target="pmldaily.com" id="825" weight="1" />
-      <edge source="thenewhumanitarian.org" target="politico.com" id="826" weight="2" />
-      <edge source="thenewhumanitarian.org" target="premiumtimesng.com" id="827" weight="3" />
-      <edge source="thenewhumanitarian.org" target="pulse.ng" id="828" weight="1" />
-      <edge source="thenewhumanitarian.org" target="qz.com" id="829" weight="2" />
-      <edge source="thenewhumanitarian.org" target="rainforestfoundation.org" id="830" weight="1" />
-      <edge source="thenewhumanitarian.org" target="redamazonica.org" id="831" weight="1" />
-      <edge source="thenewhumanitarian.org" target="refugee-rights.org" id="832" weight="1" />
-      <edge source="thenewhumanitarian.org" target="refugees.org" id="833" weight="1" />
-      <edge source="thenewhumanitarian.org" target="reliefweb.int" id="834" weight="41" />
-      <edge source="thenewhumanitarian.org" target="rescue.org" id="835" weight="1" />
-      <edge source="thenewhumanitarian.org" target="reuters.com" id="836" weight="25" />
-      <edge source="thenewhumanitarian.org" target="rfi.fr" id="837" weight="1" />
-      <edge source="thenewhumanitarian.org" target="sadc.int" id="838" weight="1" />
-      <edge source="thenewhumanitarian.org" target="saharareporters.com" id="839" weight="2" />
-      <edge source="thenewhumanitarian.org" target="sahel.org.uk" id="840" weight="2" />
-      <edge source="thenewhumanitarian.org" target="sahelblog.wordpress.com" id="841" weight="1" />
-      <edge source="thenewhumanitarian.org" target="savethechildren.net" id="842" weight="1" />
-      <edge source="thenewhumanitarian.org" target="sciencedaily.com" id="843" weight="1" />
-      <edge source="thenewhumanitarian.org" target="senat.fr" id="844" weight="1" />
-      <edge source="thenewhumanitarian.org" target="service.gov.uk" id="845" weight="1" />
-      <edge source="thenewhumanitarian.org" target="springer.com" id="846" weight="1" />
-      <edge source="thenewhumanitarian.org" target="springeropen.com" id="847" weight="1" />
-      <edge source="thenewhumanitarian.org" target="standardmedia.co.ke" id="848" weight="3" />
-      <edge source="thenewhumanitarian.org" target="state.gov" id="849" weight="1" />
-      <edge source="thenewhumanitarian.org" target="static1.squarespace.com" id="850" weight="1" />
-      <edge source="thenewhumanitarian.org" target="statnews.com" id="851" weight="2" />
-      <edge source="thenewhumanitarian.org" target="surgeryencyclopedia.com" id="852" weight="1" />
-      <edge source="thenewhumanitarian.org" target="sussex.ac.uk" id="853" weight="1" />
-      <edge source="thenewhumanitarian.org" target="taylorfrancis.com" id="854" weight="1" />
-      <edge source="thenewhumanitarian.org" target="telenor.com" id="855" weight="1" />
-      <edge source="thenewhumanitarian.org" target="thaipbsworld.com" id="856" weight="1" />
-      <edge source="thenewhumanitarian.org" target="the-star.co.ke" id="857" weight="2" />
-      <edge source="thenewhumanitarian.org" target="theafricareport.com" id="858" weight="2" />
-      <edge source="thenewhumanitarian.org" target="theatlantic.com" id="859" weight="1" />
-      <edge source="thenewhumanitarian.org" target="theconversation.com" id="860" weight="2" />
-      <edge source="thenewhumanitarian.org" target="thediplomat.com" id="861" weight="3" />
-      <edge source="thenewhumanitarian.org" target="theeastafrican.co.ke" id="862" weight="1" />
-      <edge source="thenewhumanitarian.org" target="theguardian.com" id="863" weight="12" />
-      <edge source="thenewhumanitarian.org" target="thehindu.com" id="864" weight="1" />
-      <edge source="thenewhumanitarian.org" target="theintercept.com" id="865" weight="1" />
-      <edge source="thenewhumanitarian.org" target="thelancet.com" id="866" weight="3" />
-      <edge source="thenewhumanitarian.org" target="thenation.com" id="867" weight="1" />
-      <edge source="thenewhumanitarian.org" target="thenewhumanitarian.us12.list-manage.com" id="868" weight="3" />
-      <edge source="thenewhumanitarian.org" target="thenews.com.pk" id="869" weight="1" />
-      <edge source="thenewhumanitarian.org" target="theowp.org" id="870" weight="2" />
-      <edge source="thenewhumanitarian.org" target="thinktriangle.net" id="871" weight="1" />
-      <edge source="thenewhumanitarian.org" target="time.com" id="872" weight="1" />
-      <edge source="thenewhumanitarian.org" target="tolonews.com" id="873" weight="1" />
-      <edge source="thenewhumanitarian.org" target="trrc.gm" id="874" weight="1" />
-      <edge source="thenewhumanitarian.org" target="twitter.com" id="875" weight="14" />
-      <edge source="thenewhumanitarian.org" target="umn.edu" id="876" weight="1" />
-      <edge source="thenewhumanitarian.org" target="un.org" id="877" weight="14" />
-      <edge source="thenewhumanitarian.org" target="undocs.org" id="878" weight="2" />
-      <edge source="thenewhumanitarian.org" target="undrr.org" id="879" weight="1" />
-      <edge source="thenewhumanitarian.org" target="unfccc.int" id="880" weight="1" />
-      <edge source="thenewhumanitarian.org" target="unhcr.org" id="881" weight="12" />
-      <edge source="thenewhumanitarian.org" target="unicef.org" id="882" weight="3" />
-      <edge source="thenewhumanitarian.org" target="unmissions.org" id="883" weight="4" />
-      <edge source="thenewhumanitarian.org" target="unocha.org" id="884" weight="6" />
-      <edge source="thenewhumanitarian.org" target="unognewsroom.org" id="885" weight="1" />
-      <edge source="thenewhumanitarian.org" target="usaid.gov" id="886" weight="6" />
-      <edge source="thenewhumanitarian.org" target="usembassy.gov" id="887" weight="1" />
-      <edge source="thenewhumanitarian.org" target="ushahidi.com" id="888" weight="1" />
-      <edge source="thenewhumanitarian.org" target="usip.org" id="889" weight="2" />
-      <edge source="thenewhumanitarian.org" target="usma.edu" id="890" weight="1" />
-      <edge source="thenewhumanitarian.org" target="vanguardngr.com" id="891" weight="1" />
-      <edge source="thenewhumanitarian.org" target="vice.com" id="892" weight="1" />
-      <edge source="thenewhumanitarian.org" target="voanews.com" id="893" weight="3" />
-      <edge source="thenewhumanitarian.org" target="voiceeu.org" id="894" weight="1" />
-      <edge source="thenewhumanitarian.org" target="vox.com" id="895" weight="1" />
-      <edge source="thenewhumanitarian.org" target="washingtonpost.com" id="896" weight="1" />
-      <edge source="thenewhumanitarian.org" target="weforum.org" id="897" weight="1" />
-      <edge source="thenewhumanitarian.org" target="wfp.org" id="898" weight="2" />
-      <edge source="thenewhumanitarian.org" target="whitehouse.gov" id="899" weight="1" />
-      <edge source="thenewhumanitarian.org" target="who.int" id="900" weight="14" />
-      <edge source="thenewhumanitarian.org" target="wikileaks.org" id="901" weight="1" />
-      <edge source="thenewhumanitarian.org" target="womensrefugeecommission.org" id="902" weight="2" />
-      <edge source="thenewhumanitarian.org" target="worldbank.org" id="903" weight="1" />
-      <edge source="thenewhumanitarian.org" target="worldometers.info" id="904" weight="1" />
-      <edge source="thenewhumanitarian.org" target="worldpoliticsreview.com" id="905" weight="1" />
-      <edge source="thenewhumanitarian.org" target="worldpoverty.io" id="906" weight="2" />
-      <edge source="thenewhumanitarian.org" target="wvi.org" id="907" weight="1" />
-      <edge source="thenewhumanitarian.org" target="yahoo.com" id="908" weight="4" />
-      <edge source="thenewhumanitarian.org" target="youtube.com" id="909" weight="2" />
-      <edge source="thenewhumanitarian.org" target="zwnews.com" id="910" weight="1" />
-      <edge source="wordpress.com" target="en-blog.files.wordpress.com" id="911" weight="5" />
-      <edge source="wordpress.com" target="freshbooks.com" id="912" weight="1" />
-      <edge source="wordpress.com" target="linkedin.com" id="913" weight="1" />
-      <edge source="wordpress.com" target="spearhead.co" id="914" weight="1" />
-      <edge source="wordpress.com" target="spearheaddemo.wordpress.com" id="915" weight="1" />
-      <edge source="wordpress.com" target="twitter.com" id="916" weight="1" />
-      <edge source="wordpress.com" target="wpcourses.com" id="917" weight="2" />
-      <edge source="wordpress.com" target="youtube.com" id="918" weight="1" />
-      <edge source="wordpress.com" target="zoom.us" id="919" weight="3" />
+      <edge source="allafrica.com" target="fsdkenya.org" id="25" weight="1" />
+      <edge source="allafrica.com" target="health.go.ke" id="26" weight="3" />
+      <edge source="allafrica.com" target="hrw.org" id="27" weight="10" />
+      <edge source="allafrica.com" target="idgconnect.com" id="28" weight="2" />
+      <edge source="allafrica.com" target="imdb.com" id="29" weight="1" />
+      <edge source="allafrica.com" target="instagram.com" id="30" weight="1" />
+      <edge source="allafrica.com" target="iol.co.za" id="31" weight="1" />
+      <edge source="allafrica.com" target="ipcrc.net" id="32" weight="1" />
+      <edge source="allafrica.com" target="ipinst.org" id="33" weight="3" />
+      <edge source="allafrica.com" target="journalofdemocracy.org" id="34" weight="1" />
+      <edge source="allafrica.com" target="journals.sagepub.com" id="35" weight="3" />
+      <edge source="allafrica.com" target="jstor.org" id="36" weight="2" />
+      <edge source="allafrica.com" target="knchr.org" id="37" weight="1" />
+      <edge source="allafrica.com" target="la-bas.org" id="38" weight="1" />
+      <edge source="allafrica.com" target="mckinsey.com" id="39" weight="2" />
+      <edge source="allafrica.com" target="mediafocusonafrica.org" id="40" weight="1" />
+      <edge source="allafrica.com" target="microsoft.com" id="41" weight="1" />
+      <edge source="allafrica.com" target="misskoch.org" id="42" weight="1" />
+      <edge source="allafrica.com" target="mod.go.ke" id="43" weight="2" />
+      <edge source="allafrica.com" target="mpala.org" id="44" weight="1" />
+      <edge source="allafrica.com" target="nation.co.ke" id="45" weight="8" />
+      <edge source="allafrica.com" target="nature.com" id="46" weight="1" />
+      <edge source="allafrica.com" target="newsweek.com" id="47" weight="1" />
+      <edge source="allafrica.com" target="nih.gov" id="48" weight="4" />
+      <edge source="allafrica.com" target="nytimes.com" id="49" weight="1" />
+      <edge source="allafrica.com" target="oec.world" id="50" weight="2" />
+      <edge source="allafrica.com" target="ohioswallow.com" id="51" weight="1" />
+      <edge source="allafrica.com" target="oie.int" id="52" weight="1" />
+      <edge source="allafrica.com" target="oup.com" id="53" weight="2" />
+      <edge source="allafrica.com" target="pactworld.org" id="54" weight="1" />
+      <edge source="allafrica.com" target="plos.org" id="55" weight="1" />
+      <edge source="allafrica.com" target="qz.com" id="56" weight="1" />
+      <edge source="allafrica.com" target="reliefweb.int" id="57" weight="2" />
+      <edge source="allafrica.com" target="researchgate.net" id="58" weight="1" />
+      <edge source="allafrica.com" target="saiia.org.za" id="59" weight="1" />
+      <edge source="allafrica.com" target="scidev.net" id="60" weight="1" />
+      <edge source="allafrica.com" target="sciencedirect.com" id="61" weight="2" />
+      <edge source="allafrica.com" target="seattleu.edu" id="62" weight="2" />
+      <edge source="allafrica.com" target="sheldrickwildlifetrust.org" id="63" weight="1" />
+      <edge source="allafrica.com" target="slideshare.net" id="64" weight="1" />
+      <edge source="allafrica.com" target="springer.com" id="65" weight="3" />
+      <edge source="allafrica.com" target="standardmedia.co.ke" id="66" weight="2" />
+      <edge source="allafrica.com" target="state.gov" id="67" weight="1" />
+      <edge source="allafrica.com" target="t.co" id="68" weight="2" />
+      <edge source="allafrica.com" target="tandfonline.com" id="69" weight="7" />
+      <edge source="allafrica.com" target="the-star.co.ke" id="70" weight="4" />
+      <edge source="allafrica.com" target="theconversation.com" id="71" weight="32" />
+      <edge source="allafrica.com" target="theelephant.info" id="72" weight="7" />
+      <edge source="allafrica.com" target="tralac.org" id="73" weight="1" />
+      <edge source="allafrica.com" target="twitter.com" id="74" weight="4" />
+      <edge source="allafrica.com" target="u-tena.org" id="75" weight="1" />
+      <edge source="allafrica.com" target="ufl.edu" id="76" weight="1" />
+      <edge source="allafrica.com" target="uicc.org" id="77" weight="1" />
+      <edge source="allafrica.com" target="umn.edu" id="78" weight="1" />
+      <edge source="allafrica.com" target="un.org" id="79" weight="2" />
+      <edge source="allafrica.com" target="unctad.org" id="80" weight="1" />
+      <edge source="allafrica.com" target="unesco.org" id="81" weight="3" />
+      <edge source="allafrica.com" target="usembassy.gov" id="82" weight="2" />
+      <edge source="allafrica.com" target="ustr.gov" id="83" weight="2" />
+      <edge source="allafrica.com" target="warforpeace.co.ke" id="84" weight="1" />
+      <edge source="allafrica.com" target="warontherocks.com" id="85" weight="1" />
+      <edge source="allafrica.com" target="washingtontimes.com" id="86" weight="1" />
+      <edge source="allafrica.com" target="who.int" id="87" weight="7" />
+      <edge source="allafrica.com" target="wiley.com" id="88" weight="7" />
+      <edge source="allafrica.com" target="world-heart-federation.org" id="89" weight="1" />
+      <edge source="allafrica.com" target="worldbank.org" id="90" weight="1" />
+      <edge source="allafrica.com" target="youtube.com" id="91" weight="1" />
+      <edge source="capitalfm.co.ke" target="cnn.com" id="92" weight="1" />
+      <edge source="citizentv.co.ke" target="kcbgroup.com" id="93" weight="1" />
+      <edge source="citizentv.co.ke" target="twitter.com" id="94" weight="2" />
+      <edge source="citizentv.co.ke" target="youtube.com" id="95" weight="1" />
+      <edge source="health.go.ke" target="govmail.ke" id="96" weight="1" />
+      <edge source="nation.co.ke" target="bit.ly" id="97" weight="1" />
+      <edge source="nation.co.ke" target="change.org" id="98" weight="1" />
+      <edge source="nation.co.ke" target="hudumakenya.go.ke" id="99" weight="1" />
+      <edge source="nation.co.ke" target="instagram.com" id="100" weight="2" />
+      <edge source="nation.co.ke" target="mozzartbet.co.ke" id="101" weight="2" />
+      <edge source="nation.co.ke" target="twitter.com" id="102" weight="4" />
+      <edge source="standardmedia.co.ke" target="ab-tc.com" id="103" weight="1" />
+      <edge source="standardmedia.co.ke" target="bbc.co.uk" id="104" weight="1" />
+      <edge source="standardmedia.co.ke" target="bit.ly" id="105" weight="1" />
+      <edge source="standardmedia.co.ke" target="bloomberg.com" id="106" weight="1" />
+      <edge source="standardmedia.co.ke" target="cnn.com" id="107" weight="1" />
+      <edge source="standardmedia.co.ke" target="court.gov.cn" id="108" weight="2" />
+      <edge source="standardmedia.co.ke" target="dailymail.co.uk" id="109" weight="1" />
+      <edge source="standardmedia.co.ke" target="diepresse.com" id="110" weight="1" />
+      <edge source="standardmedia.co.ke" target="disqus.com" id="111" weight="6" />
+      <edge source="standardmedia.co.ke" target="erc.ie" id="112" weight="1" />
+      <edge source="standardmedia.co.ke" target="facebook.com" id="113" weight="2" />
+      <edge source="standardmedia.co.ke" target="fao.org" id="114" weight="1" />
+      <edge source="standardmedia.co.ke" target="fifa.com" id="115" weight="1" />
+      <edge source="standardmedia.co.ke" target="football.london" id="116" weight="2" />
+      <edge source="standardmedia.co.ke" target="forbes.com" id="117" weight="2" />
+      <edge source="standardmedia.co.ke" target="getreading.co.uk" id="118" weight="1" />
+      <edge source="standardmedia.co.ke" target="globalpublishers.co.tz" id="119" weight="1" />
+      <edge source="standardmedia.co.ke" target="google.com" id="120" weight="102" />
+      <edge source="standardmedia.co.ke" target="healthline.com" id="121" weight="2" />
+      <edge source="standardmedia.co.ke" target="hudumakenya.go.ke" id="122" weight="2" />
+      <edge source="standardmedia.co.ke" target="instagram.com" id="123" weight="4" />
+      <edge source="standardmedia.co.ke" target="jokajok.com" id="124" weight="1" />
+      <edge source="standardmedia.co.ke" target="lequipe.fr" id="125" weight="1" />
+      <edge source="standardmedia.co.ke" target="manutd.com" id="126" weight="1" />
+      <edge source="standardmedia.co.ke" target="mirror.co.uk" id="127" weight="3" />
+      <edge source="standardmedia.co.ke" target="mozzartbet.co.ke" id="128" weight="12" />
+      <edge source="standardmedia.co.ke" target="nih.gov" id="129" weight="2" />
+      <edge source="standardmedia.co.ke" target="nytimes.com" id="130" weight="2" />
+      <edge source="standardmedia.co.ke" target="poll.fm" id="131" weight="166" />
+      <edge source="standardmedia.co.ke" target="premierleague.com" id="132" weight="2" />
+      <edge source="standardmedia.co.ke" target="pressfire.net" id="133" weight="1" />
+      <edge source="standardmedia.co.ke" target="refpasrasw.world" id="134" weight="1" />
+      <edge source="standardmedia.co.ke" target="reuters.com" id="135" weight="12" />
+      <edge source="standardmedia.co.ke" target="riddle.com" id="136" weight="9" />
+      <edge source="standardmedia.co.ke" target="sde.co.ke" id="137" weight="9" />
+      <edge source="standardmedia.co.ke" target="self.com" id="138" weight="1" />
+      <edge source="standardmedia.co.ke" target="snopes.com" id="139" weight="1" />
+      <edge source="standardmedia.co.ke" target="soccerbible.com" id="140" weight="1" />
+      <edge source="standardmedia.co.ke" target="standard.co.uk" id="141" weight="1" />
+      <edge source="standardmedia.co.ke" target="t.me" id="142" weight="531" />
+      <edge source="standardmedia.co.ke" target="thesun.ie" id="143" weight="1" />
+      <edge source="standardmedia.co.ke" target="twitter.com" id="144" weight="2" />
+      <edge source="standardmedia.co.ke" target="univ-grenoble-alpes.fr" id="145" weight="1" />
+      <edge source="standardmedia.co.ke" target="usda.gov" id="146" weight="1" />
+      <edge source="standardmedia.co.ke" target="verywellhealth.com" id="147" weight="1" />
+      <edge source="standardmedia.co.ke" target="vindobona.org" id="148" weight="1" />
+      <edge source="standardmedia.co.ke" target="whitehouse.gov" id="149" weight="1" />
+      <edge source="standardmedia.co.ke" target="wmo.int" id="150" weight="1" />
+      <edge source="standardmedia.co.ke" target="www.gov.sg" id="151" weight="1" />
+      <edge source="standardmedia.co.ke" target="youtube.com" id="152" weight="2" />
+      <edge source="the-star.co.ke" target="atozservices.co.ke" id="153" weight="1" />
+      <edge source="the-star.co.ke" target="bbc.co.uk" id="154" weight="16" />
+      <edge source="the-star.co.ke" target="bbc.com" id="155" weight="3" />
+      <edge source="the-star.co.ke" target="berkeley.edu" id="156" weight="1" />
+      <edge source="the-star.co.ke" target="betway.co.ke" id="157" weight="1" />
+      <edge source="the-star.co.ke" target="bit.ly" id="158" weight="15" />
+      <edge source="the-star.co.ke" target="independent.co.uk" id="159" weight="1" />
+      <edge source="the-star.co.ke" target="ipsnews.net" id="160" weight="1" />
+      <edge source="the-star.co.ke" target="jackdaniels.com" id="161" weight="1" />
+      <edge source="the-star.co.ke" target="oecd.org" id="162" weight="1" />
+      <edge source="the-star.co.ke" target="pesacheck.org" id="163" weight="2" />
+      <edge source="the-star.co.ke" target="project-syndicate.org" id="164" weight="1" />
+      <edge source="the-star.co.ke" target="pscp.tv" id="165" weight="1" />
+      <edge source="the-star.co.ke" target="reuters.com" id="166" weight="3" />
+      <edge source="the-star.co.ke" target="stanfordaande.com" id="167" weight="1" />
+      <edge source="the-star.co.ke" target="theconversation.com" id="168" weight="1" />
+      <edge source="the-star.co.ke" target="theguardian.com" id="169" weight="1" />
+      <edge source="the-star.co.ke" target="tiktok.com" id="170" weight="2" />
+      <edge source="the-star.co.ke" target="twitter.com" id="171" weight="3" />
+      <edge source="the-star.co.ke" target="worldbank.org" id="172" weight="1" />
+      <edge source="the-star.co.ke" target="wsj.com" id="173" weight="1" />
+      <edge source="youtube.com" target="google.com" id="174" weight="84" />
+      <edge source="businessinsider.co.za" target="insider.com" id="175" weight="1" />
+      <edge source="cnn.com" target="ahram.org.eg" id="176" weight="1" />
+      <edge source="cnn.com" target="akiddie.com.ng" id="177" weight="1" />
+      <edge source="cnn.com" target="ap.org" id="178" weight="1" />
+      <edge source="cnn.com" target="apnews.com" id="179" weight="1" />
+      <edge source="cnn.com" target="au.int" id="180" weight="1" />
+      <edge source="cnn.com" target="bellingcat.com" id="181" weight="1" />
+      <edge source="cnn.com" target="britannica.com" id="182" weight="3" />
+      <edge source="cnn.com" target="businessday.ng" id="183" weight="1" />
+      <edge source="cnn.com" target="cdc.gov" id="184" weight="1" />
+      <edge source="cnn.com" target="chathamhouse.org" id="185" weight="1" />
+      <edge source="cnn.com" target="covidzw.info" id="186" weight="1" />
+      <edge source="cnn.com" target="cpgnigeria.medium.com" id="187" weight="2" />
+      <edge source="cnn.com" target="diarrablu.com" id="188" weight="1" />
+      <edge source="cnn.com" target="eac.int" id="189" weight="1" />
+      <edge source="cnn.com" target="fivethirtyeight.com" id="190" weight="7" />
+      <edge source="cnn.com" target="flutterwave.com" id="191" weight="1" />
+      <edge source="cnn.com" target="gambiaparticipate.org" id="192" weight="2" />
+      <edge source="cnn.com" target="gokada.ng" id="193" weight="1" />
+      <edge source="cnn.com" target="google.com" id="194" weight="1" />
+      <edge source="cnn.com" target="guardian.ng" id="195" weight="1" />
+      <edge source="cnn.com" target="icglobalpartners.com" id="196" weight="1" />
+      <edge source="cnn.com" target="imf.org" id="197" weight="1" />
+      <edge source="cnn.com" target="instagram.com" id="198" weight="2" />
+      <edge source="cnn.com" target="lsetf.ng" id="199" weight="1" />
+      <edge source="cnn.com" target="magambanetwork.com" id="200" weight="1" />
+      <edge source="cnn.com" target="max.ng" id="201" weight="1" />
+      <edge source="cnn.com" target="nddc.gov.ng" id="202" weight="1" />
+      <edge source="cnn.com" target="news24.com" id="203" weight="1" />
+      <edge source="cnn.com" target="nytimes.com" id="204" weight="1" />
+      <edge source="cnn.com" target="operapay.com" id="205" weight="1" />
+      <edge source="cnn.com" target="punchng.com" id="206" weight="3" />
+      <edge source="cnn.com" target="reliefweb.int" id="207" weight="1" />
+      <edge source="cnn.com" target="statista.com" id="208" weight="1" />
+      <edge source="cnn.com" target="straitstimes.com" id="209" weight="1" />
+      <edge source="cnn.com" target="techcrunch.com" id="210" weight="2" />
+      <edge source="cnn.com" target="telegraph.co.uk" id="211" weight="2" />
+      <edge source="cnn.com" target="thecable.ng" id="212" weight="1" />
+      <edge source="cnn.com" target="thecitizen.co.tz" id="213" weight="1" />
+      <edge source="cnn.com" target="theconversation.com" id="214" weight="1" />
+      <edge source="cnn.com" target="tut.ac.za" id="215" weight="1" />
+      <edge source="cnn.com" target="twitter.com" id="216" weight="27" />
+      <edge source="cnn.com" target="who.int" id="217" weight="4" />
+      <edge source="cnn.com" target="worldbank.org" id="218" weight="1" />
+      <edge source="cnn.com" target="youtube.com" id="219" weight="2" />
+      <edge source="cnn.com" target="zimcodd.org" id="220" weight="1" />
+      <edge source="cnn.com" target="zipjet.co.uk" id="221" weight="1" />
+      <edge source="channel24.co.za" target="instagram.com" id="222" weight="1" />
+      <edge source="channel24.co.za" target="match-in-africa.com" id="223" weight="1" />
+      <edge source="channel24.co.za" target="news24.com" id="224" weight="2" />
+      <edge source="channel24.co.za" target="sport24.co.za" id="225" weight="2" />
+      <edge source="news24.com" target="10x.co.za" id="226" weight="1" />
+      <edge source="news24.com" target="acumenmagazine.co.za" id="227" weight="1" />
+      <edge source="news24.com" target="afp.com" id="228" weight="2" />
+      <edge source="news24.com" target="africacheck.org" id="229" weight="7" />
+      <edge source="news24.com" target="africaportal.org" id="230" weight="1" />
+      <edge source="news24.com" target="agrilinks.org" id="231" weight="1" />
+      <edge source="news24.com" target="aljazeera.com" id="232" weight="11" />
+      <edge source="news24.com" target="alsudaninews.com" id="233" weight="1" />
+      <edge source="news24.com" target="amabhungane.org" id="234" weight="4" />
+      <edge source="news24.com" target="amazonaws.com" id="235" weight="1" />
+      <edge source="news24.com" target="ancient.eu" id="236" weight="1" />
+      <edge source="news24.com" target="apple.com" id="237" weight="6" />
+      <edge source="news24.com" target="atptour.com" id="238" weight="1" />
+      <edge source="news24.com" target="aymennjawad.org" id="239" weight="1" />
+      <edge source="news24.com" target="bbc.com" id="240" weight="2" />
+      <edge source="news24.com" target="bhekisisa.org" id="241" weight="2" />
+      <edge source="news24.com" target="bit.ly" id="242" weight="1" />
+      <edge source="news24.com" target="biznews.com" id="243" weight="1" />
+      <edge source="news24.com" target="blacksash.org.za" id="244" weight="1" />
+      <edge source="news24.com" target="bloomberg.com" id="245" weight="4" />
+      <edge source="news24.com" target="bridgiot.co.za" id="246" weight="1" />
+      <edge source="news24.com" target="britannica.com" id="247" weight="1" />
+      <edge source="news24.com" target="brookings.edu" id="248" weight="1" />
+      <edge source="news24.com" target="bulldogs.com.au" id="249" weight="1" />
+      <edge source="news24.com" target="businessdailyafrica.com" id="250" weight="2" />
+      <edge source="news24.com" target="businessinsider.co.za" id="251" weight="27" />
+      <edge source="news24.com" target="businesslive.co.za" id="252" weight="2" />
+      <edge source="news24.com" target="businesstech.co.za" id="253" weight="1" />
+      <edge source="news24.com" target="cfr.org" id="254" weight="1" />
+      <edge source="news24.com" target="cgdev.org" id="255" weight="1" />
+      <edge source="news24.com" target="cgiar.org" id="256" weight="1" />
+      <edge source="news24.com" target="change.org" id="257" weight="1" />
+      <edge source="news24.com" target="childlinesa.org.za" id="258" weight="1" />
+      <edge source="news24.com" target="citizen.co.za" id="259" weight="1" />
+      <edge source="news24.com" target="cnbc.com" id="260" weight="1" />
+      <edge source="news24.com" target="cnn.com" id="261" weight="3" />
+      <edge source="news24.com" target="core.ac.uk" id="262" weight="1" />
+      <edge source="news24.com" target="cramsurvey.org" id="263" weight="1" />
+      <edge source="news24.com" target="crisisgroup.org" id="264" weight="1" />
+      <edge source="news24.com" target="da.org.za" id="265" weight="1" />
+      <edge source="news24.com" target="dailyfriend.co.za" id="266" weight="1" />
+      <edge source="news24.com" target="dailymail.co.uk" id="267" weight="2" />
+      <edge source="news24.com" target="dailymaverick.co.za" id="268" weight="1" />
+      <edge source="news24.com" target="dailyvoice.co.za" id="269" weight="2" />
+      <edge source="news24.com" target="devex.com" id="270" weight="1" />
+      <edge source="news24.com" target="dispatchlive.co.za" id="271" weight="1" />
+      <edge source="news24.com" target="dohanews.co" id="272" weight="1" />
+      <edge source="news24.com" target="doi.org" id="273" weight="4" />
+      <edge source="news24.com" target="dst.gov.za" id="274" weight="1" />
+      <edge source="news24.com" target="elections.org.za" id="275" weight="2" />
+      <edge source="news24.com" target="enca.com" id="276" weight="5" />
+      <edge source="news24.com" target="engrxiv.org" id="277" weight="7" />
+      <edge source="news24.com" target="eskom.co.za" id="278" weight="1" />
+      <edge source="news24.com" target="espncricinfo.com" id="279" weight="3" />
+      <edge source="news24.com" target="europeantour.com" id="280" weight="3" />
+      <edge source="news24.com" target="everlytic.net" id="281" weight="31" />
+      <edge source="news24.com" target="ewn.co.za" id="282" weight="4" />
+      <edge source="news24.com" target="express.co.uk" id="283" weight="2" />
+      <edge source="news24.com" target="facebook.com" id="284" weight="3" />
+      <edge source="news24.com" target="fao.org" id="285" weight="2" />
+      <edge source="news24.com" target="fda.gov" id="286" weight="2" />
+      <edge source="news24.com" target="fin24.com" id="287" weight="11" />
+      <edge source="news24.com" target="fm104.ie" id="288" weight="1" />
+      <edge source="news24.com" target="forbes.com" id="289" weight="3" />
+      <edge source="news24.com" target="fscheetahs.co.za" id="290" weight="1" />
+      <edge source="news24.com" target="geyserpleaser.co.za" id="291" weight="1" />
+      <edge source="news24.com" target="gibs.co.za" id="292" weight="2" />
+      <edge source="news24.com" target="giftofthegivers.org" id="293" weight="1" />
+      <edge source="news24.com" target="goodreads.com" id="294" weight="1" />
+      <edge source="news24.com" target="google.com" id="295" weight="6" />
+      <edge source="news24.com" target="gov.scot" id="296" weight="3" />
+      <edge source="news24.com" target="groundup.org.za" id="297" weight="15" />
+      <edge source="news24.com" target="guinnessworldrecords.com" id="298" weight="2" />
+      <edge source="news24.com" target="health24.com" id="299" weight="4" />
+      <edge source="news24.com" target="henleyglobal.com" id="300" weight="1" />
+      <edge source="news24.com" target="iea.org" id="301" weight="1" />
+      <edge source="news24.com" target="iol.co.za" id="302" weight="7" />
+      <edge source="news24.com" target="iono.fm" id="303" weight="1" />
+      <edge source="news24.com" target="irishtimes.com" id="304" weight="1" />
+      <edge source="news24.com" target="irr.org.za" id="305" weight="1" />
+      <edge source="news24.com" target="kaizerchiefs.com" id="306" weight="1" />
+      <edge source="news24.com" target="kickoff.com" id="307" weight="2" />
+      <edge source="news24.com" target="kubota-spears.com" id="308" weight="1" />
+      <edge source="news24.com" target="lifelinesa.co.za" id="309" weight="1" />
+      <edge source="news24.com" target="lionstour2021.co.za" id="310" weight="9" />
+      <edge source="news24.com" target="lnr.fr" id="311" weight="1" />
+      <edge source="news24.com" target="loc.gov" id="312" weight="1" />
+      <edge source="news24.com" target="lowvelder.co.za" id="313" weight="1" />
+      <edge source="news24.com" target="massinc.org" id="314" weight="1" />
+      <edge source="news24.com" target="mckinsey.com" id="315" weight="1" />
+      <edge source="news24.com" target="medpagetoday.com" id="316" weight="1" />
+      <edge source="news24.com" target="melanieverwoerd.co.za" id="317" weight="1" />
+      <edge source="news24.com" target="mellowvans.com" id="318" weight="1" />
+      <edge source="news24.com" target="moneyweb.co.za" id="319" weight="1" />
+      <edge source="news24.com" target="msfaccess.org" id="320" weight="1" />
+      <edge source="news24.com" target="mwnation.com" id="321" weight="1" />
+      <edge source="news24.com" target="nation.co.ke" id="322" weight="1" />
+      <edge source="news24.com" target="nationaldebtadvisors.co.za" id="323" weight="1" />
+      <edge source="news24.com" target="nationalgeographic.com" id="324" weight="1" />
+      <edge source="news24.com" target="nationallottery.co.za" id="325" weight="8" />
+      <edge source="news24.com" target="nbcnews.com" id="326" weight="1" />
+      <edge source="news24.com" target="ncr.org.za" id="327" weight="1" />
+      <edge source="news24.com" target="netwerk24.com" id="328" weight="18" />
+      <edge source="news24.com" target="norscotkoppies.co.za" id="329" weight="1" />
+      <edge source="news24.com" target="nytimes.com" id="330" weight="3" />
+      <edge source="news24.com" target="odi.org" id="331" weight="1" />
+      <edge source="news24.com" target="oecd-ilibrary.org" id="332" weight="1" />
+      <edge source="news24.com" target="ofm.co.za" id="333" weight="2" />
+      <edge source="news24.com" target="ourworldindata.org" id="334" weight="1" />
+      <edge source="news24.com" target="ox.ac.uk" id="335" weight="1" />
+      <edge source="news24.com" target="panda.org" id="336" weight="1" />
+      <edge source="news24.com" target="pathcare.co.za" id="337" weight="1" />
+      <edge source="news24.com" target="pbs.org" id="338" weight="1" />
+      <edge source="news24.com" target="philosophyexperiments.com" id="339" weight="1" />
+      <edge source="news24.com" target="plaas.org.za" id="340" weight="3" />
+      <edge source="news24.com" target="politicsweb.co.za" id="341" weight="1" />
+      <edge source="news24.com" target="power987.co.za" id="342" weight="1" />
+      <edge source="news24.com" target="rekordeast.co.za" id="343" weight="1" />
+      <edge source="news24.com" target="researchgate.net" id="344" weight="1" />
+      <edge source="news24.com" target="reviewonline.co.za" id="345" weight="3" />
+      <edge source="news24.com" target="rugbyrocks.com" id="346" weight="1" />
+      <edge source="news24.com" target="ruraldevelopment.gov.za" id="347" weight="1" />
+      <edge source="news24.com" target="sacoronavirus.co.za" id="348" weight="1" />
+      <edge source="news24.com" target="sacsowach.org" id="349" weight="2" />
+      <edge source="news24.com" target="sadag.org" id="350" weight="1" />
+      <edge source="news24.com" target="sahistory.org.za" id="351" weight="1" />
+      <edge source="news24.com" target="sahpra.org.za" id="352" weight="2" />
+      <edge source="news24.com" target="samrc.ac.za" id="353" weight="1" />
+      <edge source="news24.com" target="sarugbymag.co.za" id="354" weight="1" />
+      <edge source="news24.com" target="scmp.com" id="355" weight="1" />
+      <edge source="news24.com" target="sedibengster.com" id="356" weight="1" />
+      <edge source="news24.com" target="skysports.com" id="357" weight="1" />
+      <edge source="news24.com" target="solidariteit.co.za" id="358" weight="1" />
+      <edge source="news24.com" target="soundcloud.com" id="359" weight="1" />
+      <edge source="news24.com" target="sowetanlive.co.za" id="360" weight="2" />
+      <edge source="news24.com" target="sport24.co.za" id="361" weight="21" />
+      <edge source="news24.com" target="sportingpost.co.za" id="362" weight="1" />
+      <edge source="news24.com" target="spotlightnsp.co.za" id="363" weight="3" />
+      <edge source="news24.com" target="springer.com" id="364" weight="1" />
+      <edge source="news24.com" target="standardmedia.co.ke" id="365" weight="1" />
+      <edge source="news24.com" target="statssa.gov.za" id="366" weight="2" />
+      <edge source="news24.com" target="studyinmauritania.wordpress.com" id="367" weight="1" />
+      <edge source="news24.com" target="summitafrica.ru" id="368" weight="1" />
+      <edge source="news24.com" target="sundayworld.co.za" id="369" weight="1" />
+      <edge source="news24.com" target="supersport.com" id="370" weight="1" />
+      <edge source="news24.com" target="tandfonline.com" id="371" weight="1" />
+      <edge source="news24.com" target="teachingamericanhistory.org" id="372" weight="1" />
+      <edge source="news24.com" target="tei.org.za" id="373" weight="1" />
+      <edge source="news24.com" target="thebe.co.za" id="374" weight="1" />
+      <edge source="news24.com" target="theconversation.com" id="375" weight="45" />
+      <edge source="news24.com" target="theeastafrican.co.ke" id="376" weight="1" />
+      <edge source="news24.com" target="theguardian.com" id="377" weight="2" />
+      <edge source="news24.com" target="thehill.com" id="378" weight="1" />
+      <edge source="news24.com" target="thepresidency.gov.za" id="379" weight="1" />
+      <edge source="news24.com" target="thesouthafrican.com" id="380" weight="3" />
+      <edge source="news24.com" target="thestormers.com" id="381" weight="1" />
+      <edge source="news24.com" target="timeslive.co.za" id="382" weight="12" />
+      <edge source="news24.com" target="traveller24.com" id="383" weight="1" />
+      <edge source="news24.com" target="treasury.gov.za" id="384" weight="1" />
+      <edge source="news24.com" target="tufts.edu" id="385" weight="2" />
+      <edge source="news24.com" target="turkisharchaeonews.net" id="386" weight="1" />
+      <edge source="news24.com" target="twitter.com" id="387" weight="8" />
+      <edge source="news24.com" target="un.org" id="388" weight="7" />
+      <edge source="news24.com" target="unaids.org" id="389" weight="1" />
+      <edge source="news24.com" target="undrr.org" id="390" weight="1" />
+      <edge source="news24.com" target="unfccc.int" id="391" weight="1" />
+      <edge source="news24.com" target="unsouthsouth.org" id="392" weight="1" />
+      <edge source="news24.com" target="unu.edu" id="393" weight="1" />
+      <edge source="news24.com" target="us12.list-manage.com" id="394" weight="1" />
+      <edge source="news24.com" target="usatoday.com" id="395" weight="1" />
+      <edge source="news24.com" target="w24.co.za" id="396" weight="1" />
+      <edge source="news24.com" target="washingtonpost.com" id="397" weight="1" />
+      <edge source="news24.com" target="weathersa.co.za" id="398" weight="18" />
+      <edge source="news24.com" target="weld2020.org" id="399" weight="1" />
+      <edge source="news24.com" target="westerncape.gov.za" id="400" weight="3" />
+      <edge source="news24.com" target="wheels24.co.za" id="401" weight="1" />
+      <edge source="news24.com" target="whistleblowers.org" id="402" weight="1" />
+      <edge source="news24.com" target="who.int" id="403" weight="3" />
+      <edge source="news24.com" target="www.gov.cn" id="404" weight="1" />
+      <edge source="news24.com" target="www.gov.uk" id="405" weight="4" />
+      <edge source="news24.com" target="www.gov.za" id="406" weight="10" />
+      <edge source="news24.com" target="youtube.com" id="407" weight="11" />
+      <edge source="sport24.co.za" target="apple.com" id="408" weight="1" />
+      <edge source="sport24.co.za" target="bbc.com" id="409" weight="7" />
+      <edge source="sport24.co.za" target="dailymail.co.uk" id="410" weight="2" />
+      <edge source="sport24.co.za" target="dailymaverick.co.za" id="411" weight="1" />
+      <edge source="sport24.co.za" target="espn.com" id="412" weight="1" />
+      <edge source="sport24.co.za" target="espncricinfo.com" id="413" weight="3" />
+      <edge source="sport24.co.za" target="everlytic.net" id="414" weight="2" />
+      <edge source="sport24.co.za" target="gloucesterrugby.co.uk" id="415" weight="1" />
+      <edge source="sport24.co.za" target="goal.com" id="416" weight="1" />
+      <edge source="sport24.co.za" target="instagram.com" id="417" weight="4" />
+      <edge source="sport24.co.za" target="kaizerchiefs.com" id="418" weight="1" />
+      <edge source="sport24.co.za" target="kickoff.com" id="419" weight="2" />
+      <edge source="sport24.co.za" target="lionstour2021.co.za" id="420" weight="65" />
+      <edge source="sport24.co.za" target="midi-olympique.fr" id="421" weight="1" />
+      <edge source="sport24.co.za" target="mytwocents.co.za" id="422" weight="3" />
+      <edge source="sport24.co.za" target="netwerk24.com" id="423" weight="2" />
+      <edge source="sport24.co.za" target="news.com.au" id="424" weight="1" />
+      <edge source="sport24.co.za" target="news24.com" id="425" weight="2" />
+      <edge source="sport24.co.za" target="reuters.com" id="426" weight="1" />
+      <edge source="sport24.co.za" target="skysports.com" id="427" weight="1" />
+      <edge source="sport24.co.za" target="smh.com.au" id="428" weight="1" />
+      <edge source="sport24.co.za" target="sowetanlive.co.za" id="429" weight="2" />
+      <edge source="sport24.co.za" target="stuff.co.nz/https://www.stuff.co.nz/sport/rugby/all-blacks/121491588/all-blacks-prop-ofa-tuungafasi-shows-brute-strength-in-scrum-practice-with-carsport" id="430" weight="1" />
+      <edge source="sport24.co.za" target="stuff.co.nz/https://www.stuff.co.nz/sport/rugby/international/121046507/all-blacks-dominate-rugbys-greatest-triessport" id="431" weight="1" />
+      <edge source="sport24.co.za" target="stuff.co.nz/https://www.stuff.co.nz/sport/rugby/super-rugby/121488663/sam-whitelock-cleared-to-play-for-the-crusaders-in-super-rugby-restartsport" id="432" weight="1" />
+      <edge source="sport24.co.za" target="sundownsfc.co.za" id="433" weight="1" />
+      <edge source="sport24.co.za" target="supersport.com" id="434" weight="3" />
+      <edge source="sport24.co.za" target="tampabay.com" id="435" weight="1" />
+      <edge source="sport24.co.za" target="theguardian.com" id="436" weight="2" />
+      <edge source="sport24.co.za" target="thestormers.com" id="437" weight="1" />
+      <edge source="sport24.co.za" target="tvnz.co.nz" id="438" weight="1" />
+      <edge source="sport24.co.za" target="twitter.com" id="439" weight="13" />
+      <edge source="sport24.co.za" target="usatoday.com" id="440" weight="1" />
+      <edge source="sport24.co.za" target="vodacomdurbanjuly.co.za" id="441" weight="1" />
+      <edge source="sport24.co.za" target="youtube.com" id="442" weight="2" />
+      <edge source="deepcogitation.com" target="nation.co.ke" id="443" weight="1" />
+      <edge source="fin24.com" target="3m3w.co.za" id="444" weight="1" />
+      <edge source="fin24.com" target="aeaweb.org" id="445" weight="1" />
+      <edge source="fin24.com" target="bloomberg.com" id="446" weight="9" />
+      <edge source="fin24.com" target="businessinsider.co.za" id="447" weight="6" />
+      <edge source="fin24.com" target="cfr.org" id="448" weight="1" />
+      <edge source="fin24.com" target="creditclear.web.za" id="449" weight="1" />
+      <edge source="fin24.com" target="debtbusters.co.za" id="450" weight="1" />
+      <edge source="fin24.com" target="drift.com" id="451" weight="1" />
+      <edge source="fin24.com" target="fas.org" id="452" weight="1" />
+      <edge source="fin24.com" target="forbes.com" id="453" weight="2" />
+      <edge source="fin24.com" target="gallup.com" id="454" weight="1" />
+      <edge source="fin24.com" target="hbr.org" id="455" weight="2" />
+      <edge source="fin24.com" target="imf.org" id="456" weight="1" />
+      <edge source="fin24.com" target="insead.edu" id="457" weight="1" />
+      <edge source="fin24.com" target="journals.sagepub.com" id="458" weight="3" />
+      <edge source="fin24.com" target="kulula.com" id="459" weight="1" />
+      <edge source="fin24.com" target="netwerk24.com" id="460" weight="1" />
+      <edge source="fin24.com" target="news24.com" id="461" weight="4" />
+      <edge source="fin24.com" target="oecd.org" id="462" weight="1" />
+      <edge source="fin24.com" target="oxfordclinicalpsych.com" id="463" weight="1" />
+      <edge source="fin24.com" target="penguinrandomhouse.com" id="464" weight="1" />
+      <edge source="fin24.com" target="piie.com" id="465" weight="2" />
+      <edge source="fin24.com" target="politico.com" id="466" weight="1" />
+      <edge source="fin24.com" target="positivepsychology.com" id="467" weight="1" />
+      <edge source="fin24.com" target="profilebooks.com" id="468" weight="1" />
+      <edge source="fin24.com" target="profiledata.co.za" id="469" weight="2" />
+      <edge source="fin24.com" target="psychologytoday.com" id="470" weight="1" />
+      <edge source="fin24.com" target="repubblica.it" id="471" weight="1" />
+      <edge source="fin24.com" target="sharenet.co.za" id="472" weight="1" />
+      <edge source="fin24.com" target="statssa.gov.za" id="473" weight="1" />
+      <edge source="fin24.com" target="thedecisionlab.com" id="474" weight="1" />
+      <edge source="fin24.com" target="theguardian.com" id="475" weight="1" />
+      <edge source="fin24.com" target="timeslive.co.za" id="476" weight="1" />
+      <edge source="fin24.com" target="timetothink.com" id="477" weight="1" />
+      <edge source="fin24.com" target="track-stats.com" id="478" weight="1" />
+      <edge source="fin24.com" target="twitter.com" id="479" weight="1" />
+      <edge source="fin24.com" target="un.org.za" id="480" weight="1" />
+      <edge source="fin24.com" target="unctad.org" id="481" weight="1" />
+      <edge source="fin24.com" target="undp.org" id="482" weight="1" />
+      <edge source="fin24.com" target="upenn.edu" id="483" weight="1" />
+      <edge source="fin24.com" target="virtualcoachingpartners.com" id="484" weight="1" />
+      <edge source="fin24.com" target="wework.com" id="485" weight="1" />
+      <edge source="fin24.com" target="who.int" id="486" weight="1" />
+      <edge source="fin24.com" target="wpmucdn.com" id="487" weight="1" />
+      <edge source="fin24.com" target="wsj.com" id="488" weight="1" />
+      <edge source="ghafla.com" target="bit.ly" id="489" weight="4" />
+      <edge source="ghafla.com" target="co-opbank.co.ke" id="490" weight="2" />
+      <edge source="ghafla.com" target="facebook.com" id="491" weight="11" />
+      <edge source="ghafla.com" target="instagram.com" id="492" weight="76" />
+      <edge source="ghafla.com" target="mozzartbet.co.ke" id="493" weight="13" />
+      <edge source="ghafla.com" target="muzaymanentertainment.com" id="494" weight="1" />
+      <edge source="ghafla.com" target="t.co" id="495" weight="5" />
+      <edge source="ghafla.com" target="twitter.com" id="496" weight="10" />
+      <edge source="ghafla.com" target="youtu.be" id="497" weight="1" />
+      <edge source="ghettoradio.co.ke" target="afatrading.co.ke" id="498" weight="1" />
+      <edge source="ghettoradio.co.ke" target="facebook.com" id="499" weight="2" />
+      <edge source="ghettoradio.co.ke" target="instagram.com" id="500" weight="15" />
+      <edge source="ghettoradio.co.ke" target="startimestv.com" id="501" weight="1" />
+      <edge source="ghettoradio.co.ke" target="t.co" id="502" weight="1" />
+      <edge source="ghettoradio.co.ke" target="twitter.com" id="503" weight="1" />
+      <edge source="ghettoradio.co.ke" target="wp.com" id="504" weight="3" />
+      <edge source="hot96.co.ke" target="edaily.co.ke" id="505" weight="10" />
+      <edge source="ijmonitor.org" target="cejil.org" id="506" weight="2" />
+      <edge source="ijmonitor.org" target="corteidh.or.cr" id="507" weight="1" />
+      <edge source="ijmonitor.org" target="gmu.edu" id="508" weight="2" />
+      <edge source="ijmonitor.org" target="icc-cpi.int" id="509" weight="3" />
+      <edge source="ijmonitor.org" target="no-ficcion.com" id="510" weight="1" />
+      <edge source="ijmonitor.org" target="nomada.gt" id="511" weight="1" />
+      <edge source="ijmonitor.org" target="ohchr.org" id="512" weight="1" />
+      <edge source="ijmonitor.org" target="ox.ac.uk" id="513" weight="1" />
+      <edge source="ijmonitor.org" target="prensacomunitaria.org" id="514" weight="1" />
+      <edge source="kahawatungu.com" target="africaintelligence.com" id="515" weight="1" />
+      <edge source="kahawatungu.com" target="huawei.com" id="516" weight="1" />
+      <edge source="kahawatungu.com" target="iebc.or.ke" id="517" weight="1" />
+      <edge source="kahawatungu.com" target="instagram.com" id="518" weight="3" />
+      <edge source="kahawatungu.com" target="milkor.com" id="519" weight="1" />
+      <edge source="kahawatungu.com" target="mzalendo.com" id="520" weight="2" />
+      <edge source="kahawatungu.com" target="nis.go.ke" id="521" weight="1" />
+      <edge source="kahawatungu.com" target="planefinder.net" id="522" weight="1" />
+      <edge source="kahawatungu.com" target="t.me" id="523" weight="342" />
+      <edge source="kahawatungu.com" target="webconfs.com" id="524" weight="1" />
+      <edge source="kbc.co.ke" target="apple.co" id="525" weight="1" />
+      <edge source="kbc.co.ke" target="bbc.co.uk" id="526" weight="5" />
+      <edge source="kbc.co.ke" target="bonifacemwangi.com" id="527" weight="1" />
+      <edge source="kbc.co.ke" target="brandafrica.net" id="528" weight="1" />
+      <edge source="kbc.co.ke" target="castyleawards.com" id="529" weight="1" />
+      <edge source="kbc.co.ke" target="filmafrica.org" id="530" weight="1" />
+      <edge source="kbc.co.ke" target="gavi.org" id="531" weight="1" />
+      <edge source="kbc.co.ke" target="gettyimages.com" id="532" weight="2" />
+      <edge source="kbc.co.ke" target="instagram.com" id="533" weight="4" />
+      <edge source="kbc.co.ke" target="lnk.to" id="534" weight="1" />
+      <edge source="kbc.co.ke" target="moet.com" id="535" weight="1" />
+      <edge source="kbc.co.ke" target="softiethefilm.com" id="536" weight="1" />
+      <edge source="kbc.co.ke" target="twitter.com" id="537" weight="6" />
+      <edge source="kbc.co.ke" target="wikipedia.org" id="538" weight="4" />
+      <edge source="kbc.co.ke" target="youtube.com" id="539" weight="5" />
+      <edge source="kdrtv.co.ke" target="bit.ly" id="540" weight="10" />
+      <edge source="kdrtv.co.ke" target="facebook.com" id="541" weight="1" />
+      <edge source="kdrtv.co.ke" target="patreon.com" id="542" weight="5" />
+      <edge source="kenya-today.com" target="capitolnews.co.ke" id="543" weight="2" />
+      <edge source="kenya-today.com" target="mpasho.co.ke" id="544" weight="2" />
+      <edge source="kenya-today.com" target="odibets.com" id="545" weight="1" />
+      <edge source="kenya-today.com" target="slimover55review.weebly.com" id="546" weight="1" />
+      <edge source="kenya-today.com" target="t.co" id="547" weight="23" />
+      <edge source="kenya-today.com" target="twitter.com" id="548" weight="54" />
+      <edge source="mpasho.co.ke" target="bit.ly" id="549" weight="2" />
+      <edge source="mpasho.co.ke" target="brutallyhonest.home.blog" id="550" weight="2" />
+      <edge source="mpasho.co.ke" target="cosmopolitan.com" id="551" weight="1" />
+      <edge source="mpasho.co.ke" target="facebook.com" id="552" weight="6" />
+      <edge source="mpasho.co.ke" target="gofundme.com" id="553" weight="1" />
+      <edge source="mpasho.co.ke" target="instagram.com" id="554" weight="19" />
+      <edge source="mpasho.co.ke" target="usernameproperties.com" id="555" weight="9" />
+      <edge source="mpasho.co.ke" target="yourtango.com" id="556" weight="1" />
+      <edge source="kenyaforum.net" target="kenyalaw.org" id="557" weight="1" />
+      <edge source="kenyan-post.com" target="254news.co.ke" id="558" weight="1" />
+      <edge source="kenyan-post.com" target="enewskenya.blogspot.com" id="559" weight="31" />
+      <edge source="kenyan-post.com" target="instagram.com" id="560" weight="2" />
+      <edge source="kenyan-post.com" target="mugwenudoctors.com" id="561" weight="4" />
+      <edge source="kenyan-post.com" target="odibets.com" id="562" weight="14" />
+      <edge source="kenyan-post.com" target="pricit.ke" id="563" weight="3" />
+      <edge source="kenyastar.com" target="abcnews.go.com" id="564" weight="1" />
+      <edge source="kenyastar.com" target="amazon.com" id="565" weight="3" />
+      <edge source="kenyastar.com" target="amisom-au.org" id="566" weight="1" />
+      <edge source="kenyastar.com" target="bbc.co.uk" id="567" weight="1" />
+      <edge source="kenyastar.com" target="bmj.com" id="568" weight="1" />
+      <edge source="kenyastar.com" target="brill.com" id="569" weight="1" />
+      <edge source="kenyastar.com" target="businesslive.co.za" id="570" weight="1" />
+      <edge source="kenyastar.com" target="cambridge.org" id="571" weight="1" />
+      <edge source="kenyastar.com" target="cansa.org.za" id="572" weight="1" />
+      <edge source="kenyastar.com" target="cdc.gov" id="573" weight="2" />
+      <edge source="kenyastar.com" target="cell.com" id="574" weight="1" />
+      <edge source="kenyastar.com" target="chathamhouse.org" id="575" weight="1" />
+      <edge source="kenyastar.com" target="cnla.mr" id="576" weight="1" />
+      <edge source="kenyastar.com" target="cnn.com" id="577" weight="1" />
+      <edge source="kenyastar.com" target="desertlocust-crc.org" id="578" weight="1" />
+      <edge source="kenyastar.com" target="doi.org" id="579" weight="4" />
+      <edge source="kenyastar.com" target="dukeupress.edu" id="580" weight="2" />
+      <edge source="kenyastar.com" target="europa.eu" id="581" weight="1" />
+      <edge source="kenyastar.com" target="fao.org" id="582" weight="9" />
+      <edge source="kenyastar.com" target="forbes.com" id="583" weight="1" />
+      <edge source="kenyastar.com" target="frontiersin.org" id="584" weight="1" />
+      <edge source="kenyastar.com" target="globaltobaccocontrol.org" id="585" weight="1" />
+      <edge source="kenyastar.com" target="goandproclaim.co.za" id="586" weight="1" />
+      <edge source="kenyastar.com" target="google.com" id="587" weight="1" />
+      <edge source="kenyastar.com" target="health.go.ke" id="588" weight="1" />
+      <edge source="kenyastar.com" target="history.com" id="589" weight="1" />
+      <edge source="kenyastar.com" target="ingentaconnect.com" id="590" weight="1" />
+      <edge source="kenyastar.com" target="ipinst.org" id="591" weight="3" />
+      <edge source="kenyastar.com" target="jhu.edu" id="592" weight="2" />
+      <edge source="kenyastar.com" target="jstor.org" id="593" weight="3" />
+      <edge source="kenyastar.com" target="knchr.org" id="594" weight="1" />
+      <edge source="kenyastar.com" target="mod.go.ke" id="595" weight="2" />
+      <edge source="kenyastar.com" target="mpala.org" id="596" weight="1" />
+      <edge source="kenyastar.com" target="nap.edu" id="597" weight="1" />
+      <edge source="kenyastar.com" target="nejm.org" id="598" weight="2" />
+      <edge source="kenyastar.com" target="news24.com" id="599" weight="2" />
+      <edge source="kenyastar.com" target="nih.gov" id="600" weight="18" />
+      <edge source="kenyastar.com" target="nytimes.com" id="601" weight="1" />
+      <edge source="kenyastar.com" target="observer.ug" id="602" weight="1" />
+      <edge source="kenyastar.com" target="oie.int" id="603" weight="1" />
+      <edge source="kenyastar.com" target="openedition.org" id="604" weight="2" />
+      <edge source="kenyastar.com" target="oup.com" id="605" weight="2" />
+      <edge source="kenyastar.com" target="pactworld.org" id="606" weight="1" />
+      <edge source="kenyastar.com" target="plos.org" id="607" weight="2" />
+      <edge source="kenyastar.com" target="reliefweb.int" id="608" weight="1" />
+      <edge source="kenyastar.com" target="sahistory.org.za" id="609" weight="1" />
+      <edge source="kenyastar.com" target="sahpra.org.za" id="610" weight="2" />
+      <edge source="kenyastar.com" target="samrc.ac.za" id="611" weight="1" />
+      <edge source="kenyastar.com" target="sciencedirect.com" id="612" weight="2" />
+      <edge source="kenyastar.com" target="sciencemag.org" id="613" weight="2" />
+      <edge source="kenyastar.com" target="sheldrickwildlifetrust.org" id="614" weight="1" />
+      <edge source="kenyastar.com" target="tandfonline.com" id="615" weight="1" />
+      <edge source="kenyastar.com" target="td-sa.net" id="616" weight="1" />
+      <edge source="kenyastar.com" target="theconversation.com" id="617" weight="8" />
+      <edge source="kenyastar.com" target="theguardian.com" id="618" weight="1" />
+      <edge source="kenyastar.com" target="treasury.gov.za" id="619" weight="2" />
+      <edge source="kenyastar.com" target="uct.ac.za" id="620" weight="1" />
+      <edge source="kenyastar.com" target="ufl.edu" id="621" weight="1" />
+      <edge source="kenyastar.com" target="un.org" id="622" weight="2" />
+      <edge source="kenyastar.com" target="usatoday.com" id="623" weight="1" />
+      <edge source="kenyastar.com" target="voanews.com" id="624" weight="1" />
+      <edge source="kenyastar.com" target="warforpeace.co.ke" id="625" weight="1" />
+      <edge source="kenyastar.com" target="warontherocks.com" id="626" weight="1" />
+      <edge source="kenyastar.com" target="who.int" id="627" weight="6" />
+      <edge source="kenyastar.com" target="wiley.com" id="628" weight="2" />
+      <edge source="kenyastar.com" target="wmo.int" id="629" weight="1" />
+      <edge source="kenyastar.com" target="worldbank.org" id="630" weight="1" />
+      <edge source="kenyastar.com" target="worldcat.org" id="631" weight="1" />
+      <edge source="kenyastar.com" target="www.gov.za" id="632" weight="1" />
+      <edge source="kenyastar.com" target="youtube.com" id="633" weight="1" />
+      <edge source="ksnmedia.com" target="appstecamerica.com" id="634" weight="1" />
+      <edge source="ksnmedia.com" target="facebook.com" id="635" weight="2" />
+      <edge source="ksnmedia.com" target="forevermissed.com" id="636" weight="1" />
+      <edge source="ksnmedia.com" target="nation.africa" id="637" weight="3" />
+      <edge source="ksnmedia.com" target="optiven.co.ke" id="638" weight="2" />
+      <edge source="ksnmedia.com" target="standardmedia.co.ke" id="639" weight="7" />
+      <edge source="ksnmedia.com" target="successwithbobmwiti.com" id="640" weight="1" />
+      <edge source="mummytales.com" target="facebook.com" id="641" weight="2" />
+      <edge source="mummytales.com" target="instagram.com" id="642" weight="3" />
+      <edge source="mummytales.com" target="pixabay.com" id="643" weight="2" />
+      <edge source="mummytales.com" target="twitter.com" id="644" weight="3" />
+      <edge source="mummytales.com" target="youtube.com" id="645" weight="2" />
+      <edge source="mumsvillage.com" target="chupachap.co.ke" id="646" weight="1" />
+      <edge source="mumsvillage.com" target="dialadrinkkenya.com" id="647" weight="1" />
+      <edge source="mumsvillage.com" target="facebook.com" id="648" weight="1" />
+      <edge source="mumsvillage.com" target="glovoapp.com" id="649" weight="2" />
+      <edge source="mumsvillage.com" target="herdy.co" id="650" weight="1" />
+      <edge source="mumsvillage.com" target="heri.online" id="651" weight="1" />
+      <edge source="mumsvillage.com" target="javahouseafrica.com" id="652" weight="1" />
+      <edge source="mumsvillage.com" target="johnsonsbaby.co.za" id="653" weight="7" />
+      <edge source="mumsvillage.com" target="jumia.co.ke" id="654" weight="2" />
+      <edge source="mumsvillage.com" target="mygyno.co.ke" id="655" weight="1" />
+      <edge source="mumsvillage.com" target="nairobeans.com" id="656" weight="1" />
+      <edge source="mumsvillage.com" target="oaksncorks.com" id="657" weight="1" />
+      <edge source="mumsvillage.com" target="provisions.co.ke" id="658" weight="1" />
+      <edge source="mumsvillage.com" target="rafubooks.com" id="659" weight="1" />
+      <edge source="mumsvillage.com" target="royalkart.co.ke" id="660" weight="1" />
+      <edge source="mumsvillage.com" target="shopzetu.com" id="661" weight="1" />
+      <edge source="mumsvillage.com" target="textbookcentre.com" id="662" weight="1" />
+      <edge source="mumsvillage.com" target="tuskys.com" id="663" weight="1" />
+      <edge source="mumsvillage.com" target="zucchini.co.ke" id="664" weight="1" />
+      <edge source="mumsvillage.com" target="zydii.com" id="665" weight="1" />
+      <edge source="nairobiwire.com" target="hudumakenya.go.ke" id="666" weight="1" />
+      <edge source="nairobiwire.com" target="instagram.com" id="667" weight="5" />
+      <edge source="nairobiwire.com" target="nation.co.ke" id="668" weight="1" />
+      <edge source="nairobiwire.com" target="skygirlske.com" id="669" weight="1" />
+      <edge source="thenewhumanitarian.org" target="aa.com.tr" id="670" weight="1" />
+      <edge source="thenewhumanitarian.org" target="academia.edu" id="671" weight="1" />
+      <edge source="thenewhumanitarian.org" target="acaps.org" id="672" weight="2" />
+      <edge source="thenewhumanitarian.org" target="adb.org" id="673" weight="1" />
+      <edge source="thenewhumanitarian.org" target="afp.com" id="674" weight="1" />
+      <edge source="thenewhumanitarian.org" target="africa-confidential.com" id="675" weight="1" />
+      <edge source="thenewhumanitarian.org" target="africacdc.org" id="676" weight="1" />
+      <edge source="thenewhumanitarian.org" target="africanarguments.org" id="677" weight="1" />
+      <edge source="thenewhumanitarian.org" target="africanews.com" id="678" weight="3" />
+      <edge source="thenewhumanitarian.org" target="agendaforhumanity.org" id="679" weight="1" />
+      <edge source="thenewhumanitarian.org" target="agu.org" id="680" weight="1" />
+      <edge source="thenewhumanitarian.org" target="aidesep.org.pe" id="681" weight="1" />
+      <edge source="thenewhumanitarian.org" target="alarabiya.net" id="682" weight="1" />
+      <edge source="thenewhumanitarian.org" target="alarmphone.org" id="683" weight="1" />
+      <edge source="thenewhumanitarian.org" target="aljazeera.com" id="684" weight="17" />
+      <edge source="thenewhumanitarian.org" target="amazoniareal.com.br" id="685" weight="1" />
+      <edge source="thenewhumanitarian.org" target="amnesty.org" id="686" weight="11" />
+      <edge source="thenewhumanitarian.org" target="amnesty.org.in" id="687" weight="2" />
+      <edge source="thenewhumanitarian.org" target="apib.info" id="688" weight="5" />
+      <edge source="thenewhumanitarian.org" target="apnews.com" id="689" weight="6" />
+      <edge source="thenewhumanitarian.org" target="azpbs.org" id="690" weight="1" />
+      <edge source="thenewhumanitarian.org" target="bangkokpost.com" id="691" weight="1" />
+      <edge source="thenewhumanitarian.org" target="barrons.com" id="692" weight="1" />
+      <edge source="thenewhumanitarian.org" target="bbc.co.uk" id="693" weight="6" />
+      <edge source="thenewhumanitarian.org" target="bbc.com" id="694" weight="11" />
+      <edge source="thenewhumanitarian.org" target="bloomberg.com" id="695" weight="6" />
+      <edge source="thenewhumanitarian.org" target="brookings.edu" id="696" weight="1" />
+      <edge source="thenewhumanitarian.org" target="burundihri.org" id="697" weight="2" />
+      <edge source="thenewhumanitarian.org" target="catholicphilly.com" id="698" weight="1" />
+      <edge source="thenewhumanitarian.org" target="cbc.ca" id="699" weight="1" />
+      <edge source="thenewhumanitarian.org" target="cchubnigeria.com" id="700" weight="1" />
+      <edge source="thenewhumanitarian.org" target="cepal.org" id="701" weight="1" />
+      <edge source="thenewhumanitarian.org" target="chaberlin.org" id="702" weight="1" />
+      <edge source="thenewhumanitarian.org" target="chathamhouse.org" id="703" weight="2" />
+      <edge source="thenewhumanitarian.org" target="christianpost.com" id="704" weight="1" />
+      <edge source="thenewhumanitarian.org" target="clovekvtisni.cz" id="705" weight="1" />
+      <edge source="thenewhumanitarian.org" target="cnda.fr" id="706" weight="1" />
+      <edge source="thenewhumanitarian.org" target="cnn.com" id="707" weight="4" />
+      <edge source="thenewhumanitarian.org" target="coar-global.org" id="708" weight="1" />
+      <edge source="thenewhumanitarian.org" target="coica.org.ec" id="709" weight="2" />
+      <edge source="thenewhumanitarian.org" target="cpj.org" id="710" weight="1" />
+      <edge source="thenewhumanitarian.org" target="crisisgroup.org" id="711" weight="6" />
+      <edge source="thenewhumanitarian.org" target="crs.org" id="712" weight="1" />
+      <edge source="thenewhumanitarian.org" target="csis.org" id="713" weight="1" />
+      <edge source="thenewhumanitarian.org" target="csw.org.uk" id="714" weight="1" />
+      <edge source="thenewhumanitarian.org" target="cultureiq.com" id="715" weight="1" />
+      <edge source="thenewhumanitarian.org" target="dailypost.ng" id="716" weight="2" />
+      <edge source="thenewhumanitarian.org" target="dailysabah.com" id="717" weight="1" />
+      <edge source="thenewhumanitarian.org" target="devex.com" id="718" weight="2" />
+      <edge source="thenewhumanitarian.org" target="dhs.gov" id="719" weight="1" />
+      <edge source="thenewhumanitarian.org" target="diplomatie.gouv.fr" id="720" weight="1" />
+      <edge source="thenewhumanitarian.org" target="disasterprotection.org" id="721" weight="1" />
+      <edge source="thenewhumanitarian.org" target="doctorswithoutborders.org" id="722" weight="1" />
+      <edge source="thenewhumanitarian.org" target="dswd.gov.ph" id="723" weight="1" />
+      <edge source="thenewhumanitarian.org" target="duke.edu" id="724" weight="1" />
+      <edge source="thenewhumanitarian.org" target="dukeupress.edu" id="725" weight="1" />
+      <edge source="thenewhumanitarian.org" target="dw.com" id="726" weight="2" />
+      <edge source="thenewhumanitarian.org" target="eac.int" id="727" weight="1" />
+      <edge source="thenewhumanitarian.org" target="eastwestcenter.org" id="728" weight="1" />
+      <edge source="thenewhumanitarian.org" target="ecfr.eu" id="729" weight="1" />
+      <edge source="thenewhumanitarian.org" target="eplo.org" id="730" weight="1" />
+      <edge source="thenewhumanitarian.org" target="epw.in" id="731" weight="1" />
+      <edge source="thenewhumanitarian.org" target="europa.eu" id="732" weight="4" />
+      <edge source="thenewhumanitarian.org" target="eventbrite.com" id="733" weight="1" />
+      <edge source="thenewhumanitarian.org" target="executive-magazine.com" id="734" weight="1" />
+      <edge source="thenewhumanitarian.org" target="exposure.co" id="735" weight="1" />
+      <edge source="thenewhumanitarian.org" target="facebook.com" id="736" weight="1" />
+      <edge source="thenewhumanitarian.org" target="fao.org" id="737" weight="1" />
+      <edge source="thenewhumanitarian.org" target="fews.net" id="738" weight="3" />
+      <edge source="thenewhumanitarian.org" target="forbes.com" id="739" weight="1" />
+      <edge source="thenewhumanitarian.org" target="foreignpolicy.com" id="740" weight="3" />
+      <edge source="thenewhumanitarian.org" target="fragilestatesindex.org" id="741" weight="4" />
+      <edge source="thenewhumanitarian.org" target="france24.com" id="742" weight="10" />
+      <edge source="thenewhumanitarian.org" target="freedomhouse.org" id="743" weight="1" />
+      <edge source="thenewhumanitarian.org" target="ft.com" id="744" weight="1" />
+      <edge source="thenewhumanitarian.org" target="gisti.org" id="745" weight="1" />
+      <edge source="thenewhumanitarian.org" target="globaldeliveryinitiative.org" id="746" weight="1" />
+      <edge source="thenewhumanitarian.org" target="google.com" id="747" weight="1" />
+      <edge source="thenewhumanitarian.org" target="gov.bi" id="748" weight="2" />
+      <edge source="thenewhumanitarian.org" target="gunjuronline.com" id="749" weight="1" />
+      <edge source="thenewhumanitarian.org" target="harvard.edu" id="750" weight="1" />
+      <edge source="thenewhumanitarian.org" target="healthdata.org" id="751" weight="1" />
+      <edge source="thenewhumanitarian.org" target="heindehaas.blogspot.com" id="752" weight="1" />
+      <edge source="thenewhumanitarian.org" target="heritageinstitute.org" id="753" weight="1" />
+      <edge source="thenewhumanitarian.org" target="hopkinshumanitarianhealth.org" id="754" weight="1" />
+      <edge source="thenewhumanitarian.org" target="hrw.org" id="755" weight="17" />
+      <edge source="thenewhumanitarian.org" target="humangle.ng" id="756" weight="4" />
+      <edge source="thenewhumanitarian.org" target="humanitarianresponse.info" id="757" weight="2" />
+      <edge source="thenewhumanitarian.org" target="humanrightsfirst.org" id="758" weight="1" />
+      <edge source="thenewhumanitarian.org" target="icct.nl" id="759" weight="1" />
+      <edge source="thenewhumanitarian.org" target="icj.org" id="760" weight="1" />
+      <edge source="thenewhumanitarian.org" target="icrc.org" id="761" weight="1" />
+      <edge source="thenewhumanitarian.org" target="ilo.org" id="762" weight="1" />
+      <edge source="thenewhumanitarian.org" target="imf.org" id="763" weight="1" />
+      <edge source="thenewhumanitarian.org" target="independent.co.uk" id="764" weight="1" />
+      <edge source="thenewhumanitarian.org" target="indigenousdrr.com" id="765" weight="1" />
+      <edge source="thenewhumanitarian.org" target="infomigrants.net" id="766" weight="5" />
+      <edge source="thenewhumanitarian.org" target="internal-displacement.org" id="767" weight="1" />
+      <edge source="thenewhumanitarian.org" target="interpeace.org" id="768" weight="1" />
+      <edge source="thenewhumanitarian.org" target="iom.int" id="769" weight="4" />
+      <edge source="thenewhumanitarian.org" target="ippf.org" id="770" weight="2" />
+      <edge source="thenewhumanitarian.org" target="irinnews.org" id="771" weight="5" />
+      <edge source="thenewhumanitarian.org" target="irrawaddy.com" id="772" weight="1" />
+      <edge source="thenewhumanitarian.org" target="issues.org" id="773" weight="1" />
+      <edge source="thenewhumanitarian.org" target="iwacu-burundi.org" id="774" weight="4" />
+      <edge source="thenewhumanitarian.org" target="jamestown.org" id="775" weight="1" />
+      <edge source="thenewhumanitarian.org" target="jhu.edu" id="776" weight="4" />
+      <edge source="thenewhumanitarian.org" target="journaldunet.fr" id="777" weight="1" />
+      <edge source="thenewhumanitarian.org" target="kcnawatch.org" id="778" weight="1" />
+      <edge source="thenewhumanitarian.org" target="keionline.org" id="779" weight="2" />
+      <edge source="thenewhumanitarian.org" target="kenyans.co.ke" id="780" weight="1" />
+      <edge source="thenewhumanitarian.org" target="kff.org" id="781" weight="1" />
+      <edge source="thenewhumanitarian.org" target="kpbs.org" id="782" weight="1" />
+      <edge source="thenewhumanitarian.org" target="lavanguardia.com" id="783" weight="1" />
+      <edge source="thenewhumanitarian.org" target="lawfareblog.com" id="784" weight="1" />
+      <edge source="thenewhumanitarian.org" target="lawg.org" id="785" weight="1" />
+      <edge source="thenewhumanitarian.org" target="longcrisis.org" id="786" weight="1" />
+      <edge source="thenewhumanitarian.org" target="longwarjournal.org" id="787" weight="1" />
+      <edge source="thenewhumanitarian.org" target="lshtm.ac.uk" id="788" weight="2" />
+      <edge source="thenewhumanitarian.org" target="mare-liberum.org" id="789" weight="1" />
+      <edge source="thenewhumanitarian.org" target="mhlw.go.jp" id="790" weight="1" />
+      <edge source="thenewhumanitarian.org" target="migrationpolicy.org" id="791" weight="1" />
+      <edge source="thenewhumanitarian.org" target="mit.edu" id="792" weight="1" />
+      <edge source="thenewhumanitarian.org" target="mologic.co.uk" id="793" weight="1" />
+      <edge source="thenewhumanitarian.org" target="msf-me.org" id="794" weight="1" />
+      <edge source="thenewhumanitarian.org" target="msf.org" id="795" weight="1" />
+      <edge source="thenewhumanitarian.org" target="nature.com" id="796" weight="1" />
+      <edge source="thenewhumanitarian.org" target="ndrrmc.gov.ph" id="797" weight="1" />
+      <edge source="thenewhumanitarian.org" target="newsday.co.zw" id="798" weight="1" />
+      <edge source="thenewhumanitarian.org" target="newsweek.com" id="799" weight="2" />
+      <edge source="thenewhumanitarian.org" target="nih.gov" id="800" weight="1" />
+      <edge source="thenewhumanitarian.org" target="npr.org" id="801" weight="3" />
+      <edge source="thenewhumanitarian.org" target="nrc.no" id="802" weight="4" />
+      <edge source="thenewhumanitarian.org" target="nytimes.com" id="803" weight="9" />
+      <edge source="thenewhumanitarian.org" target="odi.org" id="804" weight="2" />
+      <edge source="thenewhumanitarian.org" target="oecd-ilibrary.org" id="805" weight="2" />
+      <edge source="thenewhumanitarian.org" target="oecd.org" id="806" weight="7" />
+      <edge source="thenewhumanitarian.org" target="ofpra.gouv.fr" id="807" weight="1" />
+      <edge source="thenewhumanitarian.org" target="ohchr.org" id="808" weight="2" />
+      <edge source="thenewhumanitarian.org" target="oneworldmedia.org.uk" id="809" weight="2" />
+      <edge source="thenewhumanitarian.org" target="ons.gov.uk" id="810" weight="1" />
+      <edge source="thenewhumanitarian.org" target="oup.com" id="811" weight="1" />
+      <edge source="thenewhumanitarian.org" target="oxfam.org" id="812" weight="1" />
+      <edge source="thenewhumanitarian.org" target="paho.org" id="813" weight="1" />
+      <edge source="thenewhumanitarian.org" target="plan-international.org" id="814" weight="1" />
+      <edge source="thenewhumanitarian.org" target="pmindia.gov.in" id="815" weight="1" />
+      <edge source="thenewhumanitarian.org" target="pmldaily.com" id="816" weight="1" />
+      <edge source="thenewhumanitarian.org" target="politico.com" id="817" weight="2" />
+      <edge source="thenewhumanitarian.org" target="premiumtimesng.com" id="818" weight="3" />
+      <edge source="thenewhumanitarian.org" target="pulse.ng" id="819" weight="1" />
+      <edge source="thenewhumanitarian.org" target="qz.com" id="820" weight="2" />
+      <edge source="thenewhumanitarian.org" target="rainforestfoundation.org" id="821" weight="1" />
+      <edge source="thenewhumanitarian.org" target="redamazonica.org" id="822" weight="1" />
+      <edge source="thenewhumanitarian.org" target="refugee-rights.org" id="823" weight="1" />
+      <edge source="thenewhumanitarian.org" target="refugees.org" id="824" weight="1" />
+      <edge source="thenewhumanitarian.org" target="reliefweb.int" id="825" weight="41" />
+      <edge source="thenewhumanitarian.org" target="rescue.org" id="826" weight="1" />
+      <edge source="thenewhumanitarian.org" target="reuters.com" id="827" weight="24" />
+      <edge source="thenewhumanitarian.org" target="rfi.fr" id="828" weight="1" />
+      <edge source="thenewhumanitarian.org" target="sadc.int" id="829" weight="1" />
+      <edge source="thenewhumanitarian.org" target="saharareporters.com" id="830" weight="2" />
+      <edge source="thenewhumanitarian.org" target="sahel.org.uk" id="831" weight="2" />
+      <edge source="thenewhumanitarian.org" target="sahelblog.wordpress.com" id="832" weight="1" />
+      <edge source="thenewhumanitarian.org" target="savethechildren.net" id="833" weight="1" />
+      <edge source="thenewhumanitarian.org" target="sciencedaily.com" id="834" weight="1" />
+      <edge source="thenewhumanitarian.org" target="senat.fr" id="835" weight="1" />
+      <edge source="thenewhumanitarian.org" target="service.gov.uk" id="836" weight="1" />
+      <edge source="thenewhumanitarian.org" target="springer.com" id="837" weight="1" />
+      <edge source="thenewhumanitarian.org" target="springeropen.com" id="838" weight="1" />
+      <edge source="thenewhumanitarian.org" target="standardmedia.co.ke" id="839" weight="3" />
+      <edge source="thenewhumanitarian.org" target="state.gov" id="840" weight="1" />
+      <edge source="thenewhumanitarian.org" target="static1.squarespace.com" id="841" weight="1" />
+      <edge source="thenewhumanitarian.org" target="statnews.com" id="842" weight="2" />
+      <edge source="thenewhumanitarian.org" target="surgeryencyclopedia.com" id="843" weight="1" />
+      <edge source="thenewhumanitarian.org" target="sussex.ac.uk" id="844" weight="1" />
+      <edge source="thenewhumanitarian.org" target="taylorfrancis.com" id="845" weight="1" />
+      <edge source="thenewhumanitarian.org" target="telenor.com" id="846" weight="1" />
+      <edge source="thenewhumanitarian.org" target="thaipbsworld.com" id="847" weight="1" />
+      <edge source="thenewhumanitarian.org" target="the-star.co.ke" id="848" weight="2" />
+      <edge source="thenewhumanitarian.org" target="theafricareport.com" id="849" weight="2" />
+      <edge source="thenewhumanitarian.org" target="theatlantic.com" id="850" weight="1" />
+      <edge source="thenewhumanitarian.org" target="theconversation.com" id="851" weight="2" />
+      <edge source="thenewhumanitarian.org" target="thediplomat.com" id="852" weight="3" />
+      <edge source="thenewhumanitarian.org" target="theeastafrican.co.ke" id="853" weight="1" />
+      <edge source="thenewhumanitarian.org" target="theguardian.com" id="854" weight="12" />
+      <edge source="thenewhumanitarian.org" target="thehindu.com" id="855" weight="1" />
+      <edge source="thenewhumanitarian.org" target="theintercept.com" id="856" weight="1" />
+      <edge source="thenewhumanitarian.org" target="thelancet.com" id="857" weight="3" />
+      <edge source="thenewhumanitarian.org" target="thenation.com" id="858" weight="1" />
+      <edge source="thenewhumanitarian.org" target="thenewhumanitarian.us12.list-manage.com" id="859" weight="2" />
+      <edge source="thenewhumanitarian.org" target="thenews.com.pk" id="860" weight="1" />
+      <edge source="thenewhumanitarian.org" target="theowp.org" id="861" weight="2" />
+      <edge source="thenewhumanitarian.org" target="thinktriangle.net" id="862" weight="1" />
+      <edge source="thenewhumanitarian.org" target="time.com" id="863" weight="1" />
+      <edge source="thenewhumanitarian.org" target="tolonews.com" id="864" weight="1" />
+      <edge source="thenewhumanitarian.org" target="trrc.gm" id="865" weight="1" />
+      <edge source="thenewhumanitarian.org" target="twitter.com" id="866" weight="14" />
+      <edge source="thenewhumanitarian.org" target="umn.edu" id="867" weight="1" />
+      <edge source="thenewhumanitarian.org" target="un.org" id="868" weight="14" />
+      <edge source="thenewhumanitarian.org" target="undocs.org" id="869" weight="2" />
+      <edge source="thenewhumanitarian.org" target="undrr.org" id="870" weight="1" />
+      <edge source="thenewhumanitarian.org" target="unfccc.int" id="871" weight="1" />
+      <edge source="thenewhumanitarian.org" target="unhcr.org" id="872" weight="12" />
+      <edge source="thenewhumanitarian.org" target="unicef.org" id="873" weight="3" />
+      <edge source="thenewhumanitarian.org" target="unmissions.org" id="874" weight="4" />
+      <edge source="thenewhumanitarian.org" target="unocha.org" id="875" weight="6" />
+      <edge source="thenewhumanitarian.org" target="unognewsroom.org" id="876" weight="1" />
+      <edge source="thenewhumanitarian.org" target="usaid.gov" id="877" weight="6" />
+      <edge source="thenewhumanitarian.org" target="usembassy.gov" id="878" weight="1" />
+      <edge source="thenewhumanitarian.org" target="ushahidi.com" id="879" weight="1" />
+      <edge source="thenewhumanitarian.org" target="usip.org" id="880" weight="2" />
+      <edge source="thenewhumanitarian.org" target="usma.edu" id="881" weight="1" />
+      <edge source="thenewhumanitarian.org" target="vanguardngr.com" id="882" weight="1" />
+      <edge source="thenewhumanitarian.org" target="vice.com" id="883" weight="1" />
+      <edge source="thenewhumanitarian.org" target="voanews.com" id="884" weight="3" />
+      <edge source="thenewhumanitarian.org" target="voiceeu.org" id="885" weight="1" />
+      <edge source="thenewhumanitarian.org" target="vox.com" id="886" weight="1" />
+      <edge source="thenewhumanitarian.org" target="washingtonpost.com" id="887" weight="1" />
+      <edge source="thenewhumanitarian.org" target="weforum.org" id="888" weight="1" />
+      <edge source="thenewhumanitarian.org" target="wfp.org" id="889" weight="2" />
+      <edge source="thenewhumanitarian.org" target="whitehouse.gov" id="890" weight="1" />
+      <edge source="thenewhumanitarian.org" target="who.int" id="891" weight="13" />
+      <edge source="thenewhumanitarian.org" target="wikileaks.org" id="892" weight="1" />
+      <edge source="thenewhumanitarian.org" target="womensrefugeecommission.org" id="893" weight="2" />
+      <edge source="thenewhumanitarian.org" target="worldbank.org" id="894" weight="1" />
+      <edge source="thenewhumanitarian.org" target="worldometers.info" id="895" weight="1" />
+      <edge source="thenewhumanitarian.org" target="worldpoliticsreview.com" id="896" weight="1" />
+      <edge source="thenewhumanitarian.org" target="worldpoverty.io" id="897" weight="2" />
+      <edge source="thenewhumanitarian.org" target="wvi.org" id="898" weight="1" />
+      <edge source="thenewhumanitarian.org" target="yahoo.com" id="899" weight="4" />
+      <edge source="thenewhumanitarian.org" target="youtube.com" id="900" weight="2" />
+      <edge source="thenewhumanitarian.org" target="zwnews.com" id="901" weight="1" />
+      <edge source="wordpress.com" target="freshbooks.com" id="902" weight="1" />
+      <edge source="wordpress.com" target="linkedin.com" id="903" weight="1" />
+      <edge source="wordpress.com" target="spearhead.co" id="904" weight="1" />
+      <edge source="wordpress.com" target="spearheaddemo.wordpress.com" id="905" weight="1" />
+      <edge source="wordpress.com" target="twitter.com" id="906" weight="1" />
+      <edge source="wordpress.com" target="wpcourses.com" id="907" weight="2" />
+      <edge source="wordpress.com" target="youtube.com" id="908" weight="1" />
+      <edge source="wordpress.com" target="zoom.us" id="909" weight="3" />
     </edges>
   </graph>
 </gexf>

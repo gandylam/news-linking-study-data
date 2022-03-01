@@ -1,0 +1,237 @@
+﻿Id,Label,timeset,Category,"(For Foreign, US?)",1,2,3,4,5,6,7,8,9,indegree,outdegree,Degree
+nih.gov,nih.gov,,Foreign Government,1,Unknown,nih.gov,http://nih.gov./,152090,nih.gov.,0,,Unknown,Unknown,24,0,24
+cdc.gov,cdc.gov,,Foreign Government,1,Unknown,cdc.gov,"http://cdc.gov,/",169793,"cdc.gov,",0,,Unknown,Unknown,14,0,14
+nasa.gov,nasa.gov,,Foreign Government,1,Unknown,nasa.gov,,,,,,,,14,0,14
+state.gov,state.gov,,Foreign Government,1,Unknown,state.gov,http://www.state.gov/,41108,State.gov,0.001111,,Unknown,English,13,0,13
+justice.gov,justice.gov,,Foreign Government,1,Unknown,justice.gov,http://www.justice.gov,18498,justice.gov,0.012111,,Unknown,Unknown,10,0,10
+whitehouse.gov,whitehouse.gov,,Foreign Government,1,Unknown,whitehouse.gov,http://www.whitehouse.gov%20:%20the%20administration/#spider,90594,whitehouse.gov%20:%20the%20administration,0,,Unknown,Unknown,8,0,8
+www.gov.uk,www.gov.uk,,Foreign Government,0,Unknown,www.gov.uk,http://www.gov.uk/,211340,www.gov.uk,0,,Unknown,Unknown,8,8,16
+theguardian.com,theguardian.com,,Foreign News,1,Unknown,theguardian.com,,,,,,,,36,8,44
+reuters.com,reuters.com,,Foreign News,1,Other,reuters.com,http://in.reuters.com,19993,in.reuters.com,0.000667,IND,Unknown,English,34,29,63
+bbc.com,bbc.com,,Foreign News,0,Unknown,bbc.com,,,,,,,,34,4,38
+cnn.com,cnn.com,,Foreign News,1,Unknown,cnn.com,http://www.cnn.com?_s=pm:allpolitics/#spider,85626,cnn.com?_s=pm:allpolitics,0,,Unknown,Unknown,31,1,32
+bloomberg.com,bloomberg.com,,Foreign News,1,Unknown,bloomberg.com,"http://bloomberg.com,/",192835,"bloomberg.com,",0,,Unknown,Unknown,28,0,28
+nytimes.com,nytimes.com,,Foreign News,1,Unknown,nytimes.com,http://nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&ei=euhlt4rfmoapiaeq27rz&usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4eq&sig2=uiuf4teeaccn2t5ld8o-9w/,118332,nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&ei=euhlt4rfmoapiaeq27rz&usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4e,0,,Unknown,Unknown,27,4,31
+wsj.com,wsj.com,,Foreign News,1,Print Native,wsj.com,http://india.wsj.com,283336,The Wall Street Journal India,0.489889,IND,Unknown,English,27,133,160
+washingtonpost.com,washingtonpost.com,,Foreign News,1,Unknown,washingtonpost.com,http://washingtonpost.com?nid=top_pb_wplogo/,141627,washingtonpost.com?nid=top_pb_wplogo,0,,Unknown,Unknown,23,0,23
+dailymail.co.uk,dailymail.co.uk,,Foreign News,0,Unknown,dailymail.co.uk,,,,,,,,21,0,21
+aljazeera.com,aljazeera.com,,Foreign News,0,Unknown,aljazeera.com,,,,,,,,21,0,21
+nature.com,nature.com,,Foreign News,1,Unknown,nature.com,http://nature.com%20doi%2010.1038/,240570,nature.com%20doi%2010.1038,0,,Unknown,Unknown,20,0,20
+forbes.com,forbes.com,,Foreign News,1,Unknown,forbes.com,,,,,,,,20,0,20
+thelancet.com,thelancet.com,,Foreign News,0,Unknown,thelancet.com,,,,,,,,20,0,20
+financialexpress.com,financialexpress.com,,Foreign News,0,Print Native,financialexpress.com,http://www.financialexpress.com/,39886,financialexpress,1.291556,IND,"Delhi, India",English,19,10,29
+vox.com,vox.com,,Foreign News,1,Unknown,vox.com,,,,,,,,18,0,18
+sciencemag.org,sciencemag.org,,Foreign News,1,Unknown,sciencemag.org,http://sciencemag.org?rss=1%3b/,258983,sciencemag.org?rss=1%3b,0,,Unknown,Unknown,17,0,17
+time.com,time.com,,Foreign News,1,Unknown,time.com,http://time.com%20http/,226413,time.com%20http,0,,Unknown,Unknown,16,0,16
+cnbc.com,cnbc.com,,Foreign News,1,Unknown,cnbc.com,,,,,,,,16,0,16
+nbcnews.com,nbcnews.com,,Foreign News,1,Unknown,nbcnews.com,,,,,,,,16,0,16
+npr.org,npr.org,,Foreign News,1,Unknown,npr.org,http://www.npr.org%20:%20...%20:%20election%202012%20:%20presidential%20race%20:%20mitt%20romneywww.npr.org%20:%20...%20:%20election%202012%20:%20presidential%20race%20:%20mitt%20romney/#spider,89131,npr.org%20:%20...%20:%20election%202012%20:%20presidential%20race%20:%20mitt%20romneywww.npr.org%20:%20...%20:%20election%202012,0,,Unknown,Unknown,15,0,15
+telegraph.co.uk,telegraph.co.uk,,Foreign news,0,Unknown,telegraph.co.uk,http://telegraph.co.uk?altcast_code=c98047623f/,109162,telegraph.co.uk?altcast_code=c98047623f,0,,Unknown,Unknown,15,0,15
+apnews.com,apnews.com,,Foreign News,1,Unknown,apnews.com,,,,,,,,15,0,15
+theconversation.com,theconversation.com,,Foreign News,1,Unknown,theconversation.com,,,,,,,,15,0,15
+scmp.com,scmp.com,,Foreign News,0,Unknown,scmp.com,,,,,,,,15,0,15
+sciencedirect.com,sciencedirect.com,,Foreign News,1,Unknown,sciencedirect.com,http://www.sciencedirect.com,20936,sciencedirect.com,0.082333,,Unknown,Unknown,14,0,14
+techcrunch.com,techcrunch.com,,Foreign News,1,Unknown,techcrunch.com,,,,,,,,14,6,20
+ft.com,ft.com,,Foreign News,0,Unknown,ft.com,,,,,,,,14,0,14
+globaltimes.cn,globaltimes.cn,,Foreign News,0,Unknown,globaltimes.cn,,,,,,,,14,0,14
+independent.co.uk,independent.co.uk,,Foreign News,0,Unknown,independent.co.uk,,,,,,,,14,0,14
+europa.eu,europa.eu,,Foreign News,0,Unknown,europa.eu,http://ert-.europa.eu/,282783,ert-.europa.eu,0,,Unknown,Unknown,13,0,13
+latimes.com,latimes.com,,Foreign News,1,Unknown,latimes.com,http://latimes.com?sid=294&nid=25216132&cid=16686&scid=-1&ith=1&title=nation/,114540,latimes.com?sid=294&nid=25216132&cid=16686&scid=-1&ith=1&title=nation,0,,Unknown,Unknown,13,0,13
+theatlantic.com,theatlantic.com,,Foreign News,1,Unknown,theatlantic.com,,,,,,,,13,0,13
+foxnews.com,foxnews.com,,Foreign News,1,Unknown,foxnews.com,http://foxnews.com?playerid=videolandingpage&streamingformat=flash&referralobject=4740999&referralplaylistid=df5603c3d11ca9a023b0070cfc5f297e279fd3a7/,150918,foxnews.com?playerid=videolandingpage&streamingformat=flash&referralobject=4740999&referralplaylistid=df5603c3d11ca9a023b007,0,,Unknown,Unknown,12,0,12
+cnbctv18.com,cnbctv18.com,,Foreign News,1,Unknown,cnbctv18.com,http://cnbctv18.com/,833148,cnbctv18.com,0.000444,,Unknown,Unknown,12,0,12
+bbc.co.uk,bbc.co.uk,,Foreign News,0,Unknown,bbc.co.uk,,,,,,,,12,0,12
+usatoday.com,usatoday.com,,Foreign News,1,Unknown,usatoday.com,,,,,,,,12,0,12
+theverge.com,theverge.com,,Foreign News,1,Unknown,theverge.com,,,,,,,,12,0,12
+dawn.com,dawn.com,,Foreign News,0,Unknown,dawn.com,,,,,,,,12,0,12
+nypost.com,nypost.com,,Foreign News,1,Unknown,nypost.com,http://www.nypost.com?url=http:/#spider,74486,nypost.com?url=http:,0,,Unknown,Unknown,11,0,11
+buzzfeednews.com,buzzfeednews.com,,Foreign News,1,Unknown,buzzfeednews.com,,,,,,,,11,0,11
+vice.com,vice.com,,Foreign News,1,Unknown,vice.com,,,,,,,,11,0,11
+nejm.org,nejm.org,,Foreign News,1,Unknown,nejm.org,,,,,,,,11,0,11
+politico.com,politico.com,,Foreign News,1,Unknown,politico.com,,,,,,,,10,0,10
+economist.com,economist.com,,Foreign News,0,Unknown,economist.com,,,,,,,,10,0,10
+nationalgeographic.com,nationalgeographic.com,,Foreign News,1,Unknown,nationalgeographic.com,,,,,,,,10,0,10
+dw.com,dw.com,,Foreign News,0,Unknown,dw.com,http://www.dw.com/bn/%C3%A0%C2%A6%C2%AC%C3%A0%C2%A6%C2%BF%C3%A0%C2%A6%C2%B7%C3%A0%C2%A7%C5%B8/s-11929,300256,‡¶¨‡¶ø‡¶∑‡ßü | DW.COM,0,,Unknown,Bengali,10,0,10
+bmj.com,bmj.com,,Foreign News,0,Unknown,bmj.com,http://www.bmj.com#spider,33154,bmj.com,0.000111,,Unknown,Unknown,9,0,9
+sciencedaily.com,sciencedaily.com,,Foreign News,1,Unknown,sciencedaily.com,http://sciencedaily.com-/,133056,sciencedaily.com-,0,,Unknown,Unknown,9,0,9
+express.co.uk,express.co.uk,,Foreign News,0,Print Native,express.co.uk,http://www.express.co.uk,26799,express.co.uk,1.146444,,Unknown,Unknown,9,0,9
+wired.com,wired.com,,Foreign News,1,Unknown,wired.com,http://www.wired.com?i=1/#spider,73893,wired.com?i=1,0,,Unknown,Unknown,9,0,9
+businessinsider.com,businessinsider.com,,Foreign News,1,Unknown,businessinsider.com,,,,,,,,9,1,10
+newyorker.com,newyorker.com,,Foreign News,1,Unknown,newyorker.com,,,,,,,,9,0,9
+hollywoodreporter.com,hollywoodreporter.com,,Foreign News,1,Unknown,hollywoodreporter.com,http://hollywoodreporter.com/,366180,hollywoodreporter.com,0.009,,Unknown,Unknown,8,0,8
+variety.com,variety.com,,Foreign News,1,Print Native,variety.com,http://www.variety.com,19076,variety.com,0.155444,,Unknown,English,8,0,8
+cbsnews.com,cbsnews.com,,Foreign News,1,Unknown,cbsnews.com,,,,,,,,8,0,8
+thehill.com,thehill.com,,Foreign News,1,Unknown,thehill.com,,,,,,,,8,0,8
+thesun.co.uk,thesun.co.uk,,Foreign News,0,Unknown,thesun.co.uk,,,,,,,,8,0,8
+vanityfair.com,vanityfair.com,,Foreign News,1,Unknown,vanityfair.com,,,,,,,,8,0,8
+nikkei.com,nikkei.com,,Foreign News,0,Unknown,nikkei.com,http://nikkei.com/,214354,nikkei.com,0,,Unknown,Unknown,8,0,8
+aa.com.tr,aa.com.tr,,Foreign News,0,Unknown,aa.com.tr,,,,,,,,8,0,8
+abcnews.go.com,abcnews.go.com,,Foreign News,1,Unknown,abcnews.go.com,http://abcnews.go.com?id=7461729&page=1/,240272,abcnews.go.com?id=7461729&page=1,0,,Unknown,Unknown,7,0,7
+thedailybeast.com,thedailybeast.com,,Foreign NEws,1,Unknown,thedailybeast.com,http://thedailybeast.com./,296135,thedailybeast.com.,0,,Unknown,Unknown,7,0,7
+thetimes.co.uk,thetimes.co.uk,,Foreign News,0,Print Native,thetimes.co.uk,http://www.thetimes.co.uk/#spider,42689,thetimes.co.uk,0.035222,,Unknown,Unknown,7,0,7
+today.com,today.com,,Foreign News,1,Unknown,today.com,http://www.today.com#spider,28771,today.com,0.017444,,Unknown,English,7,0,7
+deadline.com,deadline.com,,Foreign News,1,Unknown,deadline.com,http://deadline.com/,366781,deadline.com,0.000778,,Unknown,Unknown,7,0,7
+axios.com,axios.com,,Foreign News,1,Unknown,axios.com,,,,,,,,7,0,7
+technologyreview.com,technologyreview.com,,Foreign News,1,Unknown,technologyreview.com,,,,,,,,7,0,7
+france24.com,france24.com,,Foreign News,0,Unknown,france24.com,,,,,,,,7,0,7
+gulfnews.com,gulfnews.com,,Foreign News,0,Unknown,gulfnews.com,http://gulfnews.com)/,121087,gulfnews.com),0,,Unknown,Unknown,7,0,7
+dhakatribune.com,dhakatribune.com,,Foreign News,0,Digital Native,dhakatribune.com,http://dhakatribune.com/,148473,dhakatribune.com,0.000111,,Unknown,English,7,1,8
+pib.gov.in,pib.gov.in,,Government,,Unknown,pib.gov.in,,,,,,,,24,0,24
+mohfw.gov.in,mohfw.gov.in,,Government,,Unknown,mohfw.gov.in,,,,,,,,16,0,16
+sci.gov.in,sci.gov.in,,Government,,Unknown,sci.gov.in,,,,,,,,13,0,13
+mea.gov.in,mea.gov.in,,Government,,Unknown,mea.gov.in,,,,,,,,12,0,12
+mha.gov.in,mha.gov.in,,Government,,Unknown,mha.gov.in,,,,,,,,11,0,11
+aarogyasetu.gov.in,aarogyasetu.gov.in,,Government,,Unknown,aarogyasetu.gov.in,,,,,,,,10,0,10
+isro.gov.in,isro.gov.in,,Government,,Unknown,isro.gov.in,,,,,,,,10,0,10
+karnataka.gov.in,karnataka.gov.in,,Government,,Unknown,karnataka.gov.in,,,,,,,,10,0,10
+bih.nic.in,bih.nic.in,,Government,,Unknown,bih.nic.in,,,,,,,,10,0,10
+kerala.gov.in,kerala.gov.in,,Government,,Unknown,kerala.gov.in,,,,,,,,10,0,10
+eci.gov.in,eci.gov.in,,Government,,Unknown,eci.gov.in,,,,,,,,10,0,10
+nta.nic.in,nta.nic.in,,Government,,Unknown,nta.nic.in,,,,,,,,9,0,9
+indiacode.nic.in,indiacode.nic.in,,Government,,Unknown,indiacode.nic.in,,,,,,,,9,0,9
+bihar.gov.in,bihar.gov.in,,Government,,Unknown,bihar.gov.in,,,,,,,,8,0,8
+ncrb.gov.in,ncrb.gov.in,,Government,,Unknown,ncrb.gov.in,,,,,,,,8,0,8
+mcc.nic.in,mcc.nic.in,,Government,,Unknown,mcc.nic.in,,,,,,,,8,0,8
+censusindia.gov.in,censusindia.gov.in,,Government,,Unknown,censusindia.gov.in,,,,,,,,7,0,7
+icmr.gov.in,icmr.gov.in,,Government,,Unknown,icmr.gov.in,,,,,,,,7,0,7
+tn.gov.in,tn.gov.in,,Government,,Unknown,tn.gov.in,,,,,,,,7,0,7
+upsconline.nic.in,upsconline.nic.in,,Government,,Unknown,upsconline.nic.in,,,,,,,,7,0,7
+egazette.nic.in,egazette.nic.in,,Government,,Unknown,egazette.nic.in,,,,,,,,7,0,7
+mp.gov.in,mp.gov.in,,Government,,Unknown,mp.gov.in,,,,,,,,7,0,7
+niti.gov.in,niti.gov.in,,Government,,Unknown,niti.gov.in,,,,,,,,7,0,7
+up.nic.in,up.nic.in,,Government,,Unknown,up.nic.in,,,,,,,,7,0,7
+upsc.gov.in,upsc.gov.in,,Government,,Unknown,upsc.gov.in,,,,,,,,7,0,7
+rajasthan.gov.in,rajasthan.gov.in,,Government,,Unknown,rajasthan.gov.in,,,,,,,,7,0,7
+republicworld.com,republicworld.com,,Domestic News,,Unknown,republicworld.com,http://republicworld.com/,561011,republicworld.com,0.000667,IND,Unknown,English,9,0,9
+indiatimes.com,indiatimes.com,,Domestic News,,Digital Native,indiatimes.com,http://blogs.timesofindia.indiatimes.com/author/sagarikaghose/,283156,TOI Blogs,0.001222,IND,Unknown,English,45,228,273
+indianexpress.com,indianexpress.com,,Domestic News,,Print Native,indianexpress.com,http://indianexpress.com/,56899,indianexpress.com,2.875444,IND,"Maharashtra, India",English,39,67,106
+thehindu.com,thehindu.com,,Domestic News,,Print Native,thehindu.com,http://www.thehindu.com/,40306,thehindu,4.175778,IND,"Tamil Nadu, India",English,38,79,117
+ndtv.com,ndtv.com,,Domestic News,,Video Broadcast,ndtv.com,http://profit.ndtv.com/,145469,profit.ndtv.com,3.649111,IND,Unknown,English,35,157,192
+hindustantimes.com,hindustantimes.com,,Domestic News,,Print Native,hindustantimes.com,http://www.hindustantimes.com/,39872,HindustanTimes,0.012444,IND,"Delhi, India",English,35,153,188
+indiatoday.in,indiatoday.in,,Domestic News,,Unknown,indiatoday.in,http://indiatoday.in/,282871,indiatoday.in,0.004222,IND,Unknown,Unknown,31,132,163
+livemint.com,livemint.com,,Domestic News,,Print Native,livemint.com,http://livemint.com/,56177,livemint.com,1.930111,IND,"Delhi, India",English,29,30,59
+news18.com,news18.com,,Domestic News,,Video Broadcast,news18.com,http://news18.com/,189910,news18.com,4.525333,IND,Unknown,English,27,258,285
+theprint.in,theprint.in,,Domestic News,,Unknown,theprint.in,http://theprint.in/,570336,theprint.in,0.002,IND,Unknown,Unknown,27,16,43
+business-standard.com,business-standard.com,,Domestic News,,Print Native,business-standard.com,http://www.business-standard.com,19341,business-standard.com,3.528778,IND,"Delhi, India",English,26,180,206
+thewire.in,thewire.in,,Domestic News,,Digital Native,thewire.in,http://thewire.in/,278493,thewire.in,0.352333,IND,Unknown,English,25,554,579
+newindianexpress.com,newindianexpress.com,,Domestic News,,Print Native,newindianexpress.com,http://newindianexpress.com/#spider,100063,newindianexpress.com,4.374333,IND,"Tamil Nadu, India",English,25,29,54
+firstpost.com,firstpost.com,,Domestic News,,Digital Native,firstpost.com,http://www.firstpost.com#spider,28777,firstpost.com,0.460667,IND,Unknown,Unknown,23,571,594
+outlookindia.com,outlookindia.com,,Domestic News,,Print Native,outlookindia.com,http://www.outlookindia.com/#spider,69105,outlookindia.com,0.176,IND,Unknown,English,23,1,24
+livelaw.in,livelaw.in,,Domestic News,,Unknown,livelaw.in,http://livelaw.in/,282884,livelaw.in,0,IND,Unknown,Unknown,22,0,22
+businesstoday.in,businesstoday.in,,Domestic News,,Unknown,businesstoday.in,,,,,IND,,,21,5,26
+timesnownews.com,timesnownews.com,,Domestic News,,Unknown,timesnownews.com,http://timesnownews.com/,537358,timesnownews.com,0.001889,,Unknown,Unknown,21,0,21
+thequint.com,thequint.com,,Domestic News,,Digital Native,thequint.com,http://thequint.com/,282811,thequint.com,0.771444,IND,Unknown,English,21,135,156
+deccanherald.com,deccanherald.com,,Domestic News,,Print Native,deccanherald.com,http://www.deccanherald.com/,39247,deccanherald,0.001111,IND,"Karnataka, India",English,20,6,26
+thenewsminute.com,thenewsminute.com,,Domestic News,,Digital Native,thenewsminute.com,http://thenewsminute.com/,258176,thenewsminute.com,0.007444,IND,Unknown,English,19,11,30
+telegraphindia.com,telegraphindia.com,,Domestic News,,Print Native,telegraphindia.com,http://telegraphindia.com/,55376,telegraphindia.com,0.001333,IND,"West Bengal, India",English,18,0,18
+scroll.in,scroll.in,,Domestic News,,Digital Native,scroll.in,http://scroll.in/,110253,scroll.in,0.660333,IND,Unknown,English,18,788,806
+thehindubusinessline.com,thehindubusinessline.com,,Domestic News,,Print Native,thehindubusinessline.com,http://www.thehindubusinessline.com/#spider,67989,thehindubusinessline.com,1.191,IND,"Tamil Nadu, India",English,17,9,26
+dnaindia.com,dnaindia.com,,Domestic News,,Print Native,dnaindia.com,http://dnaindia.com/,65929,dnaindia.com,1.028556,IND,"Maharashtra, India",English,17,0,17
+theweek.in,theweek.in,,Domestic News,,Unknown,theweek.in,http://theweek.in/,351980,theweek.in,0.000222,IND,Unknown,Unknown,17,16,33
+bloombergquint.com,bloombergquint.com,,Domestic News,,Unknown,bloombergquint.com,http://bloombergquint.com/,309361,bloombergquint.com,0,,Unknown,Unknown,16,0,16
+downtoearth.org.in,downtoearth.org.in,,Domestic News,,Unknown,downtoearth.org.in,http://downtoearth.org.in/,181566,downtoearth.org.in,0,IND,Unknown,Unknown,16,0,16
+india.com,india.com,,Domestic News,,Video Broadcast,india.com,http://zeenews.india.com/,271180,Zee News,1.463778,IND,Unknown,English,15,21,36
+jagran.com,jagran.com,,Domestic News,,Print Native,jagran.com,http://www.jagran.com/,271157,"Dainik Jagran:Hindi News,Latest News in Hindi,News in Hindi,Hindi News Paper",15.188667,IND,"Uttar Pradesh, India",Hindi,15,3,18
+indiatvnews.com,indiatvnews.com,,Domestic News,,Unknown,indiatvnews.com,http://indiatvnews.com/,65449,indiatvnews.com,0.320222,,Unknown,English,14,1,15
+huffingtonpost.in,huffingtonpost.in,,Domestic News,,Digital Native,huffingtonpost.in,http://huffingtonpost.in/,221010,Huffington Post India,0.448444,IND,Unknown,Unknown,14,374,388
+qz.com,qz.com,,Domestic News,,Digital Native,qz.com,http://qz.com/india/,283463,Quartz - India,0.016,IND,Unknown,English,14,104,118
+businessinsider.in,businessinsider.in,,Domestic News,,Unknown,businessinsider.in,,,,,IND,,,13,30,43
+moneycontrol.com,moneycontrol.com,,Domestic News,,Video Broadcast,moneycontrol.com,http://www.moneycontrol.com/#spider,86696,moneycontrol.com,0.847,IND,Unknown,English,13,113,126
+altnews.in,altnews.in,,Domestic News,,Unknown,altnews.in,http://altnews.in/,415736,altnews.in,0,IND,Unknown,Unknown,12,5,17
+aninews.in,aninews.in,,Domestic News,,Unknown,aninews.in,http://aninews.in/,282896,aninews.in,0.001,IND,Unknown,Unknown,12,0,12
+tribuneindia.com,tribuneindia.com,,Domestic News,,Print Native,tribuneindia.com,http://tribuneindia.com/,57626,tribuneindia.com,3.054333,IND,"Chandigarh, India",English,12,17,29
+economictimes.com,economictimes.com,,Domestic News,,Unknown,economictimes.com,,,,,,,,11,0,11
+caravanmagazine.in,caravanmagazine.in,,Domestic News,,Print Native,caravanmagazine.in,http://caravanmagazine.in/,259428,caravanmagazine.in,0,IND,Unknown,English,10,1,11
+deccanchronicle.com,deccanchronicle.com,,Domestic News,,Print Native,deccanchronicle.com,http://deccanchronicle.com/,121578,deccanchronicle.com,0.394889,IND,"Andhra Pradesh, India",English,10,2,12
+mid-day.com,mid-day.com,,Domestic News,,Unknown,mid-day.com,http://www.mid-day.com/news/index.htm,42156,mid-day,1.514111,IND,Unknown,English,10,53,63
+abplive.com,abplive.com,,Domestic News,,Unknown,abplive.com,http://abplive.com/,1342317,abplive.com,0.000111,,Unknown,Unknown,9,19,28
+newsclick.in,newsclick.in,,Domestic News,,Digital Native,newsclick.in,http://newsclick.in/#spider,105253,newsclick.in,0.242111,IND,Unknown,English,9,383,392
+rediff.com,rediff.com,,Domestic News,,Digital Native,rediff.com,http://news.rediff.com/,62776,news.rediff.com,0.336778,IND,Unknown,English,9,21,30
+nationalheraldindia.com,nationalheraldindia.com,,Domestic News,,Unknown,nationalheraldindia.com,http://nationalheraldindia.com/,388887,nationalheraldindia.com,0.000111,,Unknown,Unknown,8,0,8
+thebetterindia.com,thebetterindia.com,,Domestic News,,Digital Native,thebetterindia.com,http://thebetterindia.com/,282905,thebetterindia.com,0.057444,IND,Unknown,English,8,131,139
+newslaundry.com,newslaundry.com,,Domestic News,,Digital Native,newslaundry.com,http://newslaundry.com/,262590,newslaundry.com,0.099556,IND,Unknown,English,8,134,142
+wionews.com,wionews.com,,Domestic News,,Unknown,wionews.com,http://wionews.com/,299350,wionews.com,0.000778,,Unknown,Unknown,8,0,8
+pinkvilla.com,pinkvilla.com,,Domestic News,,Digital Native,pinkvilla.com,http://www.pinkvilla.com/,283470,Pinkvilla,1.633444,IND,Unknown,English,8,11,19
+thestatesman.com,thestatesman.com,,Domestic News,,Unknown,thestatesman.com,http://thestatesman.com/,240407,thestatesman.com,0,,Unknown,Unknown,7,0,7
+freepressjournal.in,freepressjournal.in,,Domestic News,,Print Native,freepressjournal.in,http://freepressjournal.in/,136476,freepressjournal.in,2.843667,IND,"Maharashtra, India",English,7,127,134
+livehindustan.com,livehindustan.com,,Domestic News,,Print Native,livehindustan.com,http://www.livehindustan.com/,271162,"Live Hindustan : Hindi News- Hindi Samachar, Breaking Hindi News, Hindi Newsheadlines",9.975778,IND,"Delhi, India",Hindi,7,2,9
+swarajyamag.com,swarajyamag.com,,Domestic News,,Print Native,swarajyamag.com,http://swarajyamag.com/,282983,swarajyamag.com,0.315667,IND,Unknown,English,7,209,216
+spotboye.com,spotboye.com,,Domestic News,,Unknown,spotboye.com,http://spotboye.com/,676007,spotboye.com,0.000222,,Unknown,Unknown,7,0,7
+sentinelassam.com,sentinelassam.com,,Domestic News,,Print Native,sentinelassam.com,http://sentinelassam.com/,283616,sentinelassam.com,0.4,,"Assam, India",English,7,0,7
+espncricinfo.com,espncricinfo.com,,Domestic News,,Digital Native,espncricinfo.com,http://www.espncricinfo.com/#spider,92713,espncricinfo.com,0.269778,IND,Unknown,English,7,14,21
+indiaspend.com,indiaspend.com,,Domestic News,,Digital Native,indiaspend.com,http://indiaspend.com/,283066,indiaspend.com,0.009111,IND,Unknown,English,7,249,256
+opindia.com,opindia.com,,Domestic News,,Digital Native,opindia.com,http://opindia.com/,282927,opindia.com,0.294333,IND,Unknown,English,7,309,316
+yourstory.com,yourstory.com,,Domestic News,,Unknown,yourstory.com,,,,,,,,7,0,7
+who.int,who.int,,Other,,Unknown,who.int,http://who.int%3e/,250901,who.int%3e,0,,Unknown,Unknown,25,0,25
+wikipedia.org,wikipedia.org,,Other,,Unknown,wikipedia.org,http://www.wikipedia.org,19905,wikipedia.org,0,,Unknown,Unknown,24,0,24
+indiankanoon.org,indiankanoon.org,,Other,,Unknown,indiankanoon.org,http://indiankanoon.org/,60153,indiankanoon.org,0.000333,,Unknown,English,21,0,21
+un.org,un.org,,Other,,Unknown,un.org,,,,,,,,20,0,20
+wiley.com,wiley.com,,Other,,Unknown,wiley.com,http://www.wiley.com/#spider,68760,wiley.com,0.119333,,Unknown,Unknown,19,0,19
+oup.com,oup.com,,Other,,Unknown,oup.com,,,,,,,,17,0,17
+amazon.in,amazon.in,,Other,,Unknown,amazon.in,http://amazon.in/,233341,amazon.in,0.001778,IND,Unknown,Unknown,16,0,16
+jhu.edu,jhu.edu,,Other,,Unknown,jhu.edu,http://www.jhu.edu#spider,34956,jhu.edu,0,,Unknown,Unknown,15,0,15
+irctc.co.in,irctc.co.in,,Other,,Unknown,irctc.co.in,http://irctc.co.in/,313223,irctc.co.in,0,IND,Unknown,Unknown,15,0,15
+worldbank.org,worldbank.org,,Other,,Unknown,worldbank.org,,,,,,,,14,0,14
+amazon.com,amazon.com,,Other,,Unknown,amazon.com,"http://amazon.com,/",167180,"amazon.com,",0,,Unknown,Unknown,14,0,14
+apple.com,apple.com,,Other,,Unknown,apple.com,,,,,,,,14,0,14
+britannica.com,britannica.com,,Other,,Unknown,britannica.com,,,,,,,,14,0,14
+researchgate.net,researchgate.net,,Other,,Unknown,researchgate.net,,,,,,,,14,0,14
+doi.org,doi.org,,Other,,Unknown,doi.org,http://doi.org/,232045,doi.org,0,,Unknown,Unknown,13,0,13
+journals.sagepub.com,journals.sagepub.com,,Other,,Unknown,journals.sagepub.com,http://journals.sagepub.com/,361729,journals.sagepub.com,0.031556,,Unknown,Unknown,12,0,12
+springer.com,springer.com,,Other,,Unknown,springer.com,http://www.springer.com,20678,springer.com,0.060444,,Unknown,Unknown,12,0,12
+rbi.org.in,rbi.org.in,,Other,,Unknown,rbi.org.in,https://rbi.org.in/,263279,rbi.org.in,0,IND,Unknown,Unknown,12,0,12
+archive.org,archive.org,,Other,,Unknown,archive.org,http://www.archive.org,19233,archive.org,4.701333,,Unknown,English,11,0,11
+jamanetwork.com,jamanetwork.com,,Other,,Unknown,jamanetwork.com,http://jamanetwork.com/,129414,jamanetwork.com,0,,Unknown,Unknown,11,0,11
+barandbench.com,barandbench.com,,Other,,Unknown,barandbench.com,http://barandbench.com/,285226,barandbench.com,0,,Unknown,Unknown,11,0,11
+medrxiv.org,medrxiv.org,,Other,,Unknown,medrxiv.org,http://medrxiv.org/,1357902,medrxiv.org,0.003444,,Unknown,Unknown,10,0,10
+ohchr.org,ohchr.org,,Other,,Unknown,ohchr.org,http://www2.ohchr.org,18707,.ohchr.org,0.001444,,Unknown,Unknown,10,0,10
+foreignpolicy.com,foreignpolicy.com,,Other,,Unknown,foreignpolicy.com,,,,,,,,10,0,10
+nta.ac.in,nta.ac.in,,Other,,Unknown,nta.ac.in,,,,,,,,9,0,9
+tandfonline.com,tandfonline.com,,Other,,Unknown,tandfonline.com,http://www.tandfonline.com#spider,32472,tandfonline.com,0.016444,,Unknown,Unknown,9,0,9
+worldometers.info,worldometers.info,,Other,,Unknown,worldometers.info,http://worldometers.info/,224129,worldometers.info,0,,Unknown,Unknown,9,0,9
+yale.edu,yale.edu,,Other,,Unknown,yale.edu,http://www.yale.edu,25780,yale.edu,0.000111,,Unknown,Unknown,9,0,9
+weforum.org,weforum.org,,Other,,Unknown,weforum.org,http://www.weforum.org,22479,weforum.org,0.000889,,Unknown,Unknown,9,0,9
+change.org,change.org,,Other,,Unknown,change.org,http://criminaljustice.change.org/,6858,Criminal Justice | Change.org,0.011111,,Unknown,English,9,0,9
+brookings.edu,brookings.edu,,Other,,Unknown,brookings.edu,,,,,,,,9,0,9
+pewresearch.org,pewresearch.org,,Other,,Unknown,pewresearch.org,,,,,,,,9,0,9
+atlanticcouncil.org,atlanticcouncil.org,,Other,,Unknown,atlanticcouncil.org,,,,,,,,9,0,9
+hrw.org,hrw.org,,Other,,Unknown,hrw.org,,,,,,,,9,0,9
+cmie.com,cmie.com,,Other,,Unknown,cmie.com,http://cmie.com/,524288,cmie.com,0,,Unknown,Unknown,9,0,9
+du.ac.in,du.ac.in,,Other,,Unknown,du.ac.in,,,,,,,,8,0,8
+jstor.org,jstor.org,,Other,,Unknown,jstor.org,http://www.jstor.org,19311,jstor.org,0.000444,,Unknown,Unknown,8,0,8
+columbia.edu,columbia.edu,,Other,,Unknown,columbia.edu,,,,,,,,8,0,8
+microsoft.com,microsoft.com,,Other,,Unknown,microsoft.com,,,,,,,,8,0,8
+ilo.org,ilo.org,,Other,,Unknown,ilo.org,http://www.ilo.org#spider,30093,ilo.org,0.000333,,Unknown,Unknown,8,0,8
+mongabay.com,mongabay.com,,Other,,Unknown,mongabay.com,http://mongabay.com%2freference%2fcountry_studies%2fhaiti%2fall.html/,232657,mongabay.com%2freference%2fcountry_studies%2fhaiti%2fall.html,0,,Unknown,Unknown,8,0,8
+arcgis.com,arcgis.com,,Other,,Unknown,arcgis.com,http://www.arcgis.com/#spider,73063,arcgis.com,0,,Unknown,Unknown,7,0,7
+phys.org,phys.org,,Other,,Unknown,phys.org,http://phys.org#spider,29757,phys.org,0.001222,,Unknown,Unknown,7,0,7
+academia.edu,academia.edu,,Other,,Unknown,academia.edu,http://www.academia.edu/#spider,86636,academia.edu,0.001556,,Unknown,Unknown,7,0,7
+harvard.edu,harvard.edu,,Other,,Unknown,harvard.edu,http://www.harvard.edu/#spider,88383,harvard.edu,0,,Unknown,Unknown,7,0,7
+history.com,history.com,,Other,,Unknown,history.com,http://www.history.com,26361,history.com,0.000111,,Unknown,Unknown,7,0,7
+xinhuanet.com,xinhuanet.com,,Other,,Unknown,xinhuanet.com,http://xinhuanet.com/,495589,xinhuanet.com,0,,Unknown,Unknown,7,0,7
+imdb.com,imdb.com,,Other,,Unknown,imdb.com,http://imdb.com/,367248,imdb.com,0.008556,,Unknown,Unknown,7,0,7
+pnas.org,pnas.org,,Other,,Unknown,pnas.org,http://www.pnas.org,27168,pnas.org,0.003556,,Unknown,Unknown,7,0,7
+stanford.edu,stanford.edu,,Other,,Unknown,stanford.edu,http://www.stanford.edu,19041,stanford.edu,0.000111,,Unknown,Unknown,7,0,7
+undp.org,undp.org,,Other,,Unknown,undp.org,http://undp.org/,65242,undp.org,0.001444,,Unknown,English,7,0,7
+ijmr.org.in,ijmr.org.in,,Other,,Unknown,ijmr.org.in,http://ijmr.org.in/,239683,ijmr.org.in,0,IND,Unknown,Unknown,7,0,7
+outlook.com,outlook.com,,Other,,Unknown,outlook.com,,,,,,,,7,0,7
+amazonaws.com,amazonaws.com,,Other,,Unknown,amazonaws.com,,,,,,,,7,0,7
+snopes.com,snopes.com,,Other,,Unknown,snopes.com,,,,,,,,7,0,7
+bseindia.com,bseindia.com,,Other,,Unknown,bseindia.com,http://bseindia.com/,617992,bseindia.com,0,,Unknown,Unknown,7,0,7
+jagranjosh.com,jagranjosh.com,,Other,,Unknown,jagranjosh.com,http://jagranjosh.com/,296430,jagranjosh.com,0,,Unknown,Unknown,7,0,7
+prsindia.org,prsindia.org,,Other,,Unknown,prsindia.org,http://prsindia.org/,241159,prsindia.org,0,,Unknown,Unknown,7,0,7
+youtube.com,youtube.com,,Platform,,Unknown,youtube.com,,,,,,,,77,0,77
+twitter.com,twitter.com,,Platform,,Unknown,twitter.com,,,,,,,,69,0,69
+facebook.com,facebook.com,,Platform,,Unknown,facebook.com,,,,,,,,62,0,62
+instagram.com,instagram.com,,Platform,,Unknown,instagram.com,,,,,,,,41,0,41
+bit.ly,bit.ly,,Platform,,Unknown,bit.ly,,,,,,,,27,0,27
+t.co,t.co,,Platform,,Unknown,t.co,https://t.co,21332,t.co,0,,Unknown,Unknown,18,0,18
+medium.com,medium.com,,Platform,,Unknown,medium.com,http://medium.com%2f@medium.com/,1477110,medium.com%2f@medium.com,0,,Unknown,Unknown,18,0,18
+linkedin.com,linkedin.com,,Platform,,Unknown,linkedin.com,,,,,,,,17,0,17
+google.co.in,google.co.in,,Platform,,Unknown,google.co.in,,,,,IND,,,12,0,12
+reddit.com,reddit.com,,Platform,,Unknown,reddit.com,,,,,,,,12,0,12
+t.me,t.me,,Platform,,Unknown,t.me,http://t.me/,528046,t.me,0.000667,,Unknown,Unknown,10,0,10
+fb.com,fb.com,,Platform,,Unknown,fb.com,,,,,,,,10,0,10
+scribd.com,scribd.com,,Platform,,Unknown,scribd.com,http://scribd.com/,366191,scribd.com,0.005333,,Unknown,Unknown,8,0,8
+google.com,google.com,,Search Engine,,Unknown,google.com,,,,,,,,41,548,589
+yahoo.com,yahoo.com,,Search Engine,,Unknown,yahoo.com,,,,,,,,19,8,27
