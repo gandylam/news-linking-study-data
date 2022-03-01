@@ -16,10 +16,11 @@ Code to generate data for a study into cross-national linking norms in online ne
 3. Combine the CSV files into one: `combine-link-csvs.sh` and `combine-story-csvs.sh` for use with Tableau or R Studio
 4. Run `python remove-duplicates.py` to remove duplicates in the `links-all.csv` file, creating an `links-all-no-dupes.csv`
 5. Combine the NDJSON files into one: `cat export/links-by-media/ndjson/*.ndjson > export/links-by-media/all.ndjson`
-8. Run `python export-domains.py` to write a file for each media source with all the domains link to/from
+6. Run `python export-domains.py` to write a file for each media source with all the domains link to/from
 7. Combine those into one file of all unique domains linked to: `cat export/domain-links-by-media/*.csv | sort | uniq > export/all-domains.txt`
-9. Run `python fetch-domain-info.py` to check for Media Cloud metadata for each media source 
-10. Run `python export-network-graphs.py` to generate network graphs for each country, with full source metadata embedded
+8. Run `python fetch-domain-info.py` to check for Media Cloud metadata for each media source 
+9. Run `python export-network-graphs.py` to generate network graphs for each country, with full source metadata embedded
+10. Run `python export-internal-to-external.py` to create a CSV with platform / non-platform link data by country
 
 ## Importing to Kibana (optional)
 
