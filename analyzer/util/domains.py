@@ -7,6 +7,7 @@ import pandas as pd
 from analyzer import data_dir, COUNTRIES
 
 SEARCH_ENGINE_DOMAINS = ['google.com', 'bing.com', 'duckduckgo.com', 'baidu.com']
+PLATFORM_DOMAINS = ["acast.com", "facebook.com", "fb.com", "fb.org", "flickr.com", "imgur.com", "instagram.com", "linkedin.com", "linktr.ee", "medium.com", "omny.fm", "patreon.com", "pinterest.com", "qq.com", "reddit.com", "scribd.com", "soundcloud.com", "spotify.com", "tiktok.com", "twitch.tv", "twitter.com", "vimeo.com", "weibo.com", "whatsapp.com", "yahoo.com", "youtu.be", "youtube.com" ]
 
 # official websites run by government entities
 GOV_DOMAINS = ['un.org', 'worldbank.org']
@@ -28,9 +29,9 @@ platform_domains = [l.strip().lower() for l in open(os.path.join(data_dir, 'plat
 manual_domain_category_lookups = {}  # Dict[country, Dict[domain,category]]
 for c in COUNTRIES:
     lookup = {}
-    df = pd.read_csv(os.path.join(data_dir, "domain-categories-{}.csv".format(c)))
+    df = pd.read_csv(os.path.join(data_dir, "domain-categories-v2-{}.csv".format(c)))
     for idx, row in df.iterrows():
-        lookup[row['Id']] = row['Category']
+        lookup[row['domain']] = row['category']
     manual_domain_category_lookups[c] = lookup
 
 

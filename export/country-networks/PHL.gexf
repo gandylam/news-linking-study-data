@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2022-02-18">
+  <meta lastmodifieddate="2022-03-07">
     <creator>NetworkX 2.6.3</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -96,7 +96,7 @@
       </node>
       <node id="cebupacificair.com" label="cebupacificair.com">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cebupacificair.com" />
           <attvalue for="3" value="http://cebupacificair.com/" />
@@ -152,7 +152,7 @@
       </node>
       <node id="espn.com" label="espn.com">
         <attvalues>
-          <attvalue for="0" value="Foreign News" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="espn.com" />
           <attvalue for="3" value="http://espn.com/" />
@@ -187,7 +187,7 @@
       </node>
       <node id="forbes.com" label="forbes.com">
         <attvalues>
-          <attvalue for="0" value="Foreign News" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="forbes.com" />
         </attvalues>
@@ -386,7 +386,7 @@
       </node>
       <node id="nih.gov" label="nih.gov">
         <attvalues>
-          <attvalue for="0" value="Foreign Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nih.gov" />
           <attvalue for="3" value="http://nih.gov./" />
@@ -407,7 +407,7 @@
       </node>
       <node id="onefc.com" label="onefc.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="onefc.com" />
           <attvalue for="3" value="http://onefc.com/" />
@@ -596,7 +596,7 @@
       </node>
       <node id="who.int" label="who.int">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="who.int" />
           <attvalue for="3" value="http://who.int%3e/" />
@@ -743,7 +743,7 @@
       </node>
       <node id="wikipedia.org" label="wikipedia.org">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="wikipedia.org" />
           <attvalue for="3" value="http://www.wikipedia.org" />
@@ -757,7 +757,7 @@
       </node>
       <node id="bulatlat.com" label="bulatlat.com">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Print Native" />
           <attvalue for="2" value="bulatlat.com" />
           <attvalue for="3" value="http://bulatlat.com/main/" />
@@ -771,7 +771,7 @@
       </node>
       <node id="change.org" label="change.org">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="change.org" />
           <attvalue for="3" value="http://criminaljustice.change.org/" />
@@ -869,7 +869,7 @@
       </node>
       <node id="businessmirror.com.ph" label="businessmirror.com.ph">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Print Native" />
           <attvalue for="2" value="businessmirror.com.ph" />
           <attvalue for="3" value="http://businessmirror.com.ph/" />
@@ -890,7 +890,7 @@
       </node>
       <node id="airasia.com" label="airasia.com">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="airasia.com" />
           <attvalue for="3" value="http://airasia.com/" />
@@ -939,7 +939,7 @@
       </node>
       <node id="bloomberg.com" label="bloomberg.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="bloomberg.com" />
           <attvalue for="3" value="http://bloomberg.com,/" />
@@ -974,7 +974,7 @@
       </node>
       <node id="cdc.gov" label="cdc.gov">
         <attvalues>
-          <attvalue for="0" value="Foreign Government" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="cdc.gov" />
           <attvalue for="3" value="http://cdc.gov,/" />
@@ -1339,7 +1339,7 @@
       </node>
       <node id="pldthome.com" label="pldthome.com">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="pldthome.com" />
           <attvalue for="3" value="http://pldthome.com/" />
@@ -1458,7 +1458,7 @@
       </node>
       <node id="washingtonpost.com" label="washingtonpost.com">
         <attvalues>
-          <attvalue for="0" value="Foreign News" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="washingtonpost.com" />
           <attvalue for="3" value="http://washingtonpost.com?nid=top_pb_wplogo/" />
@@ -1522,7 +1522,7 @@
       </node>
       <node id="bworldonline.com" label="bworldonline.com">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Print Native" />
           <attvalue for="2" value="bworldonline.com" />
           <attvalue for="3" value="http://bworldonline.com/" />
@@ -2236,7 +2236,7 @@
       </node>
       <node id="theguardian.com" label="theguardian.com">
         <attvalues>
-          <attvalue for="0" value="Foreign News" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="theguardian.com" />
         </attvalues>
@@ -2334,7 +2334,7 @@
       </node>
       <node id="worldbank.org" label="worldbank.org">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="worldbank.org" />
         </attvalues>
@@ -2531,7 +2531,7 @@
       </node>
       <node id="tandfonline.com" label="tandfonline.com">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="tandfonline.com" />
           <attvalue for="3" value="http://www.tandfonline.com#spider" />
@@ -2545,7 +2545,7 @@
       </node>
       <node id="up.edu.ph" label="up.edu.ph">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Educational" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="up.edu.ph" />
         </attvalues>
@@ -2629,7 +2629,7 @@
       </node>
       <node id="gmanetwork.com" label="gmanetwork.com">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Video Broadcast" />
           <attvalue for="2" value="gmanetwork.com" />
           <attvalue for="3" value="http://www.gmanetwork.com/#spider" />
@@ -2783,7 +2783,7 @@
       </node>
       <node id="doi.org" label="doi.org">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="doi.org" />
           <attvalue for="3" value="http://doi.org/" />
@@ -2797,7 +2797,7 @@
       </node>
       <node id="eaglenews.ph" label="eaglenews.ph">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="eaglenews.ph" />
           <attvalue for="3" value="http://eaglenews.ph/" />
@@ -3014,7 +3014,7 @@
       </node>
       <node id="nytimes.com" label="nytimes.com">
         <attvalues>
-          <attvalue for="0" value="Foreign News" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="nytimes.com" />
           <attvalue for="3" value="http://nytimes.com%2f2010%2f08%2f02%2fworld%2fasia%2f02iht-phils.html&amp;ei=euhlt4rfmoapiaeq27rz&amp;usg=afqjcnewr2ei_ka0-u2bmmymh-euj9l4eq&amp;sig2=uiuf4teeaccn2t5ld8o-9w/" />
@@ -3126,7 +3126,7 @@
       </node>
       <node id="un.org" label="un.org">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Government" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="un.org" />
         </attvalues>
@@ -3855,7 +3855,7 @@
       </node>
       <node id="interaksyon.com" label="interaksyon.com">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Video Broadcast" />
           <attvalue for="2" value="interaksyon.com" />
           <attvalue for="3" value="http://www.interaksyon.com/#spider" />
@@ -4153,7 +4153,7 @@
       </node>
       <node id="mb.com.ph" label="mb.com.ph">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Print Native" />
           <attvalue for="2" value="mb.com.ph" />
           <attvalue for="3" value="http://www.mb.com.ph/" />
@@ -4279,7 +4279,7 @@
       </node>
       <node id="reliefweb.int" label="reliefweb.int">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="reliefweb.int" />
           <attvalue for="3" value="#spider249" />
@@ -4622,7 +4622,7 @@
       </node>
       <node id="pbs.org" label="pbs.org">
         <attvalues>
-          <attvalue for="0" value="Foreign News" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="pbs.org" />
         </attvalues>
@@ -4881,7 +4881,7 @@
       </node>
       <node id="amazon.com" label="amazon.com">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="amazon.com" />
           <attvalue for="3" value="http://amazon.com,/" />
@@ -4965,7 +4965,7 @@
       </node>
       <node id="news24.com" label="news24.com">
         <attvalues>
-          <attvalue for="0" value="Unknown" />
+          <attvalue for="0" value="Foreign News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="news24.com" />
         </attvalues>
@@ -5000,7 +5000,7 @@
       </node>
       <node id="researchgate.net" label="researchgate.net">
         <attvalues>
-          <attvalue for="0" value="OTher" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="researchgate.net" />
         </attvalues>
@@ -5049,7 +5049,7 @@
       </node>
       <node id="manilastandard.net" label="manilastandard.net">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="manilastandard.net" />
           <attvalue for="3" value="http://manilastandard.net/" />
@@ -5176,7 +5176,7 @@
       </node>
       <node id="lazada.com.ph" label="lazada.com.ph">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="National Media Source" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="lazada.com.ph" />
           <attvalue for="3" value="http://lazada.com.ph/" />
@@ -5408,7 +5408,7 @@
       </node>
       <node id="untvweb.com" label="untvweb.com">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Video Broadcast" />
           <attvalue for="2" value="untvweb.com" />
           <attvalue for="3" value="http://www.untvweb.com/" />
@@ -6012,7 +6012,7 @@
       </node>
       <node id="netflix.com" label="netflix.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="netflix.com" />
           <attvalue for="3" value="http://www2.netflix.com" />
@@ -6149,7 +6149,7 @@
       </node>
       <node id="shopee.ph" label="shopee.ph">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="shopee.ph" />
           <attvalue for="3" value="http://shopee.ph/" />
@@ -6725,7 +6725,7 @@
       </node>
       <node id="philippines.travel" label="philippines.travel">
         <attvalues>
-          <attvalue for="0" value="Other" />
+          <attvalue for="0" value="Unknown" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="philippines.travel" />
         </attvalues>
@@ -7435,7 +7435,7 @@
       </node>
       <node id="gmail.com" label="gmail.com">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="gmail.com" />
           <attvalue for="3" value="https://gmail.com/" />
@@ -8775,7 +8775,7 @@
       </node>
       <node id="pinasglobal.com" label="pinasglobal.com">
         <attvalues>
-          <attvalue for="0" value="National Media Source" />
+          <attvalue for="0" value="Domestic News" />
           <attvalue for="1" value="Print Native" />
           <attvalue for="2" value="pinasglobal.com" />
           <attvalue for="3" value="http://www.pinasglobal.com/" />
@@ -9206,7 +9206,7 @@
       </node>
       <node id="c212.net" label="c212.net">
         <attvalues>
-          <attvalue for="0" value="Media Source" />
+          <attvalue for="0" value="Other" />
           <attvalue for="1" value="Unknown" />
           <attvalue for="2" value="c212.net" />
           <attvalue for="3" value="http://c212.net/" />
