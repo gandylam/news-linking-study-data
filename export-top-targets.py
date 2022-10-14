@@ -13,6 +13,8 @@ df = pd.read_csv(os.path.join('export', 'links-by-media', "links-all-no-dupes.cs
 df = df.dropna()
 df = df[df['source_country'].isin(COUNTRIES)]
 
+results = []
+
 for c in COUNTRIES:
     country_df = df[df['source_country'] == c]
 
@@ -34,3 +36,13 @@ for c in COUNTRIES:
         ))
     country_df = pd.DataFrame(country_data)
     country_df.to_csv('domain-categories-v2-{}.csv'.format(c))
+
+    # now figure out representation of each category per country
+    country_results = {}
+    country_count_by_category = country_df.groupby(['category']).sum()
+    for idx, row in country_count_by_category:
+        country_results[row['category']] = row['count']
+    results.append(country_results)
+
+results_df = pd.DataFrame(results)
+results_df.to_csv('export/top-targets-by-category.csv')
